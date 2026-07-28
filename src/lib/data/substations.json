@@ -1,0 +1,4452 @@
+[
+  {
+    "code": 12228,
+    "name": "220kV Ramana Ramani",
+    "zone": "Panchkula",
+    "circle": "TS Karnal",
+    "division": "TS Karnal",
+    "voltage": "220kV",
+    "lat": 30.5765,
+    "lng": 76.7973
+  },
+  {
+    "code": 22224,
+    "name": "220kV Harfali",
+    "zone": "Hisar",
+    "circle": "TS Faridabad",
+    "division": "TS Palwal",
+    "voltage": "220kV",
+    "lat": 29.0365,
+    "lng": 75.6306
+  },
+  {
+    "code": 11127,
+    "name": "132kV Nanakpur",
+    "zone": "Panchkula",
+    "circle": "TS Panchkula",
+    "division": "TS Madanpur",
+    "voltage": "132kV",
+    "lat": 30.8132,
+    "lng": 76.9995
+  },
+  {
+    "code": 12227,
+    "name": "132kV MOSS Newal",
+    "zone": "Panchkula",
+    "circle": "TS Karnal",
+    "division": "TS Karnal",
+    "voltage": "132kV",
+    "lat": 30.5952,
+    "lng": 76.9339
+  },
+  {
+    "code": 23216,
+    "name": "220kV Transport Hub Manesar",
+    "zone": "Hisar",
+    "circle": "TS Gurgaon",
+    "division": "TS Manesar",
+    "voltage": "220kV",
+    "lat": 29.134,
+    "lng": 75.5908
+  },
+  {
+    "code": 11327,
+    "name": "66kV Sector-16 HSVP Jagadhri",
+    "zone": "Panchkula",
+    "circle": "TS Panchkula",
+    "division": "TS Yamunanagar",
+    "voltage": "66kV",
+    "lat": 30.7566,
+    "lng": 76.9103
+  },
+  {
+    "code": 21210,
+    "name": "132kV Jhojhu Kalan",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Bhiwani",
+    "voltage": "132kV",
+    "lat": 29.2267,
+    "lng": 75.7094
+  },
+  {
+    "code": 21209,
+    "name": "132kV Atelan Kalan",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Bhiwani",
+    "voltage": "132kV",
+    "lat": 29.245,
+    "lng": 75.5991
+  },
+  {
+    "code": 13336,
+    "name": "220kV RAI (GIS)",
+    "zone": "Panchkula",
+    "circle": "TS Rohtak",
+    "division": "TS Panipat",
+    "voltage": "220kV",
+    "lat": 30.7093,
+    "lng": 76.8059
+  },
+  {
+    "code": 13335,
+    "name": "132kV sector 18 Panipat",
+    "zone": "Panchkula",
+    "circle": "TS Rohtak",
+    "division": "TS Panipat",
+    "voltage": "132kV",
+    "lat": 30.8317,
+    "lng": 76.9403
+  },
+  {
+    "code": 11105,
+    "name": "66kV Mansa Devi Panchkula",
+    "zone": "Panchkula",
+    "circle": "TS Panchkula",
+    "division": "TS Madanpur",
+    "voltage": "66kV",
+    "lat": 30.7578,
+    "lng": 76.8698
+  },
+  {
+    "code": 11113,
+    "name": "66kV Jeolly",
+    "zone": "Panchkula",
+    "circle": "TS Panchkula",
+    "division": "TS Madanpur",
+    "voltage": "66kV",
+    "lat": 30.729,
+    "lng": 76.9343
+  },
+  {
+    "code": 11109,
+    "name": "66kV Barwala",
+    "zone": "Panchkula",
+    "circle": "TS Panchkula",
+    "division": "TS Madanpur",
+    "voltage": "66kV",
+    "lat": 30.7512,
+    "lng": 76.9731
+  },
+  {
+    "code": 11125,
+    "name": "66kV Taprian",
+    "zone": "Panchkula",
+    "circle": "TS Panchkula",
+    "division": "TS Madanpur",
+    "voltage": "66kV",
+    "lat": 30.5546,
+    "lng": 76.8205
+  },
+  {
+    "code": 11101,
+    "name": "220kV Madanpur",
+    "zone": "Panchkula",
+    "circle": "TS Panchkula",
+    "division": "TS Madanpur",
+    "voltage": "220kV",
+    "lat": 30.7781,
+    "lng": 76.8812
+  },
+  {
+    "code": 11121,
+    "name": "66kV Sardehri",
+    "zone": "Panchkula",
+    "circle": "TS Panchkula",
+    "division": "TS Madanpur",
+    "voltage": "66kV",
+    "lat": 30.816,
+    "lng": 76.9414
+  },
+  {
+    "code": 11228,
+    "name": "66kV Pilkhani",
+    "zone": "Panchkula",
+    "circle": "TS Panchkula",
+    "division": "TS Ambala",
+    "voltage": "66kV",
+    "lat": 30.8128,
+    "lng": 76.7735
+  },
+  {
+    "code": 23301,
+    "name": "220kV Mahendragarh",
+    "zone": "Hisar",
+    "circle": "TS Gurgaon",
+    "division": "TS Rewari",
+    "voltage": "220kV",
+    "lat": 29.0462,
+    "lng": 75.8341
+  },
+  {
+    "code": 23303,
+    "name": "132kV Kanina",
+    "zone": "Hisar",
+    "circle": "TS Gurgaon",
+    "division": "TS Rewari",
+    "voltage": "132kV",
+    "lat": 29.2649,
+    "lng": 75.6768
+  },
+  {
+    "code": 23304,
+    "name": "132kV Satnali",
+    "zone": "Hisar",
+    "circle": "TS Gurgaon",
+    "division": "TS Rewari",
+    "voltage": "132kV",
+    "lat": 29.2949,
+    "lng": 75.6628
+  },
+  {
+    "code": 23305,
+    "name": "132kV Nangal Mohanpr",
+    "zone": "Hisar",
+    "circle": "TS Gurgaon",
+    "division": "TS Rewari",
+    "voltage": "132kV",
+    "lat": 29.1436,
+    "lng": 75.6261
+  },
+  {
+    "code": 23306,
+    "name": "132kV Pali",
+    "zone": "Hisar",
+    "circle": "TS Gurgaon",
+    "division": "TS Rewari",
+    "voltage": "132kV",
+    "lat": 29.1993,
+    "lng": 75.8418
+  },
+  {
+    "code": 23307,
+    "name": "220kV Rewari",
+    "zone": "Hisar",
+    "circle": "TS Gurgaon",
+    "division": "TS Rewari",
+    "voltage": "220kV",
+    "lat": 29.1022,
+    "lng": 75.6788
+  },
+  {
+    "code": 21310,
+    "name": "132kV Khairekan",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Sirsa",
+    "voltage": "132kV",
+    "lat": 29.1484,
+    "lng": 75.5716
+  },
+  {
+    "code": 21316,
+    "name": "132kV Ding",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Sirsa",
+    "voltage": "132kV",
+    "lat": 29.1325,
+    "lng": 75.8271
+  },
+  {
+    "code": 21320,
+    "name": "400kV Nuhiyanwali",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Sirsa",
+    "voltage": "400kV",
+    "lat": 29.0084,
+    "lng": 75.7577
+  },
+  {
+    "code": 13103,
+    "name": "132kV Sec-3 Rohtak",
+    "zone": "Panchkula",
+    "circle": "TS Rohtak",
+    "division": "TS Rohtak",
+    "voltage": "132kV",
+    "lat": 30.658,
+    "lng": 76.9641
+  },
+  {
+    "code": 13107,
+    "name": "132kV Jassia",
+    "zone": "Panchkula",
+    "circle": "TS Rohtak",
+    "division": "TS Rohtak",
+    "voltage": "132kV",
+    "lat": 30.6109,
+    "lng": 76.9351
+  },
+  {
+    "code": 13112,
+    "name": "132kV Bahadurgarh",
+    "zone": "Panchkula",
+    "circle": "TS Rohtak",
+    "division": "TS Rohtak",
+    "voltage": "132kV",
+    "lat": 30.7079,
+    "lng": 76.7349
+  },
+  {
+    "code": 13115,
+    "name": "132kV Beri",
+    "zone": "Panchkula",
+    "circle": "TS Rohtak",
+    "division": "TS Rohtak",
+    "voltage": "132kV",
+    "lat": 30.79,
+    "lng": 76.812
+  },
+  {
+    "code": 13119,
+    "name": "132kV Sampla",
+    "zone": "Panchkula",
+    "circle": "TS Rohtak",
+    "division": "TS Rohtak",
+    "voltage": "132kV",
+    "lat": 30.7868,
+    "lng": 76.9837
+  },
+  {
+    "code": 21107,
+    "name": "132kV Uklana",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Hisar",
+    "voltage": "132kV",
+    "lat": 29.1242,
+    "lng": 75.8406
+  },
+  {
+    "code": 23112,
+    "name": "66kV Sec-34 GGN",
+    "zone": "Hisar",
+    "circle": "TS Gurgaon",
+    "division": "TS Gurgaon",
+    "voltage": "66kV",
+    "lat": 29.1728,
+    "lng": 75.5794
+  },
+  {
+    "code": 23116,
+    "name": "66kV Maruti GGN",
+    "zone": "Hisar",
+    "circle": "TS Gurgaon",
+    "division": "TS Gurgaon",
+    "voltage": "66kV",
+    "lat": 29.2989,
+    "lng": 75.8279
+  },
+  {
+    "code": 12108,
+    "name": "132kV Pipli",
+    "zone": "Panchkula",
+    "circle": "TS Karnal",
+    "division": "TS Kurukshetra",
+    "voltage": "132kV",
+    "lat": 30.7379,
+    "lng": 76.9412
+  },
+  {
+    "code": 21410,
+    "name": "132kV Naguran",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Jind",
+    "voltage": "132kV",
+    "lat": 29.2696,
+    "lng": 75.6204
+  },
+  {
+    "code": 21402,
+    "name": "132kV Alewa",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Jind",
+    "voltage": "132kV",
+    "lat": 29.039,
+    "lng": 75.758
+  },
+  {
+    "code": 21414,
+    "name": "132kV Narwana(N)",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Jind",
+    "voltage": "132kV",
+    "lat": 29.0196,
+    "lng": 75.572
+  },
+  {
+    "code": 12112,
+    "name": "132kV Adhoun",
+    "zone": "Panchkula",
+    "circle": "TS Karnal",
+    "division": "TS Kurukshetra",
+    "voltage": "132kV",
+    "lat": 30.7168,
+    "lng": 76.7733
+  },
+  {
+    "code": 12202,
+    "name": "132kV Karnal",
+    "zone": "Panchkula",
+    "circle": "TS Karnal",
+    "division": "TS Karnal",
+    "voltage": "132kV",
+    "lat": 30.5587,
+    "lng": 76.8137
+  },
+  {
+    "code": 12206,
+    "name": "132kV Biana",
+    "zone": "Panchkula",
+    "circle": "TS Karnal",
+    "division": "TS Karnal",
+    "voltage": "132kV",
+    "lat": 30.8284,
+    "lng": 76.7025
+  },
+  {
+    "code": 12210,
+    "name": "132kV Ramba",
+    "zone": "Panchkula",
+    "circle": "TS Karnal",
+    "division": "TS Karnal",
+    "voltage": "132kV",
+    "lat": 30.74,
+    "lng": 76.7937
+  },
+  {
+    "code": 12214,
+    "name": "132kV Amin",
+    "zone": "Panchkula",
+    "circle": "TS Karnal",
+    "division": "TS Karnal",
+    "voltage": "132kV",
+    "lat": 30.54,
+    "lng": 76.807
+  },
+  {
+    "code": 12218,
+    "name": "132kV Nidana",
+    "zone": "Panchkula",
+    "circle": "TS Karnal",
+    "division": "TS Karnal",
+    "voltage": "132kV",
+    "lat": 30.5429,
+    "lng": 76.7215
+  },
+  {
+    "code": 23308,
+    "name": "132kV Buroli",
+    "zone": "Hisar",
+    "circle": "TS Gurgaon",
+    "division": "TS Rewari",
+    "voltage": "132kV",
+    "lat": 29.04,
+    "lng": 75.6199
+  },
+  {
+    "code": 23309,
+    "name": "132kV Palli Gothra",
+    "zone": "Hisar",
+    "circle": "TS Gurgaon",
+    "division": "TS Rewari",
+    "voltage": "132kV",
+    "lat": 29.2911,
+    "lng": 75.8385
+  },
+  {
+    "code": 23310,
+    "name": "132kV Dahina",
+    "zone": "Hisar",
+    "circle": "TS Gurgaon",
+    "division": "TS Rewari",
+    "voltage": "132kV",
+    "lat": 29.092,
+    "lng": 75.7675
+  },
+  {
+    "code": 23311,
+    "name": "220kV Narnaul",
+    "zone": "Hisar",
+    "circle": "TS Gurgaon",
+    "division": "TS Rewari",
+    "voltage": "220kV",
+    "lat": 29.1746,
+    "lng": 75.5853
+  },
+  {
+    "code": 23312,
+    "name": "132kV Ateli Mandi",
+    "zone": "Hisar",
+    "circle": "TS Gurgaon",
+    "division": "TS Rewari",
+    "voltage": "132kV",
+    "lat": 29.0589,
+    "lng": 75.7134
+  },
+  {
+    "code": 23314,
+    "name": "132kV Seka",
+    "zone": "Hisar",
+    "circle": "TS Gurgaon",
+    "division": "TS Rewari",
+    "voltage": "132kV",
+    "lat": 29.0463,
+    "lng": 75.6633
+  },
+  {
+    "code": 23315,
+    "name": "220kV Mau",
+    "zone": "Hisar",
+    "circle": "TS Gurgaon",
+    "division": "TS Rewari",
+    "voltage": "220kV",
+    "lat": 29.0579,
+    "lng": 75.6219
+  },
+  {
+    "code": 23317,
+    "name": "132kV HSIIDC Bawal",
+    "zone": "Hisar",
+    "circle": "TS Gurgaon",
+    "division": "TS Rewari",
+    "voltage": "132kV",
+    "lat": 29.0676,
+    "lng": 75.663
+  },
+  {
+    "code": 23318,
+    "name": "66kV Dharuhera",
+    "zone": "Hisar",
+    "circle": "TS Gurgaon",
+    "division": "TS Rewari",
+    "voltage": "66kV",
+    "lat": 29.2014,
+    "lng": 75.6941
+  },
+  {
+    "code": 23319,
+    "name": "220kV Lula Ahir",
+    "zone": "Hisar",
+    "circle": "TS Gurgaon",
+    "division": "TS Rewari",
+    "voltage": "220kV",
+    "lat": 29.1826,
+    "lng": 75.686
+  },
+  {
+    "code": 23320,
+    "name": "132kV Kosli",
+    "zone": "Hisar",
+    "circle": "TS Gurgaon",
+    "division": "TS Rewari",
+    "voltage": "132kV",
+    "lat": 29.2024,
+    "lng": 75.8083
+  },
+  {
+    "code": 23322,
+    "name": "132kV Gangaicha Jat",
+    "zone": "Hisar",
+    "circle": "TS Gurgaon",
+    "division": "TS Rewari",
+    "voltage": "132kV",
+    "lat": 29.1974,
+    "lng": 75.5969
+  },
+  {
+    "code": 23324,
+    "name": "400kV Dhanonda",
+    "zone": "Hisar",
+    "circle": "TS Gurgaon",
+    "division": "TS Rewari",
+    "voltage": "400kV",
+    "lat": 29.2569,
+    "lng": 75.8021
+  },
+  {
+    "code": 23325,
+    "name": "220kV HSIIDC Bawal",
+    "zone": "Hisar",
+    "circle": "TS Gurgaon",
+    "division": "TS Rewari",
+    "voltage": "220kV",
+    "lat": 29.2661,
+    "lng": 75.6067
+  },
+  {
+    "code": 12222,
+    "name": "132kV Jalmana",
+    "zone": "Panchkula",
+    "circle": "TS Karnal",
+    "division": "TS Karnal",
+    "voltage": "132kV",
+    "lat": 30.6591,
+    "lng": 76.9135
+  },
+  {
+    "code": 12226,
+    "name": "220kV Mund",
+    "zone": "Panchkula",
+    "circle": "TS Karnal",
+    "division": "TS Karnal",
+    "voltage": "220kV",
+    "lat": 30.7785,
+    "lng": 76.8747
+  },
+  {
+    "code": 12304,
+    "name": "132kV Noutch",
+    "zone": "Panchkula",
+    "circle": "TS Karnal",
+    "division": "TS Kaithal",
+    "voltage": "132kV",
+    "lat": 30.6803,
+    "lng": 76.7107
+  },
+  {
+    "code": 12308,
+    "name": "132kV Chaku Ladana",
+    "zone": "Panchkula",
+    "circle": "TS Karnal",
+    "division": "TS Kaithal",
+    "voltage": "132kV",
+    "lat": 30.6847,
+    "lng": 76.8112
+  },
+  {
+    "code": 12312,
+    "name": "132kV Rasina",
+    "zone": "Panchkula",
+    "circle": "TS Karnal",
+    "division": "TS Kaithal",
+    "voltage": "132kV",
+    "lat": 30.6729,
+    "lng": 76.7847
+  },
+  {
+    "code": 12316,
+    "name": "220kV Cheeka",
+    "zone": "Panchkula",
+    "circle": "TS Karnal",
+    "division": "TS Kaithal",
+    "voltage": "220kV",
+    "lat": 30.763,
+    "lng": 76.89
+  },
+  {
+    "code": 12317,
+    "name": "220kV Batta",
+    "zone": "Panchkula",
+    "circle": "TS Karnal",
+    "division": "TS Kaithal",
+    "voltage": "220kV",
+    "lat": 30.6178,
+    "lng": 76.9845
+  },
+  {
+    "code": 12319,
+    "name": "132kV Kaithal",
+    "zone": "Panchkula",
+    "circle": "TS Karnal",
+    "division": "TS Kaithal",
+    "voltage": "132kV",
+    "lat": 30.7628,
+    "lng": 76.9069
+  },
+  {
+    "code": 23122,
+    "name": "66kV Sec.-9 GGN",
+    "zone": "Hisar",
+    "circle": "TS Gurgaon",
+    "division": "TS Gurgaon",
+    "voltage": "66kV",
+    "lat": 29.0942,
+    "lng": 75.7747
+  },
+  {
+    "code": 22107,
+    "name": "220kV Palli",
+    "zone": "Hisar",
+    "circle": "TS Faridabad",
+    "division": "TS Faridabad",
+    "voltage": "220kV",
+    "lat": 29.0224,
+    "lng": 75.8598
+  },
+  {
+    "code": 21131,
+    "name": "132kV Bhojraj",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Hisar",
+    "voltage": "132kV",
+    "lat": 29.0302,
+    "lng": 75.6921
+  },
+  {
+    "code": 21223,
+    "name": "132kV Khanak",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Bhiwani",
+    "voltage": "132kV",
+    "lat": 29.1118,
+    "lng": 75.8247
+  },
+  {
+    "code": 22202,
+    "name": "66kV Hathin",
+    "zone": "Hisar",
+    "circle": "TS Faridabad",
+    "division": "TS Palwal",
+    "voltage": "66kV",
+    "lat": 29.1958,
+    "lng": 75.802
+  },
+  {
+    "code": 22203,
+    "name": "66kV Mandkola",
+    "zone": "Hisar",
+    "circle": "TS Faridabad",
+    "division": "TS Palwal",
+    "voltage": "66kV",
+    "lat": 29.1622,
+    "lng": 75.6267
+  },
+  {
+    "code": 22204,
+    "name": "66kV Palwal",
+    "zone": "Hisar",
+    "circle": "TS Faridabad",
+    "division": "TS Palwal",
+    "voltage": "66kV",
+    "lat": 29.0283,
+    "lng": 75.7986
+  },
+  {
+    "code": 22206,
+    "name": "66kV Chandhut",
+    "zone": "Hisar",
+    "circle": "TS Faridabad",
+    "division": "TS Palwal",
+    "voltage": "66kV",
+    "lat": 29.1279,
+    "lng": 75.6188
+  },
+  {
+    "code": 22207,
+    "name": "66kV Allawalpur",
+    "zone": "Hisar",
+    "circle": "TS Faridabad",
+    "division": "TS Palwal",
+    "voltage": "66kV",
+    "lat": 29.2741,
+    "lng": 75.6358
+  },
+  {
+    "code": 22208,
+    "name": "66kV Hodal",
+    "zone": "Hisar",
+    "circle": "TS Faridabad",
+    "division": "TS Palwal",
+    "voltage": "66kV",
+    "lat": 29.2574,
+    "lng": 75.6185
+  },
+  {
+    "code": 22210,
+    "name": "66kV Hasanpur",
+    "zone": "Hisar",
+    "circle": "TS Faridabad",
+    "division": "TS Palwal",
+    "voltage": "66kV",
+    "lat": 29.2845,
+    "lng": 75.7878
+  },
+  {
+    "code": 22211,
+    "name": "66kV Aurangbad",
+    "zone": "Hisar",
+    "circle": "TS Faridabad",
+    "division": "TS Palwal",
+    "voltage": "66kV",
+    "lat": 29.1024,
+    "lng": 75.6881
+  },
+  {
+    "code": 22212,
+    "name": "66kV Sohana",
+    "zone": "Hisar",
+    "circle": "TS Faridabad",
+    "division": "TS Palwal",
+    "voltage": "66kV",
+    "lat": 29.2735,
+    "lng": 75.6927
+  },
+  {
+    "code": 22214,
+    "name": "66kV Nagina",
+    "zone": "Hisar",
+    "circle": "TS Faridabad",
+    "division": "TS Palwal",
+    "voltage": "66kV",
+    "lat": 29.0308,
+    "lng": 75.8563
+  },
+  {
+    "code": 22215,
+    "name": "66kV Tauru",
+    "zone": "Hisar",
+    "circle": "TS Faridabad",
+    "division": "TS Palwal",
+    "voltage": "66kV",
+    "lat": 29.2171,
+    "lng": 75.5865
+  },
+  {
+    "code": 22216,
+    "name": "66kV Nimoth",
+    "zone": "Hisar",
+    "circle": "TS Faridabad",
+    "division": "TS Palwal",
+    "voltage": "66kV",
+    "lat": 29.224,
+    "lng": 75.7721
+  },
+  {
+    "code": 22218,
+    "name": "66kV Rundhi",
+    "zone": "Hisar",
+    "circle": "TS Faridabad",
+    "division": "TS Palwal",
+    "voltage": "66kV",
+    "lat": 29.2536,
+    "lng": 75.8243
+  },
+  {
+    "code": 22219,
+    "name": "66kV Sector-2 Palwal",
+    "zone": "Hisar",
+    "circle": "TS Faridabad",
+    "division": "TS Palwal",
+    "voltage": "66kV",
+    "lat": 29.0502,
+    "lng": 75.596
+  },
+  {
+    "code": 22220,
+    "name": "220kV Meerpur Kurali",
+    "zone": "Hisar",
+    "circle": "TS Faridabad",
+    "division": "TS Palwal",
+    "voltage": "220kV",
+    "lat": 29.2276,
+    "lng": 75.733
+  },
+  {
+    "code": 22221,
+    "name": "66kV Mohd.pur Ahir",
+    "zone": "Hisar",
+    "circle": "TS Faridabad",
+    "division": "TS Palwal",
+    "voltage": "66kV",
+    "lat": 29.1524,
+    "lng": 75.5826
+  },
+  {
+    "code": 22223,
+    "name": "66kV Banchari",
+    "zone": "Hisar",
+    "circle": "TS Faridabad",
+    "division": "TS Palwal",
+    "voltage": "66kV",
+    "lat": 29.2021,
+    "lng": 75.7519
+  },
+  {
+    "code": 23202,
+    "name": "66kV Old Manesar",
+    "zone": "Hisar",
+    "circle": "TS Gurgaon",
+    "division": "TS Manesar",
+    "voltage": "66kV",
+    "lat": 29.1511,
+    "lng": 75.784
+  },
+  {
+    "code": 23203,
+    "name": "66kV Sec-2 Manesar",
+    "zone": "Hisar",
+    "circle": "TS Gurgaon",
+    "division": "TS Manesar",
+    "voltage": "66kV",
+    "lat": 29.1433,
+    "lng": 75.8297
+  },
+  {
+    "code": 23205,
+    "name": "66kV Sec-4 Manesar",
+    "zone": "Hisar",
+    "circle": "TS Gurgaon",
+    "division": "TS Manesar",
+    "voltage": "66kV",
+    "lat": 29.1828,
+    "lng": 75.5704
+  },
+  {
+    "code": 23206,
+    "name": "66kV Sec-8 Manesar",
+    "zone": "Hisar",
+    "circle": "TS Gurgaon",
+    "division": "TS Manesar",
+    "voltage": "66kV",
+    "lat": 29.0006,
+    "lng": 75.8639
+  },
+  {
+    "code": 23207,
+    "name": "66kV Pataudi",
+    "zone": "Hisar",
+    "circle": "TS Gurgaon",
+    "division": "TS Manesar",
+    "voltage": "66kV",
+    "lat": 29.2419,
+    "lng": 75.6285
+  },
+  {
+    "code": 23209,
+    "name": "66kV Farukh Nagar",
+    "zone": "Hisar",
+    "circle": "TS Gurgaon",
+    "division": "TS Manesar",
+    "voltage": "66kV",
+    "lat": 29.2191,
+    "lng": 75.6814
+  },
+  {
+    "code": 23210,
+    "name": "66kV Harsaru",
+    "zone": "Hisar",
+    "circle": "TS Gurgaon",
+    "division": "TS Manesar",
+    "voltage": "66kV",
+    "lat": 29.0231,
+    "lng": 75.7025
+  },
+  {
+    "code": 23211,
+    "name": "66kV Sec-35 Gurugram",
+    "zone": "Hisar",
+    "circle": "TS Gurgaon",
+    "division": "TS Manesar",
+    "voltage": "66kV",
+    "lat": 29.1982,
+    "lng": 75.622
+  },
+  {
+    "code": 23213,
+    "name": "66kV Jamalpur",
+    "zone": "Hisar",
+    "circle": "TS Gurgaon",
+    "division": "TS Manesar",
+    "voltage": "66kV",
+    "lat": 29.2425,
+    "lng": 75.7262
+  },
+  {
+    "code": 11203,
+    "name": "66kV Layalpur Basti",
+    "zone": "Panchkula",
+    "circle": "TS Panchkula",
+    "division": "TS Ambala",
+    "voltage": "66kV",
+    "lat": 30.5485,
+    "lng": 76.7545
+  },
+  {
+    "code": 11207,
+    "name": "66kV IOC Ambala",
+    "zone": "Panchkula",
+    "circle": "TS Panchkula",
+    "division": "TS Ambala",
+    "voltage": "66kV",
+    "lat": 30.8365,
+    "lng": 76.7585
+  },
+  {
+    "code": 11211,
+    "name": "66kV Saha",
+    "zone": "Panchkula",
+    "circle": "TS Panchkula",
+    "division": "TS Ambala",
+    "voltage": "66kV",
+    "lat": 30.8035,
+    "lng": 76.7921
+  },
+  {
+    "code": 11215,
+    "name": "66kV Sonda",
+    "zone": "Panchkula",
+    "circle": "TS Panchkula",
+    "division": "TS Ambala",
+    "voltage": "66kV",
+    "lat": 30.7243,
+    "lng": 76.8636
+  },
+  {
+    "code": 11230,
+    "name": "66kV Malikpur",
+    "zone": "Panchkula",
+    "circle": "TS Panchkula",
+    "division": "TS Ambala",
+    "voltage": "66kV",
+    "lat": 30.5402,
+    "lng": 76.8687
+  },
+  {
+    "code": 11231,
+    "name": "66kV 12 Cross Road Ambala Cantt",
+    "zone": "Panchkula",
+    "circle": "TS Panchkula",
+    "division": "TS Ambala",
+    "voltage": "66kV",
+    "lat": 30.6547,
+    "lng": 76.9996
+  },
+  {
+    "code": 11222,
+    "name": "66kV Mohra",
+    "zone": "Panchkula",
+    "circle": "TS Panchkula",
+    "division": "TS Ambala",
+    "voltage": "66kV",
+    "lat": 30.6361,
+    "lng": 76.8642
+  },
+  {
+    "code": 23302,
+    "name": "132kV Mundia Khera",
+    "zone": "Hisar",
+    "circle": "TS Gurgaon",
+    "division": "TS Rewari",
+    "voltage": "132kV",
+    "lat": 29.2438,
+    "lng": 75.6492
+  },
+  {
+    "code": 23313,
+    "name": "132kV Nangal Chaudhary",
+    "zone": "Hisar",
+    "circle": "TS Gurgaon",
+    "division": "TS Rewari",
+    "voltage": "132kV",
+    "lat": 29.2419,
+    "lng": 75.6674
+  },
+  {
+    "code": 23316,
+    "name": "132kV Bawal",
+    "zone": "Hisar",
+    "circle": "TS Gurgaon",
+    "division": "TS Rewari",
+    "voltage": "132kV",
+    "lat": 29.0164,
+    "lng": 75.8524
+  },
+  {
+    "code": 23321,
+    "name": "66kV Baliar Kalan",
+    "zone": "Hisar",
+    "circle": "TS Gurgaon",
+    "division": "TS Rewari",
+    "voltage": "66kV",
+    "lat": 29.1352,
+    "lng": 75.7386
+  },
+  {
+    "code": 23326,
+    "name": "220kV Daroli Ahir",
+    "zone": "Hisar",
+    "circle": "TS Gurgaon",
+    "division": "TS Rewari",
+    "voltage": "220kV",
+    "lat": 29.2653,
+    "lng": 75.743
+  },
+  {
+    "code": 22201,
+    "name": "220kV Palwal (Meghpur)",
+    "zone": "Hisar",
+    "circle": "TS Faridabad",
+    "division": "TS Palwal",
+    "voltage": "220kV",
+    "lat": 29.095,
+    "lng": 75.6467
+  },
+  {
+    "code": 22205,
+    "name": "66kV Bhagola",
+    "zone": "Hisar",
+    "circle": "TS Faridabad",
+    "division": "TS Palwal",
+    "voltage": "66kV",
+    "lat": 29.2266,
+    "lng": 75.7983
+  },
+  {
+    "code": 22209,
+    "name": "66kV Punahana",
+    "zone": "Hisar",
+    "circle": "TS Faridabad",
+    "division": "TS Palwal",
+    "voltage": "66kV",
+    "lat": 29.2276,
+    "lng": 75.8409
+  },
+  {
+    "code": 22213,
+    "name": "66kV Nuh",
+    "zone": "Hisar",
+    "circle": "TS Faridabad",
+    "division": "TS Palwal",
+    "voltage": "66kV",
+    "lat": 29.2465,
+    "lng": 75.8119
+  },
+  {
+    "code": 22217,
+    "name": "220kV Rangala Rajpur",
+    "zone": "Hisar",
+    "circle": "TS Faridabad",
+    "division": "TS Palwal",
+    "voltage": "220kV",
+    "lat": 29.2806,
+    "lng": 75.7875
+  },
+  {
+    "code": 22222,
+    "name": "66kV Hassapur Khader",
+    "zone": "Hisar",
+    "circle": "TS Faridabad",
+    "division": "TS Palwal",
+    "voltage": "66kV",
+    "lat": 29.0792,
+    "lng": 75.6604
+  },
+  {
+    "code": 11226,
+    "name": "66kV Naneola",
+    "zone": "Panchkula",
+    "circle": "TS Panchkula",
+    "division": "TS Ambala",
+    "voltage": "66kV",
+    "lat": 30.6826,
+    "lng": 76.9715
+  },
+  {
+    "code": 21322,
+    "name": "132kV Jamal",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Sirsa",
+    "voltage": "132kV",
+    "lat": 29.1584,
+    "lng": 75.6457
+  },
+  {
+    "code": 11301,
+    "name": "220kV Jorian",
+    "zone": "Panchkula",
+    "circle": "TS Panchkula",
+    "division": "TS Yamunanagar",
+    "voltage": "220kV",
+    "lat": 30.5798,
+    "lng": 76.9388
+  },
+  {
+    "code": 11302,
+    "name": "66kV Gulabhnagar",
+    "zone": "Panchkula",
+    "circle": "TS Panchkula",
+    "division": "TS Yamunanagar",
+    "voltage": "66kV",
+    "lat": 30.7808,
+    "lng": 76.8172
+  },
+  {
+    "code": 11303,
+    "name": "66kV Papermill",
+    "zone": "Panchkula",
+    "circle": "TS Panchkula",
+    "division": "TS Yamunanagar",
+    "voltage": "66kV",
+    "lat": 30.6199,
+    "lng": 76.8113
+  },
+  {
+    "code": 11305,
+    "name": "66kV Sector-15 Jagadari",
+    "zone": "Panchkula",
+    "circle": "TS Panchkula",
+    "division": "TS Yamunanagar",
+    "voltage": "66kV",
+    "lat": 30.7643,
+    "lng": 76.9601
+  },
+  {
+    "code": 11306,
+    "name": "66kV Basantpur",
+    "zone": "Panchkula",
+    "circle": "TS Panchkula",
+    "division": "TS Yamunanagar",
+    "voltage": "66kV",
+    "lat": 30.6333,
+    "lng": 76.9006
+  },
+  {
+    "code": 11307,
+    "name": "66kV Bilaspur",
+    "zone": "Panchkula",
+    "circle": "TS Panchkula",
+    "division": "TS Yamunanagar",
+    "voltage": "66kV",
+    "lat": 30.6485,
+    "lng": 76.8543
+  },
+  {
+    "code": 11309,
+    "name": "66kV Chhachhrauli",
+    "zone": "Panchkula",
+    "circle": "TS Panchkula",
+    "division": "TS Yamunanagar",
+    "voltage": "66kV",
+    "lat": 30.557,
+    "lng": 76.7705
+  },
+  {
+    "code": 11310,
+    "name": "66kV Gobind Puri",
+    "zone": "Panchkula",
+    "circle": "TS Panchkula",
+    "division": "TS Yamunanagar",
+    "voltage": "66kV",
+    "lat": 30.6397,
+    "lng": 76.7774
+  },
+  {
+    "code": 11311,
+    "name": "66kV Jathlana",
+    "zone": "Panchkula",
+    "circle": "TS Panchkula",
+    "division": "TS Yamunanagar",
+    "voltage": "66kV",
+    "lat": 30.6399,
+    "lng": 76.9642
+  },
+  {
+    "code": 11313,
+    "name": "66kV Rattangarh",
+    "zone": "Panchkula",
+    "circle": "TS Panchkula",
+    "division": "TS Yamunanagar",
+    "voltage": "66kV",
+    "lat": 30.6413,
+    "lng": 76.9701
+  },
+  {
+    "code": 11314,
+    "name": "66kV Talakaur",
+    "zone": "Panchkula",
+    "circle": "TS Panchkula",
+    "division": "TS Yamunanagar",
+    "voltage": "66kV",
+    "lat": 30.7364,
+    "lng": 76.9693
+  },
+  {
+    "code": 11315,
+    "name": "66kV Yamuna Nagar",
+    "zone": "Panchkula",
+    "circle": "TS Panchkula",
+    "division": "TS Yamunanagar",
+    "voltage": "66kV",
+    "lat": 30.7799,
+    "lng": 76.977
+  },
+  {
+    "code": 11317,
+    "name": "66kV Ladwa",
+    "zone": "Panchkula",
+    "circle": "TS Panchkula",
+    "division": "TS Yamunanagar",
+    "voltage": "66kV",
+    "lat": 30.6161,
+    "lng": 76.7933
+  },
+  {
+    "code": 11318,
+    "name": "66kV Babain",
+    "zone": "Panchkula",
+    "circle": "TS Panchkula",
+    "division": "TS Yamunanagar",
+    "voltage": "66kV",
+    "lat": 30.6577,
+    "lng": 76.9529
+  },
+  {
+    "code": 11319,
+    "name": "66kV Gangori",
+    "zone": "Panchkula",
+    "circle": "TS Panchkula",
+    "division": "TS Yamunanagar",
+    "voltage": "66kV",
+    "lat": 30.767,
+    "lng": 76.895
+  },
+  {
+    "code": 11321,
+    "name": "66kV Lohara",
+    "zone": "Panchkula",
+    "circle": "TS Panchkula",
+    "division": "TS Yamunanagar",
+    "voltage": "66kV",
+    "lat": 30.7777,
+    "lng": 76.8609
+  },
+  {
+    "code": 11322,
+    "name": "66kV Mathana",
+    "zone": "Panchkula",
+    "circle": "TS Panchkula",
+    "division": "TS Yamunanagar",
+    "voltage": "66kV",
+    "lat": 30.5447,
+    "lng": 76.8079
+  },
+  {
+    "code": 11323,
+    "name": "66kV Kazibans",
+    "zone": "Panchkula",
+    "circle": "TS Panchkula",
+    "division": "TS Yamunanagar",
+    "voltage": "66kV",
+    "lat": 30.545,
+    "lng": 76.8103
+  },
+  {
+    "code": 11325,
+    "name": "66kV Manakpur",
+    "zone": "Panchkula",
+    "circle": "TS Panchkula",
+    "division": "TS Yamunanagar",
+    "voltage": "66kV",
+    "lat": 30.6145,
+    "lng": 76.7082
+  },
+  {
+    "code": 11326,
+    "name": "220kV Bakana",
+    "zone": "Panchkula",
+    "circle": "TS Panchkula",
+    "division": "TS Yamunanagar",
+    "voltage": "220kV",
+    "lat": 30.7962,
+    "lng": 76.925
+  },
+  {
+    "code": 21301,
+    "name": "220kV Sirsa",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Sirsa",
+    "voltage": "220kV",
+    "lat": 29.0139,
+    "lng": 75.6352
+  },
+  {
+    "code": 21303,
+    "name": "132kV Mela Ground",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Sirsa",
+    "voltage": "132kV",
+    "lat": 29.0148,
+    "lng": 75.6833
+  },
+  {
+    "code": 21304,
+    "name": "132kV Begu",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Sirsa",
+    "voltage": "132kV",
+    "lat": 29.2211,
+    "lng": 75.7641
+  },
+  {
+    "code": 21305,
+    "name": "132kV Odhan",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Sirsa",
+    "voltage": "132kV",
+    "lat": 29.2657,
+    "lng": 75.8611
+  },
+  {
+    "code": 21307,
+    "name": "132kV Assakhera",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Sirsa",
+    "voltage": "132kV",
+    "lat": 29.2859,
+    "lng": 75.7884
+  },
+  {
+    "code": 21308,
+    "name": "132kV Kurngawali",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Sirsa",
+    "voltage": "132kV",
+    "lat": 29.2572,
+    "lng": 75.5802
+  },
+  {
+    "code": 21309,
+    "name": "132kV Ramnageria",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Sirsa",
+    "voltage": "132kV",
+    "lat": 29.1442,
+    "lng": 75.7302
+  },
+  {
+    "code": 21311,
+    "name": "132kV Madhosinghana",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Sirsa",
+    "voltage": "132kV",
+    "lat": 29.1636,
+    "lng": 75.5726
+  },
+  {
+    "code": 21312,
+    "name": "132kV Kariwala",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Sirsa",
+    "voltage": "132kV",
+    "lat": 29.0553,
+    "lng": 75.8041
+  },
+  {
+    "code": 21313,
+    "name": "132kV Ellenabad",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Sirsa",
+    "voltage": "132kV",
+    "lat": 29.0861,
+    "lng": 75.7791
+  },
+  {
+    "code": 21314,
+    "name": "132kV Dudhiyawali",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Sirsa",
+    "voltage": "132kV",
+    "lat": 29.1448,
+    "lng": 75.6305
+  },
+  {
+    "code": 21315,
+    "name": "132kV Jiwanagar",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Sirsa",
+    "voltage": "132kV",
+    "lat": 29.0975,
+    "lng": 75.6844
+  },
+  {
+    "code": 21317,
+    "name": "132kV Sikander Pur",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Sirsa",
+    "voltage": "132kV",
+    "lat": 29.2741,
+    "lng": 75.6684
+  },
+  {
+    "code": 21318,
+    "name": "220kV Rania",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Sirsa",
+    "voltage": "220kV",
+    "lat": 29.036,
+    "lng": 75.7325
+  },
+  {
+    "code": 21319,
+    "name": "220kV Chormar",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Sirsa",
+    "voltage": "220kV",
+    "lat": 29.0005,
+    "lng": 75.8008
+  },
+  {
+    "code": 21321,
+    "name": "220kV Mehna Khera",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Sirsa",
+    "voltage": "220kV",
+    "lat": 29.2164,
+    "lng": 75.8014
+  },
+  {
+    "code": 13101,
+    "name": "220kV Rohtak",
+    "zone": "Panchkula",
+    "circle": "TS Rohtak",
+    "division": "TS Rohtak",
+    "voltage": "220kV",
+    "lat": 30.6948,
+    "lng": 76.9428
+  },
+  {
+    "code": 13102,
+    "name": "132kV Khokarakot Rohtak",
+    "zone": "Panchkula",
+    "circle": "TS Rohtak",
+    "division": "TS Rohtak",
+    "voltage": "132kV",
+    "lat": 30.619,
+    "lng": 76.9334
+  },
+  {
+    "code": 13104,
+    "name": "132kV IMT Rohtak",
+    "zone": "Panchkula",
+    "circle": "TS Rohtak",
+    "division": "TS Rohtak",
+    "voltage": "132kV",
+    "lat": 30.7049,
+    "lng": 76.8549
+  },
+  {
+    "code": 13105,
+    "name": "132kV MDU Rohtak",
+    "zone": "Panchkula",
+    "circle": "TS Rohtak",
+    "division": "TS Rohtak",
+    "voltage": "132kV",
+    "lat": 30.8219,
+    "lng": 76.964
+  },
+  {
+    "code": 13106,
+    "name": "132kV HSIIDC Rohtak",
+    "zone": "Panchkula",
+    "circle": "TS Rohtak",
+    "division": "TS Rohtak",
+    "voltage": "132kV",
+    "lat": 30.7354,
+    "lng": 76.9312
+  },
+  {
+    "code": 13108,
+    "name": "132kV Gohana",
+    "zone": "Panchkula",
+    "circle": "TS Rohtak",
+    "division": "TS Rohtak",
+    "voltage": "132kV",
+    "lat": 30.7138,
+    "lng": 76.8468
+  },
+  {
+    "code": 13109,
+    "name": "132kV Mundlana",
+    "zone": "Panchkula",
+    "circle": "TS Rohtak",
+    "division": "TS Rohtak",
+    "voltage": "132kV",
+    "lat": 30.8123,
+    "lng": 76.8734
+  },
+  {
+    "code": 13110,
+    "name": "220kV Sampla",
+    "zone": "Panchkula",
+    "circle": "TS Rohtak",
+    "division": "TS Rohtak",
+    "voltage": "220kV",
+    "lat": 30.5938,
+    "lng": 76.8032
+  },
+  {
+    "code": 13111,
+    "name": "220kV Nuna Majra",
+    "zone": "Panchkula",
+    "circle": "TS Rohtak",
+    "division": "TS Rohtak",
+    "voltage": "220kV",
+    "lat": 30.7451,
+    "lng": 76.706
+  },
+  {
+    "code": 13113,
+    "name": "132kV MIE Bhadurgarh",
+    "zone": "Panchkula",
+    "circle": "TS Rohtak",
+    "division": "TS Rohtak",
+    "voltage": "132kV",
+    "lat": 30.7235,
+    "lng": 76.8281
+  },
+  {
+    "code": 13114,
+    "name": "132kV Jhajjar",
+    "zone": "Panchkula",
+    "circle": "TS Rohtak",
+    "division": "TS Rohtak",
+    "voltage": "132kV",
+    "lat": 30.6829,
+    "lng": 76.8418
+  },
+  {
+    "code": 13116,
+    "name": "132kV Kalanaur",
+    "zone": "Panchkula",
+    "circle": "TS Rohtak",
+    "division": "TS Rohtak",
+    "voltage": "132kV",
+    "lat": 30.5476,
+    "lng": 76.9424
+  },
+  {
+    "code": 13117,
+    "name": "132kV Meham",
+    "zone": "Panchkula",
+    "circle": "TS Rohtak",
+    "division": "TS Rohtak",
+    "voltage": "132kV",
+    "lat": 30.7775,
+    "lng": 76.9119
+  },
+  {
+    "code": 13118,
+    "name": "132kV Aasauda",
+    "zone": "Panchkula",
+    "circle": "TS Rohtak",
+    "division": "TS Rohtak",
+    "voltage": "132kV",
+    "lat": 30.6504,
+    "lng": 76.8257
+  },
+  {
+    "code": 13120,
+    "name": "132kV Garanawati",
+    "zone": "Panchkula",
+    "circle": "TS Rohtak",
+    "division": "TS Rohtak",
+    "voltage": "132kV",
+    "lat": 30.6211,
+    "lng": 76.8542
+  },
+  {
+    "code": 13121,
+    "name": "132kV HSIIDC B.garh",
+    "zone": "Panchkula",
+    "circle": "TS Rohtak",
+    "division": "TS Rohtak",
+    "voltage": "132kV",
+    "lat": 30.5413,
+    "lng": 76.8256
+  },
+  {
+    "code": 13122,
+    "name": "220kV Bhadhana",
+    "zone": "Panchkula",
+    "circle": "TS Rohtak",
+    "division": "TS Rohtak",
+    "voltage": "220kV",
+    "lat": 30.5848,
+    "lng": 76.7148
+  },
+  {
+    "code": 13123,
+    "name": "132kV Machhrauli",
+    "zone": "Panchkula",
+    "circle": "TS Rohtak",
+    "division": "TS Rohtak",
+    "voltage": "132kV",
+    "lat": 30.7752,
+    "lng": 76.9681
+  },
+  {
+    "code": 13124,
+    "name": "132kV Badli",
+    "zone": "Panchkula",
+    "circle": "TS Rohtak",
+    "division": "TS Rohtak",
+    "voltage": "132kV",
+    "lat": 30.5505,
+    "lng": 76.9983
+  },
+  {
+    "code": 13125,
+    "name": "132kV Bhanderi",
+    "zone": "Panchkula",
+    "circle": "TS Rohtak",
+    "division": "TS Rohtak",
+    "voltage": "132kV",
+    "lat": 30.6602,
+    "lng": 76.9952
+  },
+  {
+    "code": 13126,
+    "name": "132kV Mattanhail",
+    "zone": "Panchkula",
+    "circle": "TS Rohtak",
+    "division": "TS Rohtak",
+    "voltage": "132kV",
+    "lat": 30.816,
+    "lng": 76.9637
+  },
+  {
+    "code": 13127,
+    "name": "132kV Bahu",
+    "zone": "Panchkula",
+    "circle": "TS Rohtak",
+    "division": "TS Rohtak",
+    "voltage": "132kV",
+    "lat": 30.5968,
+    "lng": 76.8573
+  },
+  {
+    "code": 13128,
+    "name": "132kV Chandi",
+    "zone": "Panchkula",
+    "circle": "TS Rohtak",
+    "division": "TS Rohtak",
+    "voltage": "132kV",
+    "lat": 30.5955,
+    "lng": 76.7261
+  },
+  {
+    "code": 13130,
+    "name": "132kV Jhanswa",
+    "zone": "Panchkula",
+    "circle": "TS Rohtak",
+    "division": "TS Rohtak",
+    "voltage": "132kV",
+    "lat": 30.6403,
+    "lng": 76.879
+  },
+  {
+    "code": 21109,
+    "name": "132kV Adampur",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Hisar",
+    "voltage": "132kV",
+    "lat": 29.2698,
+    "lng": 75.7892
+  },
+  {
+    "code": 21101,
+    "name": "220kV Fatehabad",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Hisar",
+    "voltage": "220kV",
+    "lat": 29.2911,
+    "lng": 75.7224
+  },
+  {
+    "code": 21102,
+    "name": "220kV Bhuna",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Hisar",
+    "voltage": "220kV",
+    "lat": 29.2381,
+    "lng": 75.5704
+  },
+  {
+    "code": 21104,
+    "name": "132kV Jakhal",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Hisar",
+    "voltage": "132kV",
+    "lat": 29.1799,
+    "lng": 75.8381
+  },
+  {
+    "code": 21105,
+    "name": "132kV Tohana",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Hisar",
+    "voltage": "132kV",
+    "lat": 29.0719,
+    "lng": 75.5861
+  },
+  {
+    "code": 21106,
+    "name": "132kV Dharsul",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Hisar",
+    "voltage": "132kV",
+    "lat": 29.2902,
+    "lng": 75.6782
+  },
+  {
+    "code": 21110,
+    "name": "132kV Bhattu Kalan",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Hisar",
+    "voltage": "132kV",
+    "lat": 29.2346,
+    "lng": 75.7759
+  },
+  {
+    "code": 13324,
+    "name": "132kV Phase IV Hsiidc Kundli",
+    "zone": "Panchkula",
+    "circle": "TS Rohtak",
+    "division": "TS Panipat",
+    "voltage": "132kV",
+    "lat": 30.5594,
+    "lng": 76.9146
+  },
+  {
+    "code": 13301,
+    "name": "132kV Kharkhoda",
+    "zone": "Panchkula",
+    "circle": "TS Rohtak",
+    "division": "TS Panipat",
+    "voltage": "132kV",
+    "lat": 30.8399,
+    "lng": 76.8275
+  },
+  {
+    "code": 13302,
+    "name": "132kV Rai",
+    "zone": "Panchkula",
+    "circle": "TS Rohtak",
+    "division": "TS Panipat",
+    "voltage": "132kV",
+    "lat": 30.8346,
+    "lng": 76.7702
+  },
+  {
+    "code": 13303,
+    "name": "132kV HSIIDC Rai",
+    "zone": "Panchkula",
+    "circle": "TS Rohtak",
+    "division": "TS Panipat",
+    "voltage": "132kV",
+    "lat": 30.826,
+    "lng": 76.7512
+  },
+  {
+    "code": 13304,
+    "name": "220kV Chhajpur (Nimbri)",
+    "zone": "Panchkula",
+    "circle": "TS Rohtak",
+    "division": "TS Panipat",
+    "voltage": "220kV",
+    "lat": 30.7609,
+    "lng": 76.8331
+  },
+  {
+    "code": 13305,
+    "name": "132kV Naulatha",
+    "zone": "Panchkula",
+    "circle": "TS Rohtak",
+    "division": "TS Panipat",
+    "voltage": "132kV",
+    "lat": 30.8089,
+    "lng": 76.9989
+  },
+  {
+    "code": 13306,
+    "name": "132kV Israna",
+    "zone": "Panchkula",
+    "circle": "TS Rohtak",
+    "division": "TS Panipat",
+    "voltage": "132kV",
+    "lat": 30.8178,
+    "lng": 76.8879
+  },
+  {
+    "code": 13307,
+    "name": "132kV Harsana Kalan",
+    "zone": "Panchkula",
+    "circle": "TS Rohtak",
+    "division": "TS Panipat",
+    "voltage": "132kV",
+    "lat": 30.6391,
+    "lng": 76.9079
+  },
+  {
+    "code": 13308,
+    "name": "220kV Sonipat",
+    "zone": "Panchkula",
+    "circle": "TS Rohtak",
+    "division": "TS Panipat",
+    "voltage": "220kV",
+    "lat": 30.5902,
+    "lng": 76.8338
+  },
+  {
+    "code": 13309,
+    "name": "132kV Sec-29 Panipat",
+    "zone": "Panchkula",
+    "circle": "TS Rohtak",
+    "division": "TS Panipat",
+    "voltage": "132kV",
+    "lat": 30.8175,
+    "lng": 76.8495
+  },
+  {
+    "code": 13310,
+    "name": "132kV Chhajpur",
+    "zone": "Panchkula",
+    "circle": "TS Rohtak",
+    "division": "TS Panipat",
+    "voltage": "132kV",
+    "lat": 30.6736,
+    "lng": 76.919
+  },
+  {
+    "code": 13311,
+    "name": "132kV Chandoli",
+    "zone": "Panchkula",
+    "circle": "TS Rohtak",
+    "division": "TS Panipat",
+    "voltage": "132kV",
+    "lat": 30.5901,
+    "lng": 76.7309
+  },
+  {
+    "code": 13312,
+    "name": "132kV Madlauda",
+    "zone": "Panchkula",
+    "circle": "TS Rohtak",
+    "division": "TS Panipat",
+    "voltage": "132kV",
+    "lat": 30.5833,
+    "lng": 76.8984
+  },
+  {
+    "code": 13313,
+    "name": "132kV PTPS Panipat",
+    "zone": "Panchkula",
+    "circle": "TS Rohtak",
+    "division": "TS Panipat",
+    "voltage": "132kV",
+    "lat": 30.6395,
+    "lng": 76.8217
+  },
+  {
+    "code": 13314,
+    "name": "132kV Gohana RoadPNP",
+    "zone": "Panchkula",
+    "circle": "TS Rohtak",
+    "division": "TS Panipat",
+    "voltage": "132kV",
+    "lat": 30.598,
+    "lng": 76.76
+  },
+  {
+    "code": 13315,
+    "name": "132kV Murthal",
+    "zone": "Panchkula",
+    "circle": "TS Rohtak",
+    "division": "TS Panipat",
+    "voltage": "132kV",
+    "lat": 30.711,
+    "lng": 76.7592
+  },
+  {
+    "code": 13316,
+    "name": "132kV Bega",
+    "zone": "Panchkula",
+    "circle": "TS Rohtak",
+    "division": "TS Panipat",
+    "voltage": "132kV",
+    "lat": 30.7173,
+    "lng": 76.7345
+  },
+  {
+    "code": 13319,
+    "name": "220kV Samalkha",
+    "zone": "Panchkula",
+    "circle": "TS Rohtak",
+    "division": "TS Panipat",
+    "voltage": "220kV",
+    "lat": 30.7837,
+    "lng": 76.7349
+  },
+  {
+    "code": 13320,
+    "name": "132kV Kundli",
+    "zone": "Panchkula",
+    "circle": "TS Rohtak",
+    "division": "TS Panipat",
+    "voltage": "132kV",
+    "lat": 30.6605,
+    "lng": 76.9042
+  },
+  {
+    "code": 13321,
+    "name": "132kV Kabri",
+    "zone": "Panchkula",
+    "circle": "TS Rohtak",
+    "division": "TS Panipat",
+    "voltage": "132kV",
+    "lat": 30.8185,
+    "lng": 76.9253
+  },
+  {
+    "code": 13322,
+    "name": "132kV Beholi",
+    "zone": "Panchkula",
+    "circle": "TS Rohtak",
+    "division": "TS Panipat",
+    "voltage": "132kV",
+    "lat": 30.6486,
+    "lng": 76.997
+  },
+  {
+    "code": 13318,
+    "name": "132kV Fazilpur",
+    "zone": "Panchkula",
+    "circle": "TS Rohtak",
+    "division": "TS Panipat",
+    "voltage": "132kV",
+    "lat": 30.6303,
+    "lng": 76.9042
+  },
+  {
+    "code": 21103,
+    "name": "220kV IA Hissar",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Hisar",
+    "voltage": "220kV",
+    "lat": 29.2515,
+    "lng": 75.8264
+  },
+  {
+    "code": 21108,
+    "name": "132kV Narnaund",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Hisar",
+    "voltage": "132kV",
+    "lat": 29.1343,
+    "lng": 75.8569
+  },
+  {
+    "code": 13323,
+    "name": "220kV Mohana",
+    "zone": "Panchkula",
+    "circle": "TS Rohtak",
+    "division": "TS Panipat",
+    "voltage": "220kV",
+    "lat": 30.8261,
+    "lng": 76.9577
+  },
+  {
+    "code": 13334,
+    "name": "132kV Phase V Hsiidc kundli",
+    "zone": "Panchkula",
+    "circle": "TS Rohtak",
+    "division": "TS Panipat",
+    "voltage": "132kV",
+    "lat": 30.6769,
+    "lng": 76.7653
+  },
+  {
+    "code": 13325,
+    "name": "132kV Urlana",
+    "zone": "Panchkula",
+    "circle": "TS Rohtak",
+    "division": "TS Panipat",
+    "voltage": "132kV",
+    "lat": 30.5538,
+    "lng": 76.972
+  },
+  {
+    "code": 13326,
+    "name": "132kV Tajpur",
+    "zone": "Panchkula",
+    "circle": "TS Rohtak",
+    "division": "TS Panipat",
+    "voltage": "132kV",
+    "lat": 30.5769,
+    "lng": 76.8131
+  },
+  {
+    "code": 13329,
+    "name": "132kV HSIIDC Panipat",
+    "zone": "Panchkula",
+    "circle": "TS Rohtak",
+    "division": "TS Panipat",
+    "voltage": "132kV",
+    "lat": 30.8232,
+    "lng": 76.8014
+  },
+  {
+    "code": 13330,
+    "name": "220kV Sec-6 Sonepat",
+    "zone": "Panchkula",
+    "circle": "TS Rohtak",
+    "division": "TS Panipat",
+    "voltage": "220kV",
+    "lat": 30.6475,
+    "lng": 76.8113
+  },
+  {
+    "code": 13231,
+    "name": "220kV PTPS Panipat",
+    "zone": "Panchkula",
+    "circle": "TS Rohtak",
+    "division": "TS Panipat",
+    "voltage": "220kV",
+    "lat": 30.5549,
+    "lng": 76.8852
+  },
+  {
+    "code": 13332,
+    "name": "220kV RGEC Sonipat",
+    "zone": "Panchkula",
+    "circle": "TS Rohtak",
+    "division": "TS Panipat",
+    "voltage": "220kV",
+    "lat": 30.6813,
+    "lng": 76.9247
+  },
+  {
+    "code": 13333,
+    "name": "132kV Pasina Khurd",
+    "zone": "Panchkula",
+    "circle": "TS Rohtak",
+    "division": "TS Panipat",
+    "voltage": "132kV",
+    "lat": 30.8085,
+    "lng": 76.7659
+  },
+  {
+    "code": 21116,
+    "name": "132kV Aherwan",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Hisar",
+    "voltage": "132kV",
+    "lat": 29.1545,
+    "lng": 75.6478
+  },
+  {
+    "code": 21117,
+    "name": "132kV Telewara",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Hisar",
+    "voltage": "132kV",
+    "lat": 29.2611,
+    "lng": 75.6519
+  },
+  {
+    "code": 21123,
+    "name": "132kV Fatehabad",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Hisar",
+    "voltage": "132kV",
+    "lat": 29.1604,
+    "lng": 75.8118
+  },
+  {
+    "code": 21124,
+    "name": "132kV Bhuthan Kalan",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Hisar",
+    "voltage": "132kV",
+    "lat": 29.0931,
+    "lng": 75.7972
+  },
+  {
+    "code": 21125,
+    "name": "220kV Samain",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Hisar",
+    "voltage": "220kV",
+    "lat": 29.1666,
+    "lng": 75.7892
+  },
+  {
+    "code": 21126,
+    "name": "132kV Chanderkhurd",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Hisar",
+    "voltage": "132kV",
+    "lat": 29.0383,
+    "lng": 75.7851
+  },
+  {
+    "code": 21129,
+    "name": "132kV Bhattu Sotter",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Hisar",
+    "voltage": "132kV",
+    "lat": 29.293,
+    "lng": 75.7482
+  },
+  {
+    "code": 21130,
+    "name": "220kV Hukmawali",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Hisar",
+    "voltage": "220kV",
+    "lat": 29.1418,
+    "lng": 75.8038
+  },
+  {
+    "code": 23101,
+    "name": "220kV Sec-72 A GGN",
+    "zone": "Hisar",
+    "circle": "TS Gurgaon",
+    "division": "TS Gurgaon",
+    "voltage": "220kV",
+    "lat": 29.1428,
+    "lng": 75.7564
+  },
+  {
+    "code": 23102,
+    "name": "220kV Sec-56 GGN",
+    "zone": "Hisar",
+    "circle": "TS Gurgaon",
+    "division": "TS Gurgaon",
+    "voltage": "220kV",
+    "lat": 29.0137,
+    "lng": 75.6502
+  },
+  {
+    "code": 11120,
+    "name": "66kV Laha",
+    "zone": "Panchkula",
+    "circle": "TS Panchkula",
+    "division": "TS Madanpur",
+    "voltage": "66kV",
+    "lat": 30.671,
+    "lng": 76.8929
+  },
+  {
+    "code": 11119,
+    "name": "66kV Sector-20 Panchkula",
+    "zone": "Panchkula",
+    "circle": "TS Panchkula",
+    "division": "TS Madanpur",
+    "voltage": "66kV",
+    "lat": 30.6288,
+    "lng": 76.9622
+  },
+  {
+    "code": 11117,
+    "name": "66kV Berkheri",
+    "zone": "Panchkula",
+    "circle": "TS Panchkula",
+    "division": "TS Madanpur",
+    "voltage": "66kV",
+    "lat": 30.5433,
+    "lng": 76.989
+  },
+  {
+    "code": 11110,
+    "name": "66kV Raipur Rani",
+    "zone": "Panchkula",
+    "circle": "TS Panchkula",
+    "division": "TS Madanpur",
+    "voltage": "66kV",
+    "lat": 30.5927,
+    "lng": 76.7711
+  },
+  {
+    "code": 11114,
+    "name": "66kV Sadhaura",
+    "zone": "Panchkula",
+    "circle": "TS Panchkula",
+    "division": "TS Madanpur",
+    "voltage": "66kV",
+    "lat": 30.5551,
+    "lng": 76.8777
+  },
+  {
+    "code": 11115,
+    "name": "220kV Raiwali",
+    "zone": "Panchkula",
+    "circle": "TS Panchkula",
+    "division": "TS Madanpur",
+    "voltage": "220kV",
+    "lat": 30.6105,
+    "lng": 76.8376
+  },
+  {
+    "code": 11123,
+    "name": "66kV Rasulpur",
+    "zone": "Panchkula",
+    "circle": "TS Panchkula",
+    "division": "TS Madanpur",
+    "voltage": "66kV",
+    "lat": 30.5415,
+    "lng": 76.9384
+  },
+  {
+    "code": 11116,
+    "name": "66kV Santokhi",
+    "zone": "Panchkula",
+    "circle": "TS Panchkula",
+    "division": "TS Madanpur",
+    "voltage": "66kV",
+    "lat": 30.7389,
+    "lng": 76.8647
+  },
+  {
+    "code": 11124,
+    "name": "66kV Sector-22 Panchkula",
+    "zone": "Panchkula",
+    "circle": "TS Panchkula",
+    "division": "TS Madanpur",
+    "voltage": "66kV",
+    "lat": 30.6184,
+    "lng": 76.9791
+  },
+  {
+    "code": 11122,
+    "name": "220kV Sector-32 Panchkula",
+    "zone": "Panchkula",
+    "circle": "TS Panchkula",
+    "division": "TS Madanpur",
+    "voltage": "220kV",
+    "lat": 30.7315,
+    "lng": 76.8866
+  },
+  {
+    "code": 23103,
+    "name": "220kV Sec-52A GGN",
+    "zone": "Hisar",
+    "circle": "TS Gurgaon",
+    "division": "TS Gurgaon",
+    "voltage": "220kV",
+    "lat": 29.0846,
+    "lng": 75.8222
+  },
+  {
+    "code": 23104,
+    "name": "220kV Badshahpur",
+    "zone": "Hisar",
+    "circle": "TS Gurgaon",
+    "division": "TS Gurgaon",
+    "voltage": "220kV",
+    "lat": 29.1791,
+    "lng": 75.574
+  },
+  {
+    "code": 23105,
+    "name": "66kV Badshahpur",
+    "zone": "Hisar",
+    "circle": "TS Gurgaon",
+    "division": "TS Gurgaon",
+    "voltage": "66kV",
+    "lat": 29.0951,
+    "lng": 75.7568
+  },
+  {
+    "code": 23106,
+    "name": "66kV Sec-23A GGN",
+    "zone": "Hisar",
+    "circle": "TS Gurgaon",
+    "division": "TS Gurgaon",
+    "voltage": "66kV",
+    "lat": 29.2497,
+    "lng": 75.8058
+  },
+  {
+    "code": 23107,
+    "name": "66kV Sec-28 GGN",
+    "zone": "Hisar",
+    "circle": "TS Gurgaon",
+    "division": "TS Gurgaon",
+    "voltage": "66kV",
+    "lat": 29.0659,
+    "lng": 75.6346
+  },
+  {
+    "code": 23109,
+    "name": "66kV Sec-44 Gurgaon",
+    "zone": "Hisar",
+    "circle": "TS Gurgaon",
+    "division": "TS Gurgaon",
+    "voltage": "66kV",
+    "lat": 29.1434,
+    "lng": 75.6554
+  },
+  {
+    "code": 23110,
+    "name": "66kV Mehrauli Road Gurgaon",
+    "zone": "Hisar",
+    "circle": "TS Gurgaon",
+    "division": "TS Gurgaon",
+    "voltage": "66kV",
+    "lat": 29.0092,
+    "lng": 75.8303
+  },
+  {
+    "code": 23111,
+    "name": "220kV Sec-15 GGN",
+    "zone": "Hisar",
+    "circle": "TS Gurgaon",
+    "division": "TS Gurgaon",
+    "voltage": "220kV",
+    "lat": 29.2738,
+    "lng": 75.6651
+  },
+  {
+    "code": 23114,
+    "name": "66kV Sec-38 GGN",
+    "zone": "Hisar",
+    "circle": "TS Gurgaon",
+    "division": "TS Gurgaon",
+    "voltage": "66kV",
+    "lat": 29.1028,
+    "lng": 75.7731
+  },
+  {
+    "code": 23115,
+    "name": "66kV Sec-10A GGN",
+    "zone": "Hisar",
+    "circle": "TS Gurgaon",
+    "division": "TS Gurgaon",
+    "voltage": "66kV",
+    "lat": 29.2161,
+    "lng": 75.7789
+  },
+  {
+    "code": 12101,
+    "name": "132kV Dhand",
+    "zone": "Panchkula",
+    "circle": "TS Karnal",
+    "division": "TS Kurukshetra",
+    "voltage": "132kV",
+    "lat": 30.6137,
+    "lng": 76.9415
+  },
+  {
+    "code": 12103,
+    "name": "132kV Ismailabad",
+    "zone": "Panchkula",
+    "circle": "TS Karnal",
+    "division": "TS Kurukshetra",
+    "voltage": "132kV",
+    "lat": 30.6396,
+    "lng": 76.9167
+  },
+  {
+    "code": 12102,
+    "name": "220kV Pehowa",
+    "zone": "Panchkula",
+    "circle": "TS Karnal",
+    "division": "TS Kurukshetra",
+    "voltage": "220kV",
+    "lat": 30.7326,
+    "lng": 76.9166
+  },
+  {
+    "code": 12105,
+    "name": "132kV Bhusthala",
+    "zone": "Panchkula",
+    "circle": "TS Karnal",
+    "division": "TS Kurukshetra",
+    "voltage": "132kV",
+    "lat": 30.6624,
+    "lng": 76.9212
+  },
+  {
+    "code": 12106,
+    "name": "132kV Malikpur",
+    "zone": "Panchkula",
+    "circle": "TS Karnal",
+    "division": "TS Kurukshetra",
+    "voltage": "132kV",
+    "lat": 30.5821,
+    "lng": 76.702
+  },
+  {
+    "code": 12107,
+    "name": "132kV Lukhi",
+    "zone": "Panchkula",
+    "circle": "TS Karnal",
+    "division": "TS Kurukshetra",
+    "voltage": "132kV",
+    "lat": 30.6142,
+    "lng": 76.9029
+  },
+  {
+    "code": 12109,
+    "name": "132kV Kirmuch",
+    "zone": "Panchkula",
+    "circle": "TS Karnal",
+    "division": "TS Kurukshetra",
+    "voltage": "132kV",
+    "lat": 30.8101,
+    "lng": 76.7662
+  },
+  {
+    "code": 12110,
+    "name": "220kV Dhurala",
+    "zone": "Panchkula",
+    "circle": "TS Karnal",
+    "division": "TS Kurukshetra",
+    "voltage": "220kV",
+    "lat": 30.7236,
+    "lng": 76.8214
+  },
+  {
+    "code": 12111,
+    "name": "132kV Bhore",
+    "zone": "Panchkula",
+    "circle": "TS Karnal",
+    "division": "TS Kurukshetra",
+    "voltage": "132kV",
+    "lat": 30.7192,
+    "lng": 76.8752
+  },
+  {
+    "code": 12113,
+    "name": "132kV Bodhni",
+    "zone": "Panchkula",
+    "circle": "TS Karnal",
+    "division": "TS Kurukshetra",
+    "voltage": "132kV",
+    "lat": 30.7905,
+    "lng": 76.8506
+  },
+  {
+    "code": 12114,
+    "name": "220kV Neemwala",
+    "zone": "Panchkula",
+    "circle": "TS Karnal",
+    "division": "TS Kurukshetra",
+    "voltage": "220kV",
+    "lat": 30.6282,
+    "lng": 76.9424
+  },
+  {
+    "code": 12201,
+    "name": "132kV Jundla",
+    "zone": "Panchkula",
+    "circle": "TS Karnal",
+    "division": "TS Karnal",
+    "voltage": "132kV",
+    "lat": 30.6799,
+    "lng": 76.978
+  },
+  {
+    "code": 12203,
+    "name": "132kV Assandh",
+    "zone": "Panchkula",
+    "circle": "TS Karnal",
+    "division": "TS Karnal",
+    "voltage": "132kV",
+    "lat": 30.7483,
+    "lng": 76.7284
+  },
+  {
+    "code": 12204,
+    "name": "132kV Shekhpura Jagir",
+    "zone": "Panchkula",
+    "circle": "TS Karnal",
+    "division": "TS Karnal",
+    "voltage": "132kV",
+    "lat": 30.7157,
+    "lng": 76.8151
+  },
+  {
+    "code": 12205,
+    "name": "132kV Madhuban",
+    "zone": "Panchkula",
+    "circle": "TS Karnal",
+    "division": "TS Karnal",
+    "voltage": "132kV",
+    "lat": 30.5694,
+    "lng": 76.7385
+  },
+  {
+    "code": 12207,
+    "name": "132kV Staundi",
+    "zone": "Panchkula",
+    "circle": "TS Karnal",
+    "division": "TS Karnal",
+    "voltage": "132kV",
+    "lat": 30.6493,
+    "lng": 76.9123
+  },
+  {
+    "code": 12208,
+    "name": "220kV Bastara",
+    "zone": "Panchkula",
+    "circle": "TS Karnal",
+    "division": "TS Karnal",
+    "voltage": "220kV",
+    "lat": 30.6466,
+    "lng": 76.8527
+  },
+  {
+    "code": 12209,
+    "name": "132kV Sitamai",
+    "zone": "Panchkula",
+    "circle": "TS Karnal",
+    "division": "TS Karnal",
+    "voltage": "132kV",
+    "lat": 30.8135,
+    "lng": 76.7923
+  },
+  {
+    "code": 12211,
+    "name": "132kV Dabri",
+    "zone": "Panchkula",
+    "circle": "TS Karnal",
+    "division": "TS Karnal",
+    "voltage": "132kV",
+    "lat": 30.8071,
+    "lng": 76.927
+  },
+  {
+    "code": 12212,
+    "name": "132kV Bhadson",
+    "zone": "Panchkula",
+    "circle": "TS Karnal",
+    "division": "TS Karnal",
+    "voltage": "132kV",
+    "lat": 30.8128,
+    "lng": 76.8508
+  },
+  {
+    "code": 12213,
+    "name": "132kV Gharaunda",
+    "zone": "Panchkula",
+    "circle": "TS Karnal",
+    "division": "TS Karnal",
+    "voltage": "132kV",
+    "lat": 30.6689,
+    "lng": 76.7979
+  },
+  {
+    "code": 12215,
+    "name": "220kV Unispur",
+    "zone": "Panchkula",
+    "circle": "TS Karnal",
+    "division": "TS Karnal",
+    "voltage": "220kV",
+    "lat": 30.7454,
+    "lng": 76.7028
+  },
+  {
+    "code": 12216,
+    "name": "132kV Indri",
+    "zone": "Panchkula",
+    "circle": "TS Karnal",
+    "division": "TS Karnal",
+    "voltage": "132kV",
+    "lat": 30.8021,
+    "lng": 76.764
+  },
+  {
+    "code": 12217,
+    "name": "132kV Nilokheri",
+    "zone": "Panchkula",
+    "circle": "TS Karnal",
+    "division": "TS Karnal",
+    "voltage": "132kV",
+    "lat": 30.7939,
+    "lng": 76.9273
+  },
+  {
+    "code": 12219,
+    "name": "220kV Karnal",
+    "zone": "Panchkula",
+    "circle": "TS Karnal",
+    "division": "TS Karnal",
+    "voltage": "220kV",
+    "lat": 30.6006,
+    "lng": 76.8827
+  },
+  {
+    "code": 12220,
+    "name": "132kV Sagga",
+    "zone": "Panchkula",
+    "circle": "TS Karnal",
+    "division": "TS Karnal",
+    "voltage": "132kV",
+    "lat": 30.7709,
+    "lng": 76.7445
+  },
+  {
+    "code": 12221,
+    "name": "132kV Newal",
+    "zone": "Panchkula",
+    "circle": "TS Karnal",
+    "division": "TS Karnal",
+    "voltage": "132kV",
+    "lat": 30.6614,
+    "lng": 76.929
+  },
+  {
+    "code": 12223,
+    "name": "132kV Munak",
+    "zone": "Panchkula",
+    "circle": "TS Karnal",
+    "division": "TS Karnal",
+    "voltage": "132kV",
+    "lat": 30.5601,
+    "lng": 76.7985
+  },
+  {
+    "code": 12224,
+    "name": "220kV Nissing",
+    "zone": "Panchkula",
+    "circle": "TS Karnal",
+    "division": "TS Karnal",
+    "voltage": "220kV",
+    "lat": 30.8187,
+    "lng": 76.9427
+  },
+  {
+    "code": 12225,
+    "name": "132kV Ballah",
+    "zone": "Panchkula",
+    "circle": "TS Karnal",
+    "division": "TS Karnal",
+    "voltage": "132kV",
+    "lat": 30.5716,
+    "lng": 76.7669
+  },
+  {
+    "code": 12301,
+    "name": "132kV Rajound",
+    "zone": "Panchkula",
+    "circle": "TS Karnal",
+    "division": "TS Kaithal",
+    "voltage": "132kV",
+    "lat": 30.6269,
+    "lng": 76.7763
+  },
+  {
+    "code": 12302,
+    "name": "132kV Gulam Ali",
+    "zone": "Panchkula",
+    "circle": "TS Karnal",
+    "division": "TS Kaithal",
+    "voltage": "132kV",
+    "lat": 30.5974,
+    "lng": 76.7293
+  },
+  {
+    "code": 12303,
+    "name": "220kV Kaul",
+    "zone": "Panchkula",
+    "circle": "TS Karnal",
+    "division": "TS Kaithal",
+    "voltage": "220kV",
+    "lat": 30.8365,
+    "lng": 76.7984
+  },
+  {
+    "code": 12305,
+    "name": "132kV Thana",
+    "zone": "Panchkula",
+    "circle": "TS Karnal",
+    "division": "TS Kaithal",
+    "voltage": "132kV",
+    "lat": 30.6933,
+    "lng": 76.8965
+  },
+  {
+    "code": 12306,
+    "name": "132kV Kangthali",
+    "zone": "Panchkula",
+    "circle": "TS Karnal",
+    "division": "TS Kaithal",
+    "voltage": "132kV",
+    "lat": 30.6963,
+    "lng": 76.8953
+  },
+  {
+    "code": 12307,
+    "name": "132kV Bhagal",
+    "zone": "Panchkula",
+    "circle": "TS Karnal",
+    "division": "TS Kaithal",
+    "voltage": "132kV",
+    "lat": 30.6507,
+    "lng": 76.7165
+  },
+  {
+    "code": 12309,
+    "name": "132kV Cheeka",
+    "zone": "Panchkula",
+    "circle": "TS Karnal",
+    "division": "TS Kaithal",
+    "voltage": "132kV",
+    "lat": 30.6511,
+    "lng": 76.9633
+  },
+  {
+    "code": 12310,
+    "name": "132kV Siwan",
+    "zone": "Panchkula",
+    "circle": "TS Karnal",
+    "division": "TS Kaithal",
+    "voltage": "132kV",
+    "lat": 30.6425,
+    "lng": 76.8105
+  },
+  {
+    "code": 12311,
+    "name": "132kV Pai",
+    "zone": "Panchkula",
+    "circle": "TS Karnal",
+    "division": "TS Kaithal",
+    "voltage": "132kV",
+    "lat": 30.7995,
+    "lng": 76.8703
+  },
+  {
+    "code": 12313,
+    "name": "132kV Khurana",
+    "zone": "Panchkula",
+    "circle": "TS Karnal",
+    "division": "TS Kaithal",
+    "voltage": "132kV",
+    "lat": 30.7578,
+    "lng": 76.7932
+  },
+  {
+    "code": 21415,
+    "name": "132kV Narwana Old",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Jind",
+    "voltage": "132kV",
+    "lat": 29.0879,
+    "lng": 75.592
+  },
+  {
+    "code": 21416,
+    "name": "132kV Dhanori",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Jind",
+    "voltage": "132kV",
+    "lat": 29.1073,
+    "lng": 75.7833
+  },
+  {
+    "code": 21417,
+    "name": "132kV Dhamtan Sahib",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Jind",
+    "voltage": "132kV",
+    "lat": 29.2521,
+    "lng": 75.8131
+  },
+  {
+    "code": 21405,
+    "name": "132kV Jind (old)",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Jind",
+    "voltage": "132kV",
+    "lat": 29.1333,
+    "lng": 75.7822
+  },
+  {
+    "code": 21407,
+    "name": "132kV Julana",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Jind",
+    "voltage": "132kV",
+    "lat": 29.1494,
+    "lng": 75.7462
+  },
+  {
+    "code": 21409,
+    "name": "132kV Jind (New)",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Jind",
+    "voltage": "132kV",
+    "lat": 29.1899,
+    "lng": 75.6636
+  },
+  {
+    "code": 21403,
+    "name": "220kV Jind",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Jind",
+    "voltage": "220kV",
+    "lat": 29.2498,
+    "lng": 75.7428
+  },
+  {
+    "code": 21408,
+    "name": "132kV Ghoghrian",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Jind",
+    "voltage": "132kV",
+    "lat": 29.0928,
+    "lng": 75.5701
+  },
+  {
+    "code": 21419,
+    "name": "132kV Sec-9 Jind",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Jind",
+    "voltage": "132kV",
+    "lat": 29.1851,
+    "lng": 75.8317
+  },
+  {
+    "code": 21404,
+    "name": "132kV Kheri Taloda",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Jind",
+    "voltage": "132kV",
+    "lat": 29.2787,
+    "lng": 75.7008
+  },
+  {
+    "code": 21411,
+    "name": "220kV Safidon",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Jind",
+    "voltage": "220kV",
+    "lat": 29.233,
+    "lng": 75.6038
+  },
+  {
+    "code": 12314,
+    "name": "132kV Habri",
+    "zone": "Panchkula",
+    "circle": "TS Karnal",
+    "division": "TS Kaithal",
+    "voltage": "132kV",
+    "lat": 30.7751,
+    "lng": 76.746
+  },
+  {
+    "code": 12315,
+    "name": "132kV Khanpur",
+    "zone": "Panchkula",
+    "circle": "TS Karnal",
+    "division": "TS Kaithal",
+    "voltage": "132kV",
+    "lat": 30.8345,
+    "lng": 76.7746
+  },
+  {
+    "code": 23118,
+    "name": "66kV DLF Q Block GGN",
+    "zone": "Hisar",
+    "circle": "TS Gurgaon",
+    "division": "TS Gurgaon",
+    "voltage": "66kV",
+    "lat": 29.0537,
+    "lng": 75.7407
+  },
+  {
+    "code": 12318,
+    "name": "132kV Pundri",
+    "zone": "Panchkula",
+    "circle": "TS Karnal",
+    "division": "TS Kaithal",
+    "voltage": "132kV",
+    "lat": 30.5461,
+    "lng": 76.888
+  },
+  {
+    "code": 12320,
+    "name": "132kV Padla",
+    "zone": "Panchkula",
+    "circle": "TS Karnal",
+    "division": "TS Kaithal",
+    "voltage": "132kV",
+    "lat": 30.6279,
+    "lng": 76.745
+  },
+  {
+    "code": 12321,
+    "name": "220kV Kaithal",
+    "zone": "Panchkula",
+    "circle": "TS Karnal",
+    "division": "TS Kaithal",
+    "voltage": "220kV",
+    "lat": 30.7081,
+    "lng": 76.9229
+  },
+  {
+    "code": 23119,
+    "name": "66kV Sec-47 GGN",
+    "zone": "Hisar",
+    "circle": "TS Gurgaon",
+    "division": "TS Gurgaon",
+    "voltage": "66kV",
+    "lat": 29.2713,
+    "lng": 75.8058
+  },
+  {
+    "code": 23121,
+    "name": "220kV Daulatabad",
+    "zone": "Hisar",
+    "circle": "TS Gurgaon",
+    "division": "TS Gurgaon",
+    "voltage": "220kV",
+    "lat": 29.0471,
+    "lng": 75.6114
+  },
+  {
+    "code": 23123,
+    "name": "66kV Sec-2 GGN",
+    "zone": "Hisar",
+    "circle": "TS Gurgaon",
+    "division": "TS Gurgaon",
+    "voltage": "66kV",
+    "lat": 29.2195,
+    "lng": 75.6431
+  },
+  {
+    "code": 22101,
+    "name": "220kV Palla",
+    "zone": "Hisar",
+    "circle": "TS Faridabad",
+    "division": "TS Faridabad",
+    "voltage": "220kV",
+    "lat": 29.0448,
+    "lng": 75.5813
+  },
+  {
+    "code": 22104,
+    "name": "66kV Sec-31 Fbd",
+    "zone": "Hisar",
+    "circle": "TS Faridabad",
+    "division": "TS Faridabad",
+    "voltage": "66kV",
+    "lat": 29.2687,
+    "lng": 75.856
+  },
+  {
+    "code": 22105,
+    "name": "66kV USA",
+    "zone": "Hisar",
+    "circle": "TS Faridabad",
+    "division": "TS Faridabad",
+    "voltage": "66kV",
+    "lat": 29.0941,
+    "lng": 75.7565
+  },
+  {
+    "code": 22106,
+    "name": "66kV Escort-1",
+    "zone": "Hisar",
+    "circle": "TS Faridabad",
+    "division": "TS Faridabad",
+    "voltage": "66kV",
+    "lat": 29.0985,
+    "lng": 75.8407
+  },
+  {
+    "code": 23204,
+    "name": "66kV Sec-3 Manesar",
+    "zone": "Hisar",
+    "circle": "TS Gurgaon",
+    "division": "TS Manesar",
+    "voltage": "66kV",
+    "lat": 29.274,
+    "lng": 75.7518
+  },
+  {
+    "code": 23208,
+    "name": "66kV Bhore Kalan",
+    "zone": "Hisar",
+    "circle": "TS Gurgaon",
+    "division": "TS Manesar",
+    "voltage": "66kV",
+    "lat": 29.276,
+    "lng": 75.8481
+  },
+  {
+    "code": 23212,
+    "name": "220kV Panchgaon",
+    "zone": "Hisar",
+    "circle": "TS Gurgaon",
+    "division": "TS Manesar",
+    "voltage": "220kV",
+    "lat": 29.2155,
+    "lng": 75.613
+  },
+  {
+    "code": 11304,
+    "name": "66kV Radaur",
+    "zone": "Panchkula",
+    "circle": "TS Panchkula",
+    "division": "TS Yamunanagar",
+    "voltage": "66kV",
+    "lat": 30.7195,
+    "lng": 76.8531
+  },
+  {
+    "code": 11308,
+    "name": "66kV Chandpur",
+    "zone": "Panchkula",
+    "circle": "TS Panchkula",
+    "division": "TS Yamunanagar",
+    "voltage": "66kV",
+    "lat": 30.6307,
+    "lng": 76.7904
+  },
+  {
+    "code": 11312,
+    "name": "66kV Mustfabad",
+    "zone": "Panchkula",
+    "circle": "TS Panchkula",
+    "division": "TS Yamunanagar",
+    "voltage": "66kV",
+    "lat": 30.6178,
+    "lng": 76.7182
+  },
+  {
+    "code": 21118,
+    "name": "132kV Ratia",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Hisar",
+    "voltage": "132kV",
+    "lat": 29.002,
+    "lng": 75.7811
+  },
+  {
+    "code": 22108,
+    "name": "66kV Dhuj",
+    "zone": "Hisar",
+    "circle": "TS Faridabad",
+    "division": "TS Faridabad",
+    "voltage": "66kV",
+    "lat": 29.2394,
+    "lng": 75.571
+  },
+  {
+    "code": 22109,
+    "name": "66kV Escort-II",
+    "zone": "Hisar",
+    "circle": "TS Faridabad",
+    "division": "TS Faridabad",
+    "voltage": "66kV",
+    "lat": 29.1742,
+    "lng": 75.8669
+  },
+  {
+    "code": 22110,
+    "name": "220kV A5 FBD",
+    "zone": "Hisar",
+    "circle": "TS Faridabad",
+    "division": "TS Faridabad",
+    "voltage": "220kV",
+    "lat": 29.2129,
+    "lng": 75.7883
+  },
+  {
+    "code": 22111,
+    "name": "66kV Idgah",
+    "zone": "Hisar",
+    "circle": "TS Faridabad",
+    "division": "TS Faridabad",
+    "voltage": "66kV",
+    "lat": 29.1197,
+    "lng": 75.7908
+  },
+  {
+    "code": 22112,
+    "name": "66kV Northarn India",
+    "zone": "Hisar",
+    "circle": "TS Faridabad",
+    "division": "TS Faridabad",
+    "voltage": "66kV",
+    "lat": 29.0294,
+    "lng": 75.6332
+  },
+  {
+    "code": 22113,
+    "name": "66kV Partap Steel",
+    "zone": "Hisar",
+    "circle": "TS Faridabad",
+    "division": "TS Faridabad",
+    "voltage": "66kV",
+    "lat": 29.0614,
+    "lng": 75.7015
+  },
+  {
+    "code": 22114,
+    "name": "66kV Globe Steel",
+    "zone": "Hisar",
+    "circle": "TS Faridabad",
+    "division": "TS Faridabad",
+    "voltage": "66kV",
+    "lat": 29.0597,
+    "lng": 75.8607
+  },
+  {
+    "code": 22115,
+    "name": "66kV A-2 Fbd",
+    "zone": "Hisar",
+    "circle": "TS Faridabad",
+    "division": "TS Faridabad",
+    "voltage": "66kV",
+    "lat": 29.0612,
+    "lng": 75.7024
+  },
+  {
+    "code": 22116,
+    "name": "66kV Dabriwala",
+    "zone": "Hisar",
+    "circle": "TS Faridabad",
+    "division": "TS Faridabad",
+    "voltage": "66kV",
+    "lat": 29.0071,
+    "lng": 75.7034
+  },
+  {
+    "code": 22117,
+    "name": "66kV Hyderabad",
+    "zone": "Hisar",
+    "circle": "TS Faridabad",
+    "division": "TS Faridabad",
+    "voltage": "66kV",
+    "lat": 29.2611,
+    "lng": 75.75
+  },
+  {
+    "code": 22118,
+    "name": "66kV Oswal Steel",
+    "zone": "Hisar",
+    "circle": "TS Faridabad",
+    "division": "TS Faridabad",
+    "voltage": "66kV",
+    "lat": 29.1364,
+    "lng": 75.647
+  },
+  {
+    "code": 22119,
+    "name": "66kV Jharsetly",
+    "zone": "Hisar",
+    "circle": "TS Faridabad",
+    "division": "TS Faridabad",
+    "voltage": "66kV",
+    "lat": 29.1091,
+    "lng": 75.7621
+  },
+  {
+    "code": 22120,
+    "name": "66kV NH-3 Faridabad",
+    "zone": "Hisar",
+    "circle": "TS Faridabad",
+    "division": "TS Faridabad",
+    "voltage": "66kV",
+    "lat": 29.2123,
+    "lng": 75.7583
+  },
+  {
+    "code": 22121,
+    "name": "66kV FCI",
+    "zone": "Hisar",
+    "circle": "TS Faridabad",
+    "division": "TS Faridabad",
+    "voltage": "66kV",
+    "lat": 29.1752,
+    "lng": 75.7823
+  },
+  {
+    "code": 22123,
+    "name": "66kV Sec-64 Fbd",
+    "zone": "Hisar",
+    "circle": "TS Faridabad",
+    "division": "TS Faridabad",
+    "voltage": "66kV",
+    "lat": 29.234,
+    "lng": 75.8416
+  },
+  {
+    "code": 22124,
+    "name": "400kV Nawada",
+    "zone": "Hisar",
+    "circle": "TS Faridabad",
+    "division": "TS Faridabad",
+    "voltage": "400kV",
+    "lat": 29.1603,
+    "lng": 75.6531
+  },
+  {
+    "code": 22125,
+    "name": "66kV Bhupani",
+    "zone": "Hisar",
+    "circle": "TS Faridabad",
+    "division": "TS Faridabad",
+    "voltage": "66kV",
+    "lat": 29.2339,
+    "lng": 75.8291
+  },
+  {
+    "code": 22126,
+    "name": "66kV Chhainsa",
+    "zone": "Hisar",
+    "circle": "TS Faridabad",
+    "division": "TS Faridabad",
+    "voltage": "66kV",
+    "lat": 29.1885,
+    "lng": 75.7029
+  },
+  {
+    "code": 22127,
+    "name": "66kV Badrola",
+    "zone": "Hisar",
+    "circle": "TS Faridabad",
+    "division": "TS Faridabad",
+    "voltage": "66kV",
+    "lat": 29.0544,
+    "lng": 75.5745
+  },
+  {
+    "code": 22128,
+    "name": "66kV Fatehpur Biloch",
+    "zone": "Hisar",
+    "circle": "TS Faridabad",
+    "division": "TS Faridabad",
+    "voltage": "66kV",
+    "lat": 29.1185,
+    "lng": 75.5907
+  },
+  {
+    "code": 11316,
+    "name": "220kV Rampur Kambon",
+    "zone": "Panchkula",
+    "circle": "TS Panchkula",
+    "division": "TS Yamunanagar",
+    "voltage": "220kV",
+    "lat": 30.6285,
+    "lng": 76.8263
+  },
+  {
+    "code": 11320,
+    "name": "220kV Salempur",
+    "zone": "Panchkula",
+    "circle": "TS Panchkula",
+    "division": "TS Yamunanagar",
+    "voltage": "220kV",
+    "lat": 30.5808,
+    "lng": 76.9347
+  },
+  {
+    "code": 11324,
+    "name": "66kV Mehra",
+    "zone": "Panchkula",
+    "circle": "TS Panchkula",
+    "division": "TS Yamunanagar",
+    "voltage": "66kV",
+    "lat": 30.8281,
+    "lng": 76.8573
+  },
+  {
+    "code": 21302,
+    "name": "132kV Sirsa",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Sirsa",
+    "voltage": "132kV",
+    "lat": 29.1222,
+    "lng": 75.6995
+  },
+  {
+    "code": 21306,
+    "name": "132kV Dabwali",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Sirsa",
+    "voltage": "132kV",
+    "lat": 29.2574,
+    "lng": 75.6833
+  },
+  {
+    "code": 21111,
+    "name": "132kV Sector-27/28 Hisar",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Hisar",
+    "voltage": "132kV",
+    "lat": 29.2218,
+    "lng": 75.6327
+  },
+  {
+    "code": 21112,
+    "name": "132kV Beer",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Hisar",
+    "voltage": "132kV",
+    "lat": 29.0493,
+    "lng": 75.7797
+  },
+  {
+    "code": 21113,
+    "name": "132kV Poly-Steel",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Hisar",
+    "voltage": "132kV",
+    "lat": 29.1593,
+    "lng": 75.799
+  },
+  {
+    "code": 21115,
+    "name": "132kV Arya Nagar",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Hisar",
+    "voltage": "132kV",
+    "lat": 29.0603,
+    "lng": 75.7932
+  },
+  {
+    "code": 21119,
+    "name": "132kV Hisar Cantt",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Hisar",
+    "voltage": "132kV",
+    "lat": 29.2491,
+    "lng": 75.5859
+  },
+  {
+    "code": 21114,
+    "name": "132kV Hansi",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Hisar",
+    "voltage": "132kV",
+    "lat": 29.016,
+    "lng": 75.678
+  },
+  {
+    "code": 21120,
+    "name": "132kV Barwala",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Hisar",
+    "voltage": "132kV",
+    "lat": 29.0033,
+    "lng": 75.6747
+  },
+  {
+    "code": 21121,
+    "name": "132kV Khedar",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Hisar",
+    "voltage": "132kV",
+    "lat": 29.1211,
+    "lng": 75.702
+  },
+  {
+    "code": 22103,
+    "name": "66kV Ford",
+    "zone": "Hisar",
+    "circle": "TS Faridabad",
+    "division": "TS Faridabad",
+    "voltage": "66kV",
+    "lat": 29.2077,
+    "lng": 75.7827
+  },
+  {
+    "code": 21201,
+    "name": "220kV Bhiwani",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Bhiwani",
+    "voltage": "220kV",
+    "lat": 29.0045,
+    "lng": 75.6293
+  },
+  {
+    "code": 21202,
+    "name": "132kV Bhiwani Old",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Bhiwani",
+    "voltage": "132kV",
+    "lat": 29.1768,
+    "lng": 75.7848
+  },
+  {
+    "code": 21203,
+    "name": "132kV IA Bhiwani",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Bhiwani",
+    "voltage": "132kV",
+    "lat": 29.0332,
+    "lng": 75.5978
+  },
+  {
+    "code": 21204,
+    "name": "132kV Halwas",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Bhiwani",
+    "voltage": "132kV",
+    "lat": 29.2121,
+    "lng": 75.8423
+  },
+  {
+    "code": 21205,
+    "name": "132kV Dadri Old",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Bhiwani",
+    "voltage": "132kV",
+    "lat": 29.2432,
+    "lng": 75.7494
+  },
+  {
+    "code": 21206,
+    "name": "132kV Ch-Dadri-2",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Bhiwani",
+    "voltage": "132kV",
+    "lat": 29.1066,
+    "lng": 75.7428
+  },
+  {
+    "code": 21122,
+    "name": "220kV Masudpur",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Hisar",
+    "voltage": "220kV",
+    "lat": 29.0279,
+    "lng": 75.5977
+  },
+  {
+    "code": 21127,
+    "name": "400kV Kirori",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Hisar",
+    "voltage": "400kV",
+    "lat": 29.0115,
+    "lng": 75.5766
+  },
+  {
+    "code": 21211,
+    "name": "132kV Badhra",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Bhiwani",
+    "voltage": "132kV",
+    "lat": 29.0742,
+    "lng": 75.7166
+  },
+  {
+    "code": 21212,
+    "name": "132kV Jui",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Bhiwani",
+    "voltage": "132kV",
+    "lat": 29.2298,
+    "lng": 75.6579
+  },
+  {
+    "code": 21214,
+    "name": "132kV Loharu",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Bhiwani",
+    "voltage": "132kV",
+    "lat": 29.2842,
+    "lng": 75.7795
+  },
+  {
+    "code": 21213,
+    "name": "132kV Digawa Jatan",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Bhiwani",
+    "voltage": "132kV",
+    "lat": 29.1676,
+    "lng": 75.7997
+  },
+  {
+    "code": 21215,
+    "name": "132kV Behal",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Bhiwani",
+    "voltage": "132kV",
+    "lat": 29.1531,
+    "lng": 75.5796
+  },
+  {
+    "code": 21128,
+    "name": "132kV Barsi",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Hisar",
+    "voltage": "132kV",
+    "lat": 29.0406,
+    "lng": 75.7825
+  },
+  {
+    "code": 21217,
+    "name": "220kV Isherwal",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Bhiwani",
+    "voltage": "220kV",
+    "lat": 29.2525,
+    "lng": 75.8355
+  },
+  {
+    "code": 21218,
+    "name": "132kV Meran",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Bhiwani",
+    "voltage": "132kV",
+    "lat": 29.1364,
+    "lng": 75.7614
+  },
+  {
+    "code": 21220,
+    "name": "220kV Sangwan",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Bhiwani",
+    "voltage": "220kV",
+    "lat": 29.1445,
+    "lng": 75.8653
+  },
+  {
+    "code": 21221,
+    "name": "132kV Berla",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Bhiwani",
+    "voltage": "132kV",
+    "lat": 29.1043,
+    "lng": 75.7474
+  },
+  {
+    "code": 21222,
+    "name": "132kV Kairu",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Bhiwani",
+    "voltage": "132kV",
+    "lat": 29.2877,
+    "lng": 75.8039
+  },
+  {
+    "code": 21224,
+    "name": "132kV Makrani",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Bhiwani",
+    "voltage": "132kV",
+    "lat": 29.0823,
+    "lng": 75.644
+  },
+  {
+    "code": 11201,
+    "name": "66kV Sadopur",
+    "zone": "Panchkula",
+    "circle": "TS Panchkula",
+    "division": "TS Ambala",
+    "voltage": "66kV",
+    "lat": 30.5832,
+    "lng": 76.8496
+  },
+  {
+    "code": 11202,
+    "name": "66kV Barara",
+    "zone": "Panchkula",
+    "circle": "TS Panchkula",
+    "division": "TS Ambala",
+    "voltage": "66kV",
+    "lat": 30.6671,
+    "lng": 76.7892
+  },
+  {
+    "code": 11204,
+    "name": "66kV Barnala",
+    "zone": "Panchkula",
+    "circle": "TS Panchkula",
+    "division": "TS Ambala",
+    "voltage": "66kV",
+    "lat": 30.5595,
+    "lng": 76.9417
+  },
+  {
+    "code": 11205,
+    "name": "66kV Jansui",
+    "zone": "Panchkula",
+    "circle": "TS Panchkula",
+    "division": "TS Ambala",
+    "voltage": "66kV",
+    "lat": 30.6415,
+    "lng": 76.8342
+  },
+  {
+    "code": 11206,
+    "name": "66kV Chaurmastpur",
+    "zone": "Panchkula",
+    "circle": "TS Panchkula",
+    "division": "TS Ambala",
+    "voltage": "66kV",
+    "lat": 30.5891,
+    "lng": 76.7458
+  },
+  {
+    "code": 11208,
+    "name": "66kV Dukheri",
+    "zone": "Panchkula",
+    "circle": "TS Panchkula",
+    "division": "TS Ambala",
+    "voltage": "66kV",
+    "lat": 30.699,
+    "lng": 76.9304
+  },
+  {
+    "code": 11209,
+    "name": "66kV Babyal",
+    "zone": "Panchkula",
+    "circle": "TS Panchkula",
+    "division": "TS Ambala",
+    "voltage": "66kV",
+    "lat": 30.5532,
+    "lng": 76.7915
+  },
+  {
+    "code": 11210,
+    "name": "66kV Industrial Area Ambala Cantt",
+    "zone": "Panchkula",
+    "circle": "TS Panchkula",
+    "division": "TS Ambala",
+    "voltage": "66kV",
+    "lat": 30.7953,
+    "lng": 76.7778
+  },
+  {
+    "code": 11212,
+    "name": "66kV Mulana",
+    "zone": "Panchkula",
+    "circle": "TS Panchkula",
+    "division": "TS Ambala",
+    "voltage": "66kV",
+    "lat": 30.7353,
+    "lng": 76.7556
+  },
+  {
+    "code": 11213,
+    "name": "66kV Kesri",
+    "zone": "Panchkula",
+    "circle": "TS Panchkula",
+    "division": "TS Ambala",
+    "voltage": "66kV",
+    "lat": 30.6652,
+    "lng": 76.7801
+  },
+  {
+    "code": 11216,
+    "name": "220kV Shahbad",
+    "zone": "Panchkula",
+    "circle": "TS Panchkula",
+    "division": "TS Ambala",
+    "voltage": "220kV",
+    "lat": 30.7569,
+    "lng": 76.8473
+  },
+  {
+    "code": 11217,
+    "name": "66kV Yara",
+    "zone": "Panchkula",
+    "circle": "TS Panchkula",
+    "division": "TS Ambala",
+    "voltage": "66kV",
+    "lat": 30.8056,
+    "lng": 76.9594
+  },
+  {
+    "code": 11218,
+    "name": "66kV Shahbad",
+    "zone": "Panchkula",
+    "circle": "TS Panchkula",
+    "division": "TS Ambala",
+    "voltage": "66kV",
+    "lat": 30.5623,
+    "lng": 76.7337
+  },
+  {
+    "code": 11219,
+    "name": "66kV Kalsana",
+    "zone": "Panchkula",
+    "circle": "TS Panchkula",
+    "division": "TS Ambala",
+    "voltage": "66kV",
+    "lat": 30.7893,
+    "lng": 76.8181
+  },
+  {
+    "code": 11220,
+    "name": "66kV Jalkheri",
+    "zone": "Panchkula",
+    "circle": "TS Panchkula",
+    "division": "TS Ambala",
+    "voltage": "66kV",
+    "lat": 30.5556,
+    "lng": 76.7466
+  },
+  {
+    "code": 11221,
+    "name": "66kV Nalvi",
+    "zone": "Panchkula",
+    "circle": "TS Panchkula",
+    "division": "TS Ambala",
+    "voltage": "66kV",
+    "lat": 30.7931,
+    "lng": 76.8765
+  },
+  {
+    "code": 11223,
+    "name": "66kV Ugala",
+    "zone": "Panchkula",
+    "circle": "TS Panchkula",
+    "division": "TS Ambala",
+    "voltage": "66kV",
+    "lat": 30.5596,
+    "lng": 76.7203
+  },
+  {
+    "code": 11224,
+    "name": "66kV Company Bagh",
+    "zone": "Panchkula",
+    "circle": "TS Panchkula",
+    "division": "TS Ambala",
+    "voltage": "66kV",
+    "lat": 30.5975,
+    "lng": 76.9348
+  },
+  {
+    "code": 11227,
+    "name": "220kV Sonta",
+    "zone": "Panchkula",
+    "circle": "TS Panchkula",
+    "division": "TS Ambala",
+    "voltage": "220kV",
+    "lat": 30.69,
+    "lng": 76.7948
+  },
+  {
+    "code": 11229,
+    "name": "66kV Majri",
+    "zone": "Panchkula",
+    "circle": "TS Panchkula",
+    "division": "TS Ambala",
+    "voltage": "66kV",
+    "lat": 30.6163,
+    "lng": 76.9237
+  },
+  {
+    "code": 11214,
+    "name": "66kV Adhoya",
+    "zone": "Panchkula",
+    "circle": "TS Panchkula",
+    "division": "TS Ambala",
+    "voltage": "66kV",
+    "lat": 30.6891,
+    "lng": 76.8635
+  },
+  {
+    "code": 11225,
+    "name": "220kV Tepla",
+    "zone": "Panchkula",
+    "circle": "TS Panchkula",
+    "division": "TS Ambala",
+    "voltage": "220kV",
+    "lat": 30.7346,
+    "lng": 76.7343
+  },
+  {
+    "code": 11118,
+    "name": "66kV Sector-5 Panchkula",
+    "zone": "Panchkula",
+    "circle": "TS Panchkula",
+    "division": "TS Madanpur",
+    "voltage": "66kV",
+    "lat": 30.5493,
+    "lng": 76.8856
+  },
+  {
+    "code": 23128,
+    "name": "220kV Sec-20 GGN",
+    "zone": "Hisar",
+    "circle": "TS Gurgaon",
+    "division": "TS Gurgaon",
+    "voltage": "220kV",
+    "lat": 29.2565,
+    "lng": 75.6158
+  },
+  {
+    "code": 23133,
+    "name": "220kV Sec-107 GGN",
+    "zone": "Hisar",
+    "circle": "TS Gurgaon",
+    "division": "TS Gurgaon",
+    "voltage": "220kV",
+    "lat": 29.0844,
+    "lng": 75.5867
+  },
+  {
+    "code": 23215,
+    "name": "220kV Sec-85 GGN",
+    "zone": "Hisar",
+    "circle": "TS Gurgaon",
+    "division": "TS Manesar",
+    "voltage": "220kV",
+    "lat": 29.0405,
+    "lng": 75.6781
+  },
+  {
+    "code": 13129,
+    "name": "132kV Badsa",
+    "zone": "Panchkula",
+    "circle": "TS Rohtak",
+    "division": "TS Rohtak",
+    "voltage": "132kV",
+    "lat": 30.7316,
+    "lng": 76.7141
+  },
+  {
+    "code": 13131,
+    "name": "220kV METL Dadri Toe",
+    "zone": "Panchkula",
+    "circle": "TS Rohtak",
+    "division": "TS Rohtak",
+    "voltage": "220kV",
+    "lat": 30.763,
+    "lng": 76.8603
+  },
+  {
+    "code": 21406,
+    "name": "132kV Bibipur",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Jind",
+    "voltage": "132kV",
+    "lat": 29.1372,
+    "lng": 75.6163
+  },
+  {
+    "code": 21401,
+    "name": "132kV Dablain",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Jind",
+    "voltage": "132kV",
+    "lat": 29.0647,
+    "lng": 75.6068
+  },
+  {
+    "code": 21412,
+    "name": "220kV Narwana",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Jind",
+    "voltage": "220kV",
+    "lat": 29.1213,
+    "lng": 75.6966
+  },
+  {
+    "code": 21413,
+    "name": "132kV Uchana",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Jind",
+    "voltage": "132kV",
+    "lat": 29.0181,
+    "lng": 75.5806
+  },
+  {
+    "code": 13327,
+    "name": "132kV Khewra",
+    "zone": "Panchkula",
+    "circle": "TS Rohtak",
+    "division": "TS Panipat",
+    "voltage": "132kV",
+    "lat": 30.6413,
+    "lng": 76.7456
+  },
+  {
+    "code": 13317,
+    "name": "132kV Ganaur",
+    "zone": "Panchkula",
+    "circle": "TS Rohtak",
+    "division": "TS Panipat",
+    "voltage": "132kV",
+    "lat": 30.7904,
+    "lng": 76.9172
+  },
+  {
+    "code": 13328,
+    "name": "220kV Barhi",
+    "zone": "Panchkula",
+    "circle": "TS Rohtak",
+    "division": "TS Panipat",
+    "voltage": "220kV",
+    "lat": 30.7691,
+    "lng": 76.9076
+  },
+  {
+    "code": 11126,
+    "name": "66kV HSIIDC Barwala",
+    "zone": "Panchkula",
+    "circle": "TS Panchkula",
+    "division": "TS Madanpur",
+    "voltage": "66kV",
+    "lat": 30.7142,
+    "lng": 76.8752
+  },
+  {
+    "code": 31105,
+    "name": "66kV Sugar Mill Yamunanagar",
+    "zone": "Other",
+    "circle": "Other",
+    "division": "Other",
+    "voltage": "66kV",
+    "lat": 28.961,
+    "lng": 76.7513
+  },
+  {
+    "code": 23108,
+    "name": "66kV Sec-43 Gurgaon",
+    "zone": "Hisar",
+    "circle": "TS Gurgaon",
+    "division": "TS Gurgaon",
+    "voltage": "66kV",
+    "lat": 29.2239,
+    "lng": 75.7687
+  },
+  {
+    "code": 23113,
+    "name": "66kV Sec-51 GGN",
+    "zone": "Hisar",
+    "circle": "TS Gurgaon",
+    "division": "TS Gurgaon",
+    "voltage": "66kV",
+    "lat": 29.1384,
+    "lng": 75.7088
+  },
+  {
+    "code": 11112,
+    "name": "66kV Naraingarh",
+    "zone": "Panchkula",
+    "circle": "TS Panchkula",
+    "division": "TS Madanpur",
+    "voltage": "66kV",
+    "lat": 30.6867,
+    "lng": 76.942
+  },
+  {
+    "code": 11111,
+    "name": "66kV Shehzadpur",
+    "zone": "Panchkula",
+    "circle": "TS Panchkula",
+    "division": "TS Madanpur",
+    "voltage": "66kV",
+    "lat": 30.8244,
+    "lng": 76.7079
+  },
+  {
+    "code": 11107,
+    "name": "66kV Sector-3 Panchkula",
+    "zone": "Panchkula",
+    "circle": "TS Panchkula",
+    "division": "TS Madanpur",
+    "voltage": "66kV",
+    "lat": 30.7915,
+    "lng": 76.8385
+  },
+  {
+    "code": 11106,
+    "name": "66kV Sector-1 Panchkula",
+    "zone": "Panchkula",
+    "circle": "TS Panchkula",
+    "division": "TS Madanpur",
+    "voltage": "66kV",
+    "lat": 30.7433,
+    "lng": 76.7756
+  },
+  {
+    "code": 11108,
+    "name": "66kV Industrial Area Panchkula",
+    "zone": "Panchkula",
+    "circle": "TS Panchkula",
+    "division": "TS Madanpur",
+    "voltage": "66kV",
+    "lat": 30.5688,
+    "lng": 76.9813
+  },
+  {
+    "code": 11102,
+    "name": "220kV Pinjore",
+    "zone": "Panchkula",
+    "circle": "TS Panchkula",
+    "division": "TS Madanpur",
+    "voltage": "220kV",
+    "lat": 30.5508,
+    "lng": 76.9604
+  },
+  {
+    "code": 11103,
+    "name": "66kV Kalka",
+    "zone": "Panchkula",
+    "circle": "TS Panchkula",
+    "division": "TS Madanpur",
+    "voltage": "66kV",
+    "lat": 30.7117,
+    "lng": 76.89
+  },
+  {
+    "code": 11104,
+    "name": "66kV Surajpur",
+    "zone": "Panchkula",
+    "circle": "TS Panchkula",
+    "division": "TS Madanpur",
+    "voltage": "66kV",
+    "lat": 30.7125,
+    "lng": 76.9503
+  },
+  {
+    "code": 12115,
+    "name": "66kV Khanpur Koliyan",
+    "zone": "Panchkula",
+    "circle": "TS Karnal",
+    "division": "TS Kurukshetra",
+    "voltage": "66kV",
+    "lat": 30.5795,
+    "lng": 76.932
+  },
+  {
+    "code": 21219,
+    "name": "132kV Tosham",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Bhiwani",
+    "voltage": "132kV",
+    "lat": 29.2443,
+    "lng": 75.71
+  },
+  {
+    "code": 21216,
+    "name": "220kV Dadi Bana",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Bhiwani",
+    "voltage": "220kV",
+    "lat": 29.2461,
+    "lng": 75.8055
+  },
+  {
+    "code": 23327,
+    "name": "132kV Kamalpur",
+    "zone": "Hisar",
+    "circle": "TS Gurgaon",
+    "division": "TS Rewari",
+    "voltage": "132kV",
+    "lat": 29.1565,
+    "lng": 75.8257
+  },
+  {
+    "code": 22134,
+    "name": "66kV Sec-21D Fbd",
+    "zone": "Hisar",
+    "circle": "TS Faridabad",
+    "division": "TS Faridabad",
+    "voltage": "66kV",
+    "lat": 29.1122,
+    "lng": 75.7396
+  },
+  {
+    "code": 22133,
+    "name": "66kV Kheri Gujran",
+    "zone": "Hisar",
+    "circle": "TS Faridabad",
+    "division": "TS Faridabad",
+    "voltage": "66kV",
+    "lat": 29.0513,
+    "lng": 75.6775
+  },
+  {
+    "code": 22132,
+    "name": "66kV Sec-23 Fbd",
+    "zone": "Hisar",
+    "circle": "TS Faridabad",
+    "division": "TS Faridabad",
+    "voltage": "66kV",
+    "lat": 29.2848,
+    "lng": 75.7277
+  },
+  {
+    "code": 23201,
+    "name": "220kV Sec-1 Manesar",
+    "zone": "Hisar",
+    "circle": "TS Gurgaon",
+    "division": "TS Manesar",
+    "voltage": "220kV",
+    "lat": 29.0033,
+    "lng": 75.8676
+  },
+  {
+    "code": 23136,
+    "name": "66kV Udyog Vihar Phase-I Gurugram",
+    "zone": "Hisar",
+    "circle": "TS Gurgaon",
+    "division": "TS Gurgaon",
+    "voltage": "66kV",
+    "lat": 29.0599,
+    "lng": 75.8426
+  },
+  {
+    "code": 23135,
+    "name": "66kV Sec-46 GGN",
+    "zone": "Hisar",
+    "circle": "TS Gurgaon",
+    "division": "TS Gurgaon",
+    "voltage": "66kV",
+    "lat": 29.198,
+    "lng": 75.5762
+  },
+  {
+    "code": 23129,
+    "name": "66kV Mobile SSTN GGN",
+    "zone": "Hisar",
+    "circle": "TS Gurgaon",
+    "division": "TS Gurgaon",
+    "voltage": "66kV",
+    "lat": 29.1265,
+    "lng": 75.7639
+  },
+  {
+    "code": 23124,
+    "name": "400kV Daulatabad",
+    "zone": "Hisar",
+    "circle": "TS Gurgaon",
+    "division": "TS Gurgaon",
+    "voltage": "400kV",
+    "lat": 29.239,
+    "lng": 75.6091
+  },
+  {
+    "code": 23117,
+    "name": "66kV Ph-4 Dundahera",
+    "zone": "Hisar",
+    "circle": "TS Gurgaon",
+    "division": "TS Gurgaon",
+    "voltage": "66kV",
+    "lat": 29.2826,
+    "lng": 75.6424
+  },
+  {
+    "code": 23125,
+    "name": "66kV DLF PH-V GGN",
+    "zone": "Hisar",
+    "circle": "TS Gurgaon",
+    "division": "TS Gurgaon",
+    "voltage": "220kV",
+    "lat": 29.2527,
+    "lng": 75.5865
+  },
+  {
+    "code": 23127,
+    "name": "66kV Sector-4 GGN",
+    "zone": "Hisar",
+    "circle": "TS Gurgaon",
+    "division": "TS Gurgaon",
+    "voltage": "220kV",
+    "lat": 29.1831,
+    "lng": 75.8457
+  },
+  {
+    "code": 23130,
+    "name": "220kV Sec-33 GGN",
+    "zone": "Hisar",
+    "circle": "TS Gurgaon",
+    "division": "TS Gurgaon",
+    "voltage": "220kV",
+    "lat": 29.1573,
+    "lng": 75.8202
+  },
+  {
+    "code": 23131,
+    "name": "220kV Sec-57 GGN",
+    "zone": "Hisar",
+    "circle": "TS Gurgaon",
+    "division": "TS Gurgaon",
+    "voltage": "220kV",
+    "lat": 29.2943,
+    "lng": 75.6174
+  },
+  {
+    "code": 23132,
+    "name": "220kV Sec 65 GGM",
+    "zone": "Hisar",
+    "circle": "TS Gurgaon",
+    "division": "TS Gurgaon",
+    "voltage": "220kV",
+    "lat": 29.253,
+    "lng": 75.6135
+  },
+  {
+    "code": 23134,
+    "name": "220kV Sec-69 GGN",
+    "zone": "Hisar",
+    "circle": "TS Gurgaon",
+    "division": "TS Gurgaon",
+    "voltage": "220kV",
+    "lat": 29.1008,
+    "lng": 75.5841
+  },
+  {
+    "code": 22102,
+    "name": "220kV A-4 Fbd",
+    "zone": "Hisar",
+    "circle": "TS Faridabad",
+    "division": "TS Faridabad",
+    "voltage": "66kV",
+    "lat": 29.2272,
+    "lng": 75.8459
+  },
+  {
+    "code": 23214,
+    "name": "220kV Sec 95 Manesar",
+    "zone": "Hisar",
+    "circle": "TS Gurgaon",
+    "division": "TS Manesar",
+    "voltage": "220kV",
+    "lat": 29.1919,
+    "lng": 75.6189
+  },
+  {
+    "code": 11232,
+    "name": "220kV Rajokheri",
+    "zone": "Panchkula",
+    "circle": "TS Panchkula",
+    "division": "TS Ambala",
+    "voltage": "220kV",
+    "lat": 30.8343,
+    "lng": 76.8894
+  },
+  {
+    "code": 22122,
+    "name": "220kV Sec-46 Fbd",
+    "zone": "Hisar",
+    "circle": "TS Faridabad",
+    "division": "TS Faridabad",
+    "voltage": "220kV",
+    "lat": 29.1173,
+    "lng": 75.77
+  },
+  {
+    "code": 22129,
+    "name": "220kV Sec-58 Fbd",
+    "zone": "Hisar",
+    "circle": "TS Faridabad",
+    "division": "TS Faridabad",
+    "voltage": "220kV",
+    "lat": 29.2525,
+    "lng": 75.7257
+  },
+  {
+    "code": 22130,
+    "name": "66kV Sec-37 Fbd.",
+    "zone": "Hisar",
+    "circle": "TS Faridabad",
+    "division": "TS Faridabad",
+    "voltage": "66kV",
+    "lat": 29.217,
+    "lng": 75.6148
+  },
+  {
+    "code": 22131,
+    "name": "220kV Sec-78 Fbd",
+    "zone": "Hisar",
+    "circle": "TS Faridabad",
+    "division": "TS Faridabad",
+    "voltage": "220kV",
+    "lat": 29.0825,
+    "lng": 75.6929
+  },
+  {
+    "code": 21418,
+    "name": "132kV Garhi",
+    "zone": "Hisar",
+    "circle": "TS Hisar",
+    "division": "TS Jind",
+    "voltage": "132kV",
+    "lat": 29.2591,
+    "lng": 75.621
+  }
+]

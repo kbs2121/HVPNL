@@ -1,0 +1,6527 @@
+[
+  {
+    "line_id": "TL-400-001",
+    "line_name": "400kV Nawada - Nuhiyanwali Line (Feeder 1)",
+    "voltage": "400kV",
+    "from_substation": {
+      "code": 22124,
+      "name": "400kV Nawada",
+      "lat": 29.1603,
+      "lng": 75.6531
+    },
+    "to_substation": {
+      "code": 21320,
+      "name": "400kV Nuhiyanwali",
+      "lat": 29.0084,
+      "lng": 75.7577
+    },
+    "length_km": 24.6,
+    "health_score": 61,
+    "status": "Warning",
+    "load_mw": 695,
+    "capacity_mw": 800,
+    "tower_count": 78,
+    "conductor_type": "ACSR Zebra",
+    "issues": [
+      {
+        "tower_no": "Tower #34",
+        "type": "Vegetation",
+        "severity": "Medium",
+        "description": "Tree canopy clearance breach (< 2.4m)"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-400-002",
+    "line_name": "400kV Dhanonda - Nawada Line",
+    "voltage": "400kV",
+    "from_substation": {
+      "code": 23324,
+      "name": "400kV Dhanonda",
+      "lat": 29.2569,
+      "lng": 75.8021
+    },
+    "to_substation": {
+      "code": 22124,
+      "name": "400kV Nawada",
+      "lat": 29.1603,
+      "lng": 75.6531
+    },
+    "length_km": 47.1,
+    "health_score": 91,
+    "status": "Optimal",
+    "load_mw": 630,
+    "capacity_mw": 800,
+    "tower_count": 150,
+    "conductor_type": "AAAC Panther",
+    "issues": [],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-400-003",
+    "line_name": "400kV Daulatabad - Nawada Line",
+    "voltage": "400kV",
+    "from_substation": {
+      "code": 23124,
+      "name": "400kV Daulatabad",
+      "lat": 29.239,
+      "lng": 75.6091
+    },
+    "to_substation": {
+      "code": 22124,
+      "name": "400kV Nawada",
+      "lat": 29.1603,
+      "lng": 75.6531
+    },
+    "length_km": 35.4,
+    "health_score": 86,
+    "status": "Optimal",
+    "load_mw": 406,
+    "capacity_mw": 800,
+    "tower_count": 113,
+    "conductor_type": "ACSR Zebra",
+    "issues": [],
+    "next_maintenance_date": "2026-07-28"
+  },
+  {
+    "line_id": "TL-400-004",
+    "line_name": "400kV Daulatabad - Kirori Line (Feeder 2)",
+    "voltage": "400kV",
+    "from_substation": {
+      "code": 23124,
+      "name": "400kV Daulatabad",
+      "lat": 29.239,
+      "lng": 75.6091
+    },
+    "to_substation": {
+      "code": 21127,
+      "name": "400kV Kirori",
+      "lat": 29.0115,
+      "lng": 75.5766
+    },
+    "length_km": 28.4,
+    "health_score": 78,
+    "status": "Shutdown",
+    "load_mw": 293,
+    "capacity_mw": 800,
+    "tower_count": 90,
+    "conductor_type": "AAAC Panther",
+    "issues": [
+      {
+        "tower_no": "Tower #8",
+        "type": "Sag",
+        "severity": "Medium",
+        "description": "Conductor sag exceeds clearance limit at mid-span"
+      }
+    ],
+    "next_maintenance_date": "2026-07-28"
+  },
+  {
+    "line_id": "TL-400-005",
+    "line_name": "400kV Nuhiyanwali - Nawada Line",
+    "voltage": "400kV",
+    "from_substation": {
+      "code": 21320,
+      "name": "400kV Nuhiyanwali",
+      "lat": 29.0084,
+      "lng": 75.7577
+    },
+    "to_substation": {
+      "code": 22124,
+      "name": "400kV Nawada",
+      "lat": 29.1603,
+      "lng": 75.6531
+    },
+    "length_km": 26.9,
+    "health_score": 69,
+    "status": "Warning",
+    "load_mw": 733,
+    "capacity_mw": 800,
+    "tower_count": 86,
+    "conductor_type": "ACSR Weasel",
+    "issues": [
+      {
+        "tower_no": "Tower #78",
+        "type": "Insulator",
+        "severity": "Medium",
+        "description": "Insulator flashover / crack detected on string assembly"
+      },
+      {
+        "tower_no": "Tower #78",
+        "type": "Hotspot",
+        "severity": "Medium",
+        "description": "Temperature anomaly detected on C-Phase isolator clamp (62\u00b0C)"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-400-006",
+    "line_name": "400kV Dhanonda - Nuhiyanwali Line",
+    "voltage": "400kV",
+    "from_substation": {
+      "code": 23324,
+      "name": "400kV Dhanonda",
+      "lat": 29.2569,
+      "lng": 75.8021
+    },
+    "to_substation": {
+      "code": 21320,
+      "name": "400kV Nuhiyanwali",
+      "lat": 29.0084,
+      "lng": 75.7577
+    },
+    "length_km": 26.0,
+    "health_score": 80,
+    "status": "Warning",
+    "load_mw": 534,
+    "capacity_mw": 800,
+    "tower_count": 83,
+    "conductor_type": "ACSR Dog",
+    "issues": [
+      {
+        "tower_no": "Tower #43",
+        "type": "Tower",
+        "severity": "Medium",
+        "description": "Tower structural rust / foundation settlement detected"
+      },
+      {
+        "tower_no": "Tower #60",
+        "type": "Vegetation",
+        "severity": "Medium",
+        "description": "Tree canopy clearance breach (< 2.9m)"
+      },
+      {
+        "tower_no": "Tower #18",
+        "type": "Sag",
+        "severity": "Medium",
+        "description": "Conductor sag exceeds clearance limit at mid-span"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-400-007",
+    "line_name": "400kV Nawada - Dhanonda Line (Feeder 1)",
+    "voltage": "400kV",
+    "from_substation": {
+      "code": 22124,
+      "name": "400kV Nawada",
+      "lat": 29.1603,
+      "lng": 75.6531
+    },
+    "to_substation": {
+      "code": 23324,
+      "name": "400kV Dhanonda",
+      "lat": 29.2569,
+      "lng": 75.8021
+    },
+    "length_km": 64.3,
+    "health_score": 50,
+    "status": "Critical",
+    "load_mw": 369,
+    "capacity_mw": 800,
+    "tower_count": 205,
+    "conductor_type": "AAAC Panther",
+    "issues": [
+      {
+        "tower_no": "Tower #82",
+        "type": "Hotspot",
+        "severity": "High",
+        "description": "Temperature anomaly detected on C-Phase isolator clamp (78\u00b0C)"
+      },
+      {
+        "tower_no": "Tower #27",
+        "type": "Insulator",
+        "severity": "High",
+        "description": "Insulator flashover / crack detected on string assembly"
+      },
+      {
+        "tower_no": "Tower #174",
+        "type": "Sag",
+        "severity": "High",
+        "description": "Conductor sag exceeds clearance limit at mid-span"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-400-008",
+    "line_name": "400kV Dhanonda - Daulatabad Line",
+    "voltage": "400kV",
+    "from_substation": {
+      "code": 23324,
+      "name": "400kV Dhanonda",
+      "lat": 29.2569,
+      "lng": 75.8021
+    },
+    "to_substation": {
+      "code": 23124,
+      "name": "400kV Daulatabad",
+      "lat": 29.239,
+      "lng": 75.6091
+    },
+    "length_km": 17.9,
+    "health_score": 81,
+    "status": "Warning",
+    "load_mw": 723,
+    "capacity_mw": 800,
+    "tower_count": 57,
+    "conductor_type": "ACSR Moose",
+    "issues": [
+      {
+        "tower_no": "Tower #34",
+        "type": "Insulator",
+        "severity": "Medium",
+        "description": "Insulator flashover / crack detected on string assembly"
+      }
+    ],
+    "next_maintenance_date": "2026-07-28"
+  },
+  {
+    "line_id": "TL-400-009",
+    "line_name": "400kV Nawada - Dhanonda Line",
+    "voltage": "400kV",
+    "from_substation": {
+      "code": 22124,
+      "name": "400kV Nawada",
+      "lat": 29.1603,
+      "lng": 75.6531
+    },
+    "to_substation": {
+      "code": 23324,
+      "name": "400kV Dhanonda",
+      "lat": 29.2569,
+      "lng": 75.8021
+    },
+    "length_km": 10.1,
+    "health_score": 88,
+    "status": "Shutdown",
+    "load_mw": 645,
+    "capacity_mw": 800,
+    "tower_count": 32,
+    "conductor_type": "AAAC Panther",
+    "issues": [],
+    "next_maintenance_date": "2026-07-28"
+  },
+  {
+    "line_id": "TL-400-010",
+    "line_name": "400kV Nuhiyanwali - Daulatabad Line (Feeder 2)",
+    "voltage": "400kV",
+    "from_substation": {
+      "code": 21320,
+      "name": "400kV Nuhiyanwali",
+      "lat": 29.0084,
+      "lng": 75.7577
+    },
+    "to_substation": {
+      "code": 23124,
+      "name": "400kV Daulatabad",
+      "lat": 29.239,
+      "lng": 75.6091
+    },
+    "length_km": 34.4,
+    "health_score": 68,
+    "status": "Warning",
+    "load_mw": 458,
+    "capacity_mw": 800,
+    "tower_count": 110,
+    "conductor_type": "AAAC Panther",
+    "issues": [
+      {
+        "tower_no": "Tower #11",
+        "type": "Sag",
+        "severity": "Medium",
+        "description": "Conductor sag exceeds clearance limit at mid-span"
+      },
+      {
+        "tower_no": "Tower #101",
+        "type": "Sag",
+        "severity": "Medium",
+        "description": "Conductor sag exceeds clearance limit at mid-span"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-400-011",
+    "line_name": "400kV Kirori - Dhanonda Line",
+    "voltage": "400kV",
+    "from_substation": {
+      "code": 21127,
+      "name": "400kV Kirori",
+      "lat": 29.0115,
+      "lng": 75.5766
+    },
+    "to_substation": {
+      "code": 23324,
+      "name": "400kV Dhanonda",
+      "lat": 29.2569,
+      "lng": 75.8021
+    },
+    "length_km": 56.1,
+    "health_score": 76,
+    "status": "Warning",
+    "load_mw": 490,
+    "capacity_mw": 800,
+    "tower_count": 179,
+    "conductor_type": "ACSR Moose",
+    "issues": [
+      {
+        "tower_no": "Tower #101",
+        "type": "Hotspot",
+        "severity": "Medium",
+        "description": "Temperature anomaly detected on C-Phase isolator clamp (56\u00b0C)"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-400-012",
+    "line_name": "400kV Dhanonda - Nuhiyanwali Line",
+    "voltage": "400kV",
+    "from_substation": {
+      "code": 23324,
+      "name": "400kV Dhanonda",
+      "lat": 29.2569,
+      "lng": 75.8021
+    },
+    "to_substation": {
+      "code": 21320,
+      "name": "400kV Nuhiyanwali",
+      "lat": 29.0084,
+      "lng": 75.7577
+    },
+    "length_km": 48.7,
+    "health_score": 58,
+    "status": "Critical",
+    "load_mw": 499,
+    "capacity_mw": 800,
+    "tower_count": 155,
+    "conductor_type": "ACSR Weasel",
+    "issues": [
+      {
+        "tower_no": "Tower #84",
+        "type": "Insulator",
+        "severity": "High",
+        "description": "Insulator flashover / crack detected on string assembly"
+      },
+      {
+        "tower_no": "Tower #83",
+        "type": "Insulator",
+        "severity": "High",
+        "description": "Insulator flashover / crack detected on string assembly"
+      },
+      {
+        "tower_no": "Tower #24",
+        "type": "Tower",
+        "severity": "High",
+        "description": "Tower structural rust / foundation settlement detected"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-220-013",
+    "line_name": "220kV Pehowa - Palwal (Meghpur) Line (Feeder 1)",
+    "voltage": "220kV",
+    "from_substation": {
+      "code": 12102,
+      "name": "220kV Pehowa",
+      "lat": 30.7326,
+      "lng": 76.9166
+    },
+    "to_substation": {
+      "code": 22201,
+      "name": "220kV Palwal (Meghpur)",
+      "lat": 29.095,
+      "lng": 75.6467
+    },
+    "length_km": 32.5,
+    "health_score": 57,
+    "status": "Shutdown",
+    "load_mw": 216,
+    "capacity_mw": 235,
+    "tower_count": 104,
+    "conductor_type": "AAAC Panther",
+    "issues": [
+      {
+        "tower_no": "Tower #78",
+        "type": "Hotspot",
+        "severity": "High",
+        "description": "Temperature anomaly detected on C-Phase isolator clamp (72\u00b0C)"
+      }
+    ],
+    "next_maintenance_date": "2026-07-28"
+  },
+  {
+    "line_id": "TL-220-014",
+    "line_name": "220kV Badshahpur - Tepla Line",
+    "voltage": "220kV",
+    "from_substation": {
+      "code": 23104,
+      "name": "220kV Badshahpur",
+      "lat": 29.1791,
+      "lng": 75.574
+    },
+    "to_substation": {
+      "code": 11225,
+      "name": "220kV Tepla",
+      "lat": 30.7346,
+      "lng": 76.7343
+    },
+    "length_km": 57.7,
+    "health_score": 46,
+    "status": "Critical",
+    "load_mw": 180,
+    "capacity_mw": 235,
+    "tower_count": 184,
+    "conductor_type": "ACSR Zebra",
+    "issues": [
+      {
+        "tower_no": "Tower #105",
+        "type": "Insulator",
+        "severity": "High",
+        "description": "Insulator flashover / crack detected on string assembly"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-220-015",
+    "line_name": "220kV Mahendragarh - Meerpur Kurali Line",
+    "voltage": "220kV",
+    "from_substation": {
+      "code": 23301,
+      "name": "220kV Mahendragarh",
+      "lat": 29.0462,
+      "lng": 75.8341
+    },
+    "to_substation": {
+      "code": 22220,
+      "name": "220kV Meerpur Kurali",
+      "lat": 29.2276,
+      "lng": 75.733
+    },
+    "length_km": 62.1,
+    "health_score": 97,
+    "status": "Optimal",
+    "load_mw": 206,
+    "capacity_mw": 235,
+    "tower_count": 198,
+    "conductor_type": "ACSR Moose",
+    "issues": [],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-220-016",
+    "line_name": "220kV Jind - Ramana Ramani Line (Feeder 2)",
+    "voltage": "220kV",
+    "from_substation": {
+      "code": 21403,
+      "name": "220kV Jind",
+      "lat": 29.2498,
+      "lng": 75.7428
+    },
+    "to_substation": {
+      "code": 12228,
+      "name": "220kV Ramana Ramani",
+      "lat": 30.5765,
+      "lng": 76.7973
+    },
+    "length_km": 44.0,
+    "health_score": 90,
+    "status": "Optimal",
+    "load_mw": 124,
+    "capacity_mw": 235,
+    "tower_count": 140,
+    "conductor_type": "AAAC Panther",
+    "issues": [],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-220-017",
+    "line_name": "220kV Kaithal - Sirsa Line",
+    "voltage": "220kV",
+    "from_substation": {
+      "code": 12321,
+      "name": "220kV Kaithal",
+      "lat": 30.7081,
+      "lng": 76.9229
+    },
+    "to_substation": {
+      "code": 21301,
+      "name": "220kV Sirsa",
+      "lat": 29.0139,
+      "lng": 75.6352
+    },
+    "length_km": 20.7,
+    "health_score": 60,
+    "status": "Warning",
+    "load_mw": 190,
+    "capacity_mw": 235,
+    "tower_count": 66,
+    "conductor_type": "ACSR Moose",
+    "issues": [
+      {
+        "tower_no": "Tower #41",
+        "type": "Vegetation",
+        "severity": "Medium",
+        "description": "Tree canopy clearance breach (< 1.7m)"
+      },
+      {
+        "tower_no": "Tower #24",
+        "type": "Tower",
+        "severity": "Medium",
+        "description": "Tower structural rust / foundation settlement detected"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-220-018",
+    "line_name": "220kV Sec-78 Fbd - Sangwan Line",
+    "voltage": "220kV",
+    "from_substation": {
+      "code": 22131,
+      "name": "220kV Sec-78 Fbd",
+      "lat": 29.0825,
+      "lng": 75.6929
+    },
+    "to_substation": {
+      "code": 21220,
+      "name": "220kV Sangwan",
+      "lat": 29.1445,
+      "lng": 75.8653
+    },
+    "length_km": 16.9,
+    "health_score": 71,
+    "status": "Warning",
+    "load_mw": 91,
+    "capacity_mw": 235,
+    "tower_count": 54,
+    "conductor_type": "ACSR Dog",
+    "issues": [
+      {
+        "tower_no": "Tower #7",
+        "type": "Insulator",
+        "severity": "Medium",
+        "description": "Insulator flashover / crack detected on string assembly"
+      }
+    ],
+    "next_maintenance_date": "2026-07-28"
+  },
+  {
+    "line_id": "TL-220-019",
+    "line_name": "220kV Hukmawali - Sec-1 Manesar Line (Feeder 1)",
+    "voltage": "220kV",
+    "from_substation": {
+      "code": 21130,
+      "name": "220kV Hukmawali",
+      "lat": 29.1418,
+      "lng": 75.8038
+    },
+    "to_substation": {
+      "code": 23201,
+      "name": "220kV Sec-1 Manesar",
+      "lat": 29.0033,
+      "lng": 75.8676
+    },
+    "length_km": 62.7,
+    "health_score": 45,
+    "status": "Critical",
+    "load_mw": 165,
+    "capacity_mw": 235,
+    "tower_count": 200,
+    "conductor_type": "AAAC Panther",
+    "issues": [
+      {
+        "tower_no": "Tower #173",
+        "type": "Insulator",
+        "severity": "High",
+        "description": "Insulator flashover / crack detected on string assembly"
+      },
+      {
+        "tower_no": "Tower #6",
+        "type": "Tower",
+        "severity": "High",
+        "description": "Tower structural rust / foundation settlement detected"
+      },
+      {
+        "tower_no": "Tower #94",
+        "type": "Tower",
+        "severity": "High",
+        "description": "Tower structural rust / foundation settlement detected"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-220-020",
+    "line_name": "220kV Cheeka - Narnaul Line",
+    "voltage": "220kV",
+    "from_substation": {
+      "code": 12316,
+      "name": "220kV Cheeka",
+      "lat": 30.763,
+      "lng": 76.89
+    },
+    "to_substation": {
+      "code": 23311,
+      "name": "220kV Narnaul",
+      "lat": 29.1746,
+      "lng": 75.5853
+    },
+    "length_km": 16.0,
+    "health_score": 53,
+    "status": "Critical",
+    "load_mw": 126,
+    "capacity_mw": 235,
+    "tower_count": 51,
+    "conductor_type": "ACSR Zebra",
+    "issues": [
+      {
+        "tower_no": "Tower #15",
+        "type": "Tower",
+        "severity": "High",
+        "description": "Tower structural rust / foundation settlement detected"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-220-021",
+    "line_name": "220kV Sec-69 GGN - Barhi Line",
+    "voltage": "220kV",
+    "from_substation": {
+      "code": 23134,
+      "name": "220kV Sec-69 GGN",
+      "lat": 29.1008,
+      "lng": 75.5841
+    },
+    "to_substation": {
+      "code": 13328,
+      "name": "220kV Barhi",
+      "lat": 30.7691,
+      "lng": 76.9076
+    },
+    "length_km": 12.3,
+    "health_score": 76,
+    "status": "Warning",
+    "load_mw": 117,
+    "capacity_mw": 235,
+    "tower_count": 39,
+    "conductor_type": "ACSR Dog",
+    "issues": [
+      {
+        "tower_no": "Tower #33",
+        "type": "Tower",
+        "severity": "Medium",
+        "description": "Tower structural rust / foundation settlement detected"
+      },
+      {
+        "tower_no": "Tower #22",
+        "type": "Insulator",
+        "severity": "Medium",
+        "description": "Insulator flashover / crack detected on string assembly"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-220-022",
+    "line_name": "220kV Palwal (Meghpur) - RAI (GIS) Line (Feeder 2)",
+    "voltage": "220kV",
+    "from_substation": {
+      "code": 22201,
+      "name": "220kV Palwal (Meghpur)",
+      "lat": 29.095,
+      "lng": 75.6467
+    },
+    "to_substation": {
+      "code": 13336,
+      "name": "220kV RAI (GIS)",
+      "lat": 30.7093,
+      "lng": 76.8059
+    },
+    "length_km": 36.7,
+    "health_score": 52,
+    "status": "Critical",
+    "load_mw": 136,
+    "capacity_mw": 235,
+    "tower_count": 117,
+    "conductor_type": "ACSR Weasel",
+    "issues": [
+      {
+        "tower_no": "Tower #49",
+        "type": "Tower",
+        "severity": "High",
+        "description": "Tower structural rust / foundation settlement detected"
+      },
+      {
+        "tower_no": "Tower #109",
+        "type": "Vegetation",
+        "severity": "High",
+        "description": "Tree canopy clearance breach (< 2.1m)"
+      },
+      {
+        "tower_no": "Tower #6",
+        "type": "Insulator",
+        "severity": "High",
+        "description": "Insulator flashover / crack detected on string assembly"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-220-023",
+    "line_name": "220kV Bhuna - Unispur Line",
+    "voltage": "220kV",
+    "from_substation": {
+      "code": 21102,
+      "name": "220kV Bhuna",
+      "lat": 29.2381,
+      "lng": 75.5704
+    },
+    "to_substation": {
+      "code": 12215,
+      "name": "220kV Unispur",
+      "lat": 30.7454,
+      "lng": 76.7028
+    },
+    "length_km": 54.8,
+    "health_score": 59,
+    "status": "Critical",
+    "load_mw": 126,
+    "capacity_mw": 235,
+    "tower_count": 175,
+    "conductor_type": "ACSR Zebra",
+    "issues": [
+      {
+        "tower_no": "Tower #26",
+        "type": "Tower",
+        "severity": "High",
+        "description": "Tower structural rust / foundation settlement detected"
+      },
+      {
+        "tower_no": "Tower #161",
+        "type": "Sag",
+        "severity": "High",
+        "description": "Conductor sag exceeds clearance limit at mid-span"
+      }
+    ],
+    "next_maintenance_date": "2026-07-28"
+  },
+  {
+    "line_id": "TL-220-024",
+    "line_name": "220kV Sec-58 Fbd - Sampla Line",
+    "voltage": "220kV",
+    "from_substation": {
+      "code": 22129,
+      "name": "220kV Sec-58 Fbd",
+      "lat": 29.2525,
+      "lng": 75.7257
+    },
+    "to_substation": {
+      "code": 13110,
+      "name": "220kV Sampla",
+      "lat": 30.5938,
+      "lng": 76.8032
+    },
+    "length_km": 8.3,
+    "health_score": 96,
+    "status": "Optimal",
+    "load_mw": 214,
+    "capacity_mw": 235,
+    "tower_count": 26,
+    "conductor_type": "ACSR Zebra",
+    "issues": [],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-220-025",
+    "line_name": "220kV RAI (GIS) - Sector-32 Panchkula Line (Feeder 1)",
+    "voltage": "220kV",
+    "from_substation": {
+      "code": 13336,
+      "name": "220kV RAI (GIS)",
+      "lat": 30.7093,
+      "lng": 76.8059
+    },
+    "to_substation": {
+      "code": 11122,
+      "name": "220kV Sector-32 Panchkula",
+      "lat": 30.7315,
+      "lng": 76.8866
+    },
+    "length_km": 47.8,
+    "health_score": 82,
+    "status": "Shutdown",
+    "load_mw": 90,
+    "capacity_mw": 235,
+    "tower_count": 152,
+    "conductor_type": "AAAC Panther",
+    "issues": [
+      {
+        "tower_no": "Tower #54",
+        "type": "Insulator",
+        "severity": "Medium",
+        "description": "Insulator flashover / crack detected on string assembly"
+      },
+      {
+        "tower_no": "Tower #121",
+        "type": "Vegetation",
+        "severity": "Medium",
+        "description": "Tree canopy clearance breach (< 1.8m)"
+      }
+    ],
+    "next_maintenance_date": "2026-07-28"
+  },
+  {
+    "line_id": "TL-220-026",
+    "line_name": "220kV Panchgaon - Mund Line",
+    "voltage": "220kV",
+    "from_substation": {
+      "code": 23212,
+      "name": "220kV Panchgaon",
+      "lat": 29.2155,
+      "lng": 75.613
+    },
+    "to_substation": {
+      "code": 12226,
+      "name": "220kV Mund",
+      "lat": 30.7785,
+      "lng": 76.8747
+    },
+    "length_km": 48.3,
+    "health_score": 95,
+    "status": "Optimal",
+    "load_mw": 201,
+    "capacity_mw": 235,
+    "tower_count": 154,
+    "conductor_type": "ACSR Zebra",
+    "issues": [],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-220-027",
+    "line_name": "220kV Sec-52A GGN - 66kV Sector-4 GGN Line",
+    "voltage": "220kV",
+    "from_substation": {
+      "code": 23103,
+      "name": "220kV Sec-52A GGN",
+      "lat": 29.0846,
+      "lng": 75.8222
+    },
+    "to_substation": {
+      "code": 23127,
+      "name": "66kV Sector-4 GGN",
+      "lat": 29.1831,
+      "lng": 75.8457
+    },
+    "length_km": 30.6,
+    "health_score": 83,
+    "status": "Warning",
+    "load_mw": 169,
+    "capacity_mw": 235,
+    "tower_count": 97,
+    "conductor_type": "ACSR Moose",
+    "issues": [
+      {
+        "tower_no": "Tower #31",
+        "type": "Sag",
+        "severity": "Medium",
+        "description": "Conductor sag exceeds clearance limit at mid-span"
+      },
+      {
+        "tower_no": "Tower #77",
+        "type": "Tower",
+        "severity": "Medium",
+        "description": "Tower structural rust / foundation settlement detected"
+      },
+      {
+        "tower_no": "Tower #48",
+        "type": "Vegetation",
+        "severity": "Medium",
+        "description": "Tree canopy clearance breach (< 2.3m)"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-220-028",
+    "line_name": "220kV Dhurala - Masudpur Line (Feeder 2)",
+    "voltage": "220kV",
+    "from_substation": {
+      "code": 12110,
+      "name": "220kV Dhurala",
+      "lat": 30.7236,
+      "lng": 76.8214
+    },
+    "to_substation": {
+      "code": 21122,
+      "name": "220kV Masudpur",
+      "lat": 29.0279,
+      "lng": 75.5977
+    },
+    "length_km": 30.0,
+    "health_score": 93,
+    "status": "Optimal",
+    "load_mw": 145,
+    "capacity_mw": 235,
+    "tower_count": 96,
+    "conductor_type": "ACSR Moose",
+    "issues": [],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-220-029",
+    "line_name": "220kV Rohtak - Mohana Line",
+    "voltage": "220kV",
+    "from_substation": {
+      "code": 13101,
+      "name": "220kV Rohtak",
+      "lat": 30.6948,
+      "lng": 76.9428
+    },
+    "to_substation": {
+      "code": 13323,
+      "name": "220kV Mohana",
+      "lat": 30.8261,
+      "lng": 76.9577
+    },
+    "length_km": 45.5,
+    "health_score": 80,
+    "status": "Shutdown",
+    "load_mw": 105,
+    "capacity_mw": 235,
+    "tower_count": 145,
+    "conductor_type": "ACSR Weasel",
+    "issues": [
+      {
+        "tower_no": "Tower #78",
+        "type": "Hotspot",
+        "severity": "Medium",
+        "description": "Temperature anomaly detected on C-Phase isolator clamp (75\u00b0C)"
+      },
+      {
+        "tower_no": "Tower #24",
+        "type": "Insulator",
+        "severity": "Medium",
+        "description": "Insulator flashover / crack detected on string assembly"
+      },
+      {
+        "tower_no": "Tower #112",
+        "type": "Insulator",
+        "severity": "Medium",
+        "description": "Insulator flashover / crack detected on string assembly"
+      }
+    ],
+    "next_maintenance_date": "2026-07-28"
+  },
+  {
+    "line_id": "TL-220-030",
+    "line_name": "220kV Badshahpur - Isherwal Line",
+    "voltage": "220kV",
+    "from_substation": {
+      "code": 23104,
+      "name": "220kV Badshahpur",
+      "lat": 29.1791,
+      "lng": 75.574
+    },
+    "to_substation": {
+      "code": 21217,
+      "name": "220kV Isherwal",
+      "lat": 29.2525,
+      "lng": 75.8355
+    },
+    "length_km": 44.6,
+    "health_score": 58,
+    "status": "Critical",
+    "load_mw": 177,
+    "capacity_mw": 235,
+    "tower_count": 142,
+    "conductor_type": "ACSR Weasel",
+    "issues": [
+      {
+        "tower_no": "Tower #9",
+        "type": "Sag",
+        "severity": "High",
+        "description": "Conductor sag exceeds clearance limit at mid-span"
+      },
+      {
+        "tower_no": "Tower #71",
+        "type": "Insulator",
+        "severity": "High",
+        "description": "Insulator flashover / crack detected on string assembly"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-220-031",
+    "line_name": "220kV Daroli Ahir - Sangwan Line (Feeder 1)",
+    "voltage": "220kV",
+    "from_substation": {
+      "code": 23326,
+      "name": "220kV Daroli Ahir",
+      "lat": 29.2653,
+      "lng": 75.743
+    },
+    "to_substation": {
+      "code": 21220,
+      "name": "220kV Sangwan",
+      "lat": 29.1445,
+      "lng": 75.8653
+    },
+    "length_km": 28.4,
+    "health_score": 66,
+    "status": "Warning",
+    "load_mw": 108,
+    "capacity_mw": 235,
+    "tower_count": 90,
+    "conductor_type": "ACSR Weasel",
+    "issues": [
+      {
+        "tower_no": "Tower #85",
+        "type": "Tower",
+        "severity": "Medium",
+        "description": "Tower structural rust / foundation settlement detected"
+      },
+      {
+        "tower_no": "Tower #73",
+        "type": "Hotspot",
+        "severity": "Medium",
+        "description": "Temperature anomaly detected on C-Phase isolator clamp (74\u00b0C)"
+      },
+      {
+        "tower_no": "Tower #8",
+        "type": "Hotspot",
+        "severity": "Medium",
+        "description": "Temperature anomaly detected on C-Phase isolator clamp (57\u00b0C)"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-220-032",
+    "line_name": "220kV Sector-32 Panchkula - Sec-85 GGN Line",
+    "voltage": "220kV",
+    "from_substation": {
+      "code": 11122,
+      "name": "220kV Sector-32 Panchkula",
+      "lat": 30.7315,
+      "lng": 76.8866
+    },
+    "to_substation": {
+      "code": 23215,
+      "name": "220kV Sec-85 GGN",
+      "lat": 29.0405,
+      "lng": 75.6781
+    },
+    "length_km": 17.2,
+    "health_score": 90,
+    "status": "Optimal",
+    "load_mw": 193,
+    "capacity_mw": 235,
+    "tower_count": 55,
+    "conductor_type": "ACSR Dog",
+    "issues": [],
+    "next_maintenance_date": "2026-07-28"
+  },
+  {
+    "line_id": "TL-220-033",
+    "line_name": "220kV Chhajpur (Nimbri) - Sec-57 GGN Line",
+    "voltage": "220kV",
+    "from_substation": {
+      "code": 13304,
+      "name": "220kV Chhajpur (Nimbri)",
+      "lat": 30.7609,
+      "lng": 76.8331
+    },
+    "to_substation": {
+      "code": 23131,
+      "name": "220kV Sec-57 GGN",
+      "lat": 29.2943,
+      "lng": 75.6174
+    },
+    "length_km": 36.2,
+    "health_score": 84,
+    "status": "Warning",
+    "load_mw": 105,
+    "capacity_mw": 235,
+    "tower_count": 115,
+    "conductor_type": "ACSR Weasel",
+    "issues": [
+      {
+        "tower_no": "Tower #106",
+        "type": "Sag",
+        "severity": "Medium",
+        "description": "Conductor sag exceeds clearance limit at mid-span"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-220-034",
+    "line_name": "220kV Sec-69 GGN - Raiwali Line (Feeder 2)",
+    "voltage": "220kV",
+    "from_substation": {
+      "code": 23134,
+      "name": "220kV Sec-69 GGN",
+      "lat": 29.1008,
+      "lng": 75.5841
+    },
+    "to_substation": {
+      "code": 11115,
+      "name": "220kV Raiwali",
+      "lat": 30.6105,
+      "lng": 76.8376
+    },
+    "length_km": 52.9,
+    "health_score": 93,
+    "status": "Optimal",
+    "load_mw": 173,
+    "capacity_mw": 235,
+    "tower_count": 169,
+    "conductor_type": "ACSR Dog",
+    "issues": [],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-220-035",
+    "line_name": "220kV Barhi - Narwana Line",
+    "voltage": "220kV",
+    "from_substation": {
+      "code": 13328,
+      "name": "220kV Barhi",
+      "lat": 30.7691,
+      "lng": 76.9076
+    },
+    "to_substation": {
+      "code": 21412,
+      "name": "220kV Narwana",
+      "lat": 29.1213,
+      "lng": 75.6966
+    },
+    "length_km": 45.6,
+    "health_score": 73,
+    "status": "Warning",
+    "load_mw": 181,
+    "capacity_mw": 235,
+    "tower_count": 145,
+    "conductor_type": "AAAC Panther",
+    "issues": [
+      {
+        "tower_no": "Tower #121",
+        "type": "Vegetation",
+        "severity": "Medium",
+        "description": "Tree canopy clearance breach (< 2.5m)"
+      },
+      {
+        "tower_no": "Tower #28",
+        "type": "Insulator",
+        "severity": "Medium",
+        "description": "Insulator flashover / crack detected on string assembly"
+      },
+      {
+        "tower_no": "Tower #108",
+        "type": "Vegetation",
+        "severity": "Medium",
+        "description": "Tree canopy clearance breach (< 2.4m)"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-220-036",
+    "line_name": "220kV Rangala Rajpur - Sirsa Line",
+    "voltage": "220kV",
+    "from_substation": {
+      "code": 22217,
+      "name": "220kV Rangala Rajpur",
+      "lat": 29.2806,
+      "lng": 75.7875
+    },
+    "to_substation": {
+      "code": 21301,
+      "name": "220kV Sirsa",
+      "lat": 29.0139,
+      "lng": 75.6352
+    },
+    "length_km": 57.1,
+    "health_score": 86,
+    "status": "Optimal",
+    "load_mw": 103,
+    "capacity_mw": 235,
+    "tower_count": 182,
+    "conductor_type": "ACSR Moose",
+    "issues": [],
+    "next_maintenance_date": "2026-07-28"
+  },
+  {
+    "line_id": "TL-220-037",
+    "line_name": "220kV Kaul - Masudpur Line (Feeder 1)",
+    "voltage": "220kV",
+    "from_substation": {
+      "code": 12303,
+      "name": "220kV Kaul",
+      "lat": 30.8365,
+      "lng": 76.7984
+    },
+    "to_substation": {
+      "code": 21122,
+      "name": "220kV Masudpur",
+      "lat": 29.0279,
+      "lng": 75.5977
+    },
+    "length_km": 30.4,
+    "health_score": 96,
+    "status": "Optimal",
+    "load_mw": 193,
+    "capacity_mw": 235,
+    "tower_count": 97,
+    "conductor_type": "AAAC Panther",
+    "issues": [],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-220-038",
+    "line_name": "220kV Sec-15 GGN - Badshahpur Line",
+    "voltage": "220kV",
+    "from_substation": {
+      "code": 23111,
+      "name": "220kV Sec-15 GGN",
+      "lat": 29.2738,
+      "lng": 75.6651
+    },
+    "to_substation": {
+      "code": 23104,
+      "name": "220kV Badshahpur",
+      "lat": 29.1791,
+      "lng": 75.574
+    },
+    "length_km": 28.5,
+    "health_score": 75,
+    "status": "Warning",
+    "load_mw": 170,
+    "capacity_mw": 235,
+    "tower_count": 91,
+    "conductor_type": "ACSR Moose",
+    "issues": [
+      {
+        "tower_no": "Tower #48",
+        "type": "Insulator",
+        "severity": "Medium",
+        "description": "Insulator flashover / crack detected on string assembly"
+      },
+      {
+        "tower_no": "Tower #73",
+        "type": "Tower",
+        "severity": "Medium",
+        "description": "Tower structural rust / foundation settlement detected"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-220-039",
+    "line_name": "220kV Sec-58 Fbd - Madanpur Line",
+    "voltage": "220kV",
+    "from_substation": {
+      "code": 22129,
+      "name": "220kV Sec-58 Fbd",
+      "lat": 29.2525,
+      "lng": 75.7257
+    },
+    "to_substation": {
+      "code": 11101,
+      "name": "220kV Madanpur",
+      "lat": 30.7781,
+      "lng": 76.8812
+    },
+    "length_km": 28.2,
+    "health_score": 71,
+    "status": "Warning",
+    "load_mw": 206,
+    "capacity_mw": 235,
+    "tower_count": 90,
+    "conductor_type": "ACSR Zebra",
+    "issues": [
+      {
+        "tower_no": "Tower #28",
+        "type": "Vegetation",
+        "severity": "Medium",
+        "description": "Tree canopy clearance breach (< 1.6m)"
+      },
+      {
+        "tower_no": "Tower #78",
+        "type": "Vegetation",
+        "severity": "Medium",
+        "description": "Tree canopy clearance breach (< 2.2m)"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-220-040",
+    "line_name": "220kV A5 FBD - IA Hissar Line (Feeder 2)",
+    "voltage": "220kV",
+    "from_substation": {
+      "code": 22110,
+      "name": "220kV A5 FBD",
+      "lat": 29.2129,
+      "lng": 75.7883
+    },
+    "to_substation": {
+      "code": 21103,
+      "name": "220kV IA Hissar",
+      "lat": 29.2515,
+      "lng": 75.8264
+    },
+    "length_km": 12.1,
+    "health_score": 76,
+    "status": "Warning",
+    "load_mw": 175,
+    "capacity_mw": 235,
+    "tower_count": 38,
+    "conductor_type": "AAAC Panther",
+    "issues": [
+      {
+        "tower_no": "Tower #27",
+        "type": "Sag",
+        "severity": "Medium",
+        "description": "Conductor sag exceeds clearance limit at mid-span"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-220-041",
+    "line_name": "220kV Sec-72 A GGN - Bhiwani Line",
+    "voltage": "220kV",
+    "from_substation": {
+      "code": 23101,
+      "name": "220kV Sec-72 A GGN",
+      "lat": 29.1428,
+      "lng": 75.7564
+    },
+    "to_substation": {
+      "code": 21201,
+      "name": "220kV Bhiwani",
+      "lat": 29.0045,
+      "lng": 75.6293
+    },
+    "length_km": 34.8,
+    "health_score": 75,
+    "status": "Warning",
+    "load_mw": 113,
+    "capacity_mw": 235,
+    "tower_count": 111,
+    "conductor_type": "ACSR Dog",
+    "issues": [
+      {
+        "tower_no": "Tower #57",
+        "type": "Hotspot",
+        "severity": "Medium",
+        "description": "Temperature anomaly detected on C-Phase isolator clamp (69\u00b0C)"
+      },
+      {
+        "tower_no": "Tower #104",
+        "type": "Vegetation",
+        "severity": "Medium",
+        "description": "Tree canopy clearance breach (< 2.6m)"
+      },
+      {
+        "tower_no": "Tower #33",
+        "type": "Sag",
+        "severity": "Medium",
+        "description": "Conductor sag exceeds clearance limit at mid-span"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-220-042",
+    "line_name": "220kV RGEC Sonipat - Fatehabad Line",
+    "voltage": "220kV",
+    "from_substation": {
+      "code": 13332,
+      "name": "220kV RGEC Sonipat",
+      "lat": 30.6813,
+      "lng": 76.9247
+    },
+    "to_substation": {
+      "code": 21101,
+      "name": "220kV Fatehabad",
+      "lat": 29.2911,
+      "lng": 75.7224
+    },
+    "length_km": 28.3,
+    "health_score": 83,
+    "status": "Warning",
+    "load_mw": 212,
+    "capacity_mw": 235,
+    "tower_count": 90,
+    "conductor_type": "ACSR Moose",
+    "issues": [
+      {
+        "tower_no": "Tower #49",
+        "type": "Tower",
+        "severity": "Medium",
+        "description": "Tower structural rust / foundation settlement detected"
+      },
+      {
+        "tower_no": "Tower #26",
+        "type": "Vegetation",
+        "severity": "Medium",
+        "description": "Tree canopy clearance breach (< 2.1m)"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-220-043",
+    "line_name": "220kV Mund - Neemwala Line (Feeder 1)",
+    "voltage": "220kV",
+    "from_substation": {
+      "code": 12226,
+      "name": "220kV Mund",
+      "lat": 30.7785,
+      "lng": 76.8747
+    },
+    "to_substation": {
+      "code": 12114,
+      "name": "220kV Neemwala",
+      "lat": 30.6282,
+      "lng": 76.9424
+    },
+    "length_km": 37.1,
+    "health_score": 85,
+    "status": "Optimal",
+    "load_mw": 185,
+    "capacity_mw": 235,
+    "tower_count": 118,
+    "conductor_type": "ACSR Weasel",
+    "issues": [],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-220-044",
+    "line_name": "220kV Shahbad - Sec-69 GGN Line",
+    "voltage": "220kV",
+    "from_substation": {
+      "code": 11216,
+      "name": "220kV Shahbad",
+      "lat": 30.7569,
+      "lng": 76.8473
+    },
+    "to_substation": {
+      "code": 23134,
+      "name": "220kV Sec-69 GGN",
+      "lat": 29.1008,
+      "lng": 75.5841
+    },
+    "length_km": 34.0,
+    "health_score": 57,
+    "status": "Critical",
+    "load_mw": 106,
+    "capacity_mw": 235,
+    "tower_count": 108,
+    "conductor_type": "ACSR Zebra",
+    "issues": [
+      {
+        "tower_no": "Tower #85",
+        "type": "Insulator",
+        "severity": "High",
+        "description": "Insulator flashover / crack detected on string assembly"
+      },
+      {
+        "tower_no": "Tower #56",
+        "type": "Tower",
+        "severity": "High",
+        "description": "Tower structural rust / foundation settlement detected"
+      },
+      {
+        "tower_no": "Tower #85",
+        "type": "Vegetation",
+        "severity": "High",
+        "description": "Tree canopy clearance breach (< 1.7m)"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-220-045",
+    "line_name": "220kV Rampur Kambon - Shahbad Line",
+    "voltage": "220kV",
+    "from_substation": {
+      "code": 11316,
+      "name": "220kV Rampur Kambon",
+      "lat": 30.6285,
+      "lng": 76.8263
+    },
+    "to_substation": {
+      "code": 11216,
+      "name": "220kV Shahbad",
+      "lat": 30.7569,
+      "lng": 76.8473
+    },
+    "length_km": 30.3,
+    "health_score": 62,
+    "status": "Warning",
+    "load_mw": 132,
+    "capacity_mw": 235,
+    "tower_count": 96,
+    "conductor_type": "AAAC Panther",
+    "issues": [
+      {
+        "tower_no": "Tower #48",
+        "type": "Vegetation",
+        "severity": "Medium",
+        "description": "Tree canopy clearance breach (< 2.1m)"
+      },
+      {
+        "tower_no": "Tower #90",
+        "type": "Sag",
+        "severity": "Medium",
+        "description": "Conductor sag exceeds clearance limit at mid-span"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-220-046",
+    "line_name": "220kV Jind - Mehna Khera Line (Feeder 2)",
+    "voltage": "220kV",
+    "from_substation": {
+      "code": 21403,
+      "name": "220kV Jind",
+      "lat": 29.2498,
+      "lng": 75.7428
+    },
+    "to_substation": {
+      "code": 21321,
+      "name": "220kV Mehna Khera",
+      "lat": 29.2164,
+      "lng": 75.8014
+    },
+    "length_km": 36.6,
+    "health_score": 86,
+    "status": "Optimal",
+    "load_mw": 126,
+    "capacity_mw": 235,
+    "tower_count": 117,
+    "conductor_type": "ACSR Zebra",
+    "issues": [],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-220-047",
+    "line_name": "220kV Meerpur Kurali - Bhuna Line",
+    "voltage": "220kV",
+    "from_substation": {
+      "code": 22220,
+      "name": "220kV Meerpur Kurali",
+      "lat": 29.2276,
+      "lng": 75.733
+    },
+    "to_substation": {
+      "code": 21102,
+      "name": "220kV Bhuna",
+      "lat": 29.2381,
+      "lng": 75.5704
+    },
+    "length_km": 8.1,
+    "health_score": 54,
+    "status": "Critical",
+    "load_mw": 142,
+    "capacity_mw": 235,
+    "tower_count": 25,
+    "conductor_type": "ACSR Zebra",
+    "issues": [
+      {
+        "tower_no": "Tower #6",
+        "type": "Hotspot",
+        "severity": "High",
+        "description": "Temperature anomaly detected on C-Phase isolator clamp (60\u00b0C)"
+      },
+      {
+        "tower_no": "Tower #18",
+        "type": "Sag",
+        "severity": "High",
+        "description": "Conductor sag exceeds clearance limit at mid-span"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-220-048",
+    "line_name": "220kV Rampur Kambon - Sec-1 Manesar Line",
+    "voltage": "220kV",
+    "from_substation": {
+      "code": 11316,
+      "name": "220kV Rampur Kambon",
+      "lat": 30.6285,
+      "lng": 76.8263
+    },
+    "to_substation": {
+      "code": 23201,
+      "name": "220kV Sec-1 Manesar",
+      "lat": 29.0033,
+      "lng": 75.8676
+    },
+    "length_km": 19.9,
+    "health_score": 52,
+    "status": "Critical",
+    "load_mw": 92,
+    "capacity_mw": 235,
+    "tower_count": 63,
+    "conductor_type": "ACSR Zebra",
+    "issues": [
+      {
+        "tower_no": "Tower #35",
+        "type": "Hotspot",
+        "severity": "High",
+        "description": "Temperature anomaly detected on C-Phase isolator clamp (75\u00b0C)"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-220-049",
+    "line_name": "220kV Fatehabad - Sec 95 Manesar Line (Feeder 1)",
+    "voltage": "220kV",
+    "from_substation": {
+      "code": 21101,
+      "name": "220kV Fatehabad",
+      "lat": 29.2911,
+      "lng": 75.7224
+    },
+    "to_substation": {
+      "code": 23214,
+      "name": "220kV Sec 95 Manesar",
+      "lat": 29.1919,
+      "lng": 75.6189
+    },
+    "length_km": 36.6,
+    "health_score": 71,
+    "status": "Shutdown",
+    "load_mw": 122,
+    "capacity_mw": 235,
+    "tower_count": 117,
+    "conductor_type": "ACSR Moose",
+    "issues": [
+      {
+        "tower_no": "Tower #77",
+        "type": "Insulator",
+        "severity": "Medium",
+        "description": "Insulator flashover / crack detected on string assembly"
+      },
+      {
+        "tower_no": "Tower #71",
+        "type": "Tower",
+        "severity": "Medium",
+        "description": "Tower structural rust / foundation settlement detected"
+      }
+    ],
+    "next_maintenance_date": "2026-07-28"
+  },
+  {
+    "line_id": "TL-220-050",
+    "line_name": "220kV Sec-52A GGN - Narnaul Line",
+    "voltage": "220kV",
+    "from_substation": {
+      "code": 23103,
+      "name": "220kV Sec-52A GGN",
+      "lat": 29.0846,
+      "lng": 75.8222
+    },
+    "to_substation": {
+      "code": 23311,
+      "name": "220kV Narnaul",
+      "lat": 29.1746,
+      "lng": 75.5853
+    },
+    "length_km": 10.4,
+    "health_score": 86,
+    "status": "Optimal",
+    "load_mw": 198,
+    "capacity_mw": 235,
+    "tower_count": 33,
+    "conductor_type": "ACSR Dog",
+    "issues": [],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-220-051",
+    "line_name": "220kV Pehowa - Bhuna Line",
+    "voltage": "220kV",
+    "from_substation": {
+      "code": 12102,
+      "name": "220kV Pehowa",
+      "lat": 30.7326,
+      "lng": 76.9166
+    },
+    "to_substation": {
+      "code": 21102,
+      "name": "220kV Bhuna",
+      "lat": 29.2381,
+      "lng": 75.5704
+    },
+    "length_km": 17.7,
+    "health_score": 94,
+    "status": "Optimal",
+    "load_mw": 87,
+    "capacity_mw": 235,
+    "tower_count": 56,
+    "conductor_type": "ACSR Zebra",
+    "issues": [],
+    "next_maintenance_date": "2026-07-28"
+  },
+  {
+    "line_id": "TL-220-052",
+    "line_name": "220kV Sec-15 GGN - Mau Line (Feeder 2)",
+    "voltage": "220kV",
+    "from_substation": {
+      "code": 23111,
+      "name": "220kV Sec-15 GGN",
+      "lat": 29.2738,
+      "lng": 75.6651
+    },
+    "to_substation": {
+      "code": 23315,
+      "name": "220kV Mau",
+      "lat": 29.0579,
+      "lng": 75.6219
+    },
+    "length_km": 43.7,
+    "health_score": 52,
+    "status": "Shutdown",
+    "load_mw": 204,
+    "capacity_mw": 235,
+    "tower_count": 139,
+    "conductor_type": "ACSR Zebra",
+    "issues": [
+      {
+        "tower_no": "Tower #76",
+        "type": "Hotspot",
+        "severity": "High",
+        "description": "Temperature anomaly detected on C-Phase isolator clamp (64\u00b0C)"
+      },
+      {
+        "tower_no": "Tower #41",
+        "type": "Tower",
+        "severity": "High",
+        "description": "Tower structural rust / foundation settlement detected"
+      }
+    ],
+    "next_maintenance_date": "2026-07-28"
+  },
+  {
+    "line_id": "TL-220-053",
+    "line_name": "220kV Rewari - Panchgaon Line",
+    "voltage": "220kV",
+    "from_substation": {
+      "code": 23307,
+      "name": "220kV Rewari",
+      "lat": 29.1022,
+      "lng": 75.6788
+    },
+    "to_substation": {
+      "code": 23212,
+      "name": "220kV Panchgaon",
+      "lat": 29.2155,
+      "lng": 75.613
+    },
+    "length_km": 36.7,
+    "health_score": 60,
+    "status": "Warning",
+    "load_mw": 178,
+    "capacity_mw": 235,
+    "tower_count": 117,
+    "conductor_type": "ACSR Moose",
+    "issues": [
+      {
+        "tower_no": "Tower #15",
+        "type": "Hotspot",
+        "severity": "Medium",
+        "description": "Temperature anomaly detected on C-Phase isolator clamp (70\u00b0C)"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-220-054",
+    "line_name": "220kV Mau - Sec-69 GGN Line",
+    "voltage": "220kV",
+    "from_substation": {
+      "code": 23315,
+      "name": "220kV Mau",
+      "lat": 29.0579,
+      "lng": 75.6219
+    },
+    "to_substation": {
+      "code": 23134,
+      "name": "220kV Sec-69 GGN",
+      "lat": 29.1008,
+      "lng": 75.5841
+    },
+    "length_km": 56.1,
+    "health_score": 86,
+    "status": "Optimal",
+    "load_mw": 89,
+    "capacity_mw": 235,
+    "tower_count": 179,
+    "conductor_type": "ACSR Zebra",
+    "issues": [],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-220-055",
+    "line_name": "220kV Nuna Majra - Chormar Line (Feeder 1)",
+    "voltage": "220kV",
+    "from_substation": {
+      "code": 13111,
+      "name": "220kV Nuna Majra",
+      "lat": 30.7451,
+      "lng": 76.706
+    },
+    "to_substation": {
+      "code": 21319,
+      "name": "220kV Chormar",
+      "lat": 29.0005,
+      "lng": 75.8008
+    },
+    "length_km": 17.6,
+    "health_score": 76,
+    "status": "Shutdown",
+    "load_mw": 178,
+    "capacity_mw": 235,
+    "tower_count": 56,
+    "conductor_type": "ACSR Weasel",
+    "issues": [
+      {
+        "tower_no": "Tower #47",
+        "type": "Vegetation",
+        "severity": "Medium",
+        "description": "Tree canopy clearance breach (< 2.8m)"
+      }
+    ],
+    "next_maintenance_date": "2026-07-28"
+  },
+  {
+    "line_id": "TL-220-056",
+    "line_name": "220kV Kaul - PTPS Panipat Line",
+    "voltage": "220kV",
+    "from_substation": {
+      "code": 12303,
+      "name": "220kV Kaul",
+      "lat": 30.8365,
+      "lng": 76.7984
+    },
+    "to_substation": {
+      "code": 13231,
+      "name": "220kV PTPS Panipat",
+      "lat": 30.5549,
+      "lng": 76.8852
+    },
+    "length_km": 32.4,
+    "health_score": 70,
+    "status": "Warning",
+    "load_mw": 163,
+    "capacity_mw": 235,
+    "tower_count": 103,
+    "conductor_type": "ACSR Dog",
+    "issues": [
+      {
+        "tower_no": "Tower #63",
+        "type": "Vegetation",
+        "severity": "Medium",
+        "description": "Tree canopy clearance breach (< 1.6m)"
+      },
+      {
+        "tower_no": "Tower #65",
+        "type": "Tower",
+        "severity": "Medium",
+        "description": "Tower structural rust / foundation settlement detected"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-220-057",
+    "line_name": "220kV Isherwal - Masudpur Line",
+    "voltage": "220kV",
+    "from_substation": {
+      "code": 21217,
+      "name": "220kV Isherwal",
+      "lat": 29.2525,
+      "lng": 75.8355
+    },
+    "to_substation": {
+      "code": 21122,
+      "name": "220kV Masudpur",
+      "lat": 29.0279,
+      "lng": 75.5977
+    },
+    "length_km": 18.5,
+    "health_score": 47,
+    "status": "Critical",
+    "load_mw": 178,
+    "capacity_mw": 235,
+    "tower_count": 59,
+    "conductor_type": "ACSR Dog",
+    "issues": [
+      {
+        "tower_no": "Tower #11",
+        "type": "Tower",
+        "severity": "High",
+        "description": "Tower structural rust / foundation settlement detected"
+      },
+      {
+        "tower_no": "Tower #11",
+        "type": "Sag",
+        "severity": "High",
+        "description": "Conductor sag exceeds clearance limit at mid-span"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-220-058",
+    "line_name": "220kV Sec-33 GGN - Sec-1 Manesar Line (Feeder 2)",
+    "voltage": "220kV",
+    "from_substation": {
+      "code": 23130,
+      "name": "220kV Sec-33 GGN",
+      "lat": 29.1573,
+      "lng": 75.8202
+    },
+    "to_substation": {
+      "code": 23201,
+      "name": "220kV Sec-1 Manesar",
+      "lat": 29.0033,
+      "lng": 75.8676
+    },
+    "length_km": 57.3,
+    "health_score": 63,
+    "status": "Warning",
+    "load_mw": 188,
+    "capacity_mw": 235,
+    "tower_count": 183,
+    "conductor_type": "ACSR Weasel",
+    "issues": [
+      {
+        "tower_no": "Tower #55",
+        "type": "Hotspot",
+        "severity": "Medium",
+        "description": "Temperature anomaly detected on C-Phase isolator clamp (64\u00b0C)"
+      }
+    ],
+    "next_maintenance_date": "2026-07-28"
+  },
+  {
+    "line_id": "TL-220-059",
+    "line_name": "220kV Bakana - Sec-85 GGN Line",
+    "voltage": "220kV",
+    "from_substation": {
+      "code": 11326,
+      "name": "220kV Bakana",
+      "lat": 30.7962,
+      "lng": 76.925
+    },
+    "to_substation": {
+      "code": 23215,
+      "name": "220kV Sec-85 GGN",
+      "lat": 29.0405,
+      "lng": 75.6781
+    },
+    "length_km": 46.9,
+    "health_score": 84,
+    "status": "Warning",
+    "load_mw": 99,
+    "capacity_mw": 235,
+    "tower_count": 150,
+    "conductor_type": "ACSR Zebra",
+    "issues": [
+      {
+        "tower_no": "Tower #97",
+        "type": "Tower",
+        "severity": "Medium",
+        "description": "Tower structural rust / foundation settlement detected"
+      },
+      {
+        "tower_no": "Tower #138",
+        "type": "Vegetation",
+        "severity": "Medium",
+        "description": "Tree canopy clearance breach (< 2.1m)"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-220-060",
+    "line_name": "220kV Samalkha - Narwana Line",
+    "voltage": "220kV",
+    "from_substation": {
+      "code": 13319,
+      "name": "220kV Samalkha",
+      "lat": 30.7837,
+      "lng": 76.7349
+    },
+    "to_substation": {
+      "code": 21412,
+      "name": "220kV Narwana",
+      "lat": 29.1213,
+      "lng": 75.6966
+    },
+    "length_km": 27.0,
+    "health_score": 55,
+    "status": "Critical",
+    "load_mw": 181,
+    "capacity_mw": 235,
+    "tower_count": 86,
+    "conductor_type": "AAAC Panther",
+    "issues": [
+      {
+        "tower_no": "Tower #30",
+        "type": "Hotspot",
+        "severity": "High",
+        "description": "Temperature anomaly detected on C-Phase isolator clamp (64\u00b0C)"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-132-061",
+    "line_name": "132kV IA Bhiwani - Nidana Line (Feeder 1)",
+    "voltage": "132kV",
+    "from_substation": {
+      "code": 21203,
+      "name": "132kV IA Bhiwani",
+      "lat": 29.0332,
+      "lng": 75.5978
+    },
+    "to_substation": {
+      "code": 12218,
+      "name": "132kV Nidana",
+      "lat": 30.5429,
+      "lng": 76.7215
+    },
+    "length_km": 46.5,
+    "health_score": 57,
+    "status": "Critical",
+    "load_mw": 47,
+    "capacity_mw": 120,
+    "tower_count": 148,
+    "conductor_type": "ACSR Zebra",
+    "issues": [
+      {
+        "tower_no": "Tower #94",
+        "type": "Insulator",
+        "severity": "High",
+        "description": "Insulator flashover / crack detected on string assembly"
+      },
+      {
+        "tower_no": "Tower #63",
+        "type": "Tower",
+        "severity": "High",
+        "description": "Tower structural rust / foundation settlement detected"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-132-062",
+    "line_name": "132kV Naulatha - Pali Line",
+    "voltage": "132kV",
+    "from_substation": {
+      "code": 13305,
+      "name": "132kV Naulatha",
+      "lat": 30.8089,
+      "lng": 76.9989
+    },
+    "to_substation": {
+      "code": 23306,
+      "name": "132kV Pali",
+      "lat": 29.1993,
+      "lng": 75.8418
+    },
+    "length_km": 50.8,
+    "health_score": 52,
+    "status": "Critical",
+    "load_mw": 96,
+    "capacity_mw": 120,
+    "tower_count": 162,
+    "conductor_type": "ACSR Moose",
+    "issues": [
+      {
+        "tower_no": "Tower #64",
+        "type": "Vegetation",
+        "severity": "High",
+        "description": "Tree canopy clearance breach (< 1.6m)"
+      },
+      {
+        "tower_no": "Tower #146",
+        "type": "Tower",
+        "severity": "High",
+        "description": "Tower structural rust / foundation settlement detected"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-132-063",
+    "line_name": "132kV Bhadson - Gharaunda Line",
+    "voltage": "132kV",
+    "from_substation": {
+      "code": 12212,
+      "name": "132kV Bhadson",
+      "lat": 30.8128,
+      "lng": 76.8508
+    },
+    "to_substation": {
+      "code": 12213,
+      "name": "132kV Gharaunda",
+      "lat": 30.6689,
+      "lng": 76.7979
+    },
+    "length_km": 46.8,
+    "health_score": 71,
+    "status": "Warning",
+    "load_mw": 43,
+    "capacity_mw": 120,
+    "tower_count": 149,
+    "conductor_type": "ACSR Moose",
+    "issues": [
+      {
+        "tower_no": "Tower #110",
+        "type": "Vegetation",
+        "severity": "Medium",
+        "description": "Tree canopy clearance breach (< 2.8m)"
+      },
+      {
+        "tower_no": "Tower #101",
+        "type": "Hotspot",
+        "severity": "Medium",
+        "description": "Temperature anomaly detected on C-Phase isolator clamp (64\u00b0C)"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-132-064",
+    "line_name": "132kV Kanina - MDU Rohtak Line (Feeder 2)",
+    "voltage": "132kV",
+    "from_substation": {
+      "code": 23303,
+      "name": "132kV Kanina",
+      "lat": 29.2649,
+      "lng": 75.6768
+    },
+    "to_substation": {
+      "code": 13105,
+      "name": "132kV MDU Rohtak",
+      "lat": 30.8219,
+      "lng": 76.964
+    },
+    "length_km": 41.5,
+    "health_score": 64,
+    "status": "Warning",
+    "load_mw": 79,
+    "capacity_mw": 120,
+    "tower_count": 132,
+    "conductor_type": "AAAC Panther",
+    "issues": [
+      {
+        "tower_no": "Tower #46",
+        "type": "Insulator",
+        "severity": "Medium",
+        "description": "Insulator flashover / crack detected on string assembly"
+      },
+      {
+        "tower_no": "Tower #88",
+        "type": "Insulator",
+        "severity": "Medium",
+        "description": "Insulator flashover / crack detected on string assembly"
+      },
+      {
+        "tower_no": "Tower #24",
+        "type": "Insulator",
+        "severity": "Medium",
+        "description": "Insulator flashover / crack detected on string assembly"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-132-065",
+    "line_name": "132kV Makrani - Khewra Line",
+    "voltage": "132kV",
+    "from_substation": {
+      "code": 21224,
+      "name": "132kV Makrani",
+      "lat": 29.0823,
+      "lng": 75.644
+    },
+    "to_substation": {
+      "code": 13327,
+      "name": "132kV Khewra",
+      "lat": 30.6413,
+      "lng": 76.7456
+    },
+    "length_km": 25.8,
+    "health_score": 91,
+    "status": "Optimal",
+    "load_mw": 47,
+    "capacity_mw": 120,
+    "tower_count": 82,
+    "conductor_type": "ACSR Dog",
+    "issues": [],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-132-066",
+    "line_name": "132kV Pasina Khurd - Kaithal Line",
+    "voltage": "132kV",
+    "from_substation": {
+      "code": 13333,
+      "name": "132kV Pasina Khurd",
+      "lat": 30.8085,
+      "lng": 76.7659
+    },
+    "to_substation": {
+      "code": 12319,
+      "name": "132kV Kaithal",
+      "lat": 30.7628,
+      "lng": 76.9069
+    },
+    "length_km": 29.7,
+    "health_score": 58,
+    "status": "Critical",
+    "load_mw": 82,
+    "capacity_mw": 120,
+    "tower_count": 95,
+    "conductor_type": "ACSR Weasel",
+    "issues": [
+      {
+        "tower_no": "Tower #87",
+        "type": "Sag",
+        "severity": "High",
+        "description": "Conductor sag exceeds clearance limit at mid-span"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-132-067",
+    "line_name": "132kV Thana - HSIIDC Panipat Line (Feeder 1)",
+    "voltage": "132kV",
+    "from_substation": {
+      "code": 12305,
+      "name": "132kV Thana",
+      "lat": 30.6933,
+      "lng": 76.8965
+    },
+    "to_substation": {
+      "code": 13329,
+      "name": "132kV HSIIDC Panipat",
+      "lat": 30.8232,
+      "lng": 76.8014
+    },
+    "length_km": 8.0,
+    "health_score": 49,
+    "status": "Critical",
+    "load_mw": 86,
+    "capacity_mw": 120,
+    "tower_count": 25,
+    "conductor_type": "ACSR Moose",
+    "issues": [
+      {
+        "tower_no": "Tower #19",
+        "type": "Insulator",
+        "severity": "High",
+        "description": "Insulator flashover / crack detected on string assembly"
+      },
+      {
+        "tower_no": "Tower #19",
+        "type": "Vegetation",
+        "severity": "High",
+        "description": "Tree canopy clearance breach (< 2.0m)"
+      },
+      {
+        "tower_no": "Tower #11",
+        "type": "Insulator",
+        "severity": "High",
+        "description": "Insulator flashover / crack detected on string assembly"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-132-068",
+    "line_name": "132kV Julana - Berla Line",
+    "voltage": "132kV",
+    "from_substation": {
+      "code": 21407,
+      "name": "132kV Julana",
+      "lat": 29.1494,
+      "lng": 75.7462
+    },
+    "to_substation": {
+      "code": 21221,
+      "name": "132kV Berla",
+      "lat": 29.1043,
+      "lng": 75.7474
+    },
+    "length_km": 41.9,
+    "health_score": 78,
+    "status": "Shutdown",
+    "load_mw": 102,
+    "capacity_mw": 120,
+    "tower_count": 134,
+    "conductor_type": "ACSR Weasel",
+    "issues": [
+      {
+        "tower_no": "Tower #109",
+        "type": "Tower",
+        "severity": "Medium",
+        "description": "Tower structural rust / foundation settlement detected"
+      },
+      {
+        "tower_no": "Tower #98",
+        "type": "Tower",
+        "severity": "Medium",
+        "description": "Tower structural rust / foundation settlement detected"
+      },
+      {
+        "tower_no": "Tower #79",
+        "type": "Vegetation",
+        "severity": "Medium",
+        "description": "Tree canopy clearance breach (< 2.5m)"
+      }
+    ],
+    "next_maintenance_date": "2026-07-28"
+  },
+  {
+    "line_id": "TL-132-069",
+    "line_name": "132kV Jhanswa - Jassia Line",
+    "voltage": "132kV",
+    "from_substation": {
+      "code": 13130,
+      "name": "132kV Jhanswa",
+      "lat": 30.6403,
+      "lng": 76.879
+    },
+    "to_substation": {
+      "code": 13107,
+      "name": "132kV Jassia",
+      "lat": 30.6109,
+      "lng": 76.9351
+    },
+    "length_km": 43.2,
+    "health_score": 56,
+    "status": "Shutdown",
+    "load_mw": 77,
+    "capacity_mw": 120,
+    "tower_count": 138,
+    "conductor_type": "ACSR Dog",
+    "issues": [
+      {
+        "tower_no": "Tower #113",
+        "type": "Hotspot",
+        "severity": "High",
+        "description": "Temperature anomaly detected on C-Phase isolator clamp (56\u00b0C)"
+      }
+    ],
+    "next_maintenance_date": "2026-07-28"
+  },
+  {
+    "line_id": "TL-132-070",
+    "line_name": "132kV Jakhal - Sampla Line (Feeder 2)",
+    "voltage": "132kV",
+    "from_substation": {
+      "code": 21104,
+      "name": "132kV Jakhal",
+      "lat": 29.1799,
+      "lng": 75.8381
+    },
+    "to_substation": {
+      "code": 13119,
+      "name": "132kV Sampla",
+      "lat": 30.7868,
+      "lng": 76.9837
+    },
+    "length_km": 62.8,
+    "health_score": 91,
+    "status": "Optimal",
+    "load_mw": 68,
+    "capacity_mw": 120,
+    "tower_count": 200,
+    "conductor_type": "AAAC Panther",
+    "issues": [],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-132-071",
+    "line_name": "132kV Nanakpur - Narnaund Line",
+    "voltage": "132kV",
+    "from_substation": {
+      "code": 11127,
+      "name": "132kV Nanakpur",
+      "lat": 30.8132,
+      "lng": 76.9995
+    },
+    "to_substation": {
+      "code": 21108,
+      "name": "132kV Narnaund",
+      "lat": 29.1343,
+      "lng": 75.8569
+    },
+    "length_km": 16.6,
+    "health_score": 55,
+    "status": "Critical",
+    "load_mw": 91,
+    "capacity_mw": 120,
+    "tower_count": 53,
+    "conductor_type": "ACSR Weasel",
+    "issues": [
+      {
+        "tower_no": "Tower #24",
+        "type": "Vegetation",
+        "severity": "High",
+        "description": "Tree canopy clearance breach (< 1.5m)"
+      },
+      {
+        "tower_no": "Tower #32",
+        "type": "Hotspot",
+        "severity": "High",
+        "description": "Temperature anomaly detected on C-Phase isolator clamp (55\u00b0C)"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-132-072",
+    "line_name": "132kV Siwan - Julana Line",
+    "voltage": "132kV",
+    "from_substation": {
+      "code": 12310,
+      "name": "132kV Siwan",
+      "lat": 30.6425,
+      "lng": 76.8105
+    },
+    "to_substation": {
+      "code": 21407,
+      "name": "132kV Julana",
+      "lat": 29.1494,
+      "lng": 75.7462
+    },
+    "length_km": 54.0,
+    "health_score": 88,
+    "status": "Optimal",
+    "load_mw": 62,
+    "capacity_mw": 120,
+    "tower_count": 172,
+    "conductor_type": "ACSR Zebra",
+    "issues": [],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-132-073",
+    "line_name": "132kV Jui - Habri Line (Feeder 1)",
+    "voltage": "132kV",
+    "from_substation": {
+      "code": 21212,
+      "name": "132kV Jui",
+      "lat": 29.2298,
+      "lng": 75.6579
+    },
+    "to_substation": {
+      "code": 12314,
+      "name": "132kV Habri",
+      "lat": 30.7751,
+      "lng": 76.746
+    },
+    "length_km": 32.6,
+    "health_score": 96,
+    "status": "Optimal",
+    "load_mw": 91,
+    "capacity_mw": 120,
+    "tower_count": 104,
+    "conductor_type": "ACSR Moose",
+    "issues": [],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-132-074",
+    "line_name": "132kV Khurana - Sector-27/28 Hisar Line",
+    "voltage": "132kV",
+    "from_substation": {
+      "code": 12313,
+      "name": "132kV Khurana",
+      "lat": 30.7578,
+      "lng": 76.7932
+    },
+    "to_substation": {
+      "code": 21111,
+      "name": "132kV Sector-27/28 Hisar",
+      "lat": 29.2218,
+      "lng": 75.6327
+    },
+    "length_km": 63.0,
+    "health_score": 59,
+    "status": "Shutdown",
+    "load_mw": 81,
+    "capacity_mw": 120,
+    "tower_count": 201,
+    "conductor_type": "ACSR Moose",
+    "issues": [
+      {
+        "tower_no": "Tower #91",
+        "type": "Hotspot",
+        "severity": "High",
+        "description": "Temperature anomaly detected on C-Phase isolator clamp (77\u00b0C)"
+      },
+      {
+        "tower_no": "Tower #46",
+        "type": "Hotspot",
+        "severity": "High",
+        "description": "Temperature anomaly detected on C-Phase isolator clamp (73\u00b0C)"
+      }
+    ],
+    "next_maintenance_date": "2026-07-28"
+  },
+  {
+    "line_id": "TL-132-075",
+    "line_name": "132kV Beer - Madhosinghana Line",
+    "voltage": "132kV",
+    "from_substation": {
+      "code": 21112,
+      "name": "132kV Beer",
+      "lat": 29.0493,
+      "lng": 75.7797
+    },
+    "to_substation": {
+      "code": 21311,
+      "name": "132kV Madhosinghana",
+      "lat": 29.1636,
+      "lng": 75.5726
+    },
+    "length_km": 46.9,
+    "health_score": 91,
+    "status": "Optimal",
+    "load_mw": 110,
+    "capacity_mw": 120,
+    "tower_count": 150,
+    "conductor_type": "AAAC Panther",
+    "issues": [],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-132-076",
+    "line_name": "132kV Sagga - Ganaur Line (Feeder 2)",
+    "voltage": "132kV",
+    "from_substation": {
+      "code": 12220,
+      "name": "132kV Sagga",
+      "lat": 30.7709,
+      "lng": 76.7445
+    },
+    "to_substation": {
+      "code": 13317,
+      "name": "132kV Ganaur",
+      "lat": 30.7904,
+      "lng": 76.9172
+    },
+    "length_km": 24.9,
+    "health_score": 62,
+    "status": "Warning",
+    "load_mw": 96,
+    "capacity_mw": 120,
+    "tower_count": 79,
+    "conductor_type": "ACSR Moose",
+    "issues": [
+      {
+        "tower_no": "Tower #26",
+        "type": "Insulator",
+        "severity": "Medium",
+        "description": "Insulator flashover / crack detected on string assembly"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-132-077",
+    "line_name": "132kV Urlana - Gharaunda Line",
+    "voltage": "132kV",
+    "from_substation": {
+      "code": 13325,
+      "name": "132kV Urlana",
+      "lat": 30.5538,
+      "lng": 76.972
+    },
+    "to_substation": {
+      "code": 12213,
+      "name": "132kV Gharaunda",
+      "lat": 30.6689,
+      "lng": 76.7979
+    },
+    "length_km": 43.8,
+    "health_score": 58,
+    "status": "Critical",
+    "load_mw": 91,
+    "capacity_mw": 120,
+    "tower_count": 140,
+    "conductor_type": "AAAC Panther",
+    "issues": [
+      {
+        "tower_no": "Tower #19",
+        "type": "Vegetation",
+        "severity": "High",
+        "description": "Tree canopy clearance breach (< 1.6m)"
+      },
+      {
+        "tower_no": "Tower #96",
+        "type": "Insulator",
+        "severity": "High",
+        "description": "Insulator flashover / crack detected on string assembly"
+      },
+      {
+        "tower_no": "Tower #27",
+        "type": "Vegetation",
+        "severity": "High",
+        "description": "Tree canopy clearance breach (< 2.6m)"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-132-078",
+    "line_name": "132kV Uklana - Odhan Line",
+    "voltage": "132kV",
+    "from_substation": {
+      "code": 21107,
+      "name": "132kV Uklana",
+      "lat": 29.1242,
+      "lng": 75.8406
+    },
+    "to_substation": {
+      "code": 21305,
+      "name": "132kV Odhan",
+      "lat": 29.2657,
+      "lng": 75.8611
+    },
+    "length_km": 50.3,
+    "health_score": 46,
+    "status": "Critical",
+    "load_mw": 87,
+    "capacity_mw": 120,
+    "tower_count": 160,
+    "conductor_type": "ACSR Moose",
+    "issues": [
+      {
+        "tower_no": "Tower #15",
+        "type": "Vegetation",
+        "severity": "High",
+        "description": "Tree canopy clearance breach (< 2.0m)"
+      },
+      {
+        "tower_no": "Tower #150",
+        "type": "Tower",
+        "severity": "High",
+        "description": "Tower structural rust / foundation settlement detected"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-132-079",
+    "line_name": "132kV Begu - Hisar Cantt Line (Feeder 1)",
+    "voltage": "132kV",
+    "from_substation": {
+      "code": 21304,
+      "name": "132kV Begu",
+      "lat": 29.2211,
+      "lng": 75.7641
+    },
+    "to_substation": {
+      "code": 21119,
+      "name": "132kV Hisar Cantt",
+      "lat": 29.2491,
+      "lng": 75.5859
+    },
+    "length_km": 42.5,
+    "health_score": 45,
+    "status": "Critical",
+    "load_mw": 72,
+    "capacity_mw": 120,
+    "tower_count": 136,
+    "conductor_type": "ACSR Moose",
+    "issues": [
+      {
+        "tower_no": "Tower #51",
+        "type": "Tower",
+        "severity": "High",
+        "description": "Tower structural rust / foundation settlement detected"
+      },
+      {
+        "tower_no": "Tower #38",
+        "type": "Sag",
+        "severity": "High",
+        "description": "Conductor sag exceeds clearance limit at mid-span"
+      }
+    ],
+    "next_maintenance_date": "2026-07-28"
+  },
+  {
+    "line_id": "TL-132-080",
+    "line_name": "132kV Palli Gothra - Narnaund Line",
+    "voltage": "132kV",
+    "from_substation": {
+      "code": 23309,
+      "name": "132kV Palli Gothra",
+      "lat": 29.2911,
+      "lng": 75.8385
+    },
+    "to_substation": {
+      "code": 21108,
+      "name": "132kV Narnaund",
+      "lat": 29.1343,
+      "lng": 75.8569
+    },
+    "length_km": 61.9,
+    "health_score": 95,
+    "status": "Optimal",
+    "load_mw": 80,
+    "capacity_mw": 120,
+    "tower_count": 198,
+    "conductor_type": "ACSR Moose",
+    "issues": [],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-132-081",
+    "line_name": "132kV Loharu - Sirsa Line",
+    "voltage": "132kV",
+    "from_substation": {
+      "code": 21214,
+      "name": "132kV Loharu",
+      "lat": 29.2842,
+      "lng": 75.7795
+    },
+    "to_substation": {
+      "code": 21302,
+      "name": "132kV Sirsa",
+      "lat": 29.1222,
+      "lng": 75.6995
+    },
+    "length_km": 49.5,
+    "health_score": 89,
+    "status": "Optimal",
+    "load_mw": 98,
+    "capacity_mw": 120,
+    "tower_count": 158,
+    "conductor_type": "ACSR Moose",
+    "issues": [],
+    "next_maintenance_date": "2026-07-28"
+  },
+  {
+    "line_id": "TL-132-082",
+    "line_name": "132kV Poly-Steel - Karnal Line (Feeder 2)",
+    "voltage": "132kV",
+    "from_substation": {
+      "code": 21113,
+      "name": "132kV Poly-Steel",
+      "lat": 29.1593,
+      "lng": 75.799
+    },
+    "to_substation": {
+      "code": 12202,
+      "name": "132kV Karnal",
+      "lat": 30.5587,
+      "lng": 76.8137
+    },
+    "length_km": 37.5,
+    "health_score": 78,
+    "status": "Warning",
+    "load_mw": 107,
+    "capacity_mw": 120,
+    "tower_count": 120,
+    "conductor_type": "AAAC Panther",
+    "issues": [
+      {
+        "tower_no": "Tower #92",
+        "type": "Insulator",
+        "severity": "Medium",
+        "description": "Insulator flashover / crack detected on string assembly"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-132-083",
+    "line_name": "132kV Munak - Chandoli Line",
+    "voltage": "132kV",
+    "from_substation": {
+      "code": 12223,
+      "name": "132kV Munak",
+      "lat": 30.5601,
+      "lng": 76.7985
+    },
+    "to_substation": {
+      "code": 13311,
+      "name": "132kV Chandoli",
+      "lat": 30.5901,
+      "lng": 76.7309
+    },
+    "length_km": 53.0,
+    "health_score": 90,
+    "status": "Optimal",
+    "load_mw": 91,
+    "capacity_mw": 120,
+    "tower_count": 169,
+    "conductor_type": "ACSR Dog",
+    "issues": [],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-132-084",
+    "line_name": "132kV Loharu - Sampla Line",
+    "voltage": "132kV",
+    "from_substation": {
+      "code": 21214,
+      "name": "132kV Loharu",
+      "lat": 29.2842,
+      "lng": 75.7795
+    },
+    "to_substation": {
+      "code": 13119,
+      "name": "132kV Sampla",
+      "lat": 30.7868,
+      "lng": 76.9837
+    },
+    "length_km": 34.7,
+    "health_score": 53,
+    "status": "Critical",
+    "load_mw": 85,
+    "capacity_mw": 120,
+    "tower_count": 111,
+    "conductor_type": "ACSR Weasel",
+    "issues": [
+      {
+        "tower_no": "Tower #11",
+        "type": "Hotspot",
+        "severity": "High",
+        "description": "Temperature anomaly detected on C-Phase isolator clamp (78\u00b0C)"
+      },
+      {
+        "tower_no": "Tower #62",
+        "type": "Vegetation",
+        "severity": "High",
+        "description": "Tree canopy clearance breach (< 1.5m)"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-132-085",
+    "line_name": "132kV Chandi - Chaku Ladana Line (Feeder 1)",
+    "voltage": "132kV",
+    "from_substation": {
+      "code": 13128,
+      "name": "132kV Chandi",
+      "lat": 30.5955,
+      "lng": 76.7261
+    },
+    "to_substation": {
+      "code": 12308,
+      "name": "132kV Chaku Ladana",
+      "lat": 30.6847,
+      "lng": 76.8112
+    },
+    "length_km": 47.1,
+    "health_score": 57,
+    "status": "Shutdown",
+    "load_mw": 79,
+    "capacity_mw": 120,
+    "tower_count": 150,
+    "conductor_type": "ACSR Zebra",
+    "issues": [
+      {
+        "tower_no": "Tower #32",
+        "type": "Sag",
+        "severity": "High",
+        "description": "Conductor sag exceeds clearance limit at mid-span"
+      }
+    ],
+    "next_maintenance_date": "2026-07-28"
+  },
+  {
+    "line_id": "TL-132-086",
+    "line_name": "132kV Sampla - Telewara Line",
+    "voltage": "132kV",
+    "from_substation": {
+      "code": 13119,
+      "name": "132kV Sampla",
+      "lat": 30.7868,
+      "lng": 76.9837
+    },
+    "to_substation": {
+      "code": 21117,
+      "name": "132kV Telewara",
+      "lat": 29.2611,
+      "lng": 75.6519
+    },
+    "length_km": 45.9,
+    "health_score": 53,
+    "status": "Critical",
+    "load_mw": 56,
+    "capacity_mw": 120,
+    "tower_count": 146,
+    "conductor_type": "AAAC Panther",
+    "issues": [
+      {
+        "tower_no": "Tower #120",
+        "type": "Tower",
+        "severity": "High",
+        "description": "Tower structural rust / foundation settlement detected"
+      },
+      {
+        "tower_no": "Tower #52",
+        "type": "Insulator",
+        "severity": "High",
+        "description": "Insulator flashover / crack detected on string assembly"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-132-087",
+    "line_name": "132kV Telewara - Murthal Line",
+    "voltage": "132kV",
+    "from_substation": {
+      "code": 21117,
+      "name": "132kV Telewara",
+      "lat": 29.2611,
+      "lng": 75.6519
+    },
+    "to_substation": {
+      "code": 13315,
+      "name": "132kV Murthal",
+      "lat": 30.711,
+      "lng": 76.7592
+    },
+    "length_km": 29.5,
+    "health_score": 59,
+    "status": "Shutdown",
+    "load_mw": 87,
+    "capacity_mw": 120,
+    "tower_count": 94,
+    "conductor_type": "AAAC Panther",
+    "issues": [
+      {
+        "tower_no": "Tower #23",
+        "type": "Insulator",
+        "severity": "High",
+        "description": "Insulator flashover / crack detected on string assembly"
+      }
+    ],
+    "next_maintenance_date": "2026-07-28"
+  },
+  {
+    "line_id": "TL-132-088",
+    "line_name": "132kV Phase IV Hsiidc Kundli - Kamalpur Line (Feeder 2)",
+    "voltage": "132kV",
+    "from_substation": {
+      "code": 13324,
+      "name": "132kV Phase IV Hsiidc Kundli",
+      "lat": 30.5594,
+      "lng": 76.9146
+    },
+    "to_substation": {
+      "code": 23327,
+      "name": "132kV Kamalpur",
+      "lat": 29.1565,
+      "lng": 75.8257
+    },
+    "length_km": 11.4,
+    "health_score": 63,
+    "status": "Warning",
+    "load_mw": 94,
+    "capacity_mw": 120,
+    "tower_count": 36,
+    "conductor_type": "ACSR Weasel",
+    "issues": [
+      {
+        "tower_no": "Tower #14",
+        "type": "Hotspot",
+        "severity": "Medium",
+        "description": "Temperature anomaly detected on C-Phase isolator clamp (74\u00b0C)"
+      },
+      {
+        "tower_no": "Tower #5",
+        "type": "Sag",
+        "severity": "Medium",
+        "description": "Conductor sag exceeds clearance limit at mid-span"
+      },
+      {
+        "tower_no": "Tower #9",
+        "type": "Tower",
+        "severity": "Medium",
+        "description": "Tower structural rust / foundation settlement detected"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-132-089",
+    "line_name": "132kV Habri - Pipli Line",
+    "voltage": "132kV",
+    "from_substation": {
+      "code": 12314,
+      "name": "132kV Habri",
+      "lat": 30.7751,
+      "lng": 76.746
+    },
+    "to_substation": {
+      "code": 12108,
+      "name": "132kV Pipli",
+      "lat": 30.7379,
+      "lng": 76.9412
+    },
+    "length_km": 25.8,
+    "health_score": 48,
+    "status": "Critical",
+    "load_mw": 100,
+    "capacity_mw": 120,
+    "tower_count": 82,
+    "conductor_type": "ACSR Zebra",
+    "issues": [
+      {
+        "tower_no": "Tower #6",
+        "type": "Tower",
+        "severity": "High",
+        "description": "Tower structural rust / foundation settlement detected"
+      },
+      {
+        "tower_no": "Tower #64",
+        "type": "Tower",
+        "severity": "High",
+        "description": "Tower structural rust / foundation settlement detected"
+      },
+      {
+        "tower_no": "Tower #47",
+        "type": "Sag",
+        "severity": "High",
+        "description": "Conductor sag exceeds clearance limit at mid-span"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-132-090",
+    "line_name": "132kV Murthal - Palli Gothra Line",
+    "voltage": "132kV",
+    "from_substation": {
+      "code": 13315,
+      "name": "132kV Murthal",
+      "lat": 30.711,
+      "lng": 76.7592
+    },
+    "to_substation": {
+      "code": 23309,
+      "name": "132kV Palli Gothra",
+      "lat": 29.2911,
+      "lng": 75.8385
+    },
+    "length_km": 60.5,
+    "health_score": 57,
+    "status": "Critical",
+    "load_mw": 97,
+    "capacity_mw": 120,
+    "tower_count": 193,
+    "conductor_type": "AAAC Panther",
+    "issues": [
+      {
+        "tower_no": "Tower #180",
+        "type": "Tower",
+        "severity": "High",
+        "description": "Tower structural rust / foundation settlement detected"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-132-091",
+    "line_name": "132kV Kheri Taloda - Dadri Old Line (Feeder 1)",
+    "voltage": "132kV",
+    "from_substation": {
+      "code": 21404,
+      "name": "132kV Kheri Taloda",
+      "lat": 29.2787,
+      "lng": 75.7008
+    },
+    "to_substation": {
+      "code": 21205,
+      "name": "132kV Dadri Old",
+      "lat": 29.2432,
+      "lng": 75.7494
+    },
+    "length_km": 60.9,
+    "health_score": 80,
+    "status": "Warning",
+    "load_mw": 94,
+    "capacity_mw": 120,
+    "tower_count": 194,
+    "conductor_type": "ACSR Weasel",
+    "issues": [
+      {
+        "tower_no": "Tower #139",
+        "type": "Vegetation",
+        "severity": "Medium",
+        "description": "Tree canopy clearance breach (< 1.9m)"
+      },
+      {
+        "tower_no": "Tower #95",
+        "type": "Hotspot",
+        "severity": "Medium",
+        "description": "Temperature anomaly detected on C-Phase isolator clamp (67\u00b0C)"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-132-092",
+    "line_name": "132kV Assandh - Garhi Line",
+    "voltage": "132kV",
+    "from_substation": {
+      "code": 12203,
+      "name": "132kV Assandh",
+      "lat": 30.7483,
+      "lng": 76.7284
+    },
+    "to_substation": {
+      "code": 21418,
+      "name": "132kV Garhi",
+      "lat": 29.2591,
+      "lng": 75.621
+    },
+    "length_km": 45.9,
+    "health_score": 65,
+    "status": "Warning",
+    "load_mw": 54,
+    "capacity_mw": 120,
+    "tower_count": 146,
+    "conductor_type": "ACSR Weasel",
+    "issues": [
+      {
+        "tower_no": "Tower #119",
+        "type": "Sag",
+        "severity": "Medium",
+        "description": "Conductor sag exceeds clearance limit at mid-span"
+      },
+      {
+        "tower_no": "Tower #58",
+        "type": "Vegetation",
+        "severity": "Medium",
+        "description": "Tree canopy clearance breach (< 2.7m)"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-132-093",
+    "line_name": "132kV Dadri Old - Pundri Line",
+    "voltage": "132kV",
+    "from_substation": {
+      "code": 21205,
+      "name": "132kV Dadri Old",
+      "lat": 29.2432,
+      "lng": 75.7494
+    },
+    "to_substation": {
+      "code": 12318,
+      "name": "132kV Pundri",
+      "lat": 30.5461,
+      "lng": 76.888
+    },
+    "length_km": 26.0,
+    "health_score": 83,
+    "status": "Shutdown",
+    "load_mw": 59,
+    "capacity_mw": 120,
+    "tower_count": 83,
+    "conductor_type": "ACSR Zebra",
+    "issues": [
+      {
+        "tower_no": "Tower #41",
+        "type": "Sag",
+        "severity": "Medium",
+        "description": "Conductor sag exceeds clearance limit at mid-span"
+      },
+      {
+        "tower_no": "Tower #67",
+        "type": "Sag",
+        "severity": "Medium",
+        "description": "Conductor sag exceeds clearance limit at mid-span"
+      }
+    ],
+    "next_maintenance_date": "2026-07-28"
+  },
+  {
+    "line_id": "TL-132-094",
+    "line_name": "132kV Gohana - HSIIDC Panipat Line (Feeder 2)",
+    "voltage": "132kV",
+    "from_substation": {
+      "code": 13108,
+      "name": "132kV Gohana",
+      "lat": 30.7138,
+      "lng": 76.8468
+    },
+    "to_substation": {
+      "code": 13329,
+      "name": "132kV HSIIDC Panipat",
+      "lat": 30.8232,
+      "lng": 76.8014
+    },
+    "length_km": 48.6,
+    "health_score": 95,
+    "status": "Optimal",
+    "load_mw": 97,
+    "capacity_mw": 120,
+    "tower_count": 155,
+    "conductor_type": "ACSR Dog",
+    "issues": [],
+    "next_maintenance_date": "2026-07-28"
+  },
+  {
+    "line_id": "TL-132-095",
+    "line_name": "132kV Buroli - Kurngawali Line",
+    "voltage": "132kV",
+    "from_substation": {
+      "code": 23308,
+      "name": "132kV Buroli",
+      "lat": 29.04,
+      "lng": 75.6199
+    },
+    "to_substation": {
+      "code": 21308,
+      "name": "132kV Kurngawali",
+      "lat": 29.2572,
+      "lng": 75.5802
+    },
+    "length_km": 41.5,
+    "health_score": 96,
+    "status": "Optimal",
+    "load_mw": 99,
+    "capacity_mw": 120,
+    "tower_count": 132,
+    "conductor_type": "ACSR Weasel",
+    "issues": [],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-132-096",
+    "line_name": "132kV Mela Ground - Bhuthan Kalan Line",
+    "voltage": "132kV",
+    "from_substation": {
+      "code": 21303,
+      "name": "132kV Mela Ground",
+      "lat": 29.0148,
+      "lng": 75.6833
+    },
+    "to_substation": {
+      "code": 21124,
+      "name": "132kV Bhuthan Kalan",
+      "lat": 29.0931,
+      "lng": 75.7972
+    },
+    "length_km": 58.6,
+    "health_score": 52,
+    "status": "Critical",
+    "load_mw": 42,
+    "capacity_mw": 120,
+    "tower_count": 187,
+    "conductor_type": "ACSR Zebra",
+    "issues": [
+      {
+        "tower_no": "Tower #47",
+        "type": "Sag",
+        "severity": "High",
+        "description": "Conductor sag exceeds clearance limit at mid-span"
+      }
+    ],
+    "next_maintenance_date": "2026-07-28"
+  },
+  {
+    "line_id": "TL-132-097",
+    "line_name": "132kV Mundia Khera - Meham Line (Feeder 1)",
+    "voltage": "132kV",
+    "from_substation": {
+      "code": 23302,
+      "name": "132kV Mundia Khera",
+      "lat": 29.2438,
+      "lng": 75.6492
+    },
+    "to_substation": {
+      "code": 13117,
+      "name": "132kV Meham",
+      "lat": 30.7775,
+      "lng": 76.9119
+    },
+    "length_km": 54.2,
+    "health_score": 64,
+    "status": "Warning",
+    "load_mw": 48,
+    "capacity_mw": 120,
+    "tower_count": 173,
+    "conductor_type": "AAAC Panther",
+    "issues": [
+      {
+        "tower_no": "Tower #82",
+        "type": "Tower",
+        "severity": "Medium",
+        "description": "Tower structural rust / foundation settlement detected"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-132-098",
+    "line_name": "132kV Lukhi - Madhosinghana Line",
+    "voltage": "132kV",
+    "from_substation": {
+      "code": 12107,
+      "name": "132kV Lukhi",
+      "lat": 30.6142,
+      "lng": 76.9029
+    },
+    "to_substation": {
+      "code": 21311,
+      "name": "132kV Madhosinghana",
+      "lat": 29.1636,
+      "lng": 75.5726
+    },
+    "length_km": 44.8,
+    "health_score": 46,
+    "status": "Critical",
+    "load_mw": 106,
+    "capacity_mw": 120,
+    "tower_count": 143,
+    "conductor_type": "ACSR Weasel",
+    "issues": [
+      {
+        "tower_no": "Tower #121",
+        "type": "Tower",
+        "severity": "High",
+        "description": "Tower structural rust / foundation settlement detected"
+      },
+      {
+        "tower_no": "Tower #14",
+        "type": "Hotspot",
+        "severity": "High",
+        "description": "Temperature anomaly detected on C-Phase isolator clamp (55\u00b0C)"
+      },
+      {
+        "tower_no": "Tower #64",
+        "type": "Vegetation",
+        "severity": "High",
+        "description": "Tree canopy clearance breach (< 2.3m)"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-132-099",
+    "line_name": "132kV Dudhiyawali - Jalmana Line",
+    "voltage": "132kV",
+    "from_substation": {
+      "code": 21314,
+      "name": "132kV Dudhiyawali",
+      "lat": 29.1448,
+      "lng": 75.6305
+    },
+    "to_substation": {
+      "code": 12222,
+      "name": "132kV Jalmana",
+      "lat": 30.6591,
+      "lng": 76.9135
+    },
+    "length_km": 21.7,
+    "health_score": 68,
+    "status": "Shutdown",
+    "load_mw": 96,
+    "capacity_mw": 120,
+    "tower_count": 69,
+    "conductor_type": "ACSR Zebra",
+    "issues": [
+      {
+        "tower_no": "Tower #39",
+        "type": "Hotspot",
+        "severity": "Medium",
+        "description": "Temperature anomaly detected on C-Phase isolator clamp (59\u00b0C)"
+      }
+    ],
+    "next_maintenance_date": "2026-07-28"
+  },
+  {
+    "line_id": "TL-132-100",
+    "line_name": "132kV Jhanswa - Ramnageria Line (Feeder 2)",
+    "voltage": "132kV",
+    "from_substation": {
+      "code": 13130,
+      "name": "132kV Jhanswa",
+      "lat": 30.6403,
+      "lng": 76.879
+    },
+    "to_substation": {
+      "code": 21309,
+      "name": "132kV Ramnageria",
+      "lat": 29.1442,
+      "lng": 75.7302
+    },
+    "length_km": 59.0,
+    "health_score": 84,
+    "status": "Warning",
+    "load_mw": 102,
+    "capacity_mw": 120,
+    "tower_count": 188,
+    "conductor_type": "ACSR Moose",
+    "issues": [
+      {
+        "tower_no": "Tower #175",
+        "type": "Tower",
+        "severity": "Medium",
+        "description": "Tower structural rust / foundation settlement detected"
+      },
+      {
+        "tower_no": "Tower #36",
+        "type": "Tower",
+        "severity": "Medium",
+        "description": "Tower structural rust / foundation settlement detected"
+      },
+      {
+        "tower_no": "Tower #14",
+        "type": "Insulator",
+        "severity": "Medium",
+        "description": "Insulator flashover / crack detected on string assembly"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-132-101",
+    "line_name": "132kV Siwan - Bhojraj Line",
+    "voltage": "132kV",
+    "from_substation": {
+      "code": 12310,
+      "name": "132kV Siwan",
+      "lat": 30.6425,
+      "lng": 76.8105
+    },
+    "to_substation": {
+      "code": 21131,
+      "name": "132kV Bhojraj",
+      "lat": 29.0302,
+      "lng": 75.6921
+    },
+    "length_km": 44.3,
+    "health_score": 69,
+    "status": "Warning",
+    "load_mw": 67,
+    "capacity_mw": 120,
+    "tower_count": 141,
+    "conductor_type": "ACSR Moose",
+    "issues": [
+      {
+        "tower_no": "Tower #108",
+        "type": "Hotspot",
+        "severity": "Medium",
+        "description": "Temperature anomaly detected on C-Phase isolator clamp (63\u00b0C)"
+      },
+      {
+        "tower_no": "Tower #117",
+        "type": "Insulator",
+        "severity": "Medium",
+        "description": "Insulator flashover / crack detected on string assembly"
+      },
+      {
+        "tower_no": "Tower #62",
+        "type": "Hotspot",
+        "severity": "Medium",
+        "description": "Temperature anomaly detected on C-Phase isolator clamp (62\u00b0C)"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-132-102",
+    "line_name": "132kV Arya Nagar - Sector-27/28 Hisar Line",
+    "voltage": "132kV",
+    "from_substation": {
+      "code": 21115,
+      "name": "132kV Arya Nagar",
+      "lat": 29.0603,
+      "lng": 75.7932
+    },
+    "to_substation": {
+      "code": 21111,
+      "name": "132kV Sector-27/28 Hisar",
+      "lat": 29.2218,
+      "lng": 75.6327
+    },
+    "length_km": 62.8,
+    "health_score": 92,
+    "status": "Optimal",
+    "load_mw": 43,
+    "capacity_mw": 120,
+    "tower_count": 200,
+    "conductor_type": "ACSR Weasel",
+    "issues": [],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-132-103",
+    "line_name": "132kV IA Bhiwani - Bahadurgarh Line (Feeder 1)",
+    "voltage": "132kV",
+    "from_substation": {
+      "code": 21203,
+      "name": "132kV IA Bhiwani",
+      "lat": 29.0332,
+      "lng": 75.5978
+    },
+    "to_substation": {
+      "code": 13112,
+      "name": "132kV Bahadurgarh",
+      "lat": 30.7079,
+      "lng": 76.7349
+    },
+    "length_km": 62.2,
+    "health_score": 78,
+    "status": "Warning",
+    "load_mw": 77,
+    "capacity_mw": 120,
+    "tower_count": 199,
+    "conductor_type": "ACSR Dog",
+    "issues": [
+      {
+        "tower_no": "Tower #177",
+        "type": "Sag",
+        "severity": "Medium",
+        "description": "Conductor sag exceeds clearance limit at mid-span"
+      },
+      {
+        "tower_no": "Tower #139",
+        "type": "Hotspot",
+        "severity": "Medium",
+        "description": "Temperature anomaly detected on C-Phase isolator clamp (64\u00b0C)"
+      },
+      {
+        "tower_no": "Tower #42",
+        "type": "Vegetation",
+        "severity": "Medium",
+        "description": "Tree canopy clearance breach (< 2.4m)"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-132-104",
+    "line_name": "132kV Aasauda - Madlauda Line",
+    "voltage": "132kV",
+    "from_substation": {
+      "code": 13118,
+      "name": "132kV Aasauda",
+      "lat": 30.6504,
+      "lng": 76.8257
+    },
+    "to_substation": {
+      "code": 13312,
+      "name": "132kV Madlauda",
+      "lat": 30.5833,
+      "lng": 76.8984
+    },
+    "length_km": 27.4,
+    "health_score": 88,
+    "status": "Optimal",
+    "load_mw": 60,
+    "capacity_mw": 120,
+    "tower_count": 87,
+    "conductor_type": "AAAC Panther",
+    "issues": [],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-132-105",
+    "line_name": "132kV Jhanswa - Bahu Line",
+    "voltage": "132kV",
+    "from_substation": {
+      "code": 13130,
+      "name": "132kV Jhanswa",
+      "lat": 30.6403,
+      "lng": 76.879
+    },
+    "to_substation": {
+      "code": 13127,
+      "name": "132kV Bahu",
+      "lat": 30.5968,
+      "lng": 76.8573
+    },
+    "length_km": 55.4,
+    "health_score": 59,
+    "status": "Shutdown",
+    "load_mw": 92,
+    "capacity_mw": 120,
+    "tower_count": 177,
+    "conductor_type": "ACSR Zebra",
+    "issues": [
+      {
+        "tower_no": "Tower #112",
+        "type": "Sag",
+        "severity": "High",
+        "description": "Conductor sag exceeds clearance limit at mid-span"
+      }
+    ],
+    "next_maintenance_date": "2026-07-28"
+  },
+  {
+    "line_id": "TL-132-106",
+    "line_name": "132kV Gulam Ali - Naguran Line (Feeder 2)",
+    "voltage": "132kV",
+    "from_substation": {
+      "code": 12302,
+      "name": "132kV Gulam Ali",
+      "lat": 30.5974,
+      "lng": 76.7293
+    },
+    "to_substation": {
+      "code": 21410,
+      "name": "132kV Naguran",
+      "lat": 29.2696,
+      "lng": 75.6204
+    },
+    "length_km": 18.3,
+    "health_score": 49,
+    "status": "Critical",
+    "load_mw": 64,
+    "capacity_mw": 120,
+    "tower_count": 58,
+    "conductor_type": "ACSR Zebra",
+    "issues": [
+      {
+        "tower_no": "Tower #7",
+        "type": "Insulator",
+        "severity": "High",
+        "description": "Insulator flashover / crack detected on string assembly"
+      },
+      {
+        "tower_no": "Tower #31",
+        "type": "Tower",
+        "severity": "High",
+        "description": "Tower structural rust / foundation settlement detected"
+      }
+    ],
+    "next_maintenance_date": "2026-07-28"
+  },
+  {
+    "line_id": "TL-132-107",
+    "line_name": "132kV Bhadson - Bhattu Sotter Line",
+    "voltage": "132kV",
+    "from_substation": {
+      "code": 12212,
+      "name": "132kV Bhadson",
+      "lat": 30.8128,
+      "lng": 76.8508
+    },
+    "to_substation": {
+      "code": 21129,
+      "name": "132kV Bhattu Sotter",
+      "lat": 29.293,
+      "lng": 75.7482
+    },
+    "length_km": 30.9,
+    "health_score": 78,
+    "status": "Warning",
+    "load_mw": 63,
+    "capacity_mw": 120,
+    "tower_count": 98,
+    "conductor_type": "AAAC Panther",
+    "issues": [
+      {
+        "tower_no": "Tower #81",
+        "type": "Insulator",
+        "severity": "Medium",
+        "description": "Insulator flashover / crack detected on string assembly"
+      },
+      {
+        "tower_no": "Tower #5",
+        "type": "Insulator",
+        "severity": "Medium",
+        "description": "Insulator flashover / crack detected on string assembly"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-132-108",
+    "line_name": "132kV Narnaund - Halwas Line",
+    "voltage": "132kV",
+    "from_substation": {
+      "code": 21108,
+      "name": "132kV Narnaund",
+      "lat": 29.1343,
+      "lng": 75.8569
+    },
+    "to_substation": {
+      "code": 21204,
+      "name": "132kV Halwas",
+      "lat": 29.2121,
+      "lng": 75.8423
+    },
+    "length_km": 29.0,
+    "health_score": 85,
+    "status": "Optimal",
+    "load_mw": 53,
+    "capacity_mw": 120,
+    "tower_count": 92,
+    "conductor_type": "ACSR Zebra",
+    "issues": [],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-132-109",
+    "line_name": "132kV Dablain - Beer Line (Feeder 1)",
+    "voltage": "132kV",
+    "from_substation": {
+      "code": 21401,
+      "name": "132kV Dablain",
+      "lat": 29.0647,
+      "lng": 75.6068
+    },
+    "to_substation": {
+      "code": 21112,
+      "name": "132kV Beer",
+      "lat": 29.0493,
+      "lng": 75.7797
+    },
+    "length_km": 17.4,
+    "health_score": 45,
+    "status": "Shutdown",
+    "load_mw": 85,
+    "capacity_mw": 120,
+    "tower_count": 55,
+    "conductor_type": "ACSR Dog",
+    "issues": [
+      {
+        "tower_no": "Tower #27",
+        "type": "Hotspot",
+        "severity": "High",
+        "description": "Temperature anomaly detected on C-Phase isolator clamp (72\u00b0C)"
+      },
+      {
+        "tower_no": "Tower #49",
+        "type": "Hotspot",
+        "severity": "High",
+        "description": "Temperature anomaly detected on C-Phase isolator clamp (61\u00b0C)"
+      },
+      {
+        "tower_no": "Tower #32",
+        "type": "Hotspot",
+        "severity": "High",
+        "description": "Temperature anomaly detected on C-Phase isolator clamp (73\u00b0C)"
+      }
+    ],
+    "next_maintenance_date": "2026-07-28"
+  },
+  {
+    "line_id": "TL-132-110",
+    "line_name": "132kV Beri - Bahu Line",
+    "voltage": "132kV",
+    "from_substation": {
+      "code": 13115,
+      "name": "132kV Beri",
+      "lat": 30.79,
+      "lng": 76.812
+    },
+    "to_substation": {
+      "code": 13127,
+      "name": "132kV Bahu",
+      "lat": 30.5968,
+      "lng": 76.8573
+    },
+    "length_km": 53.2,
+    "health_score": 73,
+    "status": "Warning",
+    "load_mw": 92,
+    "capacity_mw": 120,
+    "tower_count": 170,
+    "conductor_type": "ACSR Zebra",
+    "issues": [
+      {
+        "tower_no": "Tower #34",
+        "type": "Sag",
+        "severity": "Medium",
+        "description": "Conductor sag exceeds clearance limit at mid-span"
+      },
+      {
+        "tower_no": "Tower #124",
+        "type": "Sag",
+        "severity": "Medium",
+        "description": "Conductor sag exceeds clearance limit at mid-span"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-132-111",
+    "line_name": "132kV Badsa - Indri Line",
+    "voltage": "132kV",
+    "from_substation": {
+      "code": 13129,
+      "name": "132kV Badsa",
+      "lat": 30.7316,
+      "lng": 76.7141
+    },
+    "to_substation": {
+      "code": 12216,
+      "name": "132kV Indri",
+      "lat": 30.8021,
+      "lng": 76.764
+    },
+    "length_km": 42.0,
+    "health_score": 80,
+    "status": "Warning",
+    "load_mw": 57,
+    "capacity_mw": 120,
+    "tower_count": 134,
+    "conductor_type": "ACSR Moose",
+    "issues": [
+      {
+        "tower_no": "Tower #56",
+        "type": "Insulator",
+        "severity": "Medium",
+        "description": "Insulator flashover / crack detected on string assembly"
+      },
+      {
+        "tower_no": "Tower #77",
+        "type": "Tower",
+        "severity": "Medium",
+        "description": "Tower structural rust / foundation settlement detected"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-132-112",
+    "line_name": "132kV Jui - Dhand Line (Feeder 2)",
+    "voltage": "132kV",
+    "from_substation": {
+      "code": 21212,
+      "name": "132kV Jui",
+      "lat": 29.2298,
+      "lng": 75.6579
+    },
+    "to_substation": {
+      "code": 12101,
+      "name": "132kV Dhand",
+      "lat": 30.6137,
+      "lng": 76.9415
+    },
+    "length_km": 64.0,
+    "health_score": 85,
+    "status": "Optimal",
+    "load_mw": 92,
+    "capacity_mw": 120,
+    "tower_count": 204,
+    "conductor_type": "ACSR Zebra",
+    "issues": [],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-132-113",
+    "line_name": "132kV Naulatha - Hansi Line",
+    "voltage": "132kV",
+    "from_substation": {
+      "code": 13305,
+      "name": "132kV Naulatha",
+      "lat": 30.8089,
+      "lng": 76.9989
+    },
+    "to_substation": {
+      "code": 21114,
+      "name": "132kV Hansi",
+      "lat": 29.016,
+      "lng": 75.678
+    },
+    "length_km": 60.6,
+    "health_score": 83,
+    "status": "Warning",
+    "load_mw": 51,
+    "capacity_mw": 120,
+    "tower_count": 193,
+    "conductor_type": "ACSR Dog",
+    "issues": [
+      {
+        "tower_no": "Tower #154",
+        "type": "Sag",
+        "severity": "Medium",
+        "description": "Conductor sag exceeds clearance limit at mid-span"
+      },
+      {
+        "tower_no": "Tower #76",
+        "type": "Insulator",
+        "severity": "Medium",
+        "description": "Insulator flashover / crack detected on string assembly"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-132-114",
+    "line_name": "132kV Bhiwani Old - Julana Line",
+    "voltage": "132kV",
+    "from_substation": {
+      "code": 21202,
+      "name": "132kV Bhiwani Old",
+      "lat": 29.1768,
+      "lng": 75.7848
+    },
+    "to_substation": {
+      "code": 21407,
+      "name": "132kV Julana",
+      "lat": 29.1494,
+      "lng": 75.7462
+    },
+    "length_km": 47.1,
+    "health_score": 75,
+    "status": "Warning",
+    "load_mw": 48,
+    "capacity_mw": 120,
+    "tower_count": 150,
+    "conductor_type": "ACSR Dog",
+    "issues": [
+      {
+        "tower_no": "Tower #10",
+        "type": "Hotspot",
+        "severity": "Medium",
+        "description": "Temperature anomaly detected on C-Phase isolator clamp (62\u00b0C)"
+      },
+      {
+        "tower_no": "Tower #47",
+        "type": "Insulator",
+        "severity": "Medium",
+        "description": "Insulator flashover / crack detected on string assembly"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-132-115",
+    "line_name": "132kV Siwan - HSIIDC Bawal Line (Feeder 1)",
+    "voltage": "132kV",
+    "from_substation": {
+      "code": 12310,
+      "name": "132kV Siwan",
+      "lat": 30.6425,
+      "lng": 76.8105
+    },
+    "to_substation": {
+      "code": 23317,
+      "name": "132kV HSIIDC Bawal",
+      "lat": 29.0676,
+      "lng": 75.663
+    },
+    "length_km": 18.0,
+    "health_score": 50,
+    "status": "Critical",
+    "load_mw": 78,
+    "capacity_mw": 120,
+    "tower_count": 57,
+    "conductor_type": "AAAC Panther",
+    "issues": [
+      {
+        "tower_no": "Tower #7",
+        "type": "Vegetation",
+        "severity": "High",
+        "description": "Tree canopy clearance breach (< 2.8m)"
+      },
+      {
+        "tower_no": "Tower #11",
+        "type": "Tower",
+        "severity": "High",
+        "description": "Tower structural rust / foundation settlement detected"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-132-116",
+    "line_name": "132kV Dahina - Newal Line",
+    "voltage": "132kV",
+    "from_substation": {
+      "code": 23310,
+      "name": "132kV Dahina",
+      "lat": 29.092,
+      "lng": 75.7675
+    },
+    "to_substation": {
+      "code": 12221,
+      "name": "132kV Newal",
+      "lat": 30.6614,
+      "lng": 76.929
+    },
+    "length_km": 38.5,
+    "health_score": 75,
+    "status": "Warning",
+    "load_mw": 96,
+    "capacity_mw": 120,
+    "tower_count": 123,
+    "conductor_type": "ACSR Zebra",
+    "issues": [
+      {
+        "tower_no": "Tower #109",
+        "type": "Hotspot",
+        "severity": "Medium",
+        "description": "Temperature anomaly detected on C-Phase isolator clamp (72\u00b0C)"
+      },
+      {
+        "tower_no": "Tower #64",
+        "type": "Hotspot",
+        "severity": "Medium",
+        "description": "Temperature anomaly detected on C-Phase isolator clamp (73\u00b0C)"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-132-117",
+    "line_name": "132kV Sagga - Aasauda Line",
+    "voltage": "132kV",
+    "from_substation": {
+      "code": 12220,
+      "name": "132kV Sagga",
+      "lat": 30.7709,
+      "lng": 76.7445
+    },
+    "to_substation": {
+      "code": 13118,
+      "name": "132kV Aasauda",
+      "lat": 30.6504,
+      "lng": 76.8257
+    },
+    "length_km": 44.6,
+    "health_score": 62,
+    "status": "Warning",
+    "load_mw": 92,
+    "capacity_mw": 120,
+    "tower_count": 142,
+    "conductor_type": "ACSR Zebra",
+    "issues": [
+      {
+        "tower_no": "Tower #33",
+        "type": "Vegetation",
+        "severity": "Medium",
+        "description": "Tree canopy clearance breach (< 1.8m)"
+      },
+      {
+        "tower_no": "Tower #13",
+        "type": "Hotspot",
+        "severity": "Medium",
+        "description": "Temperature anomaly detected on C-Phase isolator clamp (73\u00b0C)"
+      },
+      {
+        "tower_no": "Tower #100",
+        "type": "Insulator",
+        "severity": "Medium",
+        "description": "Insulator flashover / crack detected on string assembly"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-132-118",
+    "line_name": "132kV Makrani - Seka Line (Feeder 2)",
+    "voltage": "132kV",
+    "from_substation": {
+      "code": 21224,
+      "name": "132kV Makrani",
+      "lat": 29.0823,
+      "lng": 75.644
+    },
+    "to_substation": {
+      "code": 23314,
+      "name": "132kV Seka",
+      "lat": 29.0463,
+      "lng": 75.6633
+    },
+    "length_km": 45.2,
+    "health_score": 91,
+    "status": "Optimal",
+    "load_mw": 65,
+    "capacity_mw": 120,
+    "tower_count": 144,
+    "conductor_type": "ACSR Moose",
+    "issues": [],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-132-119",
+    "line_name": "132kV Pali - Meran Line",
+    "voltage": "132kV",
+    "from_substation": {
+      "code": 23306,
+      "name": "132kV Pali",
+      "lat": 29.1993,
+      "lng": 75.8418
+    },
+    "to_substation": {
+      "code": 21218,
+      "name": "132kV Meran",
+      "lat": 29.1364,
+      "lng": 75.7614
+    },
+    "length_km": 53.3,
+    "health_score": 84,
+    "status": "Warning",
+    "load_mw": 99,
+    "capacity_mw": 120,
+    "tower_count": 170,
+    "conductor_type": "AAAC Panther",
+    "issues": [
+      {
+        "tower_no": "Tower #59",
+        "type": "Vegetation",
+        "severity": "Medium",
+        "description": "Tree canopy clearance breach (< 2.1m)"
+      },
+      {
+        "tower_no": "Tower #62",
+        "type": "Tower",
+        "severity": "Medium",
+        "description": "Tower structural rust / foundation settlement detected"
+      },
+      {
+        "tower_no": "Tower #126",
+        "type": "Hotspot",
+        "severity": "Medium",
+        "description": "Temperature anomaly detected on C-Phase isolator clamp (71\u00b0C)"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-132-120",
+    "line_name": "132kV Urlana - Kosli Line",
+    "voltage": "132kV",
+    "from_substation": {
+      "code": 13325,
+      "name": "132kV Urlana",
+      "lat": 30.5538,
+      "lng": 76.972
+    },
+    "to_substation": {
+      "code": 23320,
+      "name": "132kV Kosli",
+      "lat": 29.2024,
+      "lng": 75.8083
+    },
+    "length_km": 14.8,
+    "health_score": 51,
+    "status": "Critical",
+    "load_mw": 104,
+    "capacity_mw": 120,
+    "tower_count": 47,
+    "conductor_type": "ACSR Zebra",
+    "issues": [
+      {
+        "tower_no": "Tower #21",
+        "type": "Vegetation",
+        "severity": "High",
+        "description": "Tree canopy clearance breach (< 2.0m)"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-132-121",
+    "line_name": "132kV Chanderkhurd - Ateli Mandi Line (Feeder 1)",
+    "voltage": "132kV",
+    "from_substation": {
+      "code": 21126,
+      "name": "132kV Chanderkhurd",
+      "lat": 29.0383,
+      "lng": 75.7851
+    },
+    "to_substation": {
+      "code": 23312,
+      "name": "132kV Ateli Mandi",
+      "lat": 29.0589,
+      "lng": 75.7134
+    },
+    "length_km": 25.3,
+    "health_score": 70,
+    "status": "Warning",
+    "load_mw": 62,
+    "capacity_mw": 120,
+    "tower_count": 80,
+    "conductor_type": "ACSR Dog",
+    "issues": [
+      {
+        "tower_no": "Tower #48",
+        "type": "Hotspot",
+        "severity": "Medium",
+        "description": "Temperature anomaly detected on C-Phase isolator clamp (60\u00b0C)"
+      },
+      {
+        "tower_no": "Tower #65",
+        "type": "Hotspot",
+        "severity": "Medium",
+        "description": "Temperature anomaly detected on C-Phase isolator clamp (74\u00b0C)"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-132-122",
+    "line_name": "132kV HSIIDC Rohtak - Karnal Line",
+    "voltage": "132kV",
+    "from_substation": {
+      "code": 13106,
+      "name": "132kV HSIIDC Rohtak",
+      "lat": 30.7354,
+      "lng": 76.9312
+    },
+    "to_substation": {
+      "code": 12202,
+      "name": "132kV Karnal",
+      "lat": 30.5587,
+      "lng": 76.8137
+    },
+    "length_km": 15.6,
+    "health_score": 53,
+    "status": "Critical",
+    "load_mw": 48,
+    "capacity_mw": 120,
+    "tower_count": 49,
+    "conductor_type": "ACSR Moose",
+    "issues": [
+      {
+        "tower_no": "Tower #27",
+        "type": "Tower",
+        "severity": "High",
+        "description": "Tower structural rust / foundation settlement detected"
+      },
+      {
+        "tower_no": "Tower #41",
+        "type": "Tower",
+        "severity": "High",
+        "description": "Tower structural rust / foundation settlement detected"
+      },
+      {
+        "tower_no": "Tower #43",
+        "type": "Vegetation",
+        "severity": "High",
+        "description": "Tree canopy clearance breach (< 2.3m)"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-132-123",
+    "line_name": "132kV Staundi - Harsana Kalan Line",
+    "voltage": "132kV",
+    "from_substation": {
+      "code": 12207,
+      "name": "132kV Staundi",
+      "lat": 30.6493,
+      "lng": 76.9123
+    },
+    "to_substation": {
+      "code": 13307,
+      "name": "132kV Harsana Kalan",
+      "lat": 30.6391,
+      "lng": 76.9079
+    },
+    "length_km": 64.9,
+    "health_score": 97,
+    "status": "Optimal",
+    "load_mw": 51,
+    "capacity_mw": 120,
+    "tower_count": 207,
+    "conductor_type": "AAAC Panther",
+    "issues": [],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-132-124",
+    "line_name": "132kV Naguran - Kariwala Line (Feeder 2)",
+    "voltage": "132kV",
+    "from_substation": {
+      "code": 21410,
+      "name": "132kV Naguran",
+      "lat": 29.2696,
+      "lng": 75.6204
+    },
+    "to_substation": {
+      "code": 21312,
+      "name": "132kV Kariwala",
+      "lat": 29.0553,
+      "lng": 75.8041
+    },
+    "length_km": 17.6,
+    "health_score": 78,
+    "status": "Shutdown",
+    "load_mw": 67,
+    "capacity_mw": 120,
+    "tower_count": 56,
+    "conductor_type": "ACSR Zebra",
+    "issues": [
+      {
+        "tower_no": "Tower #13",
+        "type": "Sag",
+        "severity": "Medium",
+        "description": "Conductor sag exceeds clearance limit at mid-span"
+      }
+    ],
+    "next_maintenance_date": "2026-07-28"
+  },
+  {
+    "line_id": "TL-132-125",
+    "line_name": "132kV Nilokheri - Behal Line",
+    "voltage": "132kV",
+    "from_substation": {
+      "code": 12217,
+      "name": "132kV Nilokheri",
+      "lat": 30.7939,
+      "lng": 76.9273
+    },
+    "to_substation": {
+      "code": 21215,
+      "name": "132kV Behal",
+      "lat": 29.1531,
+      "lng": 75.5796
+    },
+    "length_km": 26.3,
+    "health_score": 87,
+    "status": "Optimal",
+    "load_mw": 98,
+    "capacity_mw": 120,
+    "tower_count": 84,
+    "conductor_type": "ACSR Moose",
+    "issues": [],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-132-126",
+    "line_name": "132kV Kabri - Naulatha Line",
+    "voltage": "132kV",
+    "from_substation": {
+      "code": 13321,
+      "name": "132kV Kabri",
+      "lat": 30.8185,
+      "lng": 76.9253
+    },
+    "to_substation": {
+      "code": 13305,
+      "name": "132kV Naulatha",
+      "lat": 30.8089,
+      "lng": 76.9989
+    },
+    "length_km": 32.6,
+    "health_score": 50,
+    "status": "Critical",
+    "load_mw": 72,
+    "capacity_mw": 120,
+    "tower_count": 104,
+    "conductor_type": "ACSR Weasel",
+    "issues": [
+      {
+        "tower_no": "Tower #54",
+        "type": "Insulator",
+        "severity": "High",
+        "description": "Insulator flashover / crack detected on string assembly"
+      },
+      {
+        "tower_no": "Tower #95",
+        "type": "Sag",
+        "severity": "High",
+        "description": "Conductor sag exceeds clearance limit at mid-span"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-132-127",
+    "line_name": "132kV Gohana RoadPNP - Ateli Mandi Line (Feeder 1)",
+    "voltage": "132kV",
+    "from_substation": {
+      "code": 13314,
+      "name": "132kV Gohana RoadPNP",
+      "lat": 30.598,
+      "lng": 76.76
+    },
+    "to_substation": {
+      "code": 23312,
+      "name": "132kV Ateli Mandi",
+      "lat": 29.0589,
+      "lng": 75.7134
+    },
+    "length_km": 60.6,
+    "health_score": 86,
+    "status": "Optimal",
+    "load_mw": 71,
+    "capacity_mw": 120,
+    "tower_count": 193,
+    "conductor_type": "ACSR Moose",
+    "issues": [],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-132-128",
+    "line_name": "132kV MIE Bhadurgarh - Dudhiyawali Line",
+    "voltage": "132kV",
+    "from_substation": {
+      "code": 13113,
+      "name": "132kV MIE Bhadurgarh",
+      "lat": 30.7235,
+      "lng": 76.8281
+    },
+    "to_substation": {
+      "code": 21314,
+      "name": "132kV Dudhiyawali",
+      "lat": 29.1448,
+      "lng": 75.6305
+    },
+    "length_km": 44.9,
+    "health_score": 62,
+    "status": "Warning",
+    "load_mw": 69,
+    "capacity_mw": 120,
+    "tower_count": 143,
+    "conductor_type": "ACSR Dog",
+    "issues": [
+      {
+        "tower_no": "Tower #41",
+        "type": "Tower",
+        "severity": "Medium",
+        "description": "Tower structural rust / foundation settlement detected"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-132-129",
+    "line_name": "132kV Garanawati - Pasina Khurd Line",
+    "voltage": "132kV",
+    "from_substation": {
+      "code": 13120,
+      "name": "132kV Garanawati",
+      "lat": 30.6211,
+      "lng": 76.8542
+    },
+    "to_substation": {
+      "code": 13333,
+      "name": "132kV Pasina Khurd",
+      "lat": 30.8085,
+      "lng": 76.7659
+    },
+    "length_km": 45.8,
+    "health_score": 58,
+    "status": "Critical",
+    "load_mw": 86,
+    "capacity_mw": 120,
+    "tower_count": 146,
+    "conductor_type": "ACSR Weasel",
+    "issues": [
+      {
+        "tower_no": "Tower #65",
+        "type": "Hotspot",
+        "severity": "High",
+        "description": "Temperature anomaly detected on C-Phase isolator clamp (74\u00b0C)"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-132-130",
+    "line_name": "132kV Mela Ground - Dabwali Line (Feeder 2)",
+    "voltage": "132kV",
+    "from_substation": {
+      "code": 21303,
+      "name": "132kV Mela Ground",
+      "lat": 29.0148,
+      "lng": 75.6833
+    },
+    "to_substation": {
+      "code": 21306,
+      "name": "132kV Dabwali",
+      "lat": 29.2574,
+      "lng": 75.6833
+    },
+    "length_km": 41.3,
+    "health_score": 88,
+    "status": "Optimal",
+    "load_mw": 88,
+    "capacity_mw": 120,
+    "tower_count": 132,
+    "conductor_type": "ACSR Dog",
+    "issues": [],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-132-131",
+    "line_name": "132kV Tosham - Berla Line",
+    "voltage": "132kV",
+    "from_substation": {
+      "code": 21219,
+      "name": "132kV Tosham",
+      "lat": 29.2443,
+      "lng": 75.71
+    },
+    "to_substation": {
+      "code": 21221,
+      "name": "132kV Berla",
+      "lat": 29.1043,
+      "lng": 75.7474
+    },
+    "length_km": 35.3,
+    "health_score": 97,
+    "status": "Optimal",
+    "load_mw": 83,
+    "capacity_mw": 120,
+    "tower_count": 112,
+    "conductor_type": "ACSR Dog",
+    "issues": [],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-132-132",
+    "line_name": "132kV Badli - Harsana Kalan Line",
+    "voltage": "132kV",
+    "from_substation": {
+      "code": 13124,
+      "name": "132kV Badli",
+      "lat": 30.5505,
+      "lng": 76.9983
+    },
+    "to_substation": {
+      "code": 13307,
+      "name": "132kV Harsana Kalan",
+      "lat": 30.6391,
+      "lng": 76.9079
+    },
+    "length_km": 53.5,
+    "health_score": 78,
+    "status": "Warning",
+    "load_mw": 74,
+    "capacity_mw": 120,
+    "tower_count": 171,
+    "conductor_type": "ACSR Zebra",
+    "issues": [
+      {
+        "tower_no": "Tower #73",
+        "type": "Tower",
+        "severity": "Medium",
+        "description": "Tower structural rust / foundation settlement detected"
+      },
+      {
+        "tower_no": "Tower #71",
+        "type": "Sag",
+        "severity": "Medium",
+        "description": "Conductor sag exceeds clearance limit at mid-span"
+      },
+      {
+        "tower_no": "Tower #111",
+        "type": "Tower",
+        "severity": "Medium",
+        "description": "Tower structural rust / foundation settlement detected"
+      }
+    ],
+    "next_maintenance_date": "2026-07-28"
+  },
+  {
+    "line_id": "TL-132-133",
+    "line_name": "132kV Kanina - MIE Bhadurgarh Line (Feeder 1)",
+    "voltage": "132kV",
+    "from_substation": {
+      "code": 23303,
+      "name": "132kV Kanina",
+      "lat": 29.2649,
+      "lng": 75.6768
+    },
+    "to_substation": {
+      "code": 13113,
+      "name": "132kV MIE Bhadurgarh",
+      "lat": 30.7235,
+      "lng": 76.8281
+    },
+    "length_km": 15.6,
+    "health_score": 79,
+    "status": "Warning",
+    "load_mw": 47,
+    "capacity_mw": 120,
+    "tower_count": 49,
+    "conductor_type": "ACSR Moose",
+    "issues": [
+      {
+        "tower_no": "Tower #41",
+        "type": "Vegetation",
+        "severity": "Medium",
+        "description": "Tree canopy clearance breach (< 2.1m)"
+      },
+      {
+        "tower_no": "Tower #13",
+        "type": "Vegetation",
+        "severity": "Medium",
+        "description": "Tree canopy clearance breach (< 2.2m)"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-132-134",
+    "line_name": "132kV Begu - Dudhiyawali Line",
+    "voltage": "132kV",
+    "from_substation": {
+      "code": 21304,
+      "name": "132kV Begu",
+      "lat": 29.2211,
+      "lng": 75.7641
+    },
+    "to_substation": {
+      "code": 21314,
+      "name": "132kV Dudhiyawali",
+      "lat": 29.1448,
+      "lng": 75.6305
+    },
+    "length_km": 25.8,
+    "health_score": 45,
+    "status": "Critical",
+    "load_mw": 77,
+    "capacity_mw": 120,
+    "tower_count": 82,
+    "conductor_type": "ACSR Weasel",
+    "issues": [
+      {
+        "tower_no": "Tower #12",
+        "type": "Insulator",
+        "severity": "High",
+        "description": "Insulator flashover / crack detected on string assembly"
+      },
+      {
+        "tower_no": "Tower #12",
+        "type": "Vegetation",
+        "severity": "High",
+        "description": "Tree canopy clearance breach (< 2.1m)"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-132-135",
+    "line_name": "132kV Mattanhail - Bibipur Line",
+    "voltage": "132kV",
+    "from_substation": {
+      "code": 13126,
+      "name": "132kV Mattanhail",
+      "lat": 30.816,
+      "lng": 76.9637
+    },
+    "to_substation": {
+      "code": 21406,
+      "name": "132kV Bibipur",
+      "lat": 29.1372,
+      "lng": 75.6163
+    },
+    "length_km": 51.7,
+    "health_score": 93,
+    "status": "Optimal",
+    "load_mw": 59,
+    "capacity_mw": 120,
+    "tower_count": 165,
+    "conductor_type": "AAAC Panther",
+    "issues": [],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-132-136",
+    "line_name": "132kV Murthal - Sitamai Line (Feeder 2)",
+    "voltage": "132kV",
+    "from_substation": {
+      "code": 13315,
+      "name": "132kV Murthal",
+      "lat": 30.711,
+      "lng": 76.7592
+    },
+    "to_substation": {
+      "code": 12209,
+      "name": "132kV Sitamai",
+      "lat": 30.8135,
+      "lng": 76.7923
+    },
+    "length_km": 61.2,
+    "health_score": 65,
+    "status": "Warning",
+    "load_mw": 84,
+    "capacity_mw": 120,
+    "tower_count": 195,
+    "conductor_type": "AAAC Panther",
+    "issues": [
+      {
+        "tower_no": "Tower #64",
+        "type": "Sag",
+        "severity": "Medium",
+        "description": "Conductor sag exceeds clearance limit at mid-span"
+      },
+      {
+        "tower_no": "Tower #5",
+        "type": "Tower",
+        "severity": "Medium",
+        "description": "Tower structural rust / foundation settlement detected"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-132-137",
+    "line_name": "132kV Garanawati - Mundlana Line",
+    "voltage": "132kV",
+    "from_substation": {
+      "code": 13120,
+      "name": "132kV Garanawati",
+      "lat": 30.6211,
+      "lng": 76.8542
+    },
+    "to_substation": {
+      "code": 13109,
+      "name": "132kV Mundlana",
+      "lat": 30.8123,
+      "lng": 76.8734
+    },
+    "length_km": 36.2,
+    "health_score": 59,
+    "status": "Critical",
+    "load_mw": 73,
+    "capacity_mw": 120,
+    "tower_count": 115,
+    "conductor_type": "ACSR Moose",
+    "issues": [
+      {
+        "tower_no": "Tower #98",
+        "type": "Insulator",
+        "severity": "High",
+        "description": "Insulator flashover / crack detected on string assembly"
+      },
+      {
+        "tower_no": "Tower #30",
+        "type": "Tower",
+        "severity": "High",
+        "description": "Tower structural rust / foundation settlement detected"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-132-138",
+    "line_name": "132kV Pasina Khurd - Aherwan Line",
+    "voltage": "132kV",
+    "from_substation": {
+      "code": 13333,
+      "name": "132kV Pasina Khurd",
+      "lat": 30.8085,
+      "lng": 76.7659
+    },
+    "to_substation": {
+      "code": 21116,
+      "name": "132kV Aherwan",
+      "lat": 29.1545,
+      "lng": 75.6478
+    },
+    "length_km": 14.8,
+    "health_score": 91,
+    "status": "Optimal",
+    "load_mw": 70,
+    "capacity_mw": 120,
+    "tower_count": 47,
+    "conductor_type": "ACSR Weasel",
+    "issues": [],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-132-139",
+    "line_name": "132kV Malikpur - Jind (New) Line (Feeder 1)",
+    "voltage": "132kV",
+    "from_substation": {
+      "code": 12106,
+      "name": "132kV Malikpur",
+      "lat": 30.5821,
+      "lng": 76.702
+    },
+    "to_substation": {
+      "code": 21409,
+      "name": "132kV Jind (New)",
+      "lat": 29.1899,
+      "lng": 75.6636
+    },
+    "length_km": 18.6,
+    "health_score": 74,
+    "status": "Warning",
+    "load_mw": 57,
+    "capacity_mw": 120,
+    "tower_count": 59,
+    "conductor_type": "ACSR Weasel",
+    "issues": [
+      {
+        "tower_no": "Tower #15",
+        "type": "Hotspot",
+        "severity": "Medium",
+        "description": "Temperature anomaly detected on C-Phase isolator clamp (57\u00b0C)"
+      },
+      {
+        "tower_no": "Tower #50",
+        "type": "Tower",
+        "severity": "Medium",
+        "description": "Tower structural rust / foundation settlement detected"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-132-140",
+    "line_name": "132kV Jui - Gulam Ali Line",
+    "voltage": "132kV",
+    "from_substation": {
+      "code": 21212,
+      "name": "132kV Jui",
+      "lat": 29.2298,
+      "lng": 75.6579
+    },
+    "to_substation": {
+      "code": 12302,
+      "name": "132kV Gulam Ali",
+      "lat": 30.5974,
+      "lng": 76.7293
+    },
+    "length_km": 63.3,
+    "health_score": 52,
+    "status": "Critical",
+    "load_mw": 48,
+    "capacity_mw": 120,
+    "tower_count": 202,
+    "conductor_type": "ACSR Weasel",
+    "issues": [
+      {
+        "tower_no": "Tower #23",
+        "type": "Tower",
+        "severity": "High",
+        "description": "Tower structural rust / foundation settlement detected"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-132-141",
+    "line_name": "132kV Bahadurgarh - Nilokheri Line",
+    "voltage": "132kV",
+    "from_substation": {
+      "code": 13112,
+      "name": "132kV Bahadurgarh",
+      "lat": 30.7079,
+      "lng": 76.7349
+    },
+    "to_substation": {
+      "code": 12217,
+      "name": "132kV Nilokheri",
+      "lat": 30.7939,
+      "lng": 76.9273
+    },
+    "length_km": 60.0,
+    "health_score": 48,
+    "status": "Critical",
+    "load_mw": 52,
+    "capacity_mw": 120,
+    "tower_count": 192,
+    "conductor_type": "ACSR Moose",
+    "issues": [
+      {
+        "tower_no": "Tower #161",
+        "type": "Tower",
+        "severity": "High",
+        "description": "Tower structural rust / foundation settlement detected"
+      },
+      {
+        "tower_no": "Tower #115",
+        "type": "Insulator",
+        "severity": "High",
+        "description": "Insulator flashover / crack detected on string assembly"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-132-142",
+    "line_name": "132kV Pipli - Jalmana Line (Feeder 2)",
+    "voltage": "132kV",
+    "from_substation": {
+      "code": 12108,
+      "name": "132kV Pipli",
+      "lat": 30.7379,
+      "lng": 76.9412
+    },
+    "to_substation": {
+      "code": 12222,
+      "name": "132kV Jalmana",
+      "lat": 30.6591,
+      "lng": 76.9135
+    },
+    "length_km": 32.5,
+    "health_score": 94,
+    "status": "Optimal",
+    "load_mw": 94,
+    "capacity_mw": 120,
+    "tower_count": 104,
+    "conductor_type": "ACSR Zebra",
+    "issues": [],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-132-143",
+    "line_name": "132kV Jiwanagar - Kariwala Line",
+    "voltage": "132kV",
+    "from_substation": {
+      "code": 21315,
+      "name": "132kV Jiwanagar",
+      "lat": 29.0975,
+      "lng": 75.6844
+    },
+    "to_substation": {
+      "code": 21312,
+      "name": "132kV Kariwala",
+      "lat": 29.0553,
+      "lng": 75.8041
+    },
+    "length_km": 53.6,
+    "health_score": 47,
+    "status": "Critical",
+    "load_mw": 83,
+    "capacity_mw": 120,
+    "tower_count": 171,
+    "conductor_type": "ACSR Dog",
+    "issues": [
+      {
+        "tower_no": "Tower #50",
+        "type": "Vegetation",
+        "severity": "High",
+        "description": "Tree canopy clearance breach (< 2.9m)"
+      },
+      {
+        "tower_no": "Tower #55",
+        "type": "Tower",
+        "severity": "High",
+        "description": "Tower structural rust / foundation settlement detected"
+      }
+    ],
+    "next_maintenance_date": "2026-07-28"
+  },
+  {
+    "line_id": "TL-132-144",
+    "line_name": "132kV Buroli - Ganaur Line",
+    "voltage": "132kV",
+    "from_substation": {
+      "code": 23308,
+      "name": "132kV Buroli",
+      "lat": 29.04,
+      "lng": 75.6199
+    },
+    "to_substation": {
+      "code": 13317,
+      "name": "132kV Ganaur",
+      "lat": 30.7904,
+      "lng": 76.9172
+    },
+    "length_km": 8.3,
+    "health_score": 77,
+    "status": "Warning",
+    "load_mw": 59,
+    "capacity_mw": 120,
+    "tower_count": 26,
+    "conductor_type": "ACSR Weasel",
+    "issues": [
+      {
+        "tower_no": "Tower #18",
+        "type": "Tower",
+        "severity": "Medium",
+        "description": "Tower structural rust / foundation settlement detected"
+      },
+      {
+        "tower_no": "Tower #21",
+        "type": "Sag",
+        "severity": "Medium",
+        "description": "Conductor sag exceeds clearance limit at mid-span"
+      }
+    ],
+    "next_maintenance_date": "2026-07-28"
+  },
+  {
+    "line_id": "TL-66-145",
+    "line_name": "66kV Nuh - Palwal Line (Feeder 1)",
+    "voltage": "66kV",
+    "from_substation": {
+      "code": 22213,
+      "name": "66kV Nuh",
+      "lat": 29.2465,
+      "lng": 75.8119
+    },
+    "to_substation": {
+      "code": 22204,
+      "name": "66kV Palwal",
+      "lat": 29.0283,
+      "lng": 75.7986
+    },
+    "length_km": 36.9,
+    "health_score": 78,
+    "status": "Warning",
+    "load_mw": 40,
+    "capacity_mw": 60,
+    "tower_count": 118,
+    "conductor_type": "ACSR Moose",
+    "issues": [
+      {
+        "tower_no": "Tower #73",
+        "type": "Sag",
+        "severity": "Medium",
+        "description": "Conductor sag exceeds clearance limit at mid-span"
+      },
+      {
+        "tower_no": "Tower #57",
+        "type": "Insulator",
+        "severity": "Medium",
+        "description": "Insulator flashover / crack detected on string assembly"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-66-146",
+    "line_name": "66kV Sardehri - Ugala Line",
+    "voltage": "66kV",
+    "from_substation": {
+      "code": 11121,
+      "name": "66kV Sardehri",
+      "lat": 30.816,
+      "lng": 76.9414
+    },
+    "to_substation": {
+      "code": 11223,
+      "name": "66kV Ugala",
+      "lat": 30.5596,
+      "lng": 76.7203
+    },
+    "length_km": 42.0,
+    "health_score": 74,
+    "status": "Warning",
+    "load_mw": 51,
+    "capacity_mw": 60,
+    "tower_count": 134,
+    "conductor_type": "ACSR Zebra",
+    "issues": [
+      {
+        "tower_no": "Tower #104",
+        "type": "Vegetation",
+        "severity": "Medium",
+        "description": "Tree canopy clearance breach (< 2.0m)"
+      },
+      {
+        "tower_no": "Tower #54",
+        "type": "Vegetation",
+        "severity": "Medium",
+        "description": "Tree canopy clearance breach (< 1.5m)"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-66-147",
+    "line_name": "66kV Kazibans - NH-3 Faridabad Line",
+    "voltage": "66kV",
+    "from_substation": {
+      "code": 11323,
+      "name": "66kV Kazibans",
+      "lat": 30.545,
+      "lng": 76.8103
+    },
+    "to_substation": {
+      "code": 22120,
+      "name": "66kV NH-3 Faridabad",
+      "lat": 29.2123,
+      "lng": 75.7583
+    },
+    "length_km": 45.1,
+    "health_score": 93,
+    "status": "Optimal",
+    "load_mw": 48,
+    "capacity_mw": 60,
+    "tower_count": 144,
+    "conductor_type": "ACSR Moose",
+    "issues": [],
+    "next_maintenance_date": "2026-07-28"
+  },
+  {
+    "line_id": "TL-66-148",
+    "line_name": "66kV Escort-II - Partap Steel Line (Feeder 2)",
+    "voltage": "66kV",
+    "from_substation": {
+      "code": 22109,
+      "name": "66kV Escort-II",
+      "lat": 29.1742,
+      "lng": 75.8669
+    },
+    "to_substation": {
+      "code": 22113,
+      "name": "66kV Partap Steel",
+      "lat": 29.0614,
+      "lng": 75.7015
+    },
+    "length_km": 16.3,
+    "health_score": 60,
+    "status": "Warning",
+    "load_mw": 23,
+    "capacity_mw": 60,
+    "tower_count": 52,
+    "conductor_type": "ACSR Dog",
+    "issues": [
+      {
+        "tower_no": "Tower #24",
+        "type": "Sag",
+        "severity": "Medium",
+        "description": "Conductor sag exceeds clearance limit at mid-span"
+      },
+      {
+        "tower_no": "Tower #15",
+        "type": "Sag",
+        "severity": "Medium",
+        "description": "Conductor sag exceeds clearance limit at mid-span"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-66-149",
+    "line_name": "66kV Sec-31 Fbd - Sector-20 Panchkula Line",
+    "voltage": "66kV",
+    "from_substation": {
+      "code": 22104,
+      "name": "66kV Sec-31 Fbd",
+      "lat": 29.2687,
+      "lng": 75.856
+    },
+    "to_substation": {
+      "code": 11119,
+      "name": "66kV Sector-20 Panchkula",
+      "lat": 30.6288,
+      "lng": 76.9622
+    },
+    "length_km": 46.2,
+    "health_score": 88,
+    "status": "Optimal",
+    "load_mw": 52,
+    "capacity_mw": 60,
+    "tower_count": 147,
+    "conductor_type": "ACSR Zebra",
+    "issues": [],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-66-150",
+    "line_name": "66kV Ladwa - Basantpur Line",
+    "voltage": "66kV",
+    "from_substation": {
+      "code": 11317,
+      "name": "66kV Ladwa",
+      "lat": 30.6161,
+      "lng": 76.7933
+    },
+    "to_substation": {
+      "code": 11306,
+      "name": "66kV Basantpur",
+      "lat": 30.6333,
+      "lng": 76.9006
+    },
+    "length_km": 18.0,
+    "health_score": 52,
+    "status": "Critical",
+    "load_mw": 50,
+    "capacity_mw": 60,
+    "tower_count": 57,
+    "conductor_type": "ACSR Weasel",
+    "issues": [
+      {
+        "tower_no": "Tower #17",
+        "type": "Insulator",
+        "severity": "High",
+        "description": "Insulator flashover / crack detected on string assembly"
+      },
+      {
+        "tower_no": "Tower #19",
+        "type": "Tower",
+        "severity": "High",
+        "description": "Tower structural rust / foundation settlement detected"
+      }
+    ],
+    "next_maintenance_date": "2026-07-28"
+  },
+  {
+    "line_id": "TL-66-151",
+    "line_name": "66kV Sec-4 Manesar - Raipur Rani Line (Feeder 1)",
+    "voltage": "66kV",
+    "from_substation": {
+      "code": 23205,
+      "name": "66kV Sec-4 Manesar",
+      "lat": 29.1828,
+      "lng": 75.5704
+    },
+    "to_substation": {
+      "code": 11110,
+      "name": "66kV Raipur Rani",
+      "lat": 30.5927,
+      "lng": 76.7711
+    },
+    "length_km": 16.7,
+    "health_score": 57,
+    "status": "Critical",
+    "load_mw": 46,
+    "capacity_mw": 60,
+    "tower_count": 53,
+    "conductor_type": "ACSR Dog",
+    "issues": [
+      {
+        "tower_no": "Tower #39",
+        "type": "Tower",
+        "severity": "High",
+        "description": "Tower structural rust / foundation settlement detected"
+      },
+      {
+        "tower_no": "Tower #20",
+        "type": "Tower",
+        "severity": "High",
+        "description": "Tower structural rust / foundation settlement detected"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-66-152",
+    "line_name": "66kV Malikpur - Mandkola Line",
+    "voltage": "66kV",
+    "from_substation": {
+      "code": 11230,
+      "name": "66kV Malikpur",
+      "lat": 30.5402,
+      "lng": 76.8687
+    },
+    "to_substation": {
+      "code": 22203,
+      "name": "66kV Mandkola",
+      "lat": 29.1622,
+      "lng": 75.6267
+    },
+    "length_km": 49.1,
+    "health_score": 67,
+    "status": "Warning",
+    "load_mw": 37,
+    "capacity_mw": 60,
+    "tower_count": 157,
+    "conductor_type": "ACSR Dog",
+    "issues": [
+      {
+        "tower_no": "Tower #92",
+        "type": "Vegetation",
+        "severity": "Medium",
+        "description": "Tree canopy clearance breach (< 2.1m)"
+      },
+      {
+        "tower_no": "Tower #61",
+        "type": "Tower",
+        "severity": "Medium",
+        "description": "Tower structural rust / foundation settlement detected"
+      },
+      {
+        "tower_no": "Tower #109",
+        "type": "Vegetation",
+        "severity": "Medium",
+        "description": "Tree canopy clearance breach (< 2.2m)"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-66-153",
+    "line_name": "66kV Sec.-9 GGN - Sec-38 GGN Line",
+    "voltage": "66kV",
+    "from_substation": {
+      "code": 23122,
+      "name": "66kV Sec.-9 GGN",
+      "lat": 29.0942,
+      "lng": 75.7747
+    },
+    "to_substation": {
+      "code": 23114,
+      "name": "66kV Sec-38 GGN",
+      "lat": 29.1028,
+      "lng": 75.7731
+    },
+    "length_km": 10.9,
+    "health_score": 88,
+    "status": "Optimal",
+    "load_mw": 33,
+    "capacity_mw": 60,
+    "tower_count": 34,
+    "conductor_type": "ACSR Weasel",
+    "issues": [],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-66-154",
+    "line_name": "66kV Oswal Steel - Sector-20 Panchkula Line (Feeder 2)",
+    "voltage": "66kV",
+    "from_substation": {
+      "code": 22118,
+      "name": "66kV Oswal Steel",
+      "lat": 29.1364,
+      "lng": 75.647
+    },
+    "to_substation": {
+      "code": 11119,
+      "name": "66kV Sector-20 Panchkula",
+      "lat": 30.6288,
+      "lng": 76.9622
+    },
+    "length_km": 10.5,
+    "health_score": 86,
+    "status": "Optimal",
+    "load_mw": 53,
+    "capacity_mw": 60,
+    "tower_count": 33,
+    "conductor_type": "ACSR Weasel",
+    "issues": [],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-66-155",
+    "line_name": "66kV Sec-23 Fbd - Northarn India Line",
+    "voltage": "66kV",
+    "from_substation": {
+      "code": 22132,
+      "name": "66kV Sec-23 Fbd",
+      "lat": 29.2848,
+      "lng": 75.7277
+    },
+    "to_substation": {
+      "code": 22112,
+      "name": "66kV Northarn India",
+      "lat": 29.0294,
+      "lng": 75.6332
+    },
+    "length_km": 52.9,
+    "health_score": 68,
+    "status": "Warning",
+    "load_mw": 50,
+    "capacity_mw": 60,
+    "tower_count": 169,
+    "conductor_type": "ACSR Zebra",
+    "issues": [
+      {
+        "tower_no": "Tower #74",
+        "type": "Hotspot",
+        "severity": "Medium",
+        "description": "Temperature anomaly detected on C-Phase isolator clamp (66\u00b0C)"
+      },
+      {
+        "tower_no": "Tower #152",
+        "type": "Vegetation",
+        "severity": "Medium",
+        "description": "Tree canopy clearance breach (< 2.6m)"
+      },
+      {
+        "tower_no": "Tower #62",
+        "type": "Insulator",
+        "severity": "Medium",
+        "description": "Insulator flashover / crack detected on string assembly"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-66-156",
+    "line_name": "66kV Lohara - Sonda Line",
+    "voltage": "66kV",
+    "from_substation": {
+      "code": 11321,
+      "name": "66kV Lohara",
+      "lat": 30.7777,
+      "lng": 76.8609
+    },
+    "to_substation": {
+      "code": 11215,
+      "name": "66kV Sonda",
+      "lat": 30.7243,
+      "lng": 76.8636
+    },
+    "length_km": 22.5,
+    "health_score": 56,
+    "status": "Critical",
+    "load_mw": 47,
+    "capacity_mw": 60,
+    "tower_count": 72,
+    "conductor_type": "ACSR Moose",
+    "issues": [
+      {
+        "tower_no": "Tower #67",
+        "type": "Tower",
+        "severity": "High",
+        "description": "Tower structural rust / foundation settlement detected"
+      },
+      {
+        "tower_no": "Tower #57",
+        "type": "Hotspot",
+        "severity": "High",
+        "description": "Temperature anomaly detected on C-Phase isolator clamp (75\u00b0C)"
+      },
+      {
+        "tower_no": "Tower #23",
+        "type": "Tower",
+        "severity": "High",
+        "description": "Tower structural rust / foundation settlement detected"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-66-157",
+    "line_name": "66kV Sector-15 Jagadari - Jalkheri Line (Feeder 1)",
+    "voltage": "66kV",
+    "from_substation": {
+      "code": 11305,
+      "name": "66kV Sector-15 Jagadari",
+      "lat": 30.7643,
+      "lng": 76.9601
+    },
+    "to_substation": {
+      "code": 11220,
+      "name": "66kV Jalkheri",
+      "lat": 30.5556,
+      "lng": 76.7466
+    },
+    "length_km": 9.3,
+    "health_score": 93,
+    "status": "Optimal",
+    "load_mw": 30,
+    "capacity_mw": 60,
+    "tower_count": 29,
+    "conductor_type": "ACSR Zebra",
+    "issues": [],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-66-158",
+    "line_name": "66kV Sec-2 Manesar - Jansui Line",
+    "voltage": "66kV",
+    "from_substation": {
+      "code": 23203,
+      "name": "66kV Sec-2 Manesar",
+      "lat": 29.1433,
+      "lng": 75.8297
+    },
+    "to_substation": {
+      "code": 11205,
+      "name": "66kV Jansui",
+      "lat": 30.6415,
+      "lng": 76.8342
+    },
+    "length_km": 12.1,
+    "health_score": 63,
+    "status": "Warning",
+    "load_mw": 49,
+    "capacity_mw": 60,
+    "tower_count": 38,
+    "conductor_type": "ACSR Moose",
+    "issues": [
+      {
+        "tower_no": "Tower #6",
+        "type": "Sag",
+        "severity": "Medium",
+        "description": "Conductor sag exceeds clearance limit at mid-span"
+      },
+      {
+        "tower_no": "Tower #23",
+        "type": "Insulator",
+        "severity": "Medium",
+        "description": "Insulator flashover / crack detected on string assembly"
+      },
+      {
+        "tower_no": "Tower #8",
+        "type": "Hotspot",
+        "severity": "Medium",
+        "description": "Temperature anomaly detected on C-Phase isolator clamp (59\u00b0C)"
+      }
+    ],
+    "next_maintenance_date": "2026-07-28"
+  },
+  {
+    "line_id": "TL-66-159",
+    "line_name": "66kV Northarn India - Adhoya Line",
+    "voltage": "66kV",
+    "from_substation": {
+      "code": 22112,
+      "name": "66kV Northarn India",
+      "lat": 29.0294,
+      "lng": 75.6332
+    },
+    "to_substation": {
+      "code": 11214,
+      "name": "66kV Adhoya",
+      "lat": 30.6891,
+      "lng": 76.8635
+    },
+    "length_km": 39.8,
+    "health_score": 48,
+    "status": "Critical",
+    "load_mw": 54,
+    "capacity_mw": 60,
+    "tower_count": 127,
+    "conductor_type": "ACSR Zebra",
+    "issues": [
+      {
+        "tower_no": "Tower #107",
+        "type": "Insulator",
+        "severity": "High",
+        "description": "Insulator flashover / crack detected on string assembly"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-66-160",
+    "line_name": "66kV Berkheri - Babyal Line (Feeder 2)",
+    "voltage": "66kV",
+    "from_substation": {
+      "code": 11117,
+      "name": "66kV Berkheri",
+      "lat": 30.5433,
+      "lng": 76.989
+    },
+    "to_substation": {
+      "code": 11209,
+      "name": "66kV Babyal",
+      "lat": 30.5532,
+      "lng": 76.7915
+    },
+    "length_km": 11.7,
+    "health_score": 62,
+    "status": "Warning",
+    "load_mw": 22,
+    "capacity_mw": 60,
+    "tower_count": 37,
+    "conductor_type": "ACSR Moose",
+    "issues": [
+      {
+        "tower_no": "Tower #23",
+        "type": "Sag",
+        "severity": "Medium",
+        "description": "Conductor sag exceeds clearance limit at mid-span"
+      },
+      {
+        "tower_no": "Tower #10",
+        "type": "Sag",
+        "severity": "Medium",
+        "description": "Conductor sag exceeds clearance limit at mid-span"
+      }
+    ],
+    "next_maintenance_date": "2026-07-28"
+  },
+  {
+    "line_id": "TL-66-161",
+    "line_name": "66kV Bhupani - Old Manesar Line",
+    "voltage": "66kV",
+    "from_substation": {
+      "code": 22125,
+      "name": "66kV Bhupani",
+      "lat": 29.2339,
+      "lng": 75.8291
+    },
+    "to_substation": {
+      "code": 23202,
+      "name": "66kV Old Manesar",
+      "lat": 29.1511,
+      "lng": 75.784
+    },
+    "length_km": 33.8,
+    "health_score": 71,
+    "status": "Warning",
+    "load_mw": 28,
+    "capacity_mw": 60,
+    "tower_count": 108,
+    "conductor_type": "AAAC Panther",
+    "issues": [
+      {
+        "tower_no": "Tower #24",
+        "type": "Sag",
+        "severity": "Medium",
+        "description": "Conductor sag exceeds clearance limit at mid-span"
+      },
+      {
+        "tower_no": "Tower #94",
+        "type": "Tower",
+        "severity": "Medium",
+        "description": "Tower structural rust / foundation settlement detected"
+      },
+      {
+        "tower_no": "Tower #8",
+        "type": "Sag",
+        "severity": "Medium",
+        "description": "Conductor sag exceeds clearance limit at mid-span"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-66-162",
+    "line_name": "66kV Dharuhera - Tauru Line",
+    "voltage": "66kV",
+    "from_substation": {
+      "code": 23318,
+      "name": "66kV Dharuhera",
+      "lat": 29.2014,
+      "lng": 75.6941
+    },
+    "to_substation": {
+      "code": 22215,
+      "name": "66kV Tauru",
+      "lat": 29.2171,
+      "lng": 75.5865
+    },
+    "length_km": 49.1,
+    "health_score": 68,
+    "status": "Warning",
+    "load_mw": 50,
+    "capacity_mw": 60,
+    "tower_count": 157,
+    "conductor_type": "ACSR Moose",
+    "issues": [
+      {
+        "tower_no": "Tower #136",
+        "type": "Insulator",
+        "severity": "Medium",
+        "description": "Insulator flashover / crack detected on string assembly"
+      },
+      {
+        "tower_no": "Tower #33",
+        "type": "Tower",
+        "severity": "Medium",
+        "description": "Tower structural rust / foundation settlement detected"
+      },
+      {
+        "tower_no": "Tower #61",
+        "type": "Sag",
+        "severity": "Medium",
+        "description": "Conductor sag exceeds clearance limit at mid-span"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-66-163",
+    "line_name": "66kV Mehra - Malikpur Line (Feeder 1)",
+    "voltage": "66kV",
+    "from_substation": {
+      "code": 11324,
+      "name": "66kV Mehra",
+      "lat": 30.8281,
+      "lng": 76.8573
+    },
+    "to_substation": {
+      "code": 11230,
+      "name": "66kV Malikpur",
+      "lat": 30.5402,
+      "lng": 76.8687
+    },
+    "length_km": 34.1,
+    "health_score": 54,
+    "status": "Critical",
+    "load_mw": 30,
+    "capacity_mw": 60,
+    "tower_count": 109,
+    "conductor_type": "ACSR Moose",
+    "issues": [
+      {
+        "tower_no": "Tower #10",
+        "type": "Tower",
+        "severity": "High",
+        "description": "Tower structural rust / foundation settlement detected"
+      },
+      {
+        "tower_no": "Tower #69",
+        "type": "Hotspot",
+        "severity": "High",
+        "description": "Temperature anomaly detected on C-Phase isolator clamp (56\u00b0C)"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-66-164",
+    "line_name": "66kV Harsaru - Hasanpur Line",
+    "voltage": "66kV",
+    "from_substation": {
+      "code": 23210,
+      "name": "66kV Harsaru",
+      "lat": 29.0231,
+      "lng": 75.7025
+    },
+    "to_substation": {
+      "code": 22210,
+      "name": "66kV Hasanpur",
+      "lat": 29.2845,
+      "lng": 75.7878
+    },
+    "length_km": 53.5,
+    "health_score": 79,
+    "status": "Warning",
+    "load_mw": 25,
+    "capacity_mw": 60,
+    "tower_count": 171,
+    "conductor_type": "AAAC Panther",
+    "issues": [
+      {
+        "tower_no": "Tower #109",
+        "type": "Tower",
+        "severity": "Medium",
+        "description": "Tower structural rust / foundation settlement detected"
+      },
+      {
+        "tower_no": "Tower #150",
+        "type": "Insulator",
+        "severity": "Medium",
+        "description": "Insulator flashover / crack detected on string assembly"
+      },
+      {
+        "tower_no": "Tower #166",
+        "type": "Tower",
+        "severity": "Medium",
+        "description": "Tower structural rust / foundation settlement detected"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-66-165",
+    "line_name": "66kV 220kV A-4 Fbd - Chandpur Line",
+    "voltage": "66kV",
+    "from_substation": {
+      "code": 22102,
+      "name": "220kV A-4 Fbd",
+      "lat": 29.2272,
+      "lng": 75.8459
+    },
+    "to_substation": {
+      "code": 11308,
+      "name": "66kV Chandpur",
+      "lat": 30.6307,
+      "lng": 76.7904
+    },
+    "length_km": 28.0,
+    "health_score": 80,
+    "status": "Warning",
+    "load_mw": 22,
+    "capacity_mw": 60,
+    "tower_count": 89,
+    "conductor_type": "ACSR Weasel",
+    "issues": [
+      {
+        "tower_no": "Tower #67",
+        "type": "Vegetation",
+        "severity": "Medium",
+        "description": "Tree canopy clearance breach (< 2.0m)"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-66-166",
+    "line_name": "66kV Bhupani - Sec-31 Fbd Line (Feeder 2)",
+    "voltage": "66kV",
+    "from_substation": {
+      "code": 22125,
+      "name": "66kV Bhupani",
+      "lat": 29.2339,
+      "lng": 75.8291
+    },
+    "to_substation": {
+      "code": 22104,
+      "name": "66kV Sec-31 Fbd",
+      "lat": 29.2687,
+      "lng": 75.856
+    },
+    "length_km": 63.4,
+    "health_score": 83,
+    "status": "Warning",
+    "load_mw": 51,
+    "capacity_mw": 60,
+    "tower_count": 202,
+    "conductor_type": "ACSR Zebra",
+    "issues": [
+      {
+        "tower_no": "Tower #189",
+        "type": "Tower",
+        "severity": "Medium",
+        "description": "Tower structural rust / foundation settlement detected"
+      },
+      {
+        "tower_no": "Tower #155",
+        "type": "Vegetation",
+        "severity": "Medium",
+        "description": "Tree canopy clearance breach (< 2.3m)"
+      },
+      {
+        "tower_no": "Tower #69",
+        "type": "Insulator",
+        "severity": "Medium",
+        "description": "Insulator flashover / crack detected on string assembly"
+      }
+    ],
+    "next_maintenance_date": "2026-07-28"
+  },
+  {
+    "line_id": "TL-66-167",
+    "line_name": "66kV Aurangbad - Badshahpur Line",
+    "voltage": "66kV",
+    "from_substation": {
+      "code": 22211,
+      "name": "66kV Aurangbad",
+      "lat": 29.1024,
+      "lng": 75.6881
+    },
+    "to_substation": {
+      "code": 23105,
+      "name": "66kV Badshahpur",
+      "lat": 29.0951,
+      "lng": 75.7568
+    },
+    "length_km": 41.7,
+    "health_score": 72,
+    "status": "Warning",
+    "load_mw": 33,
+    "capacity_mw": 60,
+    "tower_count": 133,
+    "conductor_type": "AAAC Panther",
+    "issues": [
+      {
+        "tower_no": "Tower #6",
+        "type": "Vegetation",
+        "severity": "Medium",
+        "description": "Tree canopy clearance breach (< 1.6m)"
+      },
+      {
+        "tower_no": "Tower #51",
+        "type": "Insulator",
+        "severity": "Medium",
+        "description": "Insulator flashover / crack detected on string assembly"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-66-168",
+    "line_name": "66kV USA - Kesri Line",
+    "voltage": "66kV",
+    "from_substation": {
+      "code": 22105,
+      "name": "66kV USA",
+      "lat": 29.0941,
+      "lng": 75.7565
+    },
+    "to_substation": {
+      "code": 11213,
+      "name": "66kV Kesri",
+      "lat": 30.6652,
+      "lng": 76.7801
+    },
+    "length_km": 60.4,
+    "health_score": 88,
+    "status": "Optimal",
+    "load_mw": 46,
+    "capacity_mw": 60,
+    "tower_count": 193,
+    "conductor_type": "AAAC Panther",
+    "issues": [],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-66-169",
+    "line_name": "66kV Gangori - Jamalpur Line (Feeder 1)",
+    "voltage": "66kV",
+    "from_substation": {
+      "code": 11319,
+      "name": "66kV Gangori",
+      "lat": 30.767,
+      "lng": 76.895
+    },
+    "to_substation": {
+      "code": 23213,
+      "name": "66kV Jamalpur",
+      "lat": 29.2425,
+      "lng": 75.7262
+    },
+    "length_km": 44.4,
+    "health_score": 81,
+    "status": "Warning",
+    "load_mw": 33,
+    "capacity_mw": 60,
+    "tower_count": 142,
+    "conductor_type": "ACSR Dog",
+    "issues": [
+      {
+        "tower_no": "Tower #88",
+        "type": "Sag",
+        "severity": "Medium",
+        "description": "Conductor sag exceeds clearance limit at mid-span"
+      },
+      {
+        "tower_no": "Tower #66",
+        "type": "Vegetation",
+        "severity": "Medium",
+        "description": "Tree canopy clearance breach (< 2.1m)"
+      },
+      {
+        "tower_no": "Tower #61",
+        "type": "Insulator",
+        "severity": "Medium",
+        "description": "Insulator flashover / crack detected on string assembly"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-66-170",
+    "line_name": "66kV IOC Ambala - Oswal Steel Line",
+    "voltage": "66kV",
+    "from_substation": {
+      "code": 11207,
+      "name": "66kV IOC Ambala",
+      "lat": 30.8365,
+      "lng": 76.7585
+    },
+    "to_substation": {
+      "code": 22118,
+      "name": "66kV Oswal Steel",
+      "lat": 29.1364,
+      "lng": 75.647
+    },
+    "length_km": 22.3,
+    "health_score": 55,
+    "status": "Critical",
+    "load_mw": 42,
+    "capacity_mw": 60,
+    "tower_count": 71,
+    "conductor_type": "ACSR Moose",
+    "issues": [
+      {
+        "tower_no": "Tower #27",
+        "type": "Vegetation",
+        "severity": "High",
+        "description": "Tree canopy clearance breach (< 2.2m)"
+      },
+      {
+        "tower_no": "Tower #45",
+        "type": "Tower",
+        "severity": "High",
+        "description": "Tower structural rust / foundation settlement detected"
+      },
+      {
+        "tower_no": "Tower #10",
+        "type": "Tower",
+        "severity": "High",
+        "description": "Tower structural rust / foundation settlement detected"
+      }
+    ],
+    "next_maintenance_date": "2026-07-28"
+  },
+  {
+    "line_id": "TL-66-171",
+    "line_name": "66kV Jansui - Rasulpur Line",
+    "voltage": "66kV",
+    "from_substation": {
+      "code": 11205,
+      "name": "66kV Jansui",
+      "lat": 30.6415,
+      "lng": 76.8342
+    },
+    "to_substation": {
+      "code": 11123,
+      "name": "66kV Rasulpur",
+      "lat": 30.5415,
+      "lng": 76.9384
+    },
+    "length_km": 64.4,
+    "health_score": 97,
+    "status": "Optimal",
+    "load_mw": 33,
+    "capacity_mw": 60,
+    "tower_count": 206,
+    "conductor_type": "AAAC Panther",
+    "issues": [],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-66-172",
+    "line_name": "66kV Rattangarh - Barnala Line (Feeder 2)",
+    "voltage": "66kV",
+    "from_substation": {
+      "code": 11313,
+      "name": "66kV Rattangarh",
+      "lat": 30.6413,
+      "lng": 76.9701
+    },
+    "to_substation": {
+      "code": 11204,
+      "name": "66kV Barnala",
+      "lat": 30.5595,
+      "lng": 76.9417
+    },
+    "length_km": 36.6,
+    "health_score": 49,
+    "status": "Critical",
+    "load_mw": 41,
+    "capacity_mw": 60,
+    "tower_count": 117,
+    "conductor_type": "ACSR Dog",
+    "issues": [
+      {
+        "tower_no": "Tower #59",
+        "type": "Hotspot",
+        "severity": "High",
+        "description": "Temperature anomaly detected on C-Phase isolator clamp (57\u00b0C)"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-66-173",
+    "line_name": "66kV Northarn India - Barwala Line",
+    "voltage": "66kV",
+    "from_substation": {
+      "code": 22112,
+      "name": "66kV Northarn India",
+      "lat": 29.0294,
+      "lng": 75.6332
+    },
+    "to_substation": {
+      "code": 11109,
+      "name": "66kV Barwala",
+      "lat": 30.7512,
+      "lng": 76.9731
+    },
+    "length_km": 64.1,
+    "health_score": 48,
+    "status": "Critical",
+    "load_mw": 39,
+    "capacity_mw": 60,
+    "tower_count": 205,
+    "conductor_type": "ACSR Moose",
+    "issues": [
+      {
+        "tower_no": "Tower #178",
+        "type": "Vegetation",
+        "severity": "High",
+        "description": "Tree canopy clearance breach (< 2.2m)"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-66-174",
+    "line_name": "66kV Udyog Vihar Phase-I Gurugram - Sonda Line",
+    "voltage": "66kV",
+    "from_substation": {
+      "code": 23136,
+      "name": "66kV Udyog Vihar Phase-I Gurugram",
+      "lat": 29.0599,
+      "lng": 75.8426
+    },
+    "to_substation": {
+      "code": 11215,
+      "name": "66kV Sonda",
+      "lat": 30.7243,
+      "lng": 76.8636
+    },
+    "length_km": 15.6,
+    "health_score": 51,
+    "status": "Shutdown",
+    "load_mw": 46,
+    "capacity_mw": 60,
+    "tower_count": 49,
+    "conductor_type": "AAAC Panther",
+    "issues": [
+      {
+        "tower_no": "Tower #32",
+        "type": "Sag",
+        "severity": "High",
+        "description": "Conductor sag exceeds clearance limit at mid-span"
+      }
+    ],
+    "next_maintenance_date": "2026-07-28"
+  },
+  {
+    "line_id": "TL-66-175",
+    "line_name": "66kV Baliar Kalan - Ladwa Line (Feeder 1)",
+    "voltage": "66kV",
+    "from_substation": {
+      "code": 23321,
+      "name": "66kV Baliar Kalan",
+      "lat": 29.1352,
+      "lng": 75.7386
+    },
+    "to_substation": {
+      "code": 11317,
+      "name": "66kV Ladwa",
+      "lat": 30.6161,
+      "lng": 76.7933
+    },
+    "length_km": 40.8,
+    "health_score": 69,
+    "status": "Warning",
+    "load_mw": 22,
+    "capacity_mw": 60,
+    "tower_count": 130,
+    "conductor_type": "ACSR Dog",
+    "issues": [
+      {
+        "tower_no": "Tower #55",
+        "type": "Vegetation",
+        "severity": "Medium",
+        "description": "Tree canopy clearance breach (< 2.8m)"
+      },
+      {
+        "tower_no": "Tower #46",
+        "type": "Insulator",
+        "severity": "Medium",
+        "description": "Insulator flashover / crack detected on string assembly"
+      },
+      {
+        "tower_no": "Tower #83",
+        "type": "Insulator",
+        "severity": "Medium",
+        "description": "Insulator flashover / crack detected on string assembly"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-66-176",
+    "line_name": "66kV Industrial Area Ambala Cantt - Papermill Line",
+    "voltage": "66kV",
+    "from_substation": {
+      "code": 11210,
+      "name": "66kV Industrial Area Ambala Cantt",
+      "lat": 30.7953,
+      "lng": 76.7778
+    },
+    "to_substation": {
+      "code": 11303,
+      "name": "66kV Papermill",
+      "lat": 30.6199,
+      "lng": 76.8113
+    },
+    "length_km": 36.1,
+    "health_score": 46,
+    "status": "Critical",
+    "load_mw": 33,
+    "capacity_mw": 60,
+    "tower_count": 115,
+    "conductor_type": "ACSR Moose",
+    "issues": [
+      {
+        "tower_no": "Tower #50",
+        "type": "Hotspot",
+        "severity": "High",
+        "description": "Temperature anomaly detected on C-Phase isolator clamp (77\u00b0C)"
+      },
+      {
+        "tower_no": "Tower #49",
+        "type": "Insulator",
+        "severity": "High",
+        "description": "Insulator flashover / crack detected on string assembly"
+      },
+      {
+        "tower_no": "Tower #33",
+        "type": "Sag",
+        "severity": "High",
+        "description": "Conductor sag exceeds clearance limit at mid-span"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-66-177",
+    "line_name": "66kV Khanpur Koliyan - Sec-64 Fbd Line",
+    "voltage": "66kV",
+    "from_substation": {
+      "code": 12115,
+      "name": "66kV Khanpur Koliyan",
+      "lat": 30.5795,
+      "lng": 76.932
+    },
+    "to_substation": {
+      "code": 22123,
+      "name": "66kV Sec-64 Fbd",
+      "lat": 29.234,
+      "lng": 75.8416
+    },
+    "length_km": 38.0,
+    "health_score": 79,
+    "status": "Shutdown",
+    "load_mw": 22,
+    "capacity_mw": 60,
+    "tower_count": 121,
+    "conductor_type": "ACSR Moose",
+    "issues": [
+      {
+        "tower_no": "Tower #48",
+        "type": "Insulator",
+        "severity": "Medium",
+        "description": "Insulator flashover / crack detected on string assembly"
+      }
+    ],
+    "next_maintenance_date": "2026-07-28"
+  },
+  {
+    "line_id": "TL-66-178",
+    "line_name": "66kV Harsaru - Hodal Line (Feeder 2)",
+    "voltage": "66kV",
+    "from_substation": {
+      "code": 23210,
+      "name": "66kV Harsaru",
+      "lat": 29.0231,
+      "lng": 75.7025
+    },
+    "to_substation": {
+      "code": 22208,
+      "name": "66kV Hodal",
+      "lat": 29.2574,
+      "lng": 75.6185
+    },
+    "length_km": 52.4,
+    "health_score": 95,
+    "status": "Shutdown",
+    "load_mw": 42,
+    "capacity_mw": 60,
+    "tower_count": 167,
+    "conductor_type": "AAAC Panther",
+    "issues": [],
+    "next_maintenance_date": "2026-07-28"
+  },
+  {
+    "line_id": "TL-66-179",
+    "line_name": "66kV Jamalpur - Mansa Devi Panchkula Line",
+    "voltage": "66kV",
+    "from_substation": {
+      "code": 23213,
+      "name": "66kV Jamalpur",
+      "lat": 29.2425,
+      "lng": 75.7262
+    },
+    "to_substation": {
+      "code": 11105,
+      "name": "66kV Mansa Devi Panchkula",
+      "lat": 30.7578,
+      "lng": 76.8698
+    },
+    "length_km": 49.7,
+    "health_score": 69,
+    "status": "Warning",
+    "load_mw": 27,
+    "capacity_mw": 60,
+    "tower_count": 159,
+    "conductor_type": "ACSR Zebra",
+    "issues": [
+      {
+        "tower_no": "Tower #122",
+        "type": "Hotspot",
+        "severity": "Medium",
+        "description": "Temperature anomaly detected on C-Phase isolator clamp (71\u00b0C)"
+      },
+      {
+        "tower_no": "Tower #59",
+        "type": "Vegetation",
+        "severity": "Medium",
+        "description": "Tree canopy clearance breach (< 2.1m)"
+      },
+      {
+        "tower_no": "Tower #142",
+        "type": "Sag",
+        "severity": "Medium",
+        "description": "Conductor sag exceeds clearance limit at mid-span"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-66-180",
+    "line_name": "66kV Sadopur - Partap Steel Line",
+    "voltage": "66kV",
+    "from_substation": {
+      "code": 11201,
+      "name": "66kV Sadopur",
+      "lat": 30.5832,
+      "lng": 76.8496
+    },
+    "to_substation": {
+      "code": 22113,
+      "name": "66kV Partap Steel",
+      "lat": 29.0614,
+      "lng": 75.7015
+    },
+    "length_km": 19.7,
+    "health_score": 89,
+    "status": "Optimal",
+    "load_mw": 46,
+    "capacity_mw": 60,
+    "tower_count": 63,
+    "conductor_type": "ACSR Moose",
+    "issues": [],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-66-181",
+    "line_name": "66kV Berkheri - Mobile SSTN GGN Line (Feeder 1)",
+    "voltage": "66kV",
+    "from_substation": {
+      "code": 11117,
+      "name": "66kV Berkheri",
+      "lat": 30.5433,
+      "lng": 76.989
+    },
+    "to_substation": {
+      "code": 23129,
+      "name": "66kV Mobile SSTN GGN",
+      "lat": 29.1265,
+      "lng": 75.7639
+    },
+    "length_km": 38.4,
+    "health_score": 87,
+    "status": "Optimal",
+    "load_mw": 40,
+    "capacity_mw": 60,
+    "tower_count": 122,
+    "conductor_type": "ACSR Dog",
+    "issues": [],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-66-182",
+    "line_name": "66kV Idgah - Jeolly Line",
+    "voltage": "66kV",
+    "from_substation": {
+      "code": 22111,
+      "name": "66kV Idgah",
+      "lat": 29.1197,
+      "lng": 75.7908
+    },
+    "to_substation": {
+      "code": 11113,
+      "name": "66kV Jeolly",
+      "lat": 30.729,
+      "lng": 76.9343
+    },
+    "length_km": 28.5,
+    "health_score": 92,
+    "status": "Shutdown",
+    "load_mw": 32,
+    "capacity_mw": 60,
+    "tower_count": 91,
+    "conductor_type": "AAAC Panther",
+    "issues": [],
+    "next_maintenance_date": "2026-07-28"
+  },
+  {
+    "line_id": "TL-66-183",
+    "line_name": "66kV Kazibans - Chhainsa Line",
+    "voltage": "66kV",
+    "from_substation": {
+      "code": 11323,
+      "name": "66kV Kazibans",
+      "lat": 30.545,
+      "lng": 76.8103
+    },
+    "to_substation": {
+      "code": 22126,
+      "name": "66kV Chhainsa",
+      "lat": 29.1885,
+      "lng": 75.7029
+    },
+    "length_km": 11.6,
+    "health_score": 73,
+    "status": "Warning",
+    "load_mw": 24,
+    "capacity_mw": 60,
+    "tower_count": 37,
+    "conductor_type": "ACSR Weasel",
+    "issues": [
+      {
+        "tower_no": "Tower #31",
+        "type": "Vegetation",
+        "severity": "Medium",
+        "description": "Tree canopy clearance breach (< 2.7m)"
+      }
+    ],
+    "next_maintenance_date": null
+  },
+  {
+    "line_id": "TL-66-184",
+    "line_name": "66kV Mehrauli Road Gurgaon - Nagina Line (Feeder 2)",
+    "voltage": "66kV",
+    "from_substation": {
+      "code": 23110,
+      "name": "66kV Mehrauli Road Gurgaon",
+      "lat": 29.0092,
+      "lng": 75.8303
+    },
+    "to_substation": {
+      "code": 22214,
+      "name": "66kV Nagina",
+      "lat": 29.0308,
+      "lng": 75.8563
+    },
+    "length_km": 41.4,
+    "health_score": 68,
+    "status": "Shutdown",
+    "load_mw": 22,
+    "capacity_mw": 60,
+    "tower_count": 132,
+    "conductor_type": "ACSR Zebra",
+    "issues": [
+      {
+        "tower_no": "Tower #32",
+        "type": "Insulator",
+        "severity": "Medium",
+        "description": "Insulator flashover / crack detected on string assembly"
+      },
+      {
+        "tower_no": "Tower #14",
+        "type": "Hotspot",
+        "severity": "Medium",
+        "description": "Temperature anomaly detected on C-Phase isolator clamp (70\u00b0C)"
+      },
+      {
+        "tower_no": "Tower #79",
+        "type": "Tower",
+        "severity": "Medium",
+        "description": "Tower structural rust / foundation settlement detected"
+      }
+    ],
+    "next_maintenance_date": "2026-07-28"
+  }
+]

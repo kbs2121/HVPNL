@@ -1,0 +1,232 @@
+@import "tailwindcss";
+
+@source "../**/*.{js,ts,jsx,tsx}";
+
+@theme {
+  --color-surface-900: #0a0f1a;
+  --color-surface-800: #0f1729;
+  --color-surface-700: #151f35;
+  --color-surface-600: #1c2844;
+  --color-surface-500: #243352;
+  --color-accent-cyan: #22d3ee;
+  --color-accent-emerald: #10b981;
+  --color-accent-amber: #f59e0b;
+  --color-accent-red: #ef4444;
+  --color-text-primary: #f1f5f9;
+  --color-text-secondary: #94a3b8;
+  --color-text-muted: #64748b;
+  --color-border-subtle: rgba(148, 163, 184, 0.12);
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: var(--color-surface-900);
+    color: var(--color-text-primary);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+@layer utilities {
+  .glass-panel {
+    background: rgba(15, 23, 41, 0.85);
+    backdrop-filter: blur(12px);
+    border: 1px solid var(--color-border-subtle);
+  }
+
+  .scrollbar-thin::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    background: rgba(148, 163, 184, 0.3);
+    border-radius: 2px;
+  }
+
+  @keyframes pulse-red {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.4; }
+  }
+
+  .animate-pulse-red {
+    animation: pulse-red 1.5s ease-in-out infinite;
+  }
+
+  .dashboard-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+    background: var(--color-surface-900);
+  }
+
+  .sidebar-container {
+    width: 240px;
+    transition: width 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .sidebar-container.collapsed {
+    width: 64px;
+  }
+
+  .line-status-table {
+    --table-height: 160px;
+    height: var(--table-height);
+    flex-shrink: 0;
+  }
+
+  .leaflet-container {
+    height: 100%;
+    width: 100%;
+    background: var(--color-surface-900);
+    font-family: var(--font-sans);
+  }
+
+  .leaflet-control-zoom a {
+    background: rgba(15, 23, 41, 0.9) !important;
+    color: #94a3b8 !important;
+    border-color: rgba(148, 163, 184, 0.12) !important;
+  }
+
+  .leaflet-control-zoom a:hover {
+    background: rgba(28, 40, 68, 0.95) !important;
+    color: #f1f5f9 !important;
+  }
+
+  .leaflet-control-attribution {
+    background: rgba(15, 23, 41, 0.7) !important;
+    color: #64748b !important;
+    font-size: 9px !important;
+  }
+
+  .leaflet-control-attribution a {
+    color: #94a3b8 !important;
+  }
+
+  /* Digital Twin premium UI */
+  .dt-glass {
+    background: rgba(10, 15, 26, 0.75);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(148, 163, 184, 0.1);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.05);
+  }
+
+  .dt-input {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(148, 163, 184, 0.15);
+    color: #f1f5f9;
+    outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+  }
+
+  .dt-input:focus {
+    border-color: rgba(34, 211, 238, 0.4);
+    box-shadow: 0 0 0 2px rgba(34, 211, 238, 0.1);
+  }
+
+  .shadow-glow-cyan {
+    box-shadow: 0 0 20px rgba(34, 211, 238, 0.3);
+  }
+
+  .mapboxgl-ctrl-attrib,
+  .maplibregl-ctrl-attrib,
+  .mapboxgl-ctrl-logo,
+  .maplibregl-ctrl-logo {
+    opacity: 0.35 !important;
+    font-size: 9px !important;
+  }
+
+  .dt-theme-light .dt-glass {
+    background: rgba(255, 255, 255, 0.82);
+    border-color: rgba(0, 0, 0, 0.08);
+    color: #0f172a;
+  }
+
+  .dt-theme-light .dt-input {
+    background: rgba(0, 0, 0, 0.04);
+    border-color: rgba(0, 0, 0, 0.12);
+    color: #0f172a;
+  }
+
+  /* Power Grid — animated electricity flow on transmission lines */
+  @keyframes flow {
+    from {
+      stroke-dashoffset: 40;
+    }
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+
+  .leaflet-overlay-pane svg path.electric-line {
+    stroke: #00f0ff !important;
+    stroke-dasharray: 10, 10;
+    animation: flow 1s linear infinite;
+    filter: drop-shadow(0 0 8px #00f0ff);
+  }
+
+  .power-grid-marker {
+    background: transparent !important;
+    border: none !important;
+  }
+
+  .substation-marker {
+    transition: transform 0.2s ease;
+  }
+
+  .substation-marker--hover {
+    transform: scale(1.15);
+  }
+
+  .tower-marker {
+    opacity: 0.9;
+  }
+
+  .power-grid-tooltip {
+    background: rgba(10, 15, 26, 0.9) !important;
+    border: 1px solid rgba(0, 240, 255, 0.3) !important;
+    color: #f1f5f9 !important;
+    font-size: 11px !important;
+    border-radius: 8px !important;
+    padding: 4px 8px !important;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4) !important;
+  }
+
+  .power-grid-tooltip::before {
+    border-top-color: rgba(0, 240, 255, 0.3) !important;
+  }
+
+  /* Power Grid 3D theme accents */
+  .pg-theme-light .dt-glass {
+    background: rgba(255, 255, 255, 0.88);
+    border-color: rgba(99, 102, 241, 0.15);
+    color: #0f172a;
+  }
+
+  .pg-theme-light .text-white {
+    color: #0f172a;
+  }
+
+  .pg-theme-light .text-text-muted {
+    color: #64748b;
+  }
+
+  .pg-theme-light .text-text-secondary {
+    color: #475569;
+  }
+}

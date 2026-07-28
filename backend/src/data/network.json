@@ -1,0 +1,3586 @@
+{
+  "zones": [
+    {
+      "id": "zone-north",
+      "name": "North Zone",
+      "code": "NZ",
+      "boundary": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.30000000000001,
+              29.4
+            ],
+            [
+              77.5,
+              29.4
+            ],
+            [
+              77.5,
+              30.4
+            ],
+            [
+              76.30000000000001,
+              30.4
+            ],
+            [
+              76.30000000000001,
+              29.4
+            ]
+          ]
+        ]
+      },
+      "color": "#6366f1",
+      "totalSubstations": 4,
+      "totalLoadMW": 1235
+    },
+    {
+      "id": "zone-central",
+      "name": "Central Zone",
+      "code": "CZ",
+      "boundary": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.2,
+              28.400000000000002
+            ],
+            [
+              77.2,
+              28.400000000000002
+            ],
+            [
+              77.2,
+              29.2
+            ],
+            [
+              76.2,
+              29.2
+            ],
+            [
+              76.2,
+              28.400000000000002
+            ]
+          ]
+        ]
+      },
+      "color": "#8b5cf6",
+      "totalSubstations": 2,
+      "totalLoadMW": 635
+    },
+    {
+      "id": "zone-west",
+      "name": "West Zone",
+      "code": "WZ",
+      "boundary": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.35000000000001,
+              28.5
+            ],
+            [
+              76.45,
+              28.5
+            ],
+            [
+              76.45,
+              29.5
+            ],
+            [
+              75.35000000000001,
+              29.5
+            ],
+            [
+              75.35000000000001,
+              28.5
+            ]
+          ]
+        ]
+      },
+      "color": "#ec4899",
+      "totalSubstations": 2,
+      "totalLoadMW": 510
+    },
+    {
+      "id": "zone-south",
+      "name": "South Zone",
+      "code": "SZ",
+      "boundary": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.6,
+              28.049999999999997
+            ],
+            [
+              77.6,
+              28.049999999999997
+            ],
+            [
+              77.6,
+              28.75
+            ],
+            [
+              76.6,
+              28.75
+            ],
+            [
+              76.6,
+              28.049999999999997
+            ]
+          ]
+        ]
+      },
+      "color": "#14b8a6",
+      "totalSubstations": 2,
+      "totalLoadMW": 990
+    }
+  ],
+  "circles": [
+    {
+      "id": "circle-karnal",
+      "name": "Karnal Circle",
+      "zoneId": "zone-north",
+      "zoneName": "North Zone",
+      "boundary": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.7,
+              29.325
+            ],
+            [
+              77.2,
+              29.325
+            ],
+            [
+              77.2,
+              29.775000000000002
+            ],
+            [
+              76.7,
+              29.775000000000002
+            ],
+            [
+              76.7,
+              29.325
+            ]
+          ]
+        ]
+      },
+      "color": "#a78bfa"
+    },
+    {
+      "id": "circle-ambala",
+      "name": "Ambala Circle",
+      "zoneId": "zone-north",
+      "zoneName": "North Zone",
+      "boundary": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.725,
+              30
+            ],
+            [
+              77.275,
+              30
+            ],
+            [
+              77.275,
+              30.4
+            ],
+            [
+              76.725,
+              30.4
+            ],
+            [
+              76.725,
+              30
+            ]
+          ]
+        ]
+      },
+      "color": "#f472b6"
+    },
+    {
+      "id": "circle-rohtak",
+      "name": "Rohtak Circle",
+      "zoneId": "zone-central",
+      "zoneName": "Central Zone",
+      "boundary": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.375,
+              28.724999999999998
+            ],
+            [
+              76.82499999999999,
+              28.724999999999998
+            ],
+            [
+              76.82499999999999,
+              29.075
+            ],
+            [
+              76.375,
+              29.075
+            ],
+            [
+              76.375,
+              28.724999999999998
+            ]
+          ]
+        ]
+      },
+      "color": "#34d399"
+    },
+    {
+      "id": "circle-delhi-border",
+      "name": "Delhi Border Circle",
+      "zoneId": "zone-central",
+      "zoneName": "Central Zone",
+      "boundary": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.64999999999999,
+              28.55
+            ],
+            [
+              77.05,
+              28.55
+            ],
+            [
+              77.05,
+              28.849999999999998
+            ],
+            [
+              76.64999999999999,
+              28.849999999999998
+            ],
+            [
+              76.64999999999999,
+              28.55
+            ]
+          ]
+        ]
+      },
+      "color": "#60a5fa"
+    },
+    {
+      "id": "circle-hisar",
+      "name": "Hisar Circle",
+      "zoneId": "zone-west",
+      "zoneName": "West Zone",
+      "boundary": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.55000000000001,
+              28.725
+            ],
+            [
+              76.25,
+              28.725
+            ],
+            [
+              76.25,
+              29.275
+            ],
+            [
+              75.55000000000001,
+              29.275
+            ],
+            [
+              75.55000000000001,
+              28.725
+            ]
+          ]
+        ]
+      },
+      "color": "#fbbf24"
+    },
+    {
+      "id": "circle-gurugram",
+      "name": "Gurugram Circle",
+      "zoneId": "zone-south",
+      "zoneName": "South Zone",
+      "boundary": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.775,
+              28.275
+            ],
+            [
+              77.225,
+              28.275
+            ],
+            [
+              77.225,
+              28.625
+            ],
+            [
+              76.775,
+              28.625
+            ],
+            [
+              76.775,
+              28.275
+            ]
+          ]
+        ]
+      },
+      "color": "#fb7185"
+    },
+    {
+      "id": "circle-faridabad",
+      "name": "Faridabad Circle",
+      "zoneId": "zone-south",
+      "zoneName": "South Zone",
+      "boundary": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.1,
+              28.25
+            ],
+            [
+              77.5,
+              28.25
+            ],
+            [
+              77.5,
+              28.549999999999997
+            ],
+            [
+              77.1,
+              28.549999999999997
+            ],
+            [
+              77.1,
+              28.25
+            ]
+          ]
+        ]
+      },
+      "color": "#a78bfa"
+    }
+  ],
+  "divisions": [
+    {
+      "id": "div-panipat",
+      "name": "Panipat Division",
+      "circleId": "circle-karnal",
+      "circleName": "Karnal Circle",
+      "zoneId": "zone-north",
+      "zoneName": "North Zone",
+      "boundary": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.835,
+              29.29
+            ],
+            [
+              77.085,
+              29.29
+            ],
+            [
+              77.085,
+              29.490000000000002
+            ],
+            [
+              76.835,
+              29.490000000000002
+            ],
+            [
+              76.835,
+              29.29
+            ]
+          ]
+        ]
+      },
+      "color": "#c4b5fd"
+    },
+    {
+      "id": "div-karnal",
+      "name": "Karnal Division",
+      "circleId": "circle-karnal",
+      "circleName": "Karnal Circle",
+      "zoneId": "zone-north",
+      "zoneName": "North Zone",
+      "boundary": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.865,
+              29.58
+            ],
+            [
+              77.115,
+              29.58
+            ],
+            [
+              77.115,
+              29.78
+            ],
+            [
+              76.865,
+              29.78
+            ],
+            [
+              76.865,
+              29.58
+            ]
+          ]
+        ]
+      },
+      "color": "#fda4af"
+    },
+    {
+      "id": "div-yamunanagar",
+      "name": "Yamunanagar Division",
+      "circleId": "circle-ambala",
+      "circleName": "Ambala Circle",
+      "zoneId": "zone-north",
+      "zoneName": "North Zone",
+      "boundary": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.145,
+              30.029999999999998
+            ],
+            [
+              77.395,
+              30.029999999999998
+            ],
+            [
+              77.395,
+              30.23
+            ],
+            [
+              77.145,
+              30.23
+            ],
+            [
+              77.145,
+              30.029999999999998
+            ]
+          ]
+        ]
+      },
+      "color": "#6ee7b7"
+    },
+    {
+      "id": "div-ambala",
+      "name": "Ambala Division",
+      "circleId": "circle-ambala",
+      "circleName": "Ambala Circle",
+      "zoneId": "zone-north",
+      "zoneName": "North Zone",
+      "boundary": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.655,
+              30.279999999999998
+            ],
+            [
+              76.905,
+              30.279999999999998
+            ],
+            [
+              76.905,
+              30.48
+            ],
+            [
+              76.655,
+              30.48
+            ],
+            [
+              76.655,
+              30.279999999999998
+            ]
+          ]
+        ]
+      },
+      "color": "#93c5fd"
+    },
+    {
+      "id": "div-rohtak",
+      "name": "Rohtak Division",
+      "circleId": "circle-rohtak",
+      "circleName": "Rohtak Circle",
+      "zoneId": "zone-central",
+      "zoneName": "Central Zone",
+      "boundary": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.485,
+              28.799999999999997
+            ],
+            [
+              76.735,
+              28.799999999999997
+            ],
+            [
+              76.735,
+              29
+            ],
+            [
+              76.485,
+              29
+            ],
+            [
+              76.485,
+              28.799999999999997
+            ]
+          ]
+        ]
+      },
+      "color": "#fcd34d"
+    },
+    {
+      "id": "div-bahadurgarh",
+      "name": "Bahadurgarh Division",
+      "circleId": "circle-delhi-border",
+      "circleName": "Delhi Border Circle",
+      "zoneId": "zone-central",
+      "zoneName": "Central Zone",
+      "boundary": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.82000000000001,
+              28.6
+            ],
+            [
+              77.04,
+              28.6
+            ],
+            [
+              77.04,
+              28.78
+            ],
+            [
+              76.82000000000001,
+              28.78
+            ],
+            [
+              76.82000000000001,
+              28.6
+            ]
+          ]
+        ]
+      },
+      "color": "#fdba74"
+    },
+    {
+      "id": "div-hisar",
+      "name": "Hisar Division",
+      "circleId": "circle-hisar",
+      "circleName": "Hisar Circle",
+      "zoneId": "zone-west",
+      "zoneName": "West Zone",
+      "boundary": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.57,
+              29.025
+            ],
+            [
+              75.87,
+              29.025
+            ],
+            [
+              75.87,
+              29.275
+            ],
+            [
+              75.57,
+              29.275
+            ],
+            [
+              75.57,
+              29.025
+            ]
+          ]
+        ]
+      },
+      "color": "#c4b5fd"
+    },
+    {
+      "id": "div-bhiwani",
+      "name": "Bhiwani Division",
+      "circleId": "circle-hisar",
+      "circleName": "Hisar Circle",
+      "zoneId": "zone-west",
+      "zoneName": "West Zone",
+      "boundary": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.005,
+              28.7
+            ],
+            [
+              76.255,
+              28.7
+            ],
+            [
+              76.255,
+              28.900000000000002
+            ],
+            [
+              76.005,
+              28.900000000000002
+            ],
+            [
+              76.005,
+              28.7
+            ]
+          ]
+        ]
+      },
+      "color": "#fda4af"
+    },
+    {
+      "id": "div-gurugram",
+      "name": "Gurugram Division",
+      "circleId": "circle-gurugram",
+      "circleName": "Gurugram Circle",
+      "zoneId": "zone-south",
+      "zoneName": "South Zone",
+      "boundary": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.905,
+              28.36
+            ],
+            [
+              77.155,
+              28.36
+            ],
+            [
+              77.155,
+              28.560000000000002
+            ],
+            [
+              76.905,
+              28.560000000000002
+            ],
+            [
+              76.905,
+              28.36
+            ]
+          ]
+        ]
+      },
+      "color": "#6ee7b7"
+    },
+    {
+      "id": "div-faridabad",
+      "name": "Faridabad Division",
+      "circleId": "circle-faridabad",
+      "circleName": "Faridabad Circle",
+      "zoneId": "zone-south",
+      "zoneName": "South Zone",
+      "boundary": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.21,
+              28.32
+            ],
+            [
+              77.42999999999999,
+              28.32
+            ],
+            [
+              77.42999999999999,
+              28.5
+            ],
+            [
+              77.21,
+              28.5
+            ],
+            [
+              77.21,
+              28.32
+            ]
+          ]
+        ]
+      },
+      "color": "#93c5fd"
+    }
+  ],
+  "substations": [
+    {
+      "name": "Panipat",
+      "latitude": 29.3909,
+      "longitude": 76.9635,
+      "zone": "North Zone",
+      "circle": "Karnal Circle",
+      "division": "Panipat Division",
+      "voltage_level": "220/132kV",
+      "incoming_voltage": 220,
+      "outgoing_voltage": 132,
+      "capacity_MVA": 500,
+      "load_MW": 310,
+      "health": "Healthy",
+      "status": "Running",
+      "id": "SS-001",
+      "zoneId": "zone-north",
+      "circleId": "circle-karnal",
+      "divisionId": "div-panipat",
+      "power_received_MW": 264,
+      "power_sent_MW": 263,
+      "feeders_in": 4,
+      "feeders_out": 3,
+      "temperature_C": 53,
+      "oil_level_pct": 88,
+      "last_maintenance": "2025-07-11",
+      "maintenance_due": "2026-08-20"
+    },
+    {
+      "name": "Karnal",
+      "latitude": 29.6857,
+      "longitude": 76.9905,
+      "zone": "North Zone",
+      "circle": "Karnal Circle",
+      "division": "Karnal Division",
+      "voltage_level": "220/132kV",
+      "incoming_voltage": 220,
+      "outgoing_voltage": 132,
+      "capacity_MVA": 400,
+      "load_MW": 285,
+      "health": "Healthy",
+      "status": "Running",
+      "id": "SS-002",
+      "zoneId": "zone-north",
+      "circleId": "circle-karnal",
+      "divisionId": "div-karnal",
+      "power_received_MW": 284,
+      "power_sent_MW": 233,
+      "feeders_in": 3,
+      "feeders_out": 3,
+      "temperature_C": 51,
+      "oil_level_pct": 76,
+      "last_maintenance": "2025-10-17",
+      "maintenance_due": "2026-11-12"
+    },
+    {
+      "name": "Yamunanagar",
+      "latitude": 30.129,
+      "longitude": 77.2674,
+      "zone": "North Zone",
+      "circle": "Ambala Circle",
+      "division": "Yamunanagar Division",
+      "voltage_level": "220/132kV",
+      "incoming_voltage": 220,
+      "outgoing_voltage": 132,
+      "capacity_MVA": 350,
+      "load_MW": 220,
+      "health": "Warning",
+      "status": "Running",
+      "id": "SS-003",
+      "zoneId": "zone-north",
+      "circleId": "circle-ambala",
+      "divisionId": "div-yamunanagar",
+      "power_received_MW": 214,
+      "power_sent_MW": 183,
+      "feeders_in": 2,
+      "feeders_out": 3,
+      "temperature_C": 51,
+      "oil_level_pct": 87,
+      "last_maintenance": "2025-07-24",
+      "maintenance_due": "2026-11-18"
+    },
+    {
+      "name": "Ambala",
+      "latitude": 30.3782,
+      "longitude": 76.7767,
+      "zone": "North Zone",
+      "circle": "Ambala Circle",
+      "division": "Ambala Division",
+      "voltage_level": "400/220kV",
+      "incoming_voltage": 400,
+      "outgoing_voltage": 220,
+      "capacity_MVA": 630,
+      "load_MW": 420,
+      "health": "Healthy",
+      "status": "Running",
+      "id": "SS-004",
+      "zoneId": "zone-north",
+      "circleId": "circle-ambala",
+      "divisionId": "div-ambala",
+      "power_received_MW": 377,
+      "power_sent_MW": 333,
+      "feeders_in": 4,
+      "feeders_out": 3,
+      "temperature_C": 50,
+      "oil_level_pct": 72,
+      "last_maintenance": "2025-10-14",
+      "maintenance_due": "2026-12-05"
+    },
+    {
+      "name": "Rohtak",
+      "latitude": 28.8955,
+      "longitude": 76.6066,
+      "zone": "Central Zone",
+      "circle": "Rohtak Circle",
+      "division": "Rohtak Division",
+      "voltage_level": "220/132kV",
+      "incoming_voltage": 220,
+      "outgoing_voltage": 132,
+      "capacity_MVA": 450,
+      "load_MW": 340,
+      "health": "Healthy",
+      "status": "Running",
+      "id": "SS-005",
+      "zoneId": "zone-central",
+      "circleId": "circle-rohtak",
+      "divisionId": "div-rohtak",
+      "power_received_MW": 315,
+      "power_sent_MW": 299,
+      "feeders_in": 2,
+      "feeders_out": 4,
+      "temperature_C": 69,
+      "oil_level_pct": 79,
+      "last_maintenance": "2025-10-12",
+      "maintenance_due": "2026-10-05"
+    },
+    {
+      "name": "Hisar",
+      "latitude": 29.1492,
+      "longitude": 75.7217,
+      "zone": "West Zone",
+      "circle": "Hisar Circle",
+      "division": "Hisar Division",
+      "voltage_level": "220/132kV",
+      "incoming_voltage": 220,
+      "outgoing_voltage": 132,
+      "capacity_MVA": 500,
+      "load_MW": 365,
+      "health": "Healthy",
+      "status": "Running",
+      "id": "SS-006",
+      "zoneId": "zone-west",
+      "circleId": "circle-hisar",
+      "divisionId": "div-hisar",
+      "power_received_MW": 361,
+      "power_sent_MW": 338,
+      "feeders_in": 4,
+      "feeders_out": 6,
+      "temperature_C": 66,
+      "oil_level_pct": 81,
+      "last_maintenance": "2025-10-19",
+      "maintenance_due": "2026-07-20"
+    },
+    {
+      "name": "Bhiwani",
+      "latitude": 28.7975,
+      "longitude": 76.1318,
+      "zone": "West Zone",
+      "circle": "Hisar Circle",
+      "division": "Bhiwani Division",
+      "voltage_level": "132/66kV",
+      "incoming_voltage": 132,
+      "outgoing_voltage": 66,
+      "capacity_MVA": 200,
+      "load_MW": 145,
+      "health": "Warning",
+      "status": "Running",
+      "id": "SS-007",
+      "zoneId": "zone-west",
+      "circleId": "circle-hisar",
+      "divisionId": "div-bhiwani",
+      "power_received_MW": 141,
+      "power_sent_MW": 113,
+      "feeders_in": 2,
+      "feeders_out": 4,
+      "temperature_C": 68,
+      "oil_level_pct": 93,
+      "last_maintenance": "2025-07-24",
+      "maintenance_due": "2026-08-12"
+    },
+    {
+      "name": "Bahadurgarh",
+      "latitude": 28.6928,
+      "longitude": 76.9278,
+      "zone": "Central Zone",
+      "circle": "Delhi Border Circle",
+      "division": "Bahadurgarh Division",
+      "voltage_level": "220/132kV",
+      "incoming_voltage": 220,
+      "outgoing_voltage": 132,
+      "capacity_MVA": 400,
+      "load_MW": 295,
+      "health": "Healthy",
+      "status": "Running",
+      "id": "SS-008",
+      "zoneId": "zone-central",
+      "circleId": "circle-delhi-border",
+      "divisionId": "div-bahadurgarh",
+      "power_received_MW": 270,
+      "power_sent_MW": 237,
+      "feeders_in": 3,
+      "feeders_out": 4,
+      "temperature_C": 50,
+      "oil_level_pct": 97,
+      "last_maintenance": "2025-08-14",
+      "maintenance_due": "2026-11-13"
+    },
+    {
+      "name": "Gurugram",
+      "latitude": 28.4595,
+      "longitude": 77.0266,
+      "zone": "South Zone",
+      "circle": "Gurugram Circle",
+      "division": "Gurugram Division",
+      "voltage_level": "400/220kV",
+      "incoming_voltage": 400,
+      "outgoing_voltage": 220,
+      "capacity_MVA": 800,
+      "load_MW": 580,
+      "health": "Healthy",
+      "status": "Running",
+      "id": "SS-009",
+      "zoneId": "zone-south",
+      "circleId": "circle-gurugram",
+      "divisionId": "div-gurugram",
+      "power_received_MW": 507,
+      "power_sent_MW": 550,
+      "feeders_in": 2,
+      "feeders_out": 6,
+      "temperature_C": 44,
+      "oil_level_pct": 84,
+      "last_maintenance": "2025-09-20",
+      "maintenance_due": "2026-12-07"
+    },
+    {
+      "name": "Faridabad",
+      "latitude": 28.4089,
+      "longitude": 77.3178,
+      "zone": "South Zone",
+      "circle": "Faridabad Circle",
+      "division": "Faridabad Division",
+      "voltage_level": "220/132kV",
+      "incoming_voltage": 220,
+      "outgoing_voltage": 132,
+      "capacity_MVA": 500,
+      "load_MW": 410,
+      "health": "Critical",
+      "status": "Running",
+      "id": "SS-010",
+      "zoneId": "zone-south",
+      "circleId": "circle-faridabad",
+      "divisionId": "div-faridabad",
+      "power_received_MW": 376,
+      "power_sent_MW": 357,
+      "feeders_in": 2,
+      "feeders_out": 6,
+      "temperature_C": 59,
+      "oil_level_pct": 97,
+      "last_maintenance": "2025-11-26",
+      "maintenance_due": "2026-10-17"
+    }
+  ],
+  "towers": [
+    {
+      "id": "TW-001",
+      "tower_number": "T-0001",
+      "latitude": 29.418769023195573,
+      "longitude": 76.97153798920131,
+      "height_m": 45,
+      "tower_type": "Monopole",
+      "voltage_level": "220kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-07-15",
+      "status": "Running",
+      "line_id": "TL-1",
+      "line_name": "Panipat–Karnal 220kV",
+      "sequence": 1
+    },
+    {
+      "id": "TW-002",
+      "tower_number": "T-0002",
+      "latitude": 29.46389449380443,
+      "longitude": 76.98556770856267,
+      "height_m": 45,
+      "tower_type": "Monopole",
+      "voltage_level": "220kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-08-15",
+      "status": "Running",
+      "line_id": "TL-1",
+      "line_name": "Panipat–Karnal 220kV",
+      "sequence": 2
+    },
+    {
+      "id": "TW-003",
+      "tower_number": "T-0003",
+      "latitude": 29.499813234184245,
+      "longitude": 76.9901173139409,
+      "height_m": 45,
+      "tower_type": "Monopole",
+      "voltage_level": "220kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-08-15",
+      "status": "Running",
+      "line_id": "TL-1",
+      "line_name": "Panipat–Karnal 220kV",
+      "sequence": 3
+    },
+    {
+      "id": "TW-004",
+      "tower_number": "T-0004",
+      "latitude": 29.513018742656172,
+      "longitude": 76.95798040271318,
+      "height_m": 45,
+      "tower_type": "Monopole",
+      "voltage_level": "220kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-12-15",
+      "status": "Running",
+      "line_id": "TL-1",
+      "line_name": "Panipat–Karnal 220kV",
+      "sequence": 4
+    },
+    {
+      "id": "TW-005",
+      "tower_number": "T-0005",
+      "latitude": 29.54043581524261,
+      "longitude": 76.97745882730719,
+      "height_m": 45,
+      "tower_type": "Monopole",
+      "voltage_level": "220kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-12-15",
+      "status": "Running",
+      "line_id": "TL-1",
+      "line_name": "Panipat–Karnal 220kV",
+      "sequence": 5
+    },
+    {
+      "id": "TW-006",
+      "tower_number": "T-0006",
+      "latitude": 29.597910430684028,
+      "longitude": 76.98861453378724,
+      "height_m": 45,
+      "tower_type": "Monopole",
+      "voltage_level": "220kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-07-15",
+      "status": "Running",
+      "line_id": "TL-1",
+      "line_name": "Panipat–Karnal 220kV",
+      "sequence": 6
+    },
+    {
+      "id": "TW-007",
+      "tower_number": "T-0007",
+      "latitude": 29.63371818777862,
+      "longitude": 76.96926694465338,
+      "height_m": 45,
+      "tower_type": "Monopole",
+      "voltage_level": "220kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-10-15",
+      "status": "Running",
+      "line_id": "TL-1",
+      "line_name": "Panipat–Karnal 220kV",
+      "sequence": 7
+    },
+    {
+      "id": "TW-008",
+      "tower_number": "T-0008",
+      "latitude": 29.645809530233745,
+      "longitude": 76.97006860156411,
+      "height_m": 45,
+      "tower_type": "Monopole",
+      "voltage_level": "220kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-12-15",
+      "status": "Running",
+      "line_id": "TL-1",
+      "line_name": "Panipat–Karnal 220kV",
+      "sequence": 8
+    },
+    {
+      "id": "TW-009",
+      "tower_number": "T-0009",
+      "latitude": 29.735083780282473,
+      "longitude": 77.02072848449235,
+      "height_m": 45,
+      "tower_type": "Monopole",
+      "voltage_level": "220kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-09-15",
+      "status": "Running",
+      "line_id": "TL-2",
+      "line_name": "Karnal–Yamunanagar 220kV",
+      "sequence": 1
+    },
+    {
+      "id": "TW-010",
+      "tower_number": "T-0010",
+      "latitude": 29.754231152432613,
+      "longitude": 77.04230579297932,
+      "height_m": 45,
+      "tower_type": "Monopole",
+      "voltage_level": "220kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-07-15",
+      "status": "Running",
+      "line_id": "TL-2",
+      "line_name": "Karnal–Yamunanagar 220kV",
+      "sequence": 2
+    },
+    {
+      "id": "TW-011",
+      "tower_number": "T-0011",
+      "latitude": 29.798419786023864,
+      "longitude": 77.0511903774971,
+      "height_m": 45,
+      "tower_type": "Monopole",
+      "voltage_level": "220kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-09-15",
+      "status": "Running",
+      "line_id": "TL-2",
+      "line_name": "Karnal–Yamunanagar 220kV",
+      "sequence": 3
+    },
+    {
+      "id": "TW-012",
+      "tower_number": "T-0012",
+      "latitude": 29.84016696738345,
+      "longitude": 77.09804942176541,
+      "height_m": 45,
+      "tower_type": "Monopole",
+      "voltage_level": "220kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-08-15",
+      "status": "Running",
+      "line_id": "TL-2",
+      "line_name": "Karnal–Yamunanagar 220kV",
+      "sequence": 4
+    },
+    {
+      "id": "TW-013",
+      "tower_number": "T-0013",
+      "latitude": 29.895172904064886,
+      "longitude": 77.11359161460844,
+      "height_m": 45,
+      "tower_type": "Monopole",
+      "voltage_level": "220kV",
+      "health": "Warning",
+      "maintenance_due": "2026-09-15",
+      "status": "Running",
+      "line_id": "TL-2",
+      "line_name": "Karnal–Yamunanagar 220kV",
+      "sequence": 5
+    },
+    {
+      "id": "TW-014",
+      "tower_number": "T-0014",
+      "latitude": 29.92940600081663,
+      "longitude": 77.1290012616598,
+      "height_m": 45,
+      "tower_type": "Monopole",
+      "voltage_level": "220kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-07-15",
+      "status": "Running",
+      "line_id": "TL-2",
+      "line_name": "Karnal–Yamunanagar 220kV",
+      "sequence": 6
+    },
+    {
+      "id": "TW-015",
+      "tower_number": "T-0015",
+      "latitude": 29.96479322120727,
+      "longitude": 77.15891686093015,
+      "height_m": 45,
+      "tower_type": "Monopole",
+      "voltage_level": "220kV",
+      "health": "Warning",
+      "maintenance_due": "2026-10-15",
+      "status": "Running",
+      "line_id": "TL-2",
+      "line_name": "Karnal–Yamunanagar 220kV",
+      "sequence": 7
+    },
+    {
+      "id": "TW-016",
+      "tower_number": "T-0016",
+      "latitude": 30.012303725963076,
+      "longitude": 77.17197378014146,
+      "height_m": 45,
+      "tower_type": "Monopole",
+      "voltage_level": "220kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-10-15",
+      "status": "Running",
+      "line_id": "TL-2",
+      "line_name": "Karnal–Yamunanagar 220kV",
+      "sequence": 8
+    },
+    {
+      "id": "TW-017",
+      "tower_number": "T-0017",
+      "latitude": 30.047967439188067,
+      "longitude": 77.21975100663839,
+      "height_m": 45,
+      "tower_type": "Monopole",
+      "voltage_level": "220kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-09-15",
+      "status": "Running",
+      "line_id": "TL-2",
+      "line_name": "Karnal–Yamunanagar 220kV",
+      "sequence": 9
+    },
+    {
+      "id": "TW-018",
+      "tower_number": "T-0018",
+      "latitude": 30.087670936797988,
+      "longitude": 77.22882801216049,
+      "height_m": 45,
+      "tower_type": "Monopole",
+      "voltage_level": "220kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-10-15",
+      "status": "Running",
+      "line_id": "TL-2",
+      "line_name": "Karnal–Yamunanagar 220kV",
+      "sequence": 10
+    },
+    {
+      "id": "TW-019",
+      "tower_number": "T-0019",
+      "latitude": 30.168683923062634,
+      "longitude": 77.22348616618757,
+      "height_m": 45,
+      "tower_type": "Monopole",
+      "voltage_level": "220kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-07-15",
+      "status": "Running",
+      "line_id": "TL-3",
+      "line_name": "Yamunanagar–Ambala 220kV",
+      "sequence": 1
+    },
+    {
+      "id": "TW-020",
+      "tower_number": "T-0020",
+      "latitude": 30.192205928223146,
+      "longitude": 77.17893322075068,
+      "height_m": 45,
+      "tower_type": "Monopole",
+      "voltage_level": "220kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-07-15",
+      "status": "Running",
+      "line_id": "TL-3",
+      "line_name": "Yamunanagar–Ambala 220kV",
+      "sequence": 2
+    },
+    {
+      "id": "TW-021",
+      "tower_number": "T-0021",
+      "latitude": 30.216923792334565,
+      "longitude": 77.12173087889443,
+      "height_m": 45,
+      "tower_type": "Monopole",
+      "voltage_level": "220kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-09-15",
+      "status": "Running",
+      "line_id": "TL-3",
+      "line_name": "Yamunanagar–Ambala 220kV",
+      "sequence": 3
+    },
+    {
+      "id": "TW-022",
+      "tower_number": "T-0022",
+      "latitude": 30.226411281401717,
+      "longitude": 77.06293037513066,
+      "height_m": 45,
+      "tower_type": "Monopole",
+      "voltage_level": "220kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-11-15",
+      "status": "Running",
+      "line_id": "TL-3",
+      "line_name": "Yamunanagar–Ambala 220kV",
+      "sequence": 4
+    },
+    {
+      "id": "TW-023",
+      "tower_number": "T-0023",
+      "latitude": 30.25491073682589,
+      "longitude": 77.02157887174921,
+      "height_m": 45,
+      "tower_type": "Monopole",
+      "voltage_level": "220kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-08-15",
+      "status": "Running",
+      "line_id": "TL-3",
+      "line_name": "Yamunanagar–Ambala 220kV",
+      "sequence": 5
+    },
+    {
+      "id": "TW-024",
+      "tower_number": "T-0024",
+      "latitude": 30.291587899429683,
+      "longitude": 76.98571858652997,
+      "height_m": 45,
+      "tower_type": "Monopole",
+      "voltage_level": "220kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-11-15",
+      "status": "Running",
+      "line_id": "TL-3",
+      "line_name": "Yamunanagar–Ambala 220kV",
+      "sequence": 6
+    },
+    {
+      "id": "TW-025",
+      "tower_number": "T-0025",
+      "latitude": 30.28900021973441,
+      "longitude": 76.9268243063501,
+      "height_m": 45,
+      "tower_type": "Monopole",
+      "voltage_level": "220kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-12-15",
+      "status": "Running",
+      "line_id": "TL-3",
+      "line_name": "Yamunanagar–Ambala 220kV",
+      "sequence": 7
+    },
+    {
+      "id": "TW-026",
+      "tower_number": "T-0026",
+      "latitude": 30.326204696053537,
+      "longitude": 76.8889910755171,
+      "height_m": 45,
+      "tower_type": "Monopole",
+      "voltage_level": "220kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-09-15",
+      "status": "Running",
+      "line_id": "TL-3",
+      "line_name": "Yamunanagar–Ambala 220kV",
+      "sequence": 8
+    },
+    {
+      "id": "TW-027",
+      "tower_number": "T-0027",
+      "latitude": 30.36658889052452,
+      "longitude": 76.80684560807299,
+      "height_m": 45,
+      "tower_type": "Monopole",
+      "voltage_level": "220kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-07-15",
+      "status": "Running",
+      "line_id": "TL-3",
+      "line_name": "Yamunanagar–Ambala 220kV",
+      "sequence": 9
+    },
+    {
+      "id": "TW-028",
+      "tower_number": "T-0028",
+      "latitude": 30.27020871073224,
+      "longitude": 76.76862568290133,
+      "height_m": 52,
+      "tower_type": "Monopole",
+      "voltage_level": "400kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-09-15",
+      "status": "Running",
+      "line_id": "TL-4",
+      "line_name": "Ambala–Rohtak 400kV",
+      "sequence": 1
+    },
+    {
+      "id": "TW-029",
+      "tower_number": "T-0029",
+      "latitude": 30.137242508333554,
+      "longitude": 76.76838897515196,
+      "height_m": 52,
+      "tower_type": "Monopole",
+      "voltage_level": "400kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-07-15",
+      "status": "Running",
+      "line_id": "TL-4",
+      "line_name": "Ambala–Rohtak 400kV",
+      "sequence": 2
+    },
+    {
+      "id": "TW-030",
+      "tower_number": "T-0030",
+      "latitude": 30.04623779319361,
+      "longitude": 76.74200934769325,
+      "height_m": 52,
+      "tower_type": "Monopole",
+      "voltage_level": "400kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-10-15",
+      "status": "Running",
+      "line_id": "TL-4",
+      "line_name": "Ambala–Rohtak 400kV",
+      "sequence": 3
+    },
+    {
+      "id": "TW-031",
+      "tower_number": "T-0031",
+      "latitude": 29.911538896482245,
+      "longitude": 76.72458442608098,
+      "height_m": 52,
+      "tower_type": "Monopole",
+      "voltage_level": "400kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-11-15",
+      "status": "Running",
+      "line_id": "TL-4",
+      "line_name": "Ambala–Rohtak 400kV",
+      "sequence": 4
+    },
+    {
+      "id": "TW-032",
+      "tower_number": "T-0032",
+      "latitude": 29.81334660178669,
+      "longitude": 76.70968039906556,
+      "height_m": 52,
+      "tower_type": "Monopole",
+      "voltage_level": "400kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-11-15",
+      "status": "Running",
+      "line_id": "TL-4",
+      "line_name": "Ambala–Rohtak 400kV",
+      "sequence": 5
+    },
+    {
+      "id": "TW-033",
+      "tower_number": "T-0033",
+      "latitude": 29.68491442872887,
+      "longitude": 76.70338943090833,
+      "height_m": 52,
+      "tower_type": "Monopole",
+      "voltage_level": "400kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-12-15",
+      "status": "Running",
+      "line_id": "TL-4",
+      "line_name": "Ambala–Rohtak 400kV",
+      "sequence": 6
+    },
+    {
+      "id": "TW-034",
+      "tower_number": "T-0034",
+      "latitude": 29.570348549719654,
+      "longitude": 76.68158459878197,
+      "height_m": 52,
+      "tower_type": "Monopole",
+      "voltage_level": "400kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-11-15",
+      "status": "Running",
+      "line_id": "TL-4",
+      "line_name": "Ambala–Rohtak 400kV",
+      "sequence": 7
+    },
+    {
+      "id": "TW-035",
+      "tower_number": "T-0035",
+      "latitude": 29.478044807099252,
+      "longitude": 76.67418505510453,
+      "height_m": 52,
+      "tower_type": "Monopole",
+      "voltage_level": "400kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-11-15",
+      "status": "Running",
+      "line_id": "TL-4",
+      "line_name": "Ambala–Rohtak 400kV",
+      "sequence": 8
+    },
+    {
+      "id": "TW-036",
+      "tower_number": "T-0036",
+      "latitude": 29.34251500531285,
+      "longitude": 76.66642032818508,
+      "height_m": 52,
+      "tower_type": "Monopole",
+      "voltage_level": "400kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-07-15",
+      "status": "Running",
+      "line_id": "TL-4",
+      "line_name": "Ambala–Rohtak 400kV",
+      "sequence": 9
+    },
+    {
+      "id": "TW-037",
+      "tower_number": "T-0037",
+      "latitude": 29.226468243920237,
+      "longitude": 76.63148751518094,
+      "height_m": 52,
+      "tower_type": "Monopole",
+      "voltage_level": "400kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-12-15",
+      "status": "Running",
+      "line_id": "TL-4",
+      "line_name": "Ambala–Rohtak 400kV",
+      "sequence": 10
+    },
+    {
+      "id": "TW-038",
+      "tower_number": "T-0038",
+      "latitude": 29.134368796611145,
+      "longitude": 76.63850102990217,
+      "height_m": 52,
+      "tower_type": "Monopole",
+      "voltage_level": "400kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-08-15",
+      "status": "Running",
+      "line_id": "TL-4",
+      "line_name": "Ambala–Rohtak 400kV",
+      "sequence": 11
+    },
+    {
+      "id": "TW-039",
+      "tower_number": "T-0039",
+      "latitude": 29.00774490676295,
+      "longitude": 76.60885803049972,
+      "height_m": 52,
+      "tower_type": "Monopole",
+      "voltage_level": "400kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-12-15",
+      "status": "Running",
+      "line_id": "TL-4",
+      "line_name": "Ambala–Rohtak 400kV",
+      "sequence": 12
+    },
+    {
+      "id": "TW-040",
+      "tower_number": "T-0040",
+      "latitude": 28.881161986680723,
+      "longitude": 76.65166073159185,
+      "height_m": 45,
+      "tower_type": "Monopole",
+      "voltage_level": "220kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-07-15",
+      "status": "Running",
+      "line_id": "TL-5",
+      "line_name": "Rohtak–Bahadurgarh 220kV",
+      "sequence": 1
+    },
+    {
+      "id": "TW-041",
+      "tower_number": "T-0041",
+      "latitude": 28.83436096490916,
+      "longitude": 76.69806356565027,
+      "height_m": 45,
+      "tower_type": "Monopole",
+      "voltage_level": "220kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-09-15",
+      "status": "Running",
+      "line_id": "TL-5",
+      "line_name": "Rohtak–Bahadurgarh 220kV",
+      "sequence": 2
+    },
+    {
+      "id": "TW-042",
+      "tower_number": "T-0042",
+      "latitude": 28.815007087896895,
+      "longitude": 76.71499990336565,
+      "height_m": 45,
+      "tower_type": "Monopole",
+      "voltage_level": "220kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-10-15",
+      "status": "Running",
+      "line_id": "TL-5",
+      "line_name": "Rohtak–Bahadurgarh 220kV",
+      "sequence": 3
+    },
+    {
+      "id": "TW-043",
+      "tower_number": "T-0043",
+      "latitude": 28.802266323699932,
+      "longitude": 76.7641519141777,
+      "height_m": 45,
+      "tower_type": "Monopole",
+      "voltage_level": "220kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-12-15",
+      "status": "Running",
+      "line_id": "TL-5",
+      "line_name": "Rohtak–Bahadurgarh 220kV",
+      "sequence": 4
+    },
+    {
+      "id": "TW-044",
+      "tower_number": "T-0044",
+      "latitude": 28.75782135882753,
+      "longitude": 76.80875330487294,
+      "height_m": 45,
+      "tower_type": "Monopole",
+      "voltage_level": "220kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-12-15",
+      "status": "Running",
+      "line_id": "TL-5",
+      "line_name": "Rohtak–Bahadurgarh 220kV",
+      "sequence": 5
+    },
+    {
+      "id": "TW-045",
+      "tower_number": "T-0045",
+      "latitude": 28.757407068915622,
+      "longitude": 76.86335402368414,
+      "height_m": 45,
+      "tower_type": "Monopole",
+      "voltage_level": "220kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-11-15",
+      "status": "Running",
+      "line_id": "TL-5",
+      "line_name": "Rohtak–Bahadurgarh 220kV",
+      "sequence": 6
+    },
+    {
+      "id": "TW-046",
+      "tower_number": "T-0046",
+      "latitude": 28.704304352318484,
+      "longitude": 76.89602636435487,
+      "height_m": 45,
+      "tower_type": "Monopole",
+      "voltage_level": "220kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-10-15",
+      "status": "Running",
+      "line_id": "TL-5",
+      "line_name": "Rohtak–Bahadurgarh 220kV",
+      "sequence": 7
+    },
+    {
+      "id": "TW-047",
+      "tower_number": "T-0047",
+      "latitude": 28.665777140034567,
+      "longitude": 76.94378274787154,
+      "height_m": 52,
+      "tower_type": "Monopole",
+      "voltage_level": "400kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-10-15",
+      "status": "Running",
+      "line_id": "TL-6",
+      "line_name": "Bahadurgarh–Gurugram 400kV",
+      "sequence": 1
+    },
+    {
+      "id": "TW-048",
+      "tower_number": "T-0048",
+      "latitude": 28.652501734513354,
+      "longitude": 76.96519765675562,
+      "height_m": 52,
+      "tower_type": "Monopole",
+      "voltage_level": "400kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-09-15",
+      "status": "Running",
+      "line_id": "TL-6",
+      "line_name": "Bahadurgarh–Gurugram 400kV",
+      "sequence": 2
+    },
+    {
+      "id": "TW-049",
+      "tower_number": "T-0049",
+      "latitude": 28.60159065660854,
+      "longitude": 76.94290636100841,
+      "height_m": 52,
+      "tower_type": "Monopole",
+      "voltage_level": "400kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-10-15",
+      "status": "Running",
+      "line_id": "TL-6",
+      "line_name": "Bahadurgarh–Gurugram 400kV",
+      "sequence": 3
+    },
+    {
+      "id": "TW-050",
+      "tower_number": "T-0050",
+      "latitude": 28.58778957938682,
+      "longitude": 76.97028778974443,
+      "height_m": 52,
+      "tower_type": "Monopole",
+      "voltage_level": "400kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-07-15",
+      "status": "Running",
+      "line_id": "TL-6",
+      "line_name": "Bahadurgarh–Gurugram 400kV",
+      "sequence": 4
+    },
+    {
+      "id": "TW-051",
+      "tower_number": "T-0051",
+      "latitude": 28.552455177775816,
+      "longitude": 76.96804413897004,
+      "height_m": 52,
+      "tower_type": "Monopole",
+      "voltage_level": "400kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-08-15",
+      "status": "Running",
+      "line_id": "TL-6",
+      "line_name": "Bahadurgarh–Gurugram 400kV",
+      "sequence": 5
+    },
+    {
+      "id": "TW-052",
+      "tower_number": "T-0052",
+      "latitude": 28.541292494304173,
+      "longitude": 76.97835669864702,
+      "height_m": 52,
+      "tower_type": "Monopole",
+      "voltage_level": "400kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-11-15",
+      "status": "Running",
+      "line_id": "TL-6",
+      "line_name": "Bahadurgarh–Gurugram 400kV",
+      "sequence": 6
+    },
+    {
+      "id": "TW-053",
+      "tower_number": "T-0053",
+      "latitude": 28.497124224204658,
+      "longitude": 77.020758030431,
+      "height_m": 52,
+      "tower_type": "Monopole",
+      "voltage_level": "400kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-07-15",
+      "status": "Running",
+      "line_id": "TL-6",
+      "line_name": "Bahadurgarh–Gurugram 400kV",
+      "sequence": 7
+    },
+    {
+      "id": "TW-054",
+      "tower_number": "T-0054",
+      "latitude": 28.4961970922451,
+      "longitude": 77.02996710033545,
+      "height_m": 52,
+      "tower_type": "Monopole",
+      "voltage_level": "400kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-11-15",
+      "status": "Running",
+      "line_id": "TL-6",
+      "line_name": "Bahadurgarh–Gurugram 400kV",
+      "sequence": 8
+    },
+    {
+      "id": "TW-055",
+      "tower_number": "T-0055",
+      "latitude": 28.450134611079957,
+      "longitude": 77.07322868749884,
+      "height_m": 45,
+      "tower_type": "Monopole",
+      "voltage_level": "220kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-11-15",
+      "status": "Running",
+      "line_id": "TL-7",
+      "line_name": "Gurugram–Faridabad 220kV",
+      "sequence": 1
+    },
+    {
+      "id": "TW-056",
+      "tower_number": "T-0056",
+      "latitude": 28.44432601777994,
+      "longitude": 77.10514473993106,
+      "height_m": 45,
+      "tower_type": "Monopole",
+      "voltage_level": "220kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-07-15",
+      "status": "Running",
+      "line_id": "TL-7",
+      "line_name": "Gurugram–Faridabad 220kV",
+      "sequence": 2
+    },
+    {
+      "id": "TW-057",
+      "tower_number": "T-0057",
+      "latitude": 28.44234885264718,
+      "longitude": 77.1675079339596,
+      "height_m": 45,
+      "tower_type": "Monopole",
+      "voltage_level": "220kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-08-15",
+      "status": "Running",
+      "line_id": "TL-7",
+      "line_name": "Gurugram–Faridabad 220kV",
+      "sequence": 3
+    },
+    {
+      "id": "TW-058",
+      "tower_number": "T-0058",
+      "latitude": 28.43543817127566,
+      "longitude": 77.20962203069651,
+      "height_m": 45,
+      "tower_type": "Monopole",
+      "voltage_level": "220kV",
+      "health": "Warning",
+      "maintenance_due": "2026-07-15",
+      "status": "Running",
+      "line_id": "TL-7",
+      "line_name": "Gurugram–Faridabad 220kV",
+      "sequence": 4
+    },
+    {
+      "id": "TW-059",
+      "tower_number": "T-0059",
+      "latitude": 28.411188807600624,
+      "longitude": 77.21492627924333,
+      "height_m": 45,
+      "tower_type": "Monopole",
+      "voltage_level": "220kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-09-15",
+      "status": "Running",
+      "line_id": "TL-7",
+      "line_name": "Gurugram–Faridabad 220kV",
+      "sequence": 5
+    },
+    {
+      "id": "TW-060",
+      "tower_number": "T-0060",
+      "latitude": 28.428201273525566,
+      "longitude": 77.27191940838615,
+      "height_m": 45,
+      "tower_type": "Monopole",
+      "voltage_level": "220kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-10-15",
+      "status": "Running",
+      "line_id": "TL-7",
+      "line_name": "Gurugram–Faridabad 220kV",
+      "sequence": 6
+    },
+    {
+      "id": "TW-061",
+      "tower_number": "T-0061",
+      "latitude": 28.922881721556767,
+      "longitude": 76.53776868734982,
+      "height_m": 45,
+      "tower_type": "Monopole",
+      "voltage_level": "220kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-08-15",
+      "status": "Running",
+      "line_id": "TL-8",
+      "line_name": "Rohtak–Hisar 220kV",
+      "sequence": 1
+    },
+    {
+      "id": "TW-062",
+      "tower_number": "T-0062",
+      "latitude": 28.927791386605552,
+      "longitude": 76.45458680870345,
+      "height_m": 45,
+      "tower_type": "Monopole",
+      "voltage_level": "220kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-11-15",
+      "status": "Running",
+      "line_id": "TL-8",
+      "line_name": "Rohtak–Hisar 220kV",
+      "sequence": 2
+    },
+    {
+      "id": "TW-063",
+      "tower_number": "T-0063",
+      "latitude": 28.962288177362304,
+      "longitude": 76.39251038907216,
+      "height_m": 45,
+      "tower_type": "Monopole",
+      "voltage_level": "220kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-08-15",
+      "status": "Running",
+      "line_id": "TL-8",
+      "line_name": "Rohtak–Hisar 220kV",
+      "sequence": 3
+    },
+    {
+      "id": "TW-064",
+      "tower_number": "T-0064",
+      "latitude": 28.994444724923547,
+      "longitude": 76.31819602570194,
+      "height_m": 45,
+      "tower_type": "Monopole",
+      "voltage_level": "220kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-09-15",
+      "status": "Running",
+      "line_id": "TL-8",
+      "line_name": "Rohtak–Hisar 220kV",
+      "sequence": 4
+    },
+    {
+      "id": "TW-065",
+      "tower_number": "T-0065",
+      "latitude": 28.987539557213413,
+      "longitude": 76.24059183771622,
+      "height_m": 45,
+      "tower_type": "Monopole",
+      "voltage_level": "220kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-08-15",
+      "status": "Running",
+      "line_id": "TL-8",
+      "line_name": "Rohtak–Hisar 220kV",
+      "sequence": 5
+    },
+    {
+      "id": "TW-066",
+      "tower_number": "T-0066",
+      "latitude": 29.01812191870517,
+      "longitude": 76.17598996920893,
+      "height_m": 45,
+      "tower_type": "Monopole",
+      "voltage_level": "220kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-11-15",
+      "status": "Running",
+      "line_id": "TL-8",
+      "line_name": "Rohtak–Hisar 220kV",
+      "sequence": 6
+    },
+    {
+      "id": "TW-067",
+      "tower_number": "T-0067",
+      "latitude": 29.0494710860504,
+      "longitude": 76.10192543766443,
+      "height_m": 45,
+      "tower_type": "Monopole",
+      "voltage_level": "220kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-10-15",
+      "status": "Running",
+      "line_id": "TL-8",
+      "line_name": "Rohtak–Hisar 220kV",
+      "sequence": 7
+    },
+    {
+      "id": "TW-068",
+      "tower_number": "T-0068",
+      "latitude": 29.065115103313197,
+      "longitude": 76.01146887063898,
+      "height_m": 45,
+      "tower_type": "Monopole",
+      "voltage_level": "220kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-11-15",
+      "status": "Running",
+      "line_id": "TL-8",
+      "line_name": "Rohtak–Hisar 220kV",
+      "sequence": 8
+    },
+    {
+      "id": "TW-069",
+      "tower_number": "T-0069",
+      "latitude": 29.08270736424611,
+      "longitude": 75.9390692202435,
+      "height_m": 45,
+      "tower_type": "Monopole",
+      "voltage_level": "220kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-12-15",
+      "status": "Running",
+      "line_id": "TL-8",
+      "line_name": "Rohtak–Hisar 220kV",
+      "sequence": 9
+    },
+    {
+      "id": "TW-070",
+      "tower_number": "T-0070",
+      "latitude": 29.095872426127844,
+      "longitude": 75.88551136774264,
+      "height_m": 45,
+      "tower_type": "Monopole",
+      "voltage_level": "220kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-08-15",
+      "status": "Running",
+      "line_id": "TL-8",
+      "line_name": "Rohtak–Hisar 220kV",
+      "sequence": 10
+    },
+    {
+      "id": "TW-071",
+      "tower_number": "T-0071",
+      "latitude": 29.13526464094968,
+      "longitude": 75.7813742904629,
+      "height_m": 45,
+      "tower_type": "Monopole",
+      "voltage_level": "220kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-10-15",
+      "status": "Running",
+      "line_id": "TL-8",
+      "line_name": "Rohtak–Hisar 220kV",
+      "sequence": 11
+    },
+    {
+      "id": "TW-072",
+      "tower_number": "T-0072",
+      "latitude": 29.12006811301666,
+      "longitude": 75.76735140243333,
+      "height_m": 38,
+      "tower_type": "Monopole",
+      "voltage_level": "132kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-10-15",
+      "status": "Running",
+      "line_id": "TL-9",
+      "line_name": "Hisar–Bhiwani 132kV",
+      "sequence": 1
+    },
+    {
+      "id": "TW-073",
+      "tower_number": "T-0073",
+      "latitude": 29.077909933947833,
+      "longitude": 75.79380738817225,
+      "height_m": 38,
+      "tower_type": "Monopole",
+      "voltage_level": "132kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-11-15",
+      "status": "Running",
+      "line_id": "TL-9",
+      "line_name": "Hisar–Bhiwani 132kV",
+      "sequence": 2
+    },
+    {
+      "id": "TW-074",
+      "tower_number": "T-0074",
+      "latitude": 29.031135713169697,
+      "longitude": 75.83438331473275,
+      "height_m": 38,
+      "tower_type": "Monopole",
+      "voltage_level": "132kV",
+      "health": "Warning",
+      "maintenance_due": "2026-11-15",
+      "status": "Running",
+      "line_id": "TL-9",
+      "line_name": "Hisar–Bhiwani 132kV",
+      "sequence": 3
+    },
+    {
+      "id": "TW-075",
+      "tower_number": "T-0075",
+      "latitude": 28.99373656842415,
+      "longitude": 75.87254194493354,
+      "height_m": 38,
+      "tower_type": "Monopole",
+      "voltage_level": "132kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-09-15",
+      "status": "Running",
+      "line_id": "TL-9",
+      "line_name": "Hisar–Bhiwani 132kV",
+      "sequence": 4
+    },
+    {
+      "id": "TW-076",
+      "tower_number": "T-0076",
+      "latitude": 28.961804882698313,
+      "longitude": 75.91990431702862,
+      "height_m": 38,
+      "tower_type": "Monopole",
+      "voltage_level": "132kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-09-15",
+      "status": "Running",
+      "line_id": "TL-9",
+      "line_name": "Hisar–Bhiwani 132kV",
+      "sequence": 5
+    },
+    {
+      "id": "TW-077",
+      "tower_number": "T-0077",
+      "latitude": 28.937143579784976,
+      "longitude": 75.96937829106696,
+      "height_m": 38,
+      "tower_type": "Monopole",
+      "voltage_level": "132kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-07-15",
+      "status": "Running",
+      "line_id": "TL-9",
+      "line_name": "Hisar–Bhiwani 132kV",
+      "sequence": 6
+    },
+    {
+      "id": "TW-078",
+      "tower_number": "T-0078",
+      "latitude": 28.916811779169507,
+      "longitude": 76.02328409545602,
+      "height_m": 38,
+      "tower_type": "Monopole",
+      "voltage_level": "132kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-10-15",
+      "status": "Running",
+      "line_id": "TL-9",
+      "line_name": "Hisar–Bhiwani 132kV",
+      "sequence": 7
+    },
+    {
+      "id": "TW-079",
+      "tower_number": "T-0079",
+      "latitude": 28.865548011182035,
+      "longitude": 76.05845001510836,
+      "height_m": 38,
+      "tower_type": "Monopole",
+      "voltage_level": "132kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-12-15",
+      "status": "Running",
+      "line_id": "TL-9",
+      "line_name": "Hisar–Bhiwani 132kV",
+      "sequence": 8
+    },
+    {
+      "id": "TW-080",
+      "tower_number": "T-0080",
+      "latitude": 28.842884180406838,
+      "longitude": 76.08884876234518,
+      "height_m": 38,
+      "tower_type": "Monopole",
+      "voltage_level": "132kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-07-15",
+      "status": "Running",
+      "line_id": "TL-9",
+      "line_name": "Hisar–Bhiwani 132kV",
+      "sequence": 9
+    },
+    {
+      "id": "TW-081",
+      "tower_number": "T-0081",
+      "latitude": 29.174633445703435,
+      "longitude": 75.80912832946765,
+      "height_m": 45,
+      "tower_type": "Monopole",
+      "voltage_level": "220kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-10-15",
+      "status": "Running",
+      "line_id": "TL-10",
+      "line_name": "Hisar–Panipat 220kV",
+      "sequence": 1
+    },
+    {
+      "id": "TW-082",
+      "tower_number": "T-0082",
+      "latitude": 29.184625741233646,
+      "longitude": 75.90477819829515,
+      "height_m": 45,
+      "tower_type": "Monopole",
+      "voltage_level": "220kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-08-15",
+      "status": "Running",
+      "line_id": "TL-10",
+      "line_name": "Hisar–Panipat 220kV",
+      "sequence": 2
+    },
+    {
+      "id": "TW-083",
+      "tower_number": "T-0083",
+      "latitude": 29.18396922004174,
+      "longitude": 75.97918845276025,
+      "height_m": 45,
+      "tower_type": "Monopole",
+      "voltage_level": "220kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-10-15",
+      "status": "Running",
+      "line_id": "TL-10",
+      "line_name": "Hisar–Panipat 220kV",
+      "sequence": 3
+    },
+    {
+      "id": "TW-084",
+      "tower_number": "T-0084",
+      "latitude": 29.219577739487075,
+      "longitude": 76.06071528683168,
+      "height_m": 45,
+      "tower_type": "Monopole",
+      "voltage_level": "220kV",
+      "health": "Warning",
+      "maintenance_due": "2026-08-15",
+      "status": "Running",
+      "line_id": "TL-10",
+      "line_name": "Hisar–Panipat 220kV",
+      "sequence": 4
+    },
+    {
+      "id": "TW-085",
+      "tower_number": "T-0085",
+      "latitude": 29.23441574453381,
+      "longitude": 76.13762572927726,
+      "height_m": 45,
+      "tower_type": "Monopole",
+      "voltage_level": "220kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-10-15",
+      "status": "Running",
+      "line_id": "TL-10",
+      "line_name": "Hisar–Panipat 220kV",
+      "sequence": 5
+    },
+    {
+      "id": "TW-086",
+      "tower_number": "T-0086",
+      "latitude": 29.245383371715047,
+      "longitude": 76.201155725444,
+      "height_m": 45,
+      "tower_type": "Monopole",
+      "voltage_level": "220kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-07-15",
+      "status": "Running",
+      "line_id": "TL-10",
+      "line_name": "Hisar–Panipat 220kV",
+      "sequence": 6
+    },
+    {
+      "id": "TW-087",
+      "tower_number": "T-0087",
+      "latitude": 29.25557911423812,
+      "longitude": 76.29209804808393,
+      "height_m": 45,
+      "tower_type": "Monopole",
+      "voltage_level": "220kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-10-15",
+      "status": "Running",
+      "line_id": "TL-10",
+      "line_name": "Hisar–Panipat 220kV",
+      "sequence": 7
+    },
+    {
+      "id": "TW-088",
+      "tower_number": "T-0088",
+      "latitude": 29.274862955176452,
+      "longitude": 76.36561977914467,
+      "height_m": 45,
+      "tower_type": "Monopole",
+      "voltage_level": "220kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-09-15",
+      "status": "Running",
+      "line_id": "TL-10",
+      "line_name": "Hisar–Panipat 220kV",
+      "sequence": 8
+    },
+    {
+      "id": "TW-089",
+      "tower_number": "T-0089",
+      "latitude": 29.3057372095628,
+      "longitude": 76.45736816898014,
+      "height_m": 45,
+      "tower_type": "Monopole",
+      "voltage_level": "220kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-09-15",
+      "status": "Running",
+      "line_id": "TL-10",
+      "line_name": "Hisar–Panipat 220kV",
+      "sequence": 9
+    },
+    {
+      "id": "TW-090",
+      "tower_number": "T-0090",
+      "latitude": 29.319829097723858,
+      "longitude": 76.56255486568875,
+      "height_m": 45,
+      "tower_type": "Monopole",
+      "voltage_level": "220kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-12-15",
+      "status": "Running",
+      "line_id": "TL-10",
+      "line_name": "Hisar–Panipat 220kV",
+      "sequence": 10
+    },
+    {
+      "id": "TW-091",
+      "tower_number": "T-0091",
+      "latitude": 29.317829601098648,
+      "longitude": 76.62610287283317,
+      "height_m": 45,
+      "tower_type": "Monopole",
+      "voltage_level": "220kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-12-15",
+      "status": "Running",
+      "line_id": "TL-10",
+      "line_name": "Hisar–Panipat 220kV",
+      "sequence": 11
+    },
+    {
+      "id": "TW-092",
+      "tower_number": "T-0092",
+      "latitude": 29.353691355916002,
+      "longitude": 76.73244557754428,
+      "height_m": 45,
+      "tower_type": "Monopole",
+      "voltage_level": "220kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-12-15",
+      "status": "Running",
+      "line_id": "TL-10",
+      "line_name": "Hisar–Panipat 220kV",
+      "sequence": 12
+    },
+    {
+      "id": "TW-093",
+      "tower_number": "T-0093",
+      "latitude": 29.373262787621858,
+      "longitude": 76.80419188071428,
+      "height_m": 45,
+      "tower_type": "Monopole",
+      "voltage_level": "220kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-08-15",
+      "status": "Running",
+      "line_id": "TL-10",
+      "line_name": "Hisar–Panipat 220kV",
+      "sequence": 13
+    },
+    {
+      "id": "TW-094",
+      "tower_number": "T-0094",
+      "latitude": 29.377765869321752,
+      "longitude": 76.90065764060232,
+      "height_m": 45,
+      "tower_type": "Monopole",
+      "voltage_level": "220kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-12-15",
+      "status": "Running",
+      "line_id": "TL-10",
+      "line_name": "Hisar–Panipat 220kV",
+      "sequence": 14
+    },
+    {
+      "id": "TW-095",
+      "tower_number": "T-0095",
+      "latitude": 28.77456978931168,
+      "longitude": 76.2250034696945,
+      "height_m": 32,
+      "tower_type": "Lattice",
+      "voltage_level": "66kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-11-15",
+      "status": "Running",
+      "line_id": "TL-11",
+      "line_name": "Bhiwani–Bahadurgarh 66kV",
+      "sequence": 1
+    },
+    {
+      "id": "TW-096",
+      "tower_number": "T-0096",
+      "latitude": 28.773919846177932,
+      "longitude": 76.31319888959669,
+      "height_m": 32,
+      "tower_type": "Lattice",
+      "voltage_level": "66kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-07-15",
+      "status": "Running",
+      "line_id": "TL-11",
+      "line_name": "Bhiwani–Bahadurgarh 66kV",
+      "sequence": 2
+    },
+    {
+      "id": "TW-097",
+      "tower_number": "T-0097",
+      "latitude": 28.75233431128136,
+      "longitude": 76.4120953320467,
+      "height_m": 32,
+      "tower_type": "Lattice",
+      "voltage_level": "66kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-08-15",
+      "status": "Running",
+      "line_id": "TL-11",
+      "line_name": "Bhiwani–Bahadurgarh 66kV",
+      "sequence": 3
+    },
+    {
+      "id": "TW-098",
+      "tower_number": "T-0098",
+      "latitude": 28.747336125241368,
+      "longitude": 76.47833764920426,
+      "height_m": 32,
+      "tower_type": "Lattice",
+      "voltage_level": "66kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-12-15",
+      "status": "Running",
+      "line_id": "TL-11",
+      "line_name": "Bhiwani–Bahadurgarh 66kV",
+      "sequence": 4
+    },
+    {
+      "id": "TW-099",
+      "tower_number": "T-0099",
+      "latitude": 28.738668067761523,
+      "longitude": 76.57600943664707,
+      "height_m": 32,
+      "tower_type": "Lattice",
+      "voltage_level": "66kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-10-15",
+      "status": "Running",
+      "line_id": "TL-11",
+      "line_name": "Bhiwani–Bahadurgarh 66kV",
+      "sequence": 5
+    },
+    {
+      "id": "TW-100",
+      "tower_number": "T-0100",
+      "latitude": 28.72171316551192,
+      "longitude": 76.67430887631087,
+      "height_m": 32,
+      "tower_type": "Lattice",
+      "voltage_level": "66kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-12-15",
+      "status": "Running",
+      "line_id": "TL-11",
+      "line_name": "Bhiwani–Bahadurgarh 66kV",
+      "sequence": 6
+    },
+    {
+      "id": "TW-101",
+      "tower_number": "T-0101",
+      "latitude": 28.706086023781154,
+      "longitude": 76.74994167529937,
+      "height_m": 32,
+      "tower_type": "Lattice",
+      "voltage_level": "66kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-07-15",
+      "status": "Running",
+      "line_id": "TL-11",
+      "line_name": "Bhiwani–Bahadurgarh 66kV",
+      "sequence": 7
+    },
+    {
+      "id": "TW-102",
+      "tower_number": "T-0102",
+      "latitude": 28.71345417026689,
+      "longitude": 76.81980251381539,
+      "height_m": 32,
+      "tower_type": "Lattice",
+      "voltage_level": "66kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-09-15",
+      "status": "Running",
+      "line_id": "TL-11",
+      "line_name": "Bhiwani–Bahadurgarh 66kV",
+      "sequence": 8
+    },
+    {
+      "id": "TW-103",
+      "tower_number": "T-0103",
+      "latitude": 29.620339811532748,
+      "longitude": 76.96065555035302,
+      "height_m": 38,
+      "tower_type": "Monopole",
+      "voltage_level": "132kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-07-15",
+      "status": "Running",
+      "line_id": "TL-12",
+      "line_name": "Karnal–Rohtak 132kV",
+      "sequence": 1
+    },
+    {
+      "id": "TW-104",
+      "tower_number": "T-0104",
+      "latitude": 29.53661068754111,
+      "longitude": 76.92746817860314,
+      "height_m": 38,
+      "tower_type": "Monopole",
+      "voltage_level": "132kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-07-15",
+      "status": "Running",
+      "line_id": "TL-12",
+      "line_name": "Karnal–Rohtak 132kV",
+      "sequence": 2
+    },
+    {
+      "id": "TW-105",
+      "tower_number": "T-0105",
+      "latitude": 29.46368506513758,
+      "longitude": 76.90373724790416,
+      "height_m": 38,
+      "tower_type": "Monopole",
+      "voltage_level": "132kV",
+      "health": "Warning",
+      "maintenance_due": "2026-08-15",
+      "status": "Running",
+      "line_id": "TL-12",
+      "line_name": "Karnal–Rohtak 132kV",
+      "sequence": 3
+    },
+    {
+      "id": "TW-106",
+      "tower_number": "T-0106",
+      "latitude": 29.390511476896922,
+      "longitude": 76.85927445959923,
+      "height_m": 38,
+      "tower_type": "Monopole",
+      "voltage_level": "132kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-08-15",
+      "status": "Running",
+      "line_id": "TL-12",
+      "line_name": "Karnal–Rohtak 132kV",
+      "sequence": 4
+    },
+    {
+      "id": "TW-107",
+      "tower_number": "T-0107",
+      "latitude": 29.31578415922218,
+      "longitude": 76.81806257439338,
+      "height_m": 38,
+      "tower_type": "Monopole",
+      "voltage_level": "132kV",
+      "health": "Warning",
+      "maintenance_due": "2026-09-15",
+      "status": "Running",
+      "line_id": "TL-12",
+      "line_name": "Karnal–Rohtak 132kV",
+      "sequence": 5
+    },
+    {
+      "id": "TW-108",
+      "tower_number": "T-0108",
+      "latitude": 29.262490264449514,
+      "longitude": 76.79880990725553,
+      "height_m": 38,
+      "tower_type": "Monopole",
+      "voltage_level": "132kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-09-15",
+      "status": "Running",
+      "line_id": "TL-12",
+      "line_name": "Karnal–Rohtak 132kV",
+      "sequence": 6
+    },
+    {
+      "id": "TW-109",
+      "tower_number": "T-0109",
+      "latitude": 29.197561960834413,
+      "longitude": 76.72827530324933,
+      "height_m": 38,
+      "tower_type": "Monopole",
+      "voltage_level": "132kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-11-15",
+      "status": "Running",
+      "line_id": "TL-12",
+      "line_name": "Karnal–Rohtak 132kV",
+      "sequence": 7
+    },
+    {
+      "id": "TW-110",
+      "tower_number": "T-0110",
+      "latitude": 29.099430307842095,
+      "longitude": 76.6983949343348,
+      "height_m": 38,
+      "tower_type": "Monopole",
+      "voltage_level": "132kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-07-15",
+      "status": "Running",
+      "line_id": "TL-12",
+      "line_name": "Karnal–Rohtak 132kV",
+      "sequence": 8
+    },
+    {
+      "id": "TW-111",
+      "tower_number": "T-0111",
+      "latitude": 29.052702492637138,
+      "longitude": 76.683590934705,
+      "height_m": 38,
+      "tower_type": "Monopole",
+      "voltage_level": "132kV",
+      "health": "Warning",
+      "maintenance_due": "2026-10-15",
+      "status": "Running",
+      "line_id": "TL-12",
+      "line_name": "Karnal–Rohtak 132kV",
+      "sequence": 9
+    },
+    {
+      "id": "TW-112",
+      "tower_number": "T-0112",
+      "latitude": 28.96775425167347,
+      "longitude": 76.63452198827707,
+      "height_m": 38,
+      "tower_type": "Monopole",
+      "voltage_level": "132kV",
+      "health": "Healthy",
+      "maintenance_due": "2026-10-15",
+      "status": "Running",
+      "line_id": "TL-12",
+      "line_name": "Karnal–Rohtak 132kV",
+      "sequence": 10
+    }
+  ],
+  "lines": [
+    {
+      "id": "TL-1",
+      "name": "Panipat–Karnal 220kV",
+      "voltage_level": "220kV",
+      "from_substation_id": "SS-001",
+      "to_substation_id": "SS-002",
+      "from_substation": "Panipat",
+      "to_substation": "Karnal",
+      "tower_ids": [
+        "TW-001",
+        "TW-002",
+        "TW-003",
+        "TW-004",
+        "TW-005",
+        "TW-006",
+        "TW-007",
+        "TW-008"
+      ],
+      "path": [
+        [
+          76.9635,
+          29.3909
+        ],
+        [
+          76.97153798920131,
+          29.418769023195573
+        ],
+        [
+          76.98556770856267,
+          29.46389449380443
+        ],
+        [
+          76.9901173139409,
+          29.499813234184245
+        ],
+        [
+          76.95798040271318,
+          29.513018742656172
+        ],
+        [
+          76.97745882730719,
+          29.54043581524261
+        ],
+        [
+          76.98861453378724,
+          29.597910430684028
+        ],
+        [
+          76.96926694465338,
+          29.63371818777862
+        ],
+        [
+          76.97006860156411,
+          29.645809530233745
+        ],
+        [
+          76.9905,
+          29.6857
+        ]
+      ],
+      "length_km": 36.5,
+      "load_pct": 83,
+      "health": "Warning",
+      "status": "Running",
+      "flow_direction": "forward",
+      "flow_MW": 80
+    },
+    {
+      "id": "TL-2",
+      "name": "Karnal–Yamunanagar 220kV",
+      "voltage_level": "220kV",
+      "from_substation_id": "SS-002",
+      "to_substation_id": "SS-003",
+      "from_substation": "Karnal",
+      "to_substation": "Yamunanagar",
+      "tower_ids": [
+        "TW-009",
+        "TW-010",
+        "TW-011",
+        "TW-012",
+        "TW-013",
+        "TW-014",
+        "TW-015",
+        "TW-016",
+        "TW-017",
+        "TW-018"
+      ],
+      "path": [
+        [
+          76.9905,
+          29.6857
+        ],
+        [
+          77.02072848449235,
+          29.735083780282473
+        ],
+        [
+          77.04230579297932,
+          29.754231152432613
+        ],
+        [
+          77.0511903774971,
+          29.798419786023864
+        ],
+        [
+          77.09804942176541,
+          29.84016696738345
+        ],
+        [
+          77.11359161460844,
+          29.895172904064886
+        ],
+        [
+          77.1290012616598,
+          29.92940600081663
+        ],
+        [
+          77.15891686093015,
+          29.96479322120727
+        ],
+        [
+          77.17197378014146,
+          30.012303725963076
+        ],
+        [
+          77.21975100663839,
+          30.047967439188067
+        ],
+        [
+          77.22882801216049,
+          30.087670936797988
+        ],
+        [
+          77.2674,
+          30.129
+        ]
+      ],
+      "length_km": 57.8,
+      "load_pct": 60,
+      "health": "Healthy",
+      "status": "Running",
+      "flow_direction": "forward",
+      "flow_MW": 212
+    },
+    {
+      "id": "TL-3",
+      "name": "Yamunanagar–Ambala 220kV",
+      "voltage_level": "220kV",
+      "from_substation_id": "SS-003",
+      "to_substation_id": "SS-004",
+      "from_substation": "Yamunanagar",
+      "to_substation": "Ambala",
+      "tower_ids": [
+        "TW-019",
+        "TW-020",
+        "TW-021",
+        "TW-022",
+        "TW-023",
+        "TW-024",
+        "TW-025",
+        "TW-026",
+        "TW-027"
+      ],
+      "path": [
+        [
+          77.2674,
+          30.129
+        ],
+        [
+          77.22348616618757,
+          30.168683923062634
+        ],
+        [
+          77.17893322075068,
+          30.192205928223146
+        ],
+        [
+          77.12173087889443,
+          30.216923792334565
+        ],
+        [
+          77.06293037513066,
+          30.226411281401717
+        ],
+        [
+          77.02157887174921,
+          30.25491073682589
+        ],
+        [
+          76.98571858652997,
+          30.291587899429683
+        ],
+        [
+          76.9268243063501,
+          30.28900021973441
+        ],
+        [
+          76.8889910755171,
+          30.326204696053537
+        ],
+        [
+          76.80684560807299,
+          30.36658889052452
+        ],
+        [
+          76.7767,
+          30.3782
+        ]
+      ],
+      "length_km": 56.8,
+      "load_pct": 60,
+      "health": "Healthy",
+      "status": "Running",
+      "flow_direction": "forward",
+      "flow_MW": 230
+    },
+    {
+      "id": "TL-4",
+      "name": "Ambala–Rohtak 400kV",
+      "voltage_level": "400kV",
+      "from_substation_id": "SS-004",
+      "to_substation_id": "SS-005",
+      "from_substation": "Ambala",
+      "to_substation": "Rohtak",
+      "tower_ids": [
+        "TW-028",
+        "TW-029",
+        "TW-030",
+        "TW-031",
+        "TW-032",
+        "TW-033",
+        "TW-034",
+        "TW-035",
+        "TW-036",
+        "TW-037",
+        "TW-038",
+        "TW-039"
+      ],
+      "path": [
+        [
+          76.7767,
+          30.3782
+        ],
+        [
+          76.76862568290133,
+          30.27020871073224
+        ],
+        [
+          76.76838897515196,
+          30.137242508333554
+        ],
+        [
+          76.74200934769325,
+          30.04623779319361
+        ],
+        [
+          76.72458442608098,
+          29.911538896482245
+        ],
+        [
+          76.70968039906556,
+          29.81334660178669
+        ],
+        [
+          76.70338943090833,
+          29.68491442872887
+        ],
+        [
+          76.68158459878197,
+          29.570348549719654
+        ],
+        [
+          76.67418505510453,
+          29.478044807099252
+        ],
+        [
+          76.66642032818508,
+          29.34251500531285
+        ],
+        [
+          76.63148751518094,
+          29.226468243920237
+        ],
+        [
+          76.63850102990217,
+          29.134368796611145
+        ],
+        [
+          76.60885803049972,
+          29.00774490676295
+        ],
+        [
+          76.6066,
+          28.8955
+        ]
+      ],
+      "length_km": 166.4,
+      "load_pct": 74,
+      "health": "Healthy",
+      "status": "Running",
+      "flow_direction": "forward",
+      "flow_MW": 100
+    },
+    {
+      "id": "TL-5",
+      "name": "Rohtak–Bahadurgarh 220kV",
+      "voltage_level": "220kV",
+      "from_substation_id": "SS-005",
+      "to_substation_id": "SS-008",
+      "from_substation": "Rohtak",
+      "to_substation": "Bahadurgarh",
+      "tower_ids": [
+        "TW-040",
+        "TW-041",
+        "TW-042",
+        "TW-043",
+        "TW-044",
+        "TW-045",
+        "TW-046"
+      ],
+      "path": [
+        [
+          76.6066,
+          28.8955
+        ],
+        [
+          76.65166073159185,
+          28.881161986680723
+        ],
+        [
+          76.69806356565027,
+          28.83436096490916
+        ],
+        [
+          76.71499990336565,
+          28.815007087896895
+        ],
+        [
+          76.7641519141777,
+          28.802266323699932
+        ],
+        [
+          76.80875330487294,
+          28.75782135882753
+        ],
+        [
+          76.86335402368414,
+          28.757407068915622
+        ],
+        [
+          76.89602636435487,
+          28.704304352318484
+        ],
+        [
+          76.9278,
+          28.6928
+        ]
+      ],
+      "length_km": 41.2,
+      "load_pct": 82,
+      "health": "Healthy",
+      "status": "Running",
+      "flow_direction": "forward",
+      "flow_MW": 245
+    },
+    {
+      "id": "TL-6",
+      "name": "Bahadurgarh–Gurugram 400kV",
+      "voltage_level": "400kV",
+      "from_substation_id": "SS-008",
+      "to_substation_id": "SS-009",
+      "from_substation": "Bahadurgarh",
+      "to_substation": "Gurugram",
+      "tower_ids": [
+        "TW-047",
+        "TW-048",
+        "TW-049",
+        "TW-050",
+        "TW-051",
+        "TW-052",
+        "TW-053",
+        "TW-054"
+      ],
+      "path": [
+        [
+          76.9278,
+          28.6928
+        ],
+        [
+          76.94378274787154,
+          28.665777140034567
+        ],
+        [
+          76.96519765675562,
+          28.652501734513354
+        ],
+        [
+          76.94290636100841,
+          28.60159065660854
+        ],
+        [
+          76.97028778974443,
+          28.58778957938682
+        ],
+        [
+          76.96804413897004,
+          28.552455177775816
+        ],
+        [
+          76.97835669864702,
+          28.541292494304173
+        ],
+        [
+          77.020758030431,
+          28.497124224204658
+        ],
+        [
+          77.02996710033545,
+          28.4961970922451
+        ],
+        [
+          77.0266,
+          28.4595
+        ]
+      ],
+      "length_km": 32,
+      "load_pct": 58,
+      "health": "Healthy",
+      "status": "Running",
+      "flow_direction": "forward",
+      "flow_MW": 200
+    },
+    {
+      "id": "TL-7",
+      "name": "Gurugram–Faridabad 220kV",
+      "voltage_level": "220kV",
+      "from_substation_id": "SS-009",
+      "to_substation_id": "SS-010",
+      "from_substation": "Gurugram",
+      "to_substation": "Faridabad",
+      "tower_ids": [
+        "TW-055",
+        "TW-056",
+        "TW-057",
+        "TW-058",
+        "TW-059",
+        "TW-060"
+      ],
+      "path": [
+        [
+          77.0266,
+          28.4595
+        ],
+        [
+          77.07322868749884,
+          28.450134611079957
+        ],
+        [
+          77.10514473993106,
+          28.44432601777994
+        ],
+        [
+          77.1675079339596,
+          28.44234885264718
+        ],
+        [
+          77.20962203069651,
+          28.43543817127566
+        ],
+        [
+          77.21492627924333,
+          28.411188807600624
+        ],
+        [
+          77.27191940838615,
+          28.428201273525566
+        ],
+        [
+          77.3178,
+          28.4089
+        ]
+      ],
+      "length_km": 31.8,
+      "load_pct": 82,
+      "health": "Healthy",
+      "status": "Running",
+      "flow_direction": "forward",
+      "flow_MW": 265
+    },
+    {
+      "id": "TL-8",
+      "name": "Rohtak–Hisar 220kV",
+      "voltage_level": "220kV",
+      "from_substation_id": "SS-005",
+      "to_substation_id": "SS-006",
+      "from_substation": "Rohtak",
+      "to_substation": "Hisar",
+      "tower_ids": [
+        "TW-061",
+        "TW-062",
+        "TW-063",
+        "TW-064",
+        "TW-065",
+        "TW-066",
+        "TW-067",
+        "TW-068",
+        "TW-069",
+        "TW-070",
+        "TW-071"
+      ],
+      "path": [
+        [
+          76.6066,
+          28.8955
+        ],
+        [
+          76.53776868734982,
+          28.922881721556767
+        ],
+        [
+          76.45458680870345,
+          28.927791386605552
+        ],
+        [
+          76.39251038907216,
+          28.962288177362304
+        ],
+        [
+          76.31819602570194,
+          28.994444724923547
+        ],
+        [
+          76.24059183771622,
+          28.987539557213413
+        ],
+        [
+          76.17598996920893,
+          29.01812191870517
+        ],
+        [
+          76.10192543766443,
+          29.0494710860504
+        ],
+        [
+          76.01146887063898,
+          29.065115103313197
+        ],
+        [
+          75.9390692202435,
+          29.08270736424611
+        ],
+        [
+          75.88551136774264,
+          29.095872426127844
+        ],
+        [
+          75.7813742904629,
+          29.13526464094968
+        ],
+        [
+          75.7217,
+          29.1492
+        ]
+      ],
+      "length_km": 92.1,
+      "load_pct": 79,
+      "health": "Healthy",
+      "status": "Running",
+      "flow_direction": "forward",
+      "flow_MW": 183
+    },
+    {
+      "id": "TL-9",
+      "name": "Hisar–Bhiwani 132kV",
+      "voltage_level": "132kV",
+      "from_substation_id": "SS-006",
+      "to_substation_id": "SS-007",
+      "from_substation": "Hisar",
+      "to_substation": "Bhiwani",
+      "tower_ids": [
+        "TW-072",
+        "TW-073",
+        "TW-074",
+        "TW-075",
+        "TW-076",
+        "TW-077",
+        "TW-078",
+        "TW-079",
+        "TW-080"
+      ],
+      "path": [
+        [
+          75.7217,
+          29.1492
+        ],
+        [
+          75.76735140243333,
+          29.12006811301666
+        ],
+        [
+          75.79380738817225,
+          29.077909933947833
+        ],
+        [
+          75.83438331473275,
+          29.031135713169697
+        ],
+        [
+          75.87254194493354,
+          28.99373656842415
+        ],
+        [
+          75.91990431702862,
+          28.961804882698313
+        ],
+        [
+          75.96937829106696,
+          28.937143579784976
+        ],
+        [
+          76.02328409545602,
+          28.916811779169507
+        ],
+        [
+          76.05845001510836,
+          28.865548011182035
+        ],
+        [
+          76.08884876234518,
+          28.842884180406838
+        ],
+        [
+          76.1318,
+          28.7975
+        ]
+      ],
+      "length_km": 57.1,
+      "load_pct": 73,
+      "health": "Healthy",
+      "status": "Running",
+      "flow_direction": "forward",
+      "flow_MW": 172
+    },
+    {
+      "id": "TL-10",
+      "name": "Hisar–Panipat 220kV",
+      "voltage_level": "220kV",
+      "from_substation_id": "SS-006",
+      "to_substation_id": "SS-001",
+      "from_substation": "Hisar",
+      "to_substation": "Panipat",
+      "tower_ids": [
+        "TW-081",
+        "TW-082",
+        "TW-083",
+        "TW-084",
+        "TW-085",
+        "TW-086",
+        "TW-087",
+        "TW-088",
+        "TW-089",
+        "TW-090",
+        "TW-091",
+        "TW-092",
+        "TW-093",
+        "TW-094"
+      ],
+      "path": [
+        [
+          75.7217,
+          29.1492
+        ],
+        [
+          75.80912832946765,
+          29.174633445703435
+        ],
+        [
+          75.90477819829515,
+          29.184625741233646
+        ],
+        [
+          75.97918845276025,
+          29.18396922004174
+        ],
+        [
+          76.06071528683168,
+          29.219577739487075
+        ],
+        [
+          76.13762572927726,
+          29.23441574453381
+        ],
+        [
+          76.201155725444,
+          29.245383371715047
+        ],
+        [
+          76.29209804808393,
+          29.25557911423812
+        ],
+        [
+          76.36561977914467,
+          29.274862955176452
+        ],
+        [
+          76.45736816898014,
+          29.3057372095628
+        ],
+        [
+          76.56255486568875,
+          29.319829097723858
+        ],
+        [
+          76.62610287283317,
+          29.317829601098648
+        ],
+        [
+          76.73244557754428,
+          29.353691355916002
+        ],
+        [
+          76.80419188071428,
+          29.373262787621858
+        ],
+        [
+          76.90065764060232,
+          29.377765869321752
+        ],
+        [
+          76.9635,
+          29.3909
+        ]
+      ],
+      "length_km": 124.6,
+      "load_pct": 65,
+      "health": "Healthy",
+      "status": "Running",
+      "flow_direction": "forward",
+      "flow_MW": 196
+    },
+    {
+      "id": "TL-11",
+      "name": "Bhiwani–Bahadurgarh 66kV",
+      "voltage_level": "66kV",
+      "from_substation_id": "SS-007",
+      "to_substation_id": "SS-008",
+      "from_substation": "Bhiwani",
+      "to_substation": "Bahadurgarh",
+      "tower_ids": [
+        "TW-095",
+        "TW-096",
+        "TW-097",
+        "TW-098",
+        "TW-099",
+        "TW-100",
+        "TW-101",
+        "TW-102"
+      ],
+      "path": [
+        [
+          76.1318,
+          28.7975
+        ],
+        [
+          76.2250034696945,
+          28.77456978931168
+        ],
+        [
+          76.31319888959669,
+          28.773919846177932
+        ],
+        [
+          76.4120953320467,
+          28.75233431128136
+        ],
+        [
+          76.47833764920426,
+          28.747336125241368
+        ],
+        [
+          76.57600943664707,
+          28.738668067761523
+        ],
+        [
+          76.67430887631087,
+          28.72171316551192
+        ],
+        [
+          76.74994167529937,
+          28.706086023781154
+        ],
+        [
+          76.81980251381539,
+          28.71345417026689
+        ],
+        [
+          76.9278,
+          28.6928
+        ]
+      ],
+      "length_km": 79,
+      "load_pct": 62,
+      "health": "Healthy",
+      "status": "Running",
+      "flow_direction": "forward",
+      "flow_MW": 250
+    },
+    {
+      "id": "TL-12",
+      "name": "Karnal–Rohtak 132kV",
+      "voltage_level": "132kV",
+      "from_substation_id": "SS-002",
+      "to_substation_id": "SS-005",
+      "from_substation": "Karnal",
+      "to_substation": "Rohtak",
+      "tower_ids": [
+        "TW-103",
+        "TW-104",
+        "TW-105",
+        "TW-106",
+        "TW-107",
+        "TW-108",
+        "TW-109",
+        "TW-110",
+        "TW-111",
+        "TW-112"
+      ],
+      "path": [
+        [
+          76.9905,
+          29.6857
+        ],
+        [
+          76.96065555035302,
+          29.620339811532748
+        ],
+        [
+          76.92746817860314,
+          29.53661068754111
+        ],
+        [
+          76.90373724790416,
+          29.46368506513758
+        ],
+        [
+          76.85927445959923,
+          29.390511476896922
+        ],
+        [
+          76.81806257439338,
+          29.31578415922218
+        ],
+        [
+          76.79880990725553,
+          29.262490264449514
+        ],
+        [
+          76.72827530324933,
+          29.197561960834413
+        ],
+        [
+          76.6983949343348,
+          29.099430307842095
+        ],
+        [
+          76.683590934705,
+          29.052702492637138
+        ],
+        [
+          76.63452198827707,
+          28.96775425167347
+        ],
+        [
+          76.6066,
+          28.8955
+        ]
+      ],
+      "length_km": 96.4,
+      "load_pct": 78,
+      "health": "Healthy",
+      "status": "Running",
+      "flow_direction": "forward",
+      "flow_MW": 122
+    }
+  ]
+}
