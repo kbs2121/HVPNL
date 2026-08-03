@@ -11,7 +11,7 @@ export interface Substation {
   division: string;
   incomingPower: string;
   voltageTransform: string;
-  status: "Active" | "Maintenance" | "Standby";
+  status: "Active" | "Maintenance" | "Standby" | "Overload Alert";
   loadPct: number;
   lat: number;
   lng: number;
@@ -41,6 +41,15 @@ export interface JurisdictionZone {
 
 export interface JurisdictionCircle {
   id: string;
+  zoneId: string;
+  name: string;
+  color: string;
+  polygon: [number, number][];
+}
+
+export interface JurisdictionDivision {
+  id: string;
+  circleId: string;
   zoneId: string;
   name: string;
   color: string;
@@ -113,8 +122,8 @@ export const SUBSTATIONS: Substation[] = [
     division: "Industrial Panipat",
     incomingPower: "300 MVA",
     voltageTransform: "220kV stepped down to 132kV / 33kV",
-    status: "Active",
-    loadPct: 88,
+    status: "Overload Alert",
+    loadPct: 94,
     lat: 29.3909,
     lng: 76.9635,
   },
@@ -299,6 +308,119 @@ export const JURISDICTION_CIRCLES: JurisdictionCircle[] = [
       [77.0, 30.5],
       [76.4, 30.5],
       [76.4, 30.0],
+    ],
+  },
+  {
+    id: "circle-rohtak",
+    zoneId: "zone-south",
+    name: "Rohtak Circle",
+    color: "#60a5fa",
+    polygon: [
+      [76.35, 28.7],
+      [76.85, 28.7],
+      [76.85, 29.1],
+      [76.35, 29.1],
+      [76.35, 28.7],
+    ],
+  },
+  {
+    id: "circle-hisar",
+    zoneId: "zone-south",
+    name: "Hisar Circle",
+    color: "#fbbf24",
+    polygon: [
+      [75.4, 28.9],
+      [76.0, 28.9],
+      [76.0, 29.4],
+      [75.4, 29.4],
+      [75.4, 28.9],
+    ],
+  },
+];
+
+export const JURISDICTION_DIVISIONS: JurisdictionDivision[] = [
+  {
+    id: "div-south-gurgaon",
+    circleId: "circle-gurgaon",
+    zoneId: "zone-south",
+    name: "South Gurgaon Division",
+    color: "#a5b4fc",
+    polygon: [
+      [76.85, 28.35],
+      [77.15, 28.35],
+      [77.15, 28.52],
+      [76.85, 28.52],
+      [76.85, 28.35],
+    ],
+  },
+  {
+    id: "div-nit-faridabad",
+    circleId: "circle-faridabad",
+    zoneId: "zone-south",
+    name: "NIT Faridabad Division",
+    color: "#c4b5fd",
+    polygon: [
+      [77.18, 28.32],
+      [77.42, 28.32],
+      [77.42, 28.48],
+      [77.18, 28.48],
+      [77.18, 28.32],
+    ],
+  },
+  {
+    id: "div-industrial-panipat",
+    circleId: "circle-panipat",
+    zoneId: "zone-north",
+    name: "Industrial Panipat Division",
+    color: "#5eead4",
+    polygon: [
+      [76.82, 29.22],
+      [77.08, 29.22],
+      [77.08, 29.48],
+      [76.82, 29.48],
+      [76.82, 29.22],
+    ],
+  },
+  {
+    id: "div-cantt-ambala",
+    circleId: "circle-ambala",
+    zoneId: "zone-north",
+    name: "Cantt Ambala Division",
+    color: "#6ee7b7",
+    polygon: [
+      [76.55, 30.12],
+      [76.85, 30.12],
+      [76.85, 30.38],
+      [76.55, 30.38],
+      [76.55, 30.12],
+    ],
+  },
+  {
+    id: "div-rohtak-urban",
+    circleId: "circle-rohtak",
+    zoneId: "zone-south",
+    name: "Rohtak Urban Division",
+    color: "#93c5fd",
+    polygon: [
+      [76.45, 28.78],
+      [76.75, 28.78],
+      [76.75, 29.02],
+      [76.45, 29.02],
+      [76.45, 28.78],
+    ],
+  },
+  {
+    id: "div-hisar-central",
+    circleId: "circle-hisar",
+    zoneId: "zone-south",
+    name: "Hisar Central Division",
+    color: "#fcd34d",
+    polygon: [
+      [75.55, 29.02],
+      [75.88, 29.02],
+      [75.88, 29.28],
+      [75.55, 29.28],
+      [75.55, 29.02],
     ],
   },
 ];
