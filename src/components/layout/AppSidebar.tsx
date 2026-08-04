@@ -26,7 +26,7 @@ const navItems = [
   },
   {
     icon: LayoutDashboard,
-    label: "Substation Dashboard",
+    label: "Substation Monitoring",
     href: "/dashboard/substation-monitoring",
   },
   {
