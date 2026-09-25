@@ -19,7 +19,7 @@ const PowerGridMap = dynamic(
 
 export function PowerGridDashboard() {
   return (
-    <div className="relative h-screen w-screen overflow-hidden bg-[#0a0f1a]">
+    <div className="relative h-full min-h-0 w-full overflow-hidden bg-[#0a0f1a]">
       <PowerGridMap />
     </div>
   );

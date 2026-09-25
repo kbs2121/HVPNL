@@ -6,8 +6,8 @@
     "circle": "TS Karnal",
     "division": "TS Karnal",
     "voltage": "220kV",
-    "lat": 30.5765,
-    "lng": 76.7973
+    "lat": 29.8114,
+    "lng": 76.8606
   },
   {
     "code": 22224,
@@ -16,8 +16,8 @@
     "circle": "TS Faridabad",
     "division": "TS Palwal",
     "voltage": "220kV",
-    "lat": 29.0365,
-    "lng": 75.6306
+    "lat": 28.1219,
+    "lng": 77.3056
   },
   {
     "code": 11127,
@@ -26,8 +26,8 @@
     "circle": "TS Panchkula",
     "division": "TS Madanpur",
     "voltage": "132kV",
-    "lat": 30.8132,
-    "lng": 76.9995
+    "lat": 30.7319,
+    "lng": 76.8964
   },
   {
     "code": 12227,
@@ -36,8 +36,8 @@
     "circle": "TS Karnal",
     "division": "TS Karnal",
     "voltage": "132kV",
-    "lat": 30.5952,
-    "lng": 76.9339
+    "lat": 29.8113,
+    "lng": 77.1004
   },
   {
     "code": 23216,
@@ -46,8 +46,8 @@
     "circle": "TS Gurgaon",
     "division": "TS Manesar",
     "voltage": "220kV",
-    "lat": 29.134,
-    "lng": 75.5908
+    "lat": 28.3845,
+    "lng": 76.9186
   },
   {
     "code": 11327,
@@ -56,8 +56,8 @@
     "circle": "TS Panchkula",
     "division": "TS Yamunanagar",
     "voltage": "66kV",
-    "lat": 30.7566,
-    "lng": 76.9103
+    "lat": 30.1945,
+    "lng": 77.1553
   },
   {
     "code": 21210,
@@ -66,8 +66,8 @@
     "circle": "TS Hisar",
     "division": "TS Bhiwani",
     "voltage": "132kV",
-    "lat": 29.2267,
-    "lng": 75.7094
+    "lat": 28.698,
+    "lng": 76.1783
   },
   {
     "code": 21209,
@@ -76,8 +76,8 @@
     "circle": "TS Hisar",
     "division": "TS Bhiwani",
     "voltage": "132kV",
-    "lat": 29.245,
-    "lng": 75.5991
+    "lat": 28.6979,
+    "lng": 76.1581
   },
   {
     "code": 13336,
@@ -86,8 +86,8 @@
     "circle": "TS Rohtak",
     "division": "TS Panipat",
     "voltage": "220kV",
-    "lat": 30.7093,
-    "lng": 76.8059
+    "lat": 29.3213,
+    "lng": 76.8562
   },
   {
     "code": 13335,
@@ -96,8 +96,8 @@
     "circle": "TS Rohtak",
     "division": "TS Panipat",
     "voltage": "132kV",
-    "lat": 30.8317,
-    "lng": 76.9403
+    "lat": 29.3212,
+    "lng": 77.096
   },
   {
     "code": 11105,
@@ -106,8 +106,8 @@
     "circle": "TS Panchkula",
     "division": "TS Madanpur",
     "voltage": "66kV",
-    "lat": 30.7578,
-    "lng": 76.8698
+    "lat": 30.7305,
+    "lng": 76.9721
   },
   {
     "code": 11113,
@@ -116,8 +116,8 @@
     "circle": "TS Panchkula",
     "division": "TS Madanpur",
     "voltage": "66kV",
-    "lat": 30.729,
-    "lng": 76.9343
+    "lat": 30.731,
+    "lng": 76.8737
   },
   {
     "code": 11109,
@@ -126,8 +126,8 @@
     "circle": "TS Panchkula",
     "division": "TS Madanpur",
     "voltage": "66kV",
-    "lat": 30.7512,
-    "lng": 76.9731
+    "lat": 30.7308,
+    "lng": 76.7929
   },
   {
     "code": 11125,
@@ -136,8 +136,8 @@
     "circle": "TS Panchkula",
     "division": "TS Madanpur",
     "voltage": "66kV",
-    "lat": 30.5546,
-    "lng": 76.8205
+    "lat": 30.7318,
+    "lng": 76.856
   },
   {
     "code": 11101,
@@ -146,8 +146,8 @@
     "circle": "TS Panchkula",
     "division": "TS Madanpur",
     "voltage": "220kV",
-    "lat": 30.7781,
-    "lng": 76.8812
+    "lat": 30.7303,
+    "lng": 76.8913
   },
   {
     "code": 11121,
@@ -156,8 +156,8 @@
     "circle": "TS Panchkula",
     "division": "TS Madanpur",
     "voltage": "66kV",
-    "lat": 30.816,
-    "lng": 76.9414
+    "lat": 30.7316,
+    "lng": 76.7752
   },
   {
     "code": 11228,
@@ -166,8 +166,8 @@
     "circle": "TS Panchkula",
     "division": "TS Ambala",
     "voltage": "66kV",
-    "lat": 30.8128,
-    "lng": 76.7735
+    "lat": 30.4383,
+    "lng": 76.7361
   },
   {
     "code": 23301,
@@ -176,8 +176,8 @@
     "circle": "TS Gurgaon",
     "division": "TS Rewari",
     "voltage": "220kV",
-    "lat": 29.0462,
-    "lng": 75.8341
+    "lat": 28.2399,
+    "lng": 76.5051
   },
   {
     "code": 23303,
@@ -186,8 +186,8 @@
     "circle": "TS Gurgaon",
     "division": "TS Rewari",
     "voltage": "132kV",
-    "lat": 29.2649,
-    "lng": 75.6768
+    "lat": 28.24,
+    "lng": 76.5455
   },
   {
     "code": 23304,
@@ -196,8 +196,8 @@
     "circle": "TS Gurgaon",
     "division": "TS Rewari",
     "voltage": "132kV",
-    "lat": 29.2949,
-    "lng": 75.6628
+    "lat": 28.2401,
+    "lng": 76.5657
   },
   {
     "code": 23305,
@@ -206,8 +206,8 @@
     "circle": "TS Gurgaon",
     "division": "TS Rewari",
     "voltage": "132kV",
-    "lat": 29.1436,
-    "lng": 75.6261
+    "lat": 28.2401,
+    "lng": 76.5859
   },
   {
     "code": 23306,
@@ -216,8 +216,8 @@
     "circle": "TS Gurgaon",
     "division": "TS Rewari",
     "voltage": "132kV",
-    "lat": 29.1993,
-    "lng": 75.8418
+    "lat": 28.2402,
+    "lng": 76.6061
   },
   {
     "code": 23307,
@@ -226,8 +226,8 @@
     "circle": "TS Gurgaon",
     "division": "TS Rewari",
     "voltage": "220kV",
-    "lat": 29.1022,
-    "lng": 75.6788
+    "lat": 28.2403,
+    "lng": 76.6263
   },
   {
     "code": 21310,
@@ -236,8 +236,8 @@
     "circle": "TS Hisar",
     "division": "TS Sirsa",
     "voltage": "132kV",
-    "lat": 29.1484,
-    "lng": 75.5716
+    "lat": 29.4443,
+    "lng": 75.0077
   },
   {
     "code": 21316,
@@ -246,8 +246,8 @@
     "circle": "TS Hisar",
     "division": "TS Sirsa",
     "voltage": "132kV",
-    "lat": 29.1325,
-    "lng": 75.8271
+    "lat": 29.4447,
+    "lng": 75.1289
   },
   {
     "code": 21320,
@@ -256,8 +256,8 @@
     "circle": "TS Hisar",
     "division": "TS Sirsa",
     "voltage": "400kV",
-    "lat": 29.0084,
-    "lng": 75.7577
+    "lat": 29.4449,
+    "lng": 74.9497
   },
   {
     "code": 13103,
@@ -266,8 +266,8 @@
     "circle": "TS Rohtak",
     "division": "TS Rohtak",
     "voltage": "132kV",
-    "lat": 30.658,
-    "lng": 76.9641
+    "lat": 28.8166,
+    "lng": 76.7009
   },
   {
     "code": 13107,
@@ -276,8 +276,8 @@
     "circle": "TS Rohtak",
     "division": "TS Rohtak",
     "voltage": "132kV",
-    "lat": 30.6109,
-    "lng": 76.9351
+    "lat": 28.8168,
+    "lng": 76.5217
   },
   {
     "code": 13112,
@@ -286,8 +286,8 @@
     "circle": "TS Rohtak",
     "division": "TS Rohtak",
     "voltage": "132kV",
-    "lat": 30.7079,
-    "lng": 76.7349
+    "lat": 28.8171,
+    "lng": 76.6226
   },
   {
     "code": 13115,
@@ -296,8 +296,8 @@
     "circle": "TS Rohtak",
     "division": "TS Rohtak",
     "voltage": "132kV",
-    "lat": 30.79,
-    "lng": 76.812
+    "lat": 28.8173,
+    "lng": 76.6832
   },
   {
     "code": 13119,
@@ -306,8 +306,8 @@
     "circle": "TS Rohtak",
     "division": "TS Rohtak",
     "voltage": "132kV",
-    "lat": 30.7868,
-    "lng": 76.9837
+    "lat": 28.8176,
+    "lng": 76.504
   },
   {
     "code": 21107,
@@ -316,8 +316,8 @@
     "circle": "TS Hisar",
     "division": "TS Hisar",
     "voltage": "132kV",
-    "lat": 29.1242,
-    "lng": 75.8406
+    "lat": 29.0515,
+    "lng": 75.7582
   },
   {
     "code": 23112,
@@ -326,8 +326,8 @@
     "circle": "TS Gurgaon",
     "division": "TS Gurgaon",
     "voltage": "66kV",
-    "lat": 29.1728,
-    "lng": 75.5794
+    "lat": 28.488,
+    "lng": 76.9984
   },
   {
     "code": 23116,
@@ -336,8 +336,8 @@
     "circle": "TS Gurgaon",
     "division": "TS Gurgaon",
     "voltage": "66kV",
-    "lat": 29.2989,
-    "lng": 75.8279
+    "lat": 28.4882,
+    "lng": 77.0791
   },
   {
     "code": 12108,
@@ -346,8 +346,8 @@
     "circle": "TS Karnal",
     "division": "TS Kurukshetra",
     "voltage": "132kV",
-    "lat": 30.7379,
-    "lng": 76.9412
+    "lat": 30.0838,
+    "lng": 76.9273
   },
   {
     "code": 21410,
@@ -356,8 +356,8 @@
     "circle": "TS Hisar",
     "division": "TS Jind",
     "voltage": "132kV",
-    "lat": 29.2696,
-    "lng": 75.6204
+    "lat": 29.2406,
+    "lng": 76.2272
   },
   {
     "code": 21402,
@@ -366,8 +366,8 @@
     "circle": "TS Hisar",
     "division": "TS Jind",
     "voltage": "132kV",
-    "lat": 29.039,
-    "lng": 75.758
+    "lat": 29.2401,
+    "lng": 76.3256
   },
   {
     "code": 21414,
@@ -376,8 +376,8 @@
     "circle": "TS Hisar",
     "division": "TS Jind",
     "voltage": "132kV",
-    "lat": 29.0196,
-    "lng": 75.572
+    "lat": 29.2408,
+    "lng": 76.308
   },
   {
     "code": 12112,
@@ -386,8 +386,8 @@
     "circle": "TS Karnal",
     "division": "TS Kurukshetra",
     "voltage": "132kV",
-    "lat": 30.7168,
-    "lng": 76.7733
+    "lat": 30.0841,
+    "lng": 77.0081
   },
   {
     "code": 12202,
@@ -396,8 +396,8 @@
     "circle": "TS Karnal",
     "division": "TS Karnal",
     "voltage": "132kV",
-    "lat": 30.5587,
-    "lng": 76.8137
+    "lat": 29.8097,
+    "lng": 77.1156
   },
   {
     "code": 12206,
@@ -406,8 +406,8 @@
     "circle": "TS Karnal",
     "division": "TS Karnal",
     "voltage": "132kV",
-    "lat": 30.8284,
-    "lng": 76.7025
+    "lat": 29.81,
+    "lng": 76.9363
   },
   {
     "code": 12210,
@@ -416,8 +416,8 @@
     "circle": "TS Karnal",
     "division": "TS Karnal",
     "voltage": "132kV",
-    "lat": 30.74,
-    "lng": 76.7937
+    "lat": 29.8102,
+    "lng": 77.0171
   },
   {
     "code": 12214,
@@ -426,8 +426,8 @@
     "circle": "TS Karnal",
     "division": "TS Karnal",
     "voltage": "132kV",
-    "lat": 30.54,
-    "lng": 76.807
+    "lat": 29.8105,
+    "lng": 77.0979
   },
   {
     "code": 12218,
@@ -436,8 +436,8 @@
     "circle": "TS Karnal",
     "division": "TS Karnal",
     "voltage": "132kV",
-    "lat": 30.5429,
-    "lng": 76.7215
+    "lat": 29.8108,
+    "lng": 76.9187
   },
   {
     "code": 23308,
@@ -446,8 +446,8 @@
     "circle": "TS Gurgaon",
     "division": "TS Rewari",
     "voltage": "132kV",
-    "lat": 29.04,
-    "lng": 75.6199
+    "lat": 28.2403,
+    "lng": 76.6465
   },
   {
     "code": 23309,
@@ -456,8 +456,8 @@
     "circle": "TS Gurgaon",
     "division": "TS Rewari",
     "voltage": "132kV",
-    "lat": 29.2911,
-    "lng": 75.8385
+    "lat": 28.2404,
+    "lng": 76.6667
   },
   {
     "code": 23310,
@@ -466,8 +466,8 @@
     "circle": "TS Gurgaon",
     "division": "TS Rewari",
     "voltage": "132kV",
-    "lat": 29.092,
-    "lng": 75.7675
+    "lat": 28.2404,
+    "lng": 76.6869
   },
   {
     "code": 23311,
@@ -476,8 +476,8 @@
     "circle": "TS Gurgaon",
     "division": "TS Rewari",
     "voltage": "220kV",
-    "lat": 29.1746,
-    "lng": 75.5853
+    "lat": 28.2405,
+    "lng": 76.7071
   },
   {
     "code": 23312,
@@ -486,8 +486,8 @@
     "circle": "TS Gurgaon",
     "division": "TS Rewari",
     "voltage": "132kV",
-    "lat": 29.0589,
-    "lng": 75.7134
+    "lat": 28.2406,
+    "lng": 76.7273
   },
   {
     "code": 23314,
@@ -496,8 +496,8 @@
     "circle": "TS Gurgaon",
     "division": "TS Rewari",
     "voltage": "132kV",
-    "lat": 29.0463,
-    "lng": 75.6633
+    "lat": 28.2407,
+    "lng": 76.5077
   },
   {
     "code": 23315,
@@ -506,8 +506,8 @@
     "circle": "TS Gurgaon",
     "division": "TS Rewari",
     "voltage": "220kV",
-    "lat": 29.0579,
-    "lng": 75.6219
+    "lat": 28.2408,
+    "lng": 76.5279
   },
   {
     "code": 23317,
@@ -516,8 +516,8 @@
     "circle": "TS Gurgaon",
     "division": "TS Rewari",
     "voltage": "132kV",
-    "lat": 29.0676,
-    "lng": 75.663
+    "lat": 28.2409,
+    "lng": 76.5682
   },
   {
     "code": 23318,
@@ -526,8 +526,8 @@
     "circle": "TS Gurgaon",
     "division": "TS Rewari",
     "voltage": "66kV",
-    "lat": 29.2014,
-    "lng": 75.6941
+    "lat": 28.2409,
+    "lng": 76.5884
   },
   {
     "code": 23319,
@@ -536,8 +536,8 @@
     "circle": "TS Gurgaon",
     "division": "TS Rewari",
     "voltage": "220kV",
-    "lat": 29.1826,
-    "lng": 75.686
+    "lat": 28.241,
+    "lng": 76.6086
   },
   {
     "code": 23320,
@@ -546,8 +546,8 @@
     "circle": "TS Gurgaon",
     "division": "TS Rewari",
     "voltage": "132kV",
-    "lat": 29.2024,
-    "lng": 75.8083
+    "lat": 28.2411,
+    "lng": 76.6288
   },
   {
     "code": 23322,
@@ -556,8 +556,8 @@
     "circle": "TS Gurgaon",
     "division": "TS Rewari",
     "voltage": "132kV",
-    "lat": 29.1974,
-    "lng": 75.5969
+    "lat": 28.2412,
+    "lng": 76.6692
   },
   {
     "code": 23324,
@@ -566,8 +566,8 @@
     "circle": "TS Gurgaon",
     "division": "TS Rewari",
     "voltage": "400kV",
-    "lat": 29.2569,
-    "lng": 75.8021
+    "lat": 28.2413,
+    "lng": 76.7096
   },
   {
     "code": 23325,
@@ -576,8 +576,8 @@
     "circle": "TS Gurgaon",
     "division": "TS Rewari",
     "voltage": "220kV",
-    "lat": 29.2661,
-    "lng": 75.6067
+    "lat": 28.2414,
+    "lng": 76.7298
   },
   {
     "code": 12222,
@@ -586,8 +586,8 @@
     "circle": "TS Karnal",
     "division": "TS Karnal",
     "voltage": "132kV",
-    "lat": 30.6591,
-    "lng": 76.9135
+    "lat": 29.811,
+    "lng": 76.9995
   },
   {
     "code": 12226,
@@ -596,8 +596,8 @@
     "circle": "TS Karnal",
     "division": "TS Karnal",
     "voltage": "220kV",
-    "lat": 30.7785,
-    "lng": 76.8747
+    "lat": 29.8113,
+    "lng": 77.0802
   },
   {
     "code": 12304,
@@ -606,8 +606,8 @@
     "circle": "TS Karnal",
     "division": "TS Kaithal",
     "voltage": "132kV",
-    "lat": 30.6803,
-    "lng": 76.7107
+    "lat": 29.9262,
+    "lng": 76.5054
   },
   {
     "code": 12308,
@@ -616,8 +616,8 @@
     "circle": "TS Karnal",
     "division": "TS Kaithal",
     "voltage": "132kV",
-    "lat": 30.6847,
-    "lng": 76.8112
+    "lat": 29.9264,
+    "lng": 76.3262
   },
   {
     "code": 12312,
@@ -626,8 +626,8 @@
     "circle": "TS Karnal",
     "division": "TS Kaithal",
     "voltage": "132kV",
-    "lat": 30.6729,
-    "lng": 76.7847
+    "lat": 29.9267,
+    "lng": 76.407
   },
   {
     "code": 12316,
@@ -636,8 +636,8 @@
     "circle": "TS Karnal",
     "division": "TS Kaithal",
     "voltage": "220kV",
-    "lat": 30.763,
-    "lng": 76.89
+    "lat": 29.9269,
+    "lng": 76.4878
   },
   {
     "code": 12317,
@@ -646,8 +646,8 @@
     "circle": "TS Karnal",
     "division": "TS Kaithal",
     "voltage": "220kV",
-    "lat": 30.6178,
-    "lng": 76.9845
+    "lat": 29.927,
+    "lng": 76.5079
   },
   {
     "code": 12319,
@@ -656,8 +656,8 @@
     "circle": "TS Karnal",
     "division": "TS Kaithal",
     "voltage": "132kV",
-    "lat": 30.7628,
-    "lng": 76.9069
+    "lat": 29.9271,
+    "lng": 76.2883
   },
   {
     "code": 23122,
@@ -666,8 +666,8 @@
     "circle": "TS Gurgaon",
     "division": "TS Gurgaon",
     "voltage": "66kV",
-    "lat": 29.0942,
-    "lng": 75.7747
+    "lat": 28.4886,
+    "lng": 76.9403
   },
   {
     "code": 22107,
@@ -676,8 +676,8 @@
     "circle": "TS Faridabad",
     "division": "TS Faridabad",
     "voltage": "220kV",
-    "lat": 29.0224,
-    "lng": 75.8598
+    "lat": 28.3746,
+    "lng": 77.2728
   },
   {
     "code": 21131,
@@ -686,8 +686,8 @@
     "circle": "TS Hisar",
     "division": "TS Hisar",
     "voltage": "132kV",
-    "lat": 29.0302,
-    "lng": 75.6921
+    "lat": 29.053,
+    "lng": 75.7229
   },
   {
     "code": 21223,
@@ -696,8 +696,8 @@
     "circle": "TS Hisar",
     "division": "TS Bhiwani",
     "voltage": "132kV",
-    "lat": 29.1118,
-    "lng": 75.8247
+    "lat": 28.6988,
+    "lng": 76.1808
   },
   {
     "code": 22202,
@@ -706,8 +706,8 @@
     "circle": "TS Faridabad",
     "division": "TS Palwal",
     "voltage": "66kV",
-    "lat": 29.1958,
-    "lng": 75.802
+    "lat": 28.1205,
+    "lng": 77.3813
   },
   {
     "code": 22203,
@@ -716,8 +716,8 @@
     "circle": "TS Faridabad",
     "division": "TS Palwal",
     "voltage": "66kV",
-    "lat": 29.1622,
-    "lng": 75.6267
+    "lat": 28.1206,
+    "lng": 77.4015
   },
   {
     "code": 22204,
@@ -726,8 +726,8 @@
     "circle": "TS Faridabad",
     "division": "TS Palwal",
     "voltage": "66kV",
-    "lat": 29.0283,
-    "lng": 75.7986
+    "lat": 28.1207,
+    "lng": 77.4217
   },
   {
     "code": 22206,
@@ -736,8 +736,8 @@
     "circle": "TS Faridabad",
     "division": "TS Palwal",
     "voltage": "66kV",
-    "lat": 29.1279,
-    "lng": 75.6188
+    "lat": 28.1208,
+    "lng": 77.2021
   },
   {
     "code": 22207,
@@ -746,8 +746,8 @@
     "circle": "TS Faridabad",
     "division": "TS Palwal",
     "voltage": "66kV",
-    "lat": 29.2741,
-    "lng": 75.6358
+    "lat": 28.1209,
+    "lng": 77.2223
   },
   {
     "code": 22208,
@@ -756,8 +756,8 @@
     "circle": "TS Faridabad",
     "division": "TS Palwal",
     "voltage": "66kV",
-    "lat": 29.2574,
-    "lng": 75.6185
+    "lat": 28.1209,
+    "lng": 77.2425
   },
   {
     "code": 22210,
@@ -766,8 +766,8 @@
     "circle": "TS Faridabad",
     "division": "TS Palwal",
     "voltage": "66kV",
-    "lat": 29.2845,
-    "lng": 75.7878
+    "lat": 28.1211,
+    "lng": 77.2829
   },
   {
     "code": 22211,
@@ -776,8 +776,8 @@
     "circle": "TS Faridabad",
     "division": "TS Palwal",
     "voltage": "66kV",
-    "lat": 29.1024,
-    "lng": 75.6881
+    "lat": 28.1211,
+    "lng": 77.303
   },
   {
     "code": 22212,
@@ -786,8 +786,8 @@
     "circle": "TS Faridabad",
     "division": "TS Palwal",
     "voltage": "66kV",
-    "lat": 29.2735,
-    "lng": 75.6927
+    "lat": 28.1212,
+    "lng": 77.3232
   },
   {
     "code": 22214,
@@ -796,8 +796,8 @@
     "circle": "TS Faridabad",
     "division": "TS Palwal",
     "voltage": "66kV",
-    "lat": 29.0308,
-    "lng": 75.8563
+    "lat": 28.1213,
+    "lng": 77.3636
   },
   {
     "code": 22215,
@@ -806,8 +806,8 @@
     "circle": "TS Faridabad",
     "division": "TS Palwal",
     "voltage": "66kV",
-    "lat": 29.2171,
-    "lng": 75.5865
+    "lat": 28.1214,
+    "lng": 77.3838
   },
   {
     "code": 22216,
@@ -816,8 +816,8 @@
     "circle": "TS Faridabad",
     "division": "TS Palwal",
     "voltage": "66kV",
-    "lat": 29.224,
-    "lng": 75.7721
+    "lat": 28.1214,
+    "lng": 77.404
   },
   {
     "code": 22218,
@@ -826,8 +826,8 @@
     "circle": "TS Faridabad",
     "division": "TS Palwal",
     "voltage": "66kV",
-    "lat": 29.2536,
-    "lng": 75.8243
+    "lat": 28.1216,
+    "lng": 77.4444
   },
   {
     "code": 22219,
@@ -836,8 +836,8 @@
     "circle": "TS Faridabad",
     "division": "TS Palwal",
     "voltage": "66kV",
-    "lat": 29.0502,
-    "lng": 75.596
+    "lat": 28.1216,
+    "lng": 77.2046
   },
   {
     "code": 22220,
@@ -846,8 +846,8 @@
     "circle": "TS Faridabad",
     "division": "TS Palwal",
     "voltage": "220kV",
-    "lat": 29.2276,
-    "lng": 75.733
+    "lat": 28.1217,
+    "lng": 77.2248
   },
   {
     "code": 22221,
@@ -856,8 +856,8 @@
     "circle": "TS Faridabad",
     "division": "TS Palwal",
     "voltage": "66kV",
-    "lat": 29.1524,
-    "lng": 75.5826
+    "lat": 28.1217,
+    "lng": 77.245
   },
   {
     "code": 22223,
@@ -866,8 +866,8 @@
     "circle": "TS Faridabad",
     "division": "TS Palwal",
     "voltage": "66kV",
-    "lat": 29.2021,
-    "lng": 75.7519
+    "lat": 28.1219,
+    "lng": 77.2854
   },
   {
     "code": 23202,
@@ -876,8 +876,8 @@
     "circle": "TS Gurgaon",
     "division": "TS Manesar",
     "voltage": "66kV",
-    "lat": 29.1511,
-    "lng": 75.784
+    "lat": 28.3836,
+    "lng": 76.8959
   },
   {
     "code": 23203,
@@ -886,8 +886,8 @@
     "circle": "TS Gurgaon",
     "division": "TS Manesar",
     "voltage": "66kV",
-    "lat": 29.1433,
-    "lng": 75.8297
+    "lat": 28.3837,
+    "lng": 76.9161
   },
   {
     "code": 23205,
@@ -896,8 +896,8 @@
     "circle": "TS Gurgaon",
     "division": "TS Manesar",
     "voltage": "66kV",
-    "lat": 29.1828,
-    "lng": 75.5704
+    "lat": 28.3838,
+    "lng": 76.9565
   },
   {
     "code": 23206,
@@ -906,8 +906,8 @@
     "circle": "TS Gurgaon",
     "division": "TS Manesar",
     "voltage": "66kV",
-    "lat": 29.0006,
-    "lng": 75.8639
+    "lat": 28.3839,
+    "lng": 76.9766
   },
   {
     "code": 23207,
@@ -916,8 +916,8 @@
     "circle": "TS Gurgaon",
     "division": "TS Manesar",
     "voltage": "66kV",
-    "lat": 29.2419,
-    "lng": 75.6285
+    "lat": 28.3839,
+    "lng": 76.9968
   },
   {
     "code": 23209,
@@ -926,8 +926,8 @@
     "circle": "TS Gurgaon",
     "division": "TS Manesar",
     "voltage": "66kV",
-    "lat": 29.2191,
-    "lng": 75.6814
+    "lat": 28.3841,
+    "lng": 77.0372
   },
   {
     "code": 23210,
@@ -936,8 +936,8 @@
     "circle": "TS Gurgaon",
     "division": "TS Manesar",
     "voltage": "66kV",
-    "lat": 29.0231,
-    "lng": 75.7025
+    "lat": 28.3841,
+    "lng": 77.0574
   },
   {
     "code": 23211,
@@ -946,8 +946,8 @@
     "circle": "TS Gurgaon",
     "division": "TS Manesar",
     "voltage": "66kV",
-    "lat": 29.1982,
-    "lng": 75.622
+    "lat": 28.3842,
+    "lng": 76.8176
   },
   {
     "code": 23213,
@@ -956,8 +956,8 @@
     "circle": "TS Gurgaon",
     "division": "TS Manesar",
     "voltage": "66kV",
-    "lat": 29.2425,
-    "lng": 75.7262
+    "lat": 28.3843,
+    "lng": 76.858
   },
   {
     "code": 11203,
@@ -966,8 +966,8 @@
     "circle": "TS Panchkula",
     "division": "TS Ambala",
     "voltage": "66kV",
-    "lat": 30.5485,
-    "lng": 76.7545
+    "lat": 30.4367,
+    "lng": 76.7512
   },
   {
     "code": 11207,
@@ -976,8 +976,8 @@
     "circle": "TS Panchkula",
     "division": "TS Ambala",
     "voltage": "66kV",
-    "lat": 30.8365,
-    "lng": 76.7585
+    "lat": 30.437,
+    "lng": 76.832
   },
   {
     "code": 11211,
@@ -986,8 +986,8 @@
     "circle": "TS Panchkula",
     "division": "TS Ambala",
     "voltage": "66kV",
-    "lat": 30.8035,
-    "lng": 76.7921
+    "lat": 30.4372,
+    "lng": 76.6527
   },
   {
     "code": 11215,
@@ -996,8 +996,8 @@
     "circle": "TS Panchkula",
     "division": "TS Ambala",
     "voltage": "66kV",
-    "lat": 30.7243,
-    "lng": 76.8636
+    "lat": 30.4375,
+    "lng": 76.7335
   },
   {
     "code": 11230,
@@ -1006,8 +1006,8 @@
     "circle": "TS Panchkula",
     "division": "TS Ambala",
     "voltage": "66kV",
-    "lat": 30.5402,
-    "lng": 76.8687
+    "lat": 30.4384,
+    "lng": 76.7764
   },
   {
     "code": 11231,
@@ -1016,8 +1016,8 @@
     "circle": "TS Panchkula",
     "division": "TS Ambala",
     "voltage": "66kV",
-    "lat": 30.6547,
-    "lng": 76.9996
+    "lat": 30.4385,
+    "lng": 76.7966
   },
   {
     "code": 11222,
@@ -1026,8 +1026,8 @@
     "circle": "TS Panchkula",
     "division": "TS Ambala",
     "voltage": "66kV",
-    "lat": 30.6361,
-    "lng": 76.8642
+    "lat": 30.4379,
+    "lng": 76.8749
   },
   {
     "code": 23302,
@@ -1036,8 +1036,8 @@
     "circle": "TS Gurgaon",
     "division": "TS Rewari",
     "voltage": "132kV",
-    "lat": 29.2438,
-    "lng": 75.6492
+    "lat": 28.2399,
+    "lng": 76.5253
   },
   {
     "code": 23313,
@@ -1046,8 +1046,8 @@
     "circle": "TS Gurgaon",
     "division": "TS Rewari",
     "voltage": "132kV",
-    "lat": 29.2419,
-    "lng": 75.6674
+    "lat": 28.2406,
+    "lng": 76.7475
   },
   {
     "code": 23316,
@@ -1056,8 +1056,8 @@
     "circle": "TS Gurgaon",
     "division": "TS Rewari",
     "voltage": "132kV",
-    "lat": 29.0164,
-    "lng": 75.8524
+    "lat": 28.2408,
+    "lng": 76.548
   },
   {
     "code": 23321,
@@ -1066,8 +1066,8 @@
     "circle": "TS Gurgaon",
     "division": "TS Rewari",
     "voltage": "66kV",
-    "lat": 29.1352,
-    "lng": 75.7386
+    "lat": 28.2411,
+    "lng": 76.649
   },
   {
     "code": 23326,
@@ -1076,8 +1076,8 @@
     "circle": "TS Gurgaon",
     "division": "TS Rewari",
     "voltage": "220kV",
-    "lat": 29.2653,
-    "lng": 75.743
+    "lat": 28.2415,
+    "lng": 76.75
   },
   {
     "code": 22201,
@@ -1086,8 +1086,8 @@
     "circle": "TS Faridabad",
     "division": "TS Palwal",
     "voltage": "220kV",
-    "lat": 29.095,
-    "lng": 75.6467
+    "lat": 28.1205,
+    "lng": 77.3611
   },
   {
     "code": 22205,
@@ -1096,8 +1096,8 @@
     "circle": "TS Faridabad",
     "division": "TS Palwal",
     "voltage": "66kV",
-    "lat": 29.2266,
-    "lng": 75.7983
+    "lat": 28.1207,
+    "lng": 77.4419
   },
   {
     "code": 22209,
@@ -1106,8 +1106,8 @@
     "circle": "TS Faridabad",
     "division": "TS Palwal",
     "voltage": "66kV",
-    "lat": 29.2276,
-    "lng": 75.8409
+    "lat": 28.121,
+    "lng": 77.2627
   },
   {
     "code": 22213,
@@ -1116,8 +1116,8 @@
     "circle": "TS Faridabad",
     "division": "TS Palwal",
     "voltage": "66kV",
-    "lat": 29.2465,
-    "lng": 75.8119
+    "lat": 28.1212,
+    "lng": 77.3434
   },
   {
     "code": 22217,
@@ -1126,8 +1126,8 @@
     "circle": "TS Faridabad",
     "division": "TS Palwal",
     "voltage": "220kV",
-    "lat": 29.2806,
-    "lng": 75.7875
+    "lat": 28.1215,
+    "lng": 77.4242
   },
   {
     "code": 22222,
@@ -1136,8 +1136,8 @@
     "circle": "TS Faridabad",
     "division": "TS Palwal",
     "voltage": "66kV",
-    "lat": 29.0792,
-    "lng": 75.6604
+    "lat": 28.1218,
+    "lng": 77.2652
   },
   {
     "code": 11226,
@@ -1146,8 +1146,8 @@
     "circle": "TS Panchkula",
     "division": "TS Ambala",
     "voltage": "66kV",
-    "lat": 30.6826,
-    "lng": 76.9715
+    "lat": 30.4382,
+    "lng": 76.6957
   },
   {
     "code": 21322,
@@ -1156,8 +1156,8 @@
     "circle": "TS Hisar",
     "division": "TS Sirsa",
     "voltage": "132kV",
-    "lat": 29.1584,
-    "lng": 75.6457
+    "lat": 29.445,
+    "lng": 74.9901
   },
   {
     "code": 11301,
@@ -1166,8 +1166,8 @@
     "circle": "TS Panchkula",
     "division": "TS Yamunanagar",
     "voltage": "220kV",
-    "lat": 30.5798,
-    "lng": 76.9388
+    "lat": 30.1929,
+    "lng": 77.1503
   },
   {
     "code": 11302,
@@ -1176,8 +1176,8 @@
     "circle": "TS Panchkula",
     "division": "TS Yamunanagar",
     "voltage": "66kV",
-    "lat": 30.7808,
-    "lng": 76.8172
+    "lat": 30.193,
+    "lng": 77.1705
   },
   {
     "code": 11303,
@@ -1186,8 +1186,8 @@
     "circle": "TS Panchkula",
     "division": "TS Yamunanagar",
     "voltage": "66kV",
-    "lat": 30.6199,
-    "lng": 76.8113
+    "lat": 30.193,
+    "lng": 77.1906
   },
   {
     "code": 11305,
@@ -1196,8 +1196,8 @@
     "circle": "TS Panchkula",
     "division": "TS Yamunanagar",
     "voltage": "66kV",
-    "lat": 30.7643,
-    "lng": 76.9601
+    "lat": 30.1932,
+    "lng": 77.231
   },
   {
     "code": 11306,
@@ -1206,8 +1206,8 @@
     "circle": "TS Panchkula",
     "division": "TS Yamunanagar",
     "voltage": "66kV",
-    "lat": 30.6333,
-    "lng": 76.9006
+    "lat": 30.1932,
+    "lng": 77.2512
   },
   {
     "code": 11307,
@@ -1216,8 +1216,8 @@
     "circle": "TS Panchkula",
     "division": "TS Yamunanagar",
     "voltage": "66kV",
-    "lat": 30.6485,
-    "lng": 76.8543
+    "lat": 30.1933,
+    "lng": 77.2714
   },
   {
     "code": 11309,
@@ -1226,8 +1226,8 @@
     "circle": "TS Panchkula",
     "division": "TS Yamunanagar",
     "voltage": "66kV",
-    "lat": 30.557,
-    "lng": 76.7705
+    "lat": 30.1934,
+    "lng": 77.3118
   },
   {
     "code": 11310,
@@ -1236,8 +1236,8 @@
     "circle": "TS Panchkula",
     "division": "TS Yamunanagar",
     "voltage": "66kV",
-    "lat": 30.6397,
-    "lng": 76.7774
+    "lat": 30.1935,
+    "lng": 77.332
   },
   {
     "code": 11311,
@@ -1246,8 +1246,8 @@
     "circle": "TS Panchkula",
     "division": "TS Yamunanagar",
     "voltage": "66kV",
-    "lat": 30.6399,
-    "lng": 76.9642
+    "lat": 30.1935,
+    "lng": 77.3522
   },
   {
     "code": 11313,
@@ -1256,8 +1256,8 @@
     "circle": "TS Panchkula",
     "division": "TS Yamunanagar",
     "voltage": "66kV",
-    "lat": 30.6413,
-    "lng": 76.9701
+    "lat": 30.1937,
+    "lng": 77.3926
   },
   {
     "code": 11314,
@@ -1266,8 +1266,8 @@
     "circle": "TS Panchkula",
     "division": "TS Yamunanagar",
     "voltage": "66kV",
-    "lat": 30.7364,
-    "lng": 76.9693
+    "lat": 30.1937,
+    "lng": 77.1528
   },
   {
     "code": 11315,
@@ -1276,8 +1276,8 @@
     "circle": "TS Panchkula",
     "division": "TS Yamunanagar",
     "voltage": "66kV",
-    "lat": 30.7799,
-    "lng": 76.977
+    "lat": 30.1938,
+    "lng": 77.173
   },
   {
     "code": 11317,
@@ -1286,8 +1286,8 @@
     "circle": "TS Panchkula",
     "division": "TS Yamunanagar",
     "voltage": "66kV",
-    "lat": 30.6161,
-    "lng": 76.7933
+    "lat": 30.1939,
+    "lng": 77.2134
   },
   {
     "code": 11318,
@@ -1296,8 +1296,8 @@
     "circle": "TS Panchkula",
     "division": "TS Yamunanagar",
     "voltage": "66kV",
-    "lat": 30.6577,
-    "lng": 76.9529
+    "lat": 30.194,
+    "lng": 77.2336
   },
   {
     "code": 11319,
@@ -1306,8 +1306,8 @@
     "circle": "TS Panchkula",
     "division": "TS Yamunanagar",
     "voltage": "66kV",
-    "lat": 30.767,
-    "lng": 76.895
+    "lat": 30.194,
+    "lng": 77.2538
   },
   {
     "code": 11321,
@@ -1316,8 +1316,8 @@
     "circle": "TS Panchkula",
     "division": "TS Yamunanagar",
     "voltage": "66kV",
-    "lat": 30.7777,
-    "lng": 76.8609
+    "lat": 30.1942,
+    "lng": 77.2942
   },
   {
     "code": 11322,
@@ -1326,8 +1326,8 @@
     "circle": "TS Panchkula",
     "division": "TS Yamunanagar",
     "voltage": "66kV",
-    "lat": 30.5447,
-    "lng": 76.8079
+    "lat": 30.1942,
+    "lng": 77.3143
   },
   {
     "code": 11323,
@@ -1336,8 +1336,8 @@
     "circle": "TS Panchkula",
     "division": "TS Yamunanagar",
     "voltage": "66kV",
-    "lat": 30.545,
-    "lng": 76.8103
+    "lat": 30.1943,
+    "lng": 77.3345
   },
   {
     "code": 11325,
@@ -1346,8 +1346,8 @@
     "circle": "TS Panchkula",
     "division": "TS Yamunanagar",
     "voltage": "66kV",
-    "lat": 30.6145,
-    "lng": 76.7082
+    "lat": 30.1944,
+    "lng": 77.3749
   },
   {
     "code": 11326,
@@ -1356,8 +1356,8 @@
     "circle": "TS Panchkula",
     "division": "TS Yamunanagar",
     "voltage": "220kV",
-    "lat": 30.7962,
-    "lng": 76.925
+    "lat": 30.1945,
+    "lng": 77.3951
   },
   {
     "code": 21301,
@@ -1366,8 +1366,8 @@
     "circle": "TS Hisar",
     "division": "TS Sirsa",
     "voltage": "220kV",
-    "lat": 29.0139,
-    "lng": 75.6352
+    "lat": 29.4437,
+    "lng": 75.086
   },
   {
     "code": 21303,
@@ -1376,8 +1376,8 @@
     "circle": "TS Hisar",
     "division": "TS Sirsa",
     "voltage": "132kV",
-    "lat": 29.0148,
-    "lng": 75.6833
+    "lat": 29.4438,
+    "lng": 75.1264
   },
   {
     "code": 21304,
@@ -1386,8 +1386,8 @@
     "circle": "TS Hisar",
     "division": "TS Sirsa",
     "voltage": "132kV",
-    "lat": 29.2211,
-    "lng": 75.7641
+    "lat": 29.4439,
+    "lng": 75.1466
   },
   {
     "code": 21305,
@@ -1396,8 +1396,8 @@
     "circle": "TS Hisar",
     "division": "TS Sirsa",
     "voltage": "132kV",
-    "lat": 29.2657,
-    "lng": 75.8611
+    "lat": 29.444,
+    "lng": 74.9068
   },
   {
     "code": 21307,
@@ -1406,8 +1406,8 @@
     "circle": "TS Hisar",
     "division": "TS Sirsa",
     "voltage": "132kV",
-    "lat": 29.2859,
-    "lng": 75.7884
+    "lat": 29.4441,
+    "lng": 74.9472
   },
   {
     "code": 21308,
@@ -1416,8 +1416,8 @@
     "circle": "TS Hisar",
     "division": "TS Sirsa",
     "voltage": "132kV",
-    "lat": 29.2572,
-    "lng": 75.5802
+    "lat": 29.4442,
+    "lng": 74.9673
   },
   {
     "code": 21309,
@@ -1426,8 +1426,8 @@
     "circle": "TS Hisar",
     "division": "TS Sirsa",
     "voltage": "132kV",
-    "lat": 29.1442,
-    "lng": 75.7302
+    "lat": 29.4442,
+    "lng": 74.9875
   },
   {
     "code": 21311,
@@ -1436,8 +1436,8 @@
     "circle": "TS Hisar",
     "division": "TS Sirsa",
     "voltage": "132kV",
-    "lat": 29.1636,
-    "lng": 75.5726
+    "lat": 29.4443,
+    "lng": 75.0279
   },
   {
     "code": 21312,
@@ -1446,8 +1446,8 @@
     "circle": "TS Hisar",
     "division": "TS Sirsa",
     "voltage": "132kV",
-    "lat": 29.0553,
-    "lng": 75.8041
+    "lat": 29.4444,
+    "lng": 75.0481
   },
   {
     "code": 21313,
@@ -1456,8 +1456,8 @@
     "circle": "TS Hisar",
     "division": "TS Sirsa",
     "voltage": "132kV",
-    "lat": 29.0861,
-    "lng": 75.7791
+    "lat": 29.4445,
+    "lng": 75.0683
   },
   {
     "code": 21314,
@@ -1466,8 +1466,8 @@
     "circle": "TS Hisar",
     "division": "TS Sirsa",
     "voltage": "132kV",
-    "lat": 29.1448,
-    "lng": 75.6305
+    "lat": 29.4445,
+    "lng": 75.0885
   },
   {
     "code": 21315,
@@ -1476,8 +1476,8 @@
     "circle": "TS Hisar",
     "division": "TS Sirsa",
     "voltage": "132kV",
-    "lat": 29.0975,
-    "lng": 75.6844
+    "lat": 29.4446,
+    "lng": 75.1087
   },
   {
     "code": 21317,
@@ -1486,8 +1486,8 @@
     "circle": "TS Hisar",
     "division": "TS Sirsa",
     "voltage": "132kV",
-    "lat": 29.2741,
-    "lng": 75.6684
+    "lat": 29.4447,
+    "lng": 75.1491
   },
   {
     "code": 21318,
@@ -1496,8 +1496,8 @@
     "circle": "TS Hisar",
     "division": "TS Sirsa",
     "voltage": "220kV",
-    "lat": 29.036,
-    "lng": 75.7325
+    "lat": 29.4448,
+    "lng": 74.9093
   },
   {
     "code": 21319,
@@ -1506,8 +1506,8 @@
     "circle": "TS Hisar",
     "division": "TS Sirsa",
     "voltage": "220kV",
-    "lat": 29.0005,
-    "lng": 75.8008
+    "lat": 29.4448,
+    "lng": 74.9295
   },
   {
     "code": 21321,
@@ -1516,8 +1516,8 @@
     "circle": "TS Hisar",
     "division": "TS Sirsa",
     "voltage": "220kV",
-    "lat": 29.2164,
-    "lng": 75.8014
+    "lat": 29.445,
+    "lng": 74.9699
   },
   {
     "code": 13101,
@@ -1526,8 +1526,8 @@
     "circle": "TS Rohtak",
     "division": "TS Rohtak",
     "voltage": "220kV",
-    "lat": 30.6948,
-    "lng": 76.9428
+    "lat": 28.8165,
+    "lng": 76.6605
   },
   {
     "code": 13102,
@@ -1536,8 +1536,8 @@
     "circle": "TS Rohtak",
     "division": "TS Rohtak",
     "voltage": "132kV",
-    "lat": 30.619,
-    "lng": 76.9334
+    "lat": 28.8165,
+    "lng": 76.6807
   },
   {
     "code": 13104,
@@ -1546,8 +1546,8 @@
     "circle": "TS Rohtak",
     "division": "TS Rohtak",
     "voltage": "132kV",
-    "lat": 30.7049,
-    "lng": 76.8549
+    "lat": 28.8166,
+    "lng": 76.4611
   },
   {
     "code": 13105,
@@ -1556,8 +1556,8 @@
     "circle": "TS Rohtak",
     "division": "TS Rohtak",
     "voltage": "132kV",
-    "lat": 30.8219,
-    "lng": 76.964
+    "lat": 28.8167,
+    "lng": 76.4813
   },
   {
     "code": 13106,
@@ -1566,8 +1566,8 @@
     "circle": "TS Rohtak",
     "division": "TS Rohtak",
     "voltage": "132kV",
-    "lat": 30.7354,
-    "lng": 76.9312
+    "lat": 28.8168,
+    "lng": 76.5015
   },
   {
     "code": 13108,
@@ -1576,8 +1576,8 @@
     "circle": "TS Rohtak",
     "division": "TS Rohtak",
     "voltage": "132kV",
-    "lat": 30.7138,
-    "lng": 76.8468
+    "lat": 28.8169,
+    "lng": 76.5419
   },
   {
     "code": 13109,
@@ -1586,8 +1586,8 @@
     "circle": "TS Rohtak",
     "division": "TS Rohtak",
     "voltage": "132kV",
-    "lat": 30.8123,
-    "lng": 76.8734
+    "lat": 28.817,
+    "lng": 76.562
   },
   {
     "code": 13110,
@@ -1596,8 +1596,8 @@
     "circle": "TS Rohtak",
     "division": "TS Rohtak",
     "voltage": "220kV",
-    "lat": 30.5938,
-    "lng": 76.8032
+    "lat": 28.817,
+    "lng": 76.5822
   },
   {
     "code": 13111,
@@ -1606,8 +1606,8 @@
     "circle": "TS Rohtak",
     "division": "TS Rohtak",
     "voltage": "220kV",
-    "lat": 30.7451,
-    "lng": 76.706
+    "lat": 28.8171,
+    "lng": 76.6024
   },
   {
     "code": 13113,
@@ -1616,8 +1616,8 @@
     "circle": "TS Rohtak",
     "division": "TS Rohtak",
     "voltage": "132kV",
-    "lat": 30.7235,
-    "lng": 76.8281
+    "lat": 28.8172,
+    "lng": 76.6428
   },
   {
     "code": 13114,
@@ -1626,8 +1626,8 @@
     "circle": "TS Rohtak",
     "division": "TS Rohtak",
     "voltage": "132kV",
-    "lat": 30.6829,
-    "lng": 76.8418
+    "lat": 28.8173,
+    "lng": 76.663
   },
   {
     "code": 13116,
@@ -1636,8 +1636,8 @@
     "circle": "TS Rohtak",
     "division": "TS Rohtak",
     "voltage": "132kV",
-    "lat": 30.5476,
-    "lng": 76.9424
+    "lat": 28.8174,
+    "lng": 76.7034
   },
   {
     "code": 13117,
@@ -1646,8 +1646,8 @@
     "circle": "TS Rohtak",
     "division": "TS Rohtak",
     "voltage": "132kV",
-    "lat": 30.7775,
-    "lng": 76.9119
+    "lat": 28.8175,
+    "lng": 76.4636
   },
   {
     "code": 13118,
@@ -1656,8 +1656,8 @@
     "circle": "TS Rohtak",
     "division": "TS Rohtak",
     "voltage": "132kV",
-    "lat": 30.6504,
-    "lng": 76.8257
+    "lat": 28.8175,
+    "lng": 76.4838
   },
   {
     "code": 13120,
@@ -1666,8 +1666,8 @@
     "circle": "TS Rohtak",
     "division": "TS Rohtak",
     "voltage": "132kV",
-    "lat": 30.6211,
-    "lng": 76.8542
+    "lat": 28.8177,
+    "lng": 76.5242
   },
   {
     "code": 13121,
@@ -1676,8 +1676,8 @@
     "circle": "TS Rohtak",
     "division": "TS Rohtak",
     "voltage": "132kV",
-    "lat": 30.5413,
-    "lng": 76.8256
+    "lat": 28.8177,
+    "lng": 76.5444
   },
   {
     "code": 13122,
@@ -1686,8 +1686,8 @@
     "circle": "TS Rohtak",
     "division": "TS Rohtak",
     "voltage": "220kV",
-    "lat": 30.5848,
-    "lng": 76.7148
+    "lat": 28.8178,
+    "lng": 76.5646
   },
   {
     "code": 13123,
@@ -1696,8 +1696,8 @@
     "circle": "TS Rohtak",
     "division": "TS Rohtak",
     "voltage": "132kV",
-    "lat": 30.7752,
-    "lng": 76.9681
+    "lat": 28.8178,
+    "lng": 76.5848
   },
   {
     "code": 13124,
@@ -1706,8 +1706,8 @@
     "circle": "TS Rohtak",
     "division": "TS Rohtak",
     "voltage": "132kV",
-    "lat": 30.5505,
-    "lng": 76.9983
+    "lat": 28.8179,
+    "lng": 76.605
   },
   {
     "code": 13125,
@@ -1716,8 +1716,8 @@
     "circle": "TS Rohtak",
     "division": "TS Rohtak",
     "voltage": "132kV",
-    "lat": 30.6602,
-    "lng": 76.9952
+    "lat": 28.818,
+    "lng": 76.6252
   },
   {
     "code": 13126,
@@ -1726,8 +1726,8 @@
     "circle": "TS Rohtak",
     "division": "TS Rohtak",
     "voltage": "132kV",
-    "lat": 30.816,
-    "lng": 76.9637
+    "lat": 28.818,
+    "lng": 76.6454
   },
   {
     "code": 13127,
@@ -1736,8 +1736,8 @@
     "circle": "TS Rohtak",
     "division": "TS Rohtak",
     "voltage": "132kV",
-    "lat": 30.5968,
-    "lng": 76.8573
+    "lat": 28.8181,
+    "lng": 76.6655
   },
   {
     "code": 13128,
@@ -1746,8 +1746,8 @@
     "circle": "TS Rohtak",
     "division": "TS Rohtak",
     "voltage": "132kV",
-    "lat": 30.5955,
-    "lng": 76.7261
+    "lat": 28.8182,
+    "lng": 76.6857
   },
   {
     "code": 13130,
@@ -1756,8 +1756,8 @@
     "circle": "TS Rohtak",
     "division": "TS Rohtak",
     "voltage": "132kV",
-    "lat": 30.6403,
-    "lng": 76.879
+    "lat": 28.8183,
+    "lng": 76.4661
   },
   {
     "code": 21109,
@@ -1766,8 +1766,8 @@
     "circle": "TS Hisar",
     "division": "TS Hisar",
     "voltage": "132kV",
-    "lat": 29.2698,
-    "lng": 75.7892
+    "lat": 29.0516,
+    "lng": 75.7986
   },
   {
     "code": 21101,
@@ -1776,8 +1776,8 @@
     "circle": "TS Hisar",
     "division": "TS Hisar",
     "voltage": "220kV",
-    "lat": 29.2911,
-    "lng": 75.7224
+    "lat": 29.0511,
+    "lng": 75.6371
   },
   {
     "code": 21102,
@@ -1786,8 +1786,8 @@
     "circle": "TS Hisar",
     "division": "TS Hisar",
     "voltage": "220kV",
-    "lat": 29.2381,
-    "lng": 75.5704
+    "lat": 29.0512,
+    "lng": 75.6573
   },
   {
     "code": 21104,
@@ -1796,8 +1796,8 @@
     "circle": "TS Hisar",
     "division": "TS Hisar",
     "voltage": "132kV",
-    "lat": 29.1799,
-    "lng": 75.8381
+    "lat": 29.0513,
+    "lng": 75.6977
   },
   {
     "code": 21105,
@@ -1806,8 +1806,8 @@
     "circle": "TS Hisar",
     "division": "TS Hisar",
     "voltage": "132kV",
-    "lat": 29.0719,
-    "lng": 75.5861
+    "lat": 29.0513,
+    "lng": 75.7178
   },
   {
     "code": 21106,
@@ -1816,8 +1816,8 @@
     "circle": "TS Hisar",
     "division": "TS Hisar",
     "voltage": "132kV",
-    "lat": 29.2902,
-    "lng": 75.6782
+    "lat": 29.0514,
+    "lng": 75.738
   },
   {
     "code": 21110,
@@ -1826,8 +1826,8 @@
     "circle": "TS Hisar",
     "division": "TS Hisar",
     "voltage": "132kV",
-    "lat": 29.2346,
-    "lng": 75.7759
+    "lat": 29.0517,
+    "lng": 75.8188
   },
   {
     "code": 13324,
@@ -1836,8 +1836,8 @@
     "circle": "TS Rohtak",
     "division": "TS Panipat",
     "voltage": "132kV",
-    "lat": 30.5594,
-    "lng": 76.9146
+    "lat": 29.3205,
+    "lng": 76.8739
   },
   {
     "code": 13301,
@@ -1846,8 +1846,8 @@
     "circle": "TS Rohtak",
     "division": "TS Panipat",
     "voltage": "132kV",
-    "lat": 30.8399,
-    "lng": 76.8275
+    "lat": 29.3191,
+    "lng": 76.9294
   },
   {
     "code": 13302,
@@ -1856,8 +1856,8 @@
     "circle": "TS Rohtak",
     "division": "TS Panipat",
     "voltage": "132kV",
-    "lat": 30.8346,
-    "lng": 76.7702
+    "lat": 29.3191,
+    "lng": 76.9496
   },
   {
     "code": 13303,
@@ -1866,8 +1866,8 @@
     "circle": "TS Rohtak",
     "division": "TS Panipat",
     "voltage": "132kV",
-    "lat": 30.826,
-    "lng": 76.7512
+    "lat": 29.3192,
+    "lng": 76.9698
   },
   {
     "code": 13304,
@@ -1876,8 +1876,8 @@
     "circle": "TS Rohtak",
     "division": "TS Panipat",
     "voltage": "220kV",
-    "lat": 30.7609,
-    "lng": 76.8331
+    "lat": 29.3193,
+    "lng": 76.99
   },
   {
     "code": 13305,
@@ -1886,8 +1886,8 @@
     "circle": "TS Rohtak",
     "division": "TS Panipat",
     "voltage": "132kV",
-    "lat": 30.8089,
-    "lng": 76.9989
+    "lat": 29.3193,
+    "lng": 77.0102
   },
   {
     "code": 13306,
@@ -1896,8 +1896,8 @@
     "circle": "TS Rohtak",
     "division": "TS Panipat",
     "voltage": "132kV",
-    "lat": 30.8178,
-    "lng": 76.8879
+    "lat": 29.3194,
+    "lng": 77.0304
   },
   {
     "code": 13307,
@@ -1906,8 +1906,8 @@
     "circle": "TS Rohtak",
     "division": "TS Panipat",
     "voltage": "132kV",
-    "lat": 30.6391,
-    "lng": 76.9079
+    "lat": 29.3194,
+    "lng": 77.0506
   },
   {
     "code": 13308,
@@ -1916,8 +1916,8 @@
     "circle": "TS Rohtak",
     "division": "TS Panipat",
     "voltage": "220kV",
-    "lat": 30.5902,
-    "lng": 76.8338
+    "lat": 29.3195,
+    "lng": 77.0708
   },
   {
     "code": 13309,
@@ -1926,8 +1926,8 @@
     "circle": "TS Rohtak",
     "division": "TS Panipat",
     "voltage": "132kV",
-    "lat": 30.8175,
-    "lng": 76.8495
+    "lat": 29.3196,
+    "lng": 77.091
   },
   {
     "code": 13310,
@@ -1936,8 +1936,8 @@
     "circle": "TS Rohtak",
     "division": "TS Panipat",
     "voltage": "132kV",
-    "lat": 30.6736,
-    "lng": 76.919
+    "lat": 29.3196,
+    "lng": 76.8512
   },
   {
     "code": 13311,
@@ -1946,8 +1946,8 @@
     "circle": "TS Rohtak",
     "division": "TS Panipat",
     "voltage": "132kV",
-    "lat": 30.5901,
-    "lng": 76.7309
+    "lat": 29.3197,
+    "lng": 76.8714
   },
   {
     "code": 13312,
@@ -1956,8 +1956,8 @@
     "circle": "TS Rohtak",
     "division": "TS Panipat",
     "voltage": "132kV",
-    "lat": 30.5833,
-    "lng": 76.8984
+    "lat": 29.3198,
+    "lng": 76.8915
   },
   {
     "code": 13313,
@@ -1966,8 +1966,8 @@
     "circle": "TS Rohtak",
     "division": "TS Panipat",
     "voltage": "132kV",
-    "lat": 30.6395,
-    "lng": 76.8217
+    "lat": 29.3198,
+    "lng": 76.9117
   },
   {
     "code": 13314,
@@ -1976,8 +1976,8 @@
     "circle": "TS Rohtak",
     "division": "TS Panipat",
     "voltage": "132kV",
-    "lat": 30.598,
-    "lng": 76.76
+    "lat": 29.3199,
+    "lng": 76.9319
   },
   {
     "code": 13315,
@@ -1986,8 +1986,8 @@
     "circle": "TS Rohtak",
     "division": "TS Panipat",
     "voltage": "132kV",
-    "lat": 30.711,
-    "lng": 76.7592
+    "lat": 29.32,
+    "lng": 76.9521
   },
   {
     "code": 13316,
@@ -1996,8 +1996,8 @@
     "circle": "TS Rohtak",
     "division": "TS Panipat",
     "voltage": "132kV",
-    "lat": 30.7173,
-    "lng": 76.7345
+    "lat": 29.32,
+    "lng": 76.9723
   },
   {
     "code": 13319,
@@ -2006,8 +2006,8 @@
     "circle": "TS Rohtak",
     "division": "TS Panipat",
     "voltage": "220kV",
-    "lat": 30.7837,
-    "lng": 76.7349
+    "lat": 29.3202,
+    "lng": 77.0329
   },
   {
     "code": 13320,
@@ -2016,8 +2016,8 @@
     "circle": "TS Rohtak",
     "division": "TS Panipat",
     "voltage": "132kV",
-    "lat": 30.6605,
-    "lng": 76.9042
+    "lat": 29.3203,
+    "lng": 77.0531
   },
   {
     "code": 13321,
@@ -2026,8 +2026,8 @@
     "circle": "TS Rohtak",
     "division": "TS Panipat",
     "voltage": "132kV",
-    "lat": 30.8185,
-    "lng": 76.9253
+    "lat": 29.3203,
+    "lng": 77.0733
   },
   {
     "code": 13322,
@@ -2036,8 +2036,8 @@
     "circle": "TS Rohtak",
     "division": "TS Panipat",
     "voltage": "132kV",
-    "lat": 30.6486,
-    "lng": 76.997
+    "lat": 29.3204,
+    "lng": 77.0935
   },
   {
     "code": 13318,
@@ -2046,8 +2046,8 @@
     "circle": "TS Rohtak",
     "division": "TS Panipat",
     "voltage": "132kV",
-    "lat": 30.6303,
-    "lng": 76.9042
+    "lat": 29.3201,
+    "lng": 77.0127
   },
   {
     "code": 21103,
@@ -2056,8 +2056,8 @@
     "circle": "TS Hisar",
     "division": "TS Hisar",
     "voltage": "220kV",
-    "lat": 29.2515,
-    "lng": 75.8264
+    "lat": 29.0512,
+    "lng": 75.6775
   },
   {
     "code": 21108,
@@ -2066,8 +2066,8 @@
     "circle": "TS Hisar",
     "division": "TS Hisar",
     "voltage": "132kV",
-    "lat": 29.1343,
-    "lng": 75.8569
+    "lat": 29.0515,
+    "lng": 75.7784
   },
   {
     "code": 13323,
@@ -2076,8 +2076,8 @@
     "circle": "TS Rohtak",
     "division": "TS Panipat",
     "voltage": "220kV",
-    "lat": 30.8261,
-    "lng": 76.9577
+    "lat": 29.3205,
+    "lng": 76.8537
   },
   {
     "code": 13334,
@@ -2086,8 +2086,8 @@
     "circle": "TS Rohtak",
     "division": "TS Panipat",
     "voltage": "132kV",
-    "lat": 30.6769,
-    "lng": 76.7653
+    "lat": 29.3212,
+    "lng": 77.0758
   },
   {
     "code": 13325,
@@ -2096,8 +2096,8 @@
     "circle": "TS Rohtak",
     "division": "TS Panipat",
     "voltage": "132kV",
-    "lat": 30.5538,
-    "lng": 76.972
+    "lat": 29.3206,
+    "lng": 76.8941
   },
   {
     "code": 13326,
@@ -2106,8 +2106,8 @@
     "circle": "TS Rohtak",
     "division": "TS Panipat",
     "voltage": "132kV",
-    "lat": 30.5769,
-    "lng": 76.8131
+    "lat": 29.3206,
+    "lng": 76.9143
   },
   {
     "code": 13329,
@@ -2116,8 +2116,8 @@
     "circle": "TS Rohtak",
     "division": "TS Panipat",
     "voltage": "132kV",
-    "lat": 30.8232,
-    "lng": 76.8014
+    "lat": 29.3208,
+    "lng": 76.9749
   },
   {
     "code": 13330,
@@ -2126,8 +2126,8 @@
     "circle": "TS Rohtak",
     "division": "TS Panipat",
     "voltage": "220kV",
-    "lat": 30.6475,
-    "lng": 76.8113
+    "lat": 29.3209,
+    "lng": 76.995
   },
   {
     "code": 13231,
@@ -2136,8 +2136,8 @@
     "circle": "TS Rohtak",
     "division": "TS Panipat",
     "voltage": "220kV",
-    "lat": 30.5549,
-    "lng": 76.8852
+    "lat": 29.3147,
+    "lng": 77.0758
   },
   {
     "code": 13332,
@@ -2146,8 +2146,8 @@
     "circle": "TS Rohtak",
     "division": "TS Panipat",
     "voltage": "220kV",
-    "lat": 30.6813,
-    "lng": 76.9247
+    "lat": 29.321,
+    "lng": 77.0354
   },
   {
     "code": 13333,
@@ -2156,8 +2156,8 @@
     "circle": "TS Rohtak",
     "division": "TS Panipat",
     "voltage": "132kV",
-    "lat": 30.8085,
-    "lng": 76.7659
+    "lat": 29.3211,
+    "lng": 77.0556
   },
   {
     "code": 21116,
@@ -2166,8 +2166,8 @@
     "circle": "TS Hisar",
     "division": "TS Hisar",
     "voltage": "132kV",
-    "lat": 29.1545,
-    "lng": 75.6478
+    "lat": 29.052,
+    "lng": 75.68
   },
   {
     "code": 21117,
@@ -2176,8 +2176,8 @@
     "circle": "TS Hisar",
     "division": "TS Hisar",
     "voltage": "132kV",
-    "lat": 29.2611,
-    "lng": 75.6519
+    "lat": 29.0521,
+    "lng": 75.7002
   },
   {
     "code": 21123,
@@ -2186,8 +2186,8 @@
     "circle": "TS Hisar",
     "division": "TS Hisar",
     "voltage": "132kV",
-    "lat": 29.1604,
-    "lng": 75.8118
+    "lat": 29.0525,
+    "lng": 75.8214
   },
   {
     "code": 21124,
@@ -2196,8 +2196,8 @@
     "circle": "TS Hisar",
     "division": "TS Hisar",
     "voltage": "132kV",
-    "lat": 29.0931,
-    "lng": 75.7972
+    "lat": 29.0525,
+    "lng": 75.8415
   },
   {
     "code": 21125,
@@ -2206,8 +2206,8 @@
     "circle": "TS Hisar",
     "division": "TS Hisar",
     "voltage": "220kV",
-    "lat": 29.1666,
-    "lng": 75.7892
+    "lat": 29.0526,
+    "lng": 75.6017
   },
   {
     "code": 21126,
@@ -2216,8 +2216,8 @@
     "circle": "TS Hisar",
     "division": "TS Hisar",
     "voltage": "132kV",
-    "lat": 29.0383,
-    "lng": 75.7851
+    "lat": 29.0527,
+    "lng": 75.6219
   },
   {
     "code": 21129,
@@ -2226,8 +2226,8 @@
     "circle": "TS Hisar",
     "division": "TS Hisar",
     "voltage": "132kV",
-    "lat": 29.293,
-    "lng": 75.7482
+    "lat": 29.0529,
+    "lng": 75.6825
   },
   {
     "code": 21130,
@@ -2236,8 +2236,8 @@
     "circle": "TS Hisar",
     "division": "TS Hisar",
     "voltage": "220kV",
-    "lat": 29.1418,
-    "lng": 75.8038
+    "lat": 29.0529,
+    "lng": 75.7027
   },
   {
     "code": 23101,
@@ -2246,8 +2246,8 @@
     "circle": "TS Gurgaon",
     "division": "TS Gurgaon",
     "voltage": "220kV",
-    "lat": 29.1428,
-    "lng": 75.7564
+    "lat": 28.4873,
+    "lng": 77.0362
   },
   {
     "code": 23102,
@@ -2256,8 +2256,8 @@
     "circle": "TS Gurgaon",
     "division": "TS Gurgaon",
     "voltage": "220kV",
-    "lat": 29.0137,
-    "lng": 75.6502
+    "lat": 28.4873,
+    "lng": 77.0564
   },
   {
     "code": 11120,
@@ -2266,8 +2266,8 @@
     "circle": "TS Panchkula",
     "division": "TS Madanpur",
     "voltage": "66kV",
-    "lat": 30.671,
-    "lng": 76.8929
+    "lat": 30.7315,
+    "lng": 77.015
   },
   {
     "code": 11119,
@@ -2276,8 +2276,8 @@
     "circle": "TS Panchkula",
     "division": "TS Madanpur",
     "voltage": "66kV",
-    "lat": 30.6288,
-    "lng": 76.9622
+    "lat": 30.7314,
+    "lng": 76.9948
   },
   {
     "code": 11117,
@@ -2286,8 +2286,8 @@
     "circle": "TS Panchkula",
     "division": "TS Madanpur",
     "voltage": "66kV",
-    "lat": 30.5433,
-    "lng": 76.989
+    "lat": 30.7313,
+    "lng": 76.9545
   },
   {
     "code": 11110,
@@ -2296,8 +2296,8 @@
     "circle": "TS Panchkula",
     "division": "TS Madanpur",
     "voltage": "66kV",
-    "lat": 30.5927,
-    "lng": 76.7711
+    "lat": 30.7309,
+    "lng": 76.8131
   },
   {
     "code": 11114,
@@ -2306,8 +2306,8 @@
     "circle": "TS Panchkula",
     "division": "TS Madanpur",
     "voltage": "66kV",
-    "lat": 30.5551,
-    "lng": 76.8777
+    "lat": 30.7311,
+    "lng": 76.8939
   },
   {
     "code": 11115,
@@ -2316,8 +2316,8 @@
     "circle": "TS Panchkula",
     "division": "TS Madanpur",
     "voltage": "220kV",
-    "lat": 30.6105,
-    "lng": 76.8376
+    "lat": 30.7312,
+    "lng": 76.9141
   },
   {
     "code": 11123,
@@ -2326,8 +2326,8 @@
     "circle": "TS Panchkula",
     "division": "TS Madanpur",
     "voltage": "66kV",
-    "lat": 30.5415,
-    "lng": 76.9384
+    "lat": 30.7317,
+    "lng": 76.8156
   },
   {
     "code": 11116,
@@ -2336,8 +2336,8 @@
     "circle": "TS Panchkula",
     "division": "TS Madanpur",
     "voltage": "66kV",
-    "lat": 30.7389,
-    "lng": 76.8647
+    "lat": 30.7312,
+    "lng": 76.9343
   },
   {
     "code": 11124,
@@ -2346,8 +2346,8 @@
     "circle": "TS Panchkula",
     "division": "TS Madanpur",
     "voltage": "66kV",
-    "lat": 30.6184,
-    "lng": 76.9791
+    "lat": 30.7317,
+    "lng": 76.8358
   },
   {
     "code": 11122,
@@ -2356,8 +2356,8 @@
     "circle": "TS Panchkula",
     "division": "TS Madanpur",
     "voltage": "220kV",
-    "lat": 30.7315,
-    "lng": 76.8866
+    "lat": 30.7316,
+    "lng": 76.7954
   },
   {
     "code": 23103,
@@ -2366,8 +2366,8 @@
     "circle": "TS Gurgaon",
     "division": "TS Gurgaon",
     "voltage": "220kV",
-    "lat": 29.0846,
-    "lng": 75.8222
+    "lat": 28.4874,
+    "lng": 77.0766
   },
   {
     "code": 23104,
@@ -2376,8 +2376,8 @@
     "circle": "TS Gurgaon",
     "division": "TS Gurgaon",
     "voltage": "220kV",
-    "lat": 29.1791,
-    "lng": 75.574
+    "lat": 28.4874,
+    "lng": 77.0968
   },
   {
     "code": 23105,
@@ -2386,8 +2386,8 @@
     "circle": "TS Gurgaon",
     "division": "TS Gurgaon",
     "voltage": "66kV",
-    "lat": 29.0951,
-    "lng": 75.7568
+    "lat": 28.4875,
+    "lng": 77.117
   },
   {
     "code": 23106,
@@ -2396,8 +2396,8 @@
     "circle": "TS Gurgaon",
     "division": "TS Gurgaon",
     "voltage": "66kV",
-    "lat": 29.2497,
-    "lng": 75.8058
+    "lat": 28.4876,
+    "lng": 77.1372
   },
   {
     "code": 23107,
@@ -2406,8 +2406,8 @@
     "circle": "TS Gurgaon",
     "division": "TS Gurgaon",
     "voltage": "66kV",
-    "lat": 29.0659,
-    "lng": 75.6346
+    "lat": 28.4876,
+    "lng": 77.1574
   },
   {
     "code": 23109,
@@ -2416,8 +2416,8 @@
     "circle": "TS Gurgaon",
     "division": "TS Gurgaon",
     "voltage": "66kV",
-    "lat": 29.1434,
-    "lng": 75.6554
+    "lat": 28.4878,
+    "lng": 76.9378
   },
   {
     "code": 23110,
@@ -2426,8 +2426,8 @@
     "circle": "TS Gurgaon",
     "division": "TS Gurgaon",
     "voltage": "66kV",
-    "lat": 29.0092,
-    "lng": 75.8303
+    "lat": 28.4878,
+    "lng": 76.958
   },
   {
     "code": 23111,
@@ -2436,8 +2436,8 @@
     "circle": "TS Gurgaon",
     "division": "TS Gurgaon",
     "voltage": "220kV",
-    "lat": 29.2738,
-    "lng": 75.6651
+    "lat": 28.4879,
+    "lng": 76.9782
   },
   {
     "code": 23114,
@@ -2446,8 +2446,8 @@
     "circle": "TS Gurgaon",
     "division": "TS Gurgaon",
     "voltage": "66kV",
-    "lat": 29.1028,
-    "lng": 75.7731
+    "lat": 28.4881,
+    "lng": 77.0387
   },
   {
     "code": 23115,
@@ -2456,8 +2456,8 @@
     "circle": "TS Gurgaon",
     "division": "TS Gurgaon",
     "voltage": "66kV",
-    "lat": 29.2161,
-    "lng": 75.7789
+    "lat": 28.4881,
+    "lng": 77.0589
   },
   {
     "code": 12101,
@@ -2466,8 +2466,8 @@
     "circle": "TS Karnal",
     "division": "TS Kurukshetra",
     "voltage": "132kV",
-    "lat": 30.6137,
-    "lng": 76.9415
+    "lat": 30.0834,
+    "lng": 76.7859
   },
   {
     "code": 12103,
@@ -2476,8 +2476,8 @@
     "circle": "TS Karnal",
     "division": "TS Kurukshetra",
     "voltage": "132kV",
-    "lat": 30.6396,
-    "lng": 76.9167
+    "lat": 30.0835,
+    "lng": 76.8263
   },
   {
     "code": 12102,
@@ -2486,8 +2486,8 @@
     "circle": "TS Karnal",
     "division": "TS Kurukshetra",
     "voltage": "220kV",
-    "lat": 30.7326,
-    "lng": 76.9166
+    "lat": 30.0834,
+    "lng": 76.8061
   },
   {
     "code": 12105,
@@ -2496,8 +2496,8 @@
     "circle": "TS Karnal",
     "division": "TS Kurukshetra",
     "voltage": "132kV",
-    "lat": 30.6624,
-    "lng": 76.9212
+    "lat": 30.0836,
+    "lng": 76.8667
   },
   {
     "code": 12106,
@@ -2506,8 +2506,8 @@
     "circle": "TS Karnal",
     "division": "TS Kurukshetra",
     "voltage": "132kV",
-    "lat": 30.5821,
-    "lng": 76.702
+    "lat": 30.0837,
+    "lng": 76.8869
   },
   {
     "code": 12107,
@@ -2516,8 +2516,8 @@
     "circle": "TS Karnal",
     "division": "TS Kurukshetra",
     "voltage": "132kV",
-    "lat": 30.6142,
-    "lng": 76.9029
+    "lat": 30.0838,
+    "lng": 76.9071
   },
   {
     "code": 12109,
@@ -2526,8 +2526,8 @@
     "circle": "TS Karnal",
     "division": "TS Kurukshetra",
     "voltage": "132kV",
-    "lat": 30.8101,
-    "lng": 76.7662
+    "lat": 30.0839,
+    "lng": 76.9475
   },
   {
     "code": 12110,
@@ -2536,8 +2536,8 @@
     "circle": "TS Karnal",
     "division": "TS Kurukshetra",
     "voltage": "220kV",
-    "lat": 30.7236,
-    "lng": 76.8214
+    "lat": 30.0839,
+    "lng": 76.9677
   },
   {
     "code": 12111,
@@ -2546,8 +2546,8 @@
     "circle": "TS Karnal",
     "division": "TS Kurukshetra",
     "voltage": "132kV",
-    "lat": 30.7192,
-    "lng": 76.8752
+    "lat": 30.084,
+    "lng": 76.9879
   },
   {
     "code": 12113,
@@ -2556,8 +2556,8 @@
     "circle": "TS Karnal",
     "division": "TS Kurukshetra",
     "voltage": "132kV",
-    "lat": 30.7905,
-    "lng": 76.8506
+    "lat": 30.0841,
+    "lng": 76.7683
   },
   {
     "code": 12114,
@@ -2566,8 +2566,8 @@
     "circle": "TS Karnal",
     "division": "TS Kurukshetra",
     "voltage": "220kV",
-    "lat": 30.6282,
-    "lng": 76.9424
+    "lat": 30.0842,
+    "lng": 76.7884
   },
   {
     "code": 12201,
@@ -2576,8 +2576,8 @@
     "circle": "TS Karnal",
     "division": "TS Karnal",
     "voltage": "132kV",
-    "lat": 30.6799,
-    "lng": 76.978
+    "lat": 29.8097,
+    "lng": 77.0954
   },
   {
     "code": 12203,
@@ -2586,8 +2586,8 @@
     "circle": "TS Karnal",
     "division": "TS Karnal",
     "voltage": "132kV",
-    "lat": 30.7483,
-    "lng": 76.7284
+    "lat": 29.8098,
+    "lng": 76.8758
   },
   {
     "code": 12204,
@@ -2596,8 +2596,8 @@
     "circle": "TS Karnal",
     "division": "TS Karnal",
     "voltage": "132kV",
-    "lat": 30.7157,
-    "lng": 76.8151
+    "lat": 29.8099,
+    "lng": 76.896
   },
   {
     "code": 12205,
@@ -2606,8 +2606,8 @@
     "circle": "TS Karnal",
     "division": "TS Karnal",
     "voltage": "132kV",
-    "lat": 30.5694,
-    "lng": 76.7385
+    "lat": 29.8099,
+    "lng": 76.9162
   },
   {
     "code": 12207,
@@ -2616,8 +2616,8 @@
     "circle": "TS Karnal",
     "division": "TS Karnal",
     "voltage": "132kV",
-    "lat": 30.6493,
-    "lng": 76.9123
+    "lat": 29.8101,
+    "lng": 76.9565
   },
   {
     "code": 12208,
@@ -2626,8 +2626,8 @@
     "circle": "TS Karnal",
     "division": "TS Karnal",
     "voltage": "220kV",
-    "lat": 30.6466,
-    "lng": 76.8527
+    "lat": 29.8101,
+    "lng": 76.9767
   },
   {
     "code": 12209,
@@ -2636,8 +2636,8 @@
     "circle": "TS Karnal",
     "division": "TS Karnal",
     "voltage": "132kV",
-    "lat": 30.8135,
-    "lng": 76.7923
+    "lat": 29.8102,
+    "lng": 76.9969
   },
   {
     "code": 12211,
@@ -2646,8 +2646,8 @@
     "circle": "TS Karnal",
     "division": "TS Karnal",
     "voltage": "132kV",
-    "lat": 30.8071,
-    "lng": 76.927
+    "lat": 29.8103,
+    "lng": 77.0373
   },
   {
     "code": 12212,
@@ -2656,8 +2656,8 @@
     "circle": "TS Karnal",
     "division": "TS Karnal",
     "voltage": "132kV",
-    "lat": 30.8128,
-    "lng": 76.8508
+    "lat": 29.8104,
+    "lng": 77.0575
   },
   {
     "code": 12213,
@@ -2666,8 +2666,8 @@
     "circle": "TS Karnal",
     "division": "TS Karnal",
     "voltage": "132kV",
-    "lat": 30.6689,
-    "lng": 76.7979
+    "lat": 29.8104,
+    "lng": 77.0777
   },
   {
     "code": 12215,
@@ -2676,8 +2676,8 @@
     "circle": "TS Karnal",
     "division": "TS Karnal",
     "voltage": "220kV",
-    "lat": 30.7454,
-    "lng": 76.7028
+    "lat": 29.8106,
+    "lng": 77.1181
   },
   {
     "code": 12216,
@@ -2686,8 +2686,8 @@
     "circle": "TS Karnal",
     "division": "TS Karnal",
     "voltage": "132kV",
-    "lat": 30.8021,
-    "lng": 76.764
+    "lat": 29.8106,
+    "lng": 76.8783
   },
   {
     "code": 12217,
@@ -2696,8 +2696,8 @@
     "circle": "TS Karnal",
     "division": "TS Karnal",
     "voltage": "132kV",
-    "lat": 30.7939,
-    "lng": 76.9273
+    "lat": 29.8107,
+    "lng": 76.8985
   },
   {
     "code": 12219,
@@ -2706,8 +2706,8 @@
     "circle": "TS Karnal",
     "division": "TS Karnal",
     "voltage": "220kV",
-    "lat": 30.6006,
-    "lng": 76.8827
+    "lat": 29.8108,
+    "lng": 76.9389
   },
   {
     "code": 12220,
@@ -2716,8 +2716,8 @@
     "circle": "TS Karnal",
     "division": "TS Karnal",
     "voltage": "132kV",
-    "lat": 30.7709,
-    "lng": 76.7445
+    "lat": 29.8109,
+    "lng": 76.9591
   },
   {
     "code": 12221,
@@ -2726,8 +2726,8 @@
     "circle": "TS Karnal",
     "division": "TS Karnal",
     "voltage": "132kV",
-    "lat": 30.6614,
-    "lng": 76.929
+    "lat": 29.8109,
+    "lng": 76.9793
   },
   {
     "code": 12223,
@@ -2736,8 +2736,8 @@
     "circle": "TS Karnal",
     "division": "TS Karnal",
     "voltage": "132kV",
-    "lat": 30.5601,
-    "lng": 76.7985
+    "lat": 29.8111,
+    "lng": 77.0197
   },
   {
     "code": 12224,
@@ -2746,8 +2746,8 @@
     "circle": "TS Karnal",
     "division": "TS Karnal",
     "voltage": "220kV",
-    "lat": 30.8187,
-    "lng": 76.9427
+    "lat": 29.8111,
+    "lng": 77.0399
   },
   {
     "code": 12225,
@@ -2756,8 +2756,8 @@
     "circle": "TS Karnal",
     "division": "TS Karnal",
     "voltage": "132kV",
-    "lat": 30.5716,
-    "lng": 76.7669
+    "lat": 29.8112,
+    "lng": 77.06
   },
   {
     "code": 12301,
@@ -2766,8 +2766,8 @@
     "circle": "TS Karnal",
     "division": "TS Kaithal",
     "voltage": "132kV",
-    "lat": 30.6269,
-    "lng": 76.7763
+    "lat": 29.926,
+    "lng": 76.4448
   },
   {
     "code": 12302,
@@ -2776,8 +2776,8 @@
     "circle": "TS Karnal",
     "division": "TS Kaithal",
     "voltage": "132kV",
-    "lat": 30.5974,
-    "lng": 76.7293
+    "lat": 29.9261,
+    "lng": 76.465
   },
   {
     "code": 12303,
@@ -2786,8 +2786,8 @@
     "circle": "TS Karnal",
     "division": "TS Kaithal",
     "voltage": "220kV",
-    "lat": 30.8365,
-    "lng": 76.7984
+    "lat": 29.9261,
+    "lng": 76.4852
   },
   {
     "code": 12305,
@@ -2796,8 +2796,8 @@
     "circle": "TS Karnal",
     "division": "TS Kaithal",
     "voltage": "132kV",
-    "lat": 30.6933,
-    "lng": 76.8965
+    "lat": 29.9262,
+    "lng": 76.5256
   },
   {
     "code": 12306,
@@ -2806,8 +2806,8 @@
     "circle": "TS Karnal",
     "division": "TS Kaithal",
     "voltage": "132kV",
-    "lat": 30.6963,
-    "lng": 76.8953
+    "lat": 29.9263,
+    "lng": 76.2858
   },
   {
     "code": 12307,
@@ -2816,8 +2816,8 @@
     "circle": "TS Karnal",
     "division": "TS Kaithal",
     "voltage": "132kV",
-    "lat": 30.6507,
-    "lng": 76.7165
+    "lat": 29.9264,
+    "lng": 76.306
   },
   {
     "code": 12309,
@@ -2826,8 +2826,8 @@
     "circle": "TS Karnal",
     "division": "TS Kaithal",
     "voltage": "132kV",
-    "lat": 30.6511,
-    "lng": 76.9633
+    "lat": 29.9265,
+    "lng": 76.3464
   },
   {
     "code": 12310,
@@ -2836,8 +2836,8 @@
     "circle": "TS Karnal",
     "division": "TS Kaithal",
     "voltage": "132kV",
-    "lat": 30.6425,
-    "lng": 76.8105
+    "lat": 29.9266,
+    "lng": 76.3666
   },
   {
     "code": 12311,
@@ -2846,8 +2846,8 @@
     "circle": "TS Karnal",
     "division": "TS Kaithal",
     "voltage": "132kV",
-    "lat": 30.7995,
-    "lng": 76.8703
+    "lat": 29.9266,
+    "lng": 76.3868
   },
   {
     "code": 12313,
@@ -2856,8 +2856,8 @@
     "circle": "TS Karnal",
     "division": "TS Kaithal",
     "voltage": "132kV",
-    "lat": 30.7578,
-    "lng": 76.7932
+    "lat": 29.9267,
+    "lng": 76.4272
   },
   {
     "code": 21415,
@@ -2866,8 +2866,8 @@
     "circle": "TS Hisar",
     "division": "TS Jind",
     "voltage": "132kV",
-    "lat": 29.0879,
-    "lng": 75.592
+    "lat": 29.2409,
+    "lng": 76.3282
   },
   {
     "code": 21416,
@@ -2876,8 +2876,8 @@
     "circle": "TS Hisar",
     "division": "TS Jind",
     "voltage": "132kV",
-    "lat": 29.1073,
-    "lng": 75.7833
+    "lat": 29.241,
+    "lng": 76.3484
   },
   {
     "code": 21417,
@@ -2886,8 +2886,8 @@
     "circle": "TS Hisar",
     "division": "TS Jind",
     "voltage": "132kV",
-    "lat": 29.2521,
-    "lng": 75.8131
+    "lat": 29.241,
+    "lng": 76.3686
   },
   {
     "code": 21405,
@@ -2896,8 +2896,8 @@
     "circle": "TS Hisar",
     "division": "TS Jind",
     "voltage": "132kV",
-    "lat": 29.1333,
-    "lng": 75.7822
+    "lat": 29.2403,
+    "lng": 76.3862
   },
   {
     "code": 21407,
@@ -2906,8 +2906,8 @@
     "circle": "TS Hisar",
     "division": "TS Jind",
     "voltage": "132kV",
-    "lat": 29.1494,
-    "lng": 75.7462
+    "lat": 29.2404,
+    "lng": 76.4266
   },
   {
     "code": 21409,
@@ -2916,8 +2916,8 @@
     "circle": "TS Hisar",
     "division": "TS Jind",
     "voltage": "132kV",
-    "lat": 29.1899,
-    "lng": 75.6636
+    "lat": 29.2405,
+    "lng": 76.207
   },
   {
     "code": 21403,
@@ -2926,8 +2926,8 @@
     "circle": "TS Hisar",
     "division": "TS Jind",
     "voltage": "220kV",
-    "lat": 29.2498,
-    "lng": 75.7428
+    "lat": 29.2401,
+    "lng": 76.3458
   },
   {
     "code": 21408,
@@ -2936,8 +2936,8 @@
     "circle": "TS Hisar",
     "division": "TS Jind",
     "voltage": "132kV",
-    "lat": 29.0928,
-    "lng": 75.5701
+    "lat": 29.2405,
+    "lng": 76.1868
   },
   {
     "code": 21419,
@@ -2946,8 +2946,8 @@
     "circle": "TS Hisar",
     "division": "TS Jind",
     "voltage": "132kV",
-    "lat": 29.1851,
-    "lng": 75.8317
+    "lat": 29.2412,
+    "lng": 76.4089
   },
   {
     "code": 21404,
@@ -2956,8 +2956,8 @@
     "circle": "TS Hisar",
     "division": "TS Jind",
     "voltage": "132kV",
-    "lat": 29.2787,
-    "lng": 75.7008
+    "lat": 29.2402,
+    "lng": 76.366
   },
   {
     "code": 21411,
@@ -2966,8 +2966,8 @@
     "circle": "TS Hisar",
     "division": "TS Jind",
     "voltage": "220kV",
-    "lat": 29.233,
-    "lng": 75.6038
+    "lat": 29.2407,
+    "lng": 76.2474
   },
   {
     "code": 12314,
@@ -2976,8 +2976,8 @@
     "circle": "TS Karnal",
     "division": "TS Kaithal",
     "voltage": "132kV",
-    "lat": 30.7751,
-    "lng": 76.746
+    "lat": 29.9268,
+    "lng": 76.4474
   },
   {
     "code": 12315,
@@ -2986,8 +2986,8 @@
     "circle": "TS Karnal",
     "division": "TS Kaithal",
     "voltage": "132kV",
-    "lat": 30.8345,
-    "lng": 76.7746
+    "lat": 29.9269,
+    "lng": 76.4676
   },
   {
     "code": 23118,
@@ -2996,8 +2996,8 @@
     "circle": "TS Gurgaon",
     "division": "TS Gurgaon",
     "voltage": "66kV",
-    "lat": 29.0537,
-    "lng": 75.7407
+    "lat": 28.4883,
+    "lng": 77.1195
   },
   {
     "code": 12318,
@@ -3006,8 +3006,8 @@
     "circle": "TS Karnal",
     "division": "TS Kaithal",
     "voltage": "132kV",
-    "lat": 30.5461,
-    "lng": 76.888
+    "lat": 29.9271,
+    "lng": 76.5281
   },
   {
     "code": 12320,
@@ -3016,8 +3016,8 @@
     "circle": "TS Karnal",
     "division": "TS Kaithal",
     "voltage": "132kV",
-    "lat": 30.6279,
-    "lng": 76.745
+    "lat": 29.9272,
+    "lng": 76.3085
   },
   {
     "code": 12321,
@@ -3026,8 +3026,8 @@
     "circle": "TS Karnal",
     "division": "TS Kaithal",
     "voltage": "220kV",
-    "lat": 30.7081,
-    "lng": 76.9229
+    "lat": 29.9272,
+    "lng": 76.3287
   },
   {
     "code": 23119,
@@ -3036,8 +3036,8 @@
     "circle": "TS Gurgaon",
     "division": "TS Gurgaon",
     "voltage": "66kV",
-    "lat": 29.2713,
-    "lng": 75.8058
+    "lat": 28.4884,
+    "lng": 77.1397
   },
   {
     "code": 23121,
@@ -3046,8 +3046,8 @@
     "circle": "TS Gurgaon",
     "division": "TS Gurgaon",
     "voltage": "220kV",
-    "lat": 29.0471,
-    "lng": 75.6114
+    "lat": 28.4885,
+    "lng": 76.9201
   },
   {
     "code": 23123,
@@ -3056,8 +3056,8 @@
     "circle": "TS Gurgaon",
     "division": "TS Gurgaon",
     "voltage": "66kV",
-    "lat": 29.2195,
-    "lng": 75.6431
+    "lat": 28.4886,
+    "lng": 76.9605
   },
   {
     "code": 22101,
@@ -3066,8 +3066,8 @@
     "circle": "TS Faridabad",
     "division": "TS Faridabad",
     "voltage": "220kV",
-    "lat": 29.0448,
-    "lng": 75.5813
+    "lat": 28.3742,
+    "lng": 77.4116
   },
   {
     "code": 22104,
@@ -3076,8 +3076,8 @@
     "circle": "TS Faridabad",
     "division": "TS Faridabad",
     "voltage": "66kV",
-    "lat": 29.2687,
-    "lng": 75.856
+    "lat": 28.3744,
+    "lng": 77.2122
   },
   {
     "code": 22105,
@@ -3086,8 +3086,8 @@
     "circle": "TS Faridabad",
     "division": "TS Faridabad",
     "voltage": "66kV",
-    "lat": 29.0941,
-    "lng": 75.7565
+    "lat": 28.3744,
+    "lng": 77.2324
   },
   {
     "code": 22106,
@@ -3096,8 +3096,8 @@
     "circle": "TS Faridabad",
     "division": "TS Faridabad",
     "voltage": "66kV",
-    "lat": 29.0985,
-    "lng": 75.8407
+    "lat": 28.3745,
+    "lng": 77.2526
   },
   {
     "code": 23204,
@@ -3106,8 +3106,8 @@
     "circle": "TS Gurgaon",
     "division": "TS Manesar",
     "voltage": "66kV",
-    "lat": 29.274,
-    "lng": 75.7518
+    "lat": 28.3838,
+    "lng": 76.9363
   },
   {
     "code": 23208,
@@ -3116,8 +3116,8 @@
     "circle": "TS Gurgaon",
     "division": "TS Manesar",
     "voltage": "66kV",
-    "lat": 29.276,
-    "lng": 75.8481
+    "lat": 28.384,
+    "lng": 77.017
   },
   {
     "code": 23212,
@@ -3126,8 +3126,8 @@
     "circle": "TS Gurgaon",
     "division": "TS Manesar",
     "voltage": "220kV",
-    "lat": 29.2155,
-    "lng": 75.613
+    "lat": 28.3843,
+    "lng": 76.8378
   },
   {
     "code": 11304,
@@ -3136,8 +3136,8 @@
     "circle": "TS Panchkula",
     "division": "TS Yamunanagar",
     "voltage": "66kV",
-    "lat": 30.7195,
-    "lng": 76.8531
+    "lat": 30.1931,
+    "lng": 77.2108
   },
   {
     "code": 11308,
@@ -3146,8 +3146,8 @@
     "circle": "TS Panchkula",
     "division": "TS Yamunanagar",
     "voltage": "66kV",
-    "lat": 30.6307,
-    "lng": 76.7904
+    "lat": 30.1933,
+    "lng": 77.2916
   },
   {
     "code": 11312,
@@ -3156,8 +3156,8 @@
     "circle": "TS Panchkula",
     "division": "TS Yamunanagar",
     "voltage": "66kV",
-    "lat": 30.6178,
-    "lng": 76.7182
+    "lat": 30.1936,
+    "lng": 77.3724
   },
   {
     "code": 21118,
@@ -3166,8 +3166,8 @@
     "circle": "TS Hisar",
     "division": "TS Hisar",
     "voltage": "132kV",
-    "lat": 29.002,
-    "lng": 75.7811
+    "lat": 29.0522,
+    "lng": 75.7204
   },
   {
     "code": 22108,
@@ -3176,8 +3176,8 @@
     "circle": "TS Faridabad",
     "division": "TS Faridabad",
     "voltage": "66kV",
-    "lat": 29.2394,
-    "lng": 75.571
+    "lat": 28.3746,
+    "lng": 77.293
   },
   {
     "code": 22109,
@@ -3186,8 +3186,8 @@
     "circle": "TS Faridabad",
     "division": "TS Faridabad",
     "voltage": "66kV",
-    "lat": 29.1742,
-    "lng": 75.8669
+    "lat": 28.3747,
+    "lng": 77.3132
   },
   {
     "code": 22110,
@@ -3196,8 +3196,8 @@
     "circle": "TS Faridabad",
     "division": "TS Faridabad",
     "voltage": "220kV",
-    "lat": 29.2129,
-    "lng": 75.7883
+    "lat": 28.3747,
+    "lng": 77.3334
   },
   {
     "code": 22111,
@@ -3206,8 +3206,8 @@
     "circle": "TS Faridabad",
     "division": "TS Faridabad",
     "voltage": "66kV",
-    "lat": 29.1197,
-    "lng": 75.7908
+    "lat": 28.3748,
+    "lng": 77.3536
   },
   {
     "code": 22112,
@@ -3216,8 +3216,8 @@
     "circle": "TS Faridabad",
     "division": "TS Faridabad",
     "voltage": "66kV",
-    "lat": 29.0294,
-    "lng": 75.6332
+    "lat": 28.3749,
+    "lng": 77.3738
   },
   {
     "code": 22113,
@@ -3226,8 +3226,8 @@
     "circle": "TS Faridabad",
     "division": "TS Faridabad",
     "voltage": "66kV",
-    "lat": 29.0614,
-    "lng": 75.7015
+    "lat": 28.3749,
+    "lng": 77.394
   },
   {
     "code": 22114,
@@ -3236,8 +3236,8 @@
     "circle": "TS Faridabad",
     "division": "TS Faridabad",
     "voltage": "66kV",
-    "lat": 29.0597,
-    "lng": 75.8607
+    "lat": 28.375,
+    "lng": 77.4142
   },
   {
     "code": 22115,
@@ -3246,8 +3246,8 @@
     "circle": "TS Faridabad",
     "division": "TS Faridabad",
     "voltage": "66kV",
-    "lat": 29.0612,
-    "lng": 75.7024
+    "lat": 28.3751,
+    "lng": 77.4344
   },
   {
     "code": 22116,
@@ -3256,8 +3256,8 @@
     "circle": "TS Faridabad",
     "division": "TS Faridabad",
     "voltage": "66kV",
-    "lat": 29.0071,
-    "lng": 75.7034
+    "lat": 28.3751,
+    "lng": 77.1946
   },
   {
     "code": 22117,
@@ -3266,8 +3266,8 @@
     "circle": "TS Faridabad",
     "division": "TS Faridabad",
     "voltage": "66kV",
-    "lat": 29.2611,
-    "lng": 75.75
+    "lat": 28.3752,
+    "lng": 77.2148
   },
   {
     "code": 22118,
@@ -3276,8 +3276,8 @@
     "circle": "TS Faridabad",
     "division": "TS Faridabad",
     "voltage": "66kV",
-    "lat": 29.1364,
-    "lng": 75.647
+    "lat": 28.3752,
+    "lng": 77.235
   },
   {
     "code": 22119,
@@ -3286,8 +3286,8 @@
     "circle": "TS Faridabad",
     "division": "TS Faridabad",
     "voltage": "66kV",
-    "lat": 29.1091,
-    "lng": 75.7621
+    "lat": 28.3753,
+    "lng": 77.2551
   },
   {
     "code": 22120,
@@ -3296,8 +3296,8 @@
     "circle": "TS Faridabad",
     "division": "TS Faridabad",
     "voltage": "66kV",
-    "lat": 29.2123,
-    "lng": 75.7583
+    "lat": 28.3754,
+    "lng": 77.2753
   },
   {
     "code": 22121,
@@ -3306,8 +3306,8 @@
     "circle": "TS Faridabad",
     "division": "TS Faridabad",
     "voltage": "66kV",
-    "lat": 29.1752,
-    "lng": 75.7823
+    "lat": 28.3754,
+    "lng": 77.2955
   },
   {
     "code": 22123,
@@ -3316,8 +3316,8 @@
     "circle": "TS Faridabad",
     "division": "TS Faridabad",
     "voltage": "66kV",
-    "lat": 29.234,
-    "lng": 75.8416
+    "lat": 28.3756,
+    "lng": 77.3359
   },
   {
     "code": 22124,
@@ -3326,8 +3326,8 @@
     "circle": "TS Faridabad",
     "division": "TS Faridabad",
     "voltage": "400kV",
-    "lat": 29.1603,
-    "lng": 75.6531
+    "lat": 28.3756,
+    "lng": 77.3561
   },
   {
     "code": 22125,
@@ -3336,8 +3336,8 @@
     "circle": "TS Faridabad",
     "division": "TS Faridabad",
     "voltage": "66kV",
-    "lat": 29.2339,
-    "lng": 75.8291
+    "lat": 28.3757,
+    "lng": 77.3763
   },
   {
     "code": 22126,
@@ -3346,8 +3346,8 @@
     "circle": "TS Faridabad",
     "division": "TS Faridabad",
     "voltage": "66kV",
-    "lat": 29.1885,
-    "lng": 75.7029
+    "lat": 28.3758,
+    "lng": 77.3965
   },
   {
     "code": 22127,
@@ -3356,8 +3356,8 @@
     "circle": "TS Faridabad",
     "division": "TS Faridabad",
     "voltage": "66kV",
-    "lat": 29.0544,
-    "lng": 75.5745
+    "lat": 28.3758,
+    "lng": 77.4167
   },
   {
     "code": 22128,
@@ -3366,8 +3366,8 @@
     "circle": "TS Faridabad",
     "division": "TS Faridabad",
     "voltage": "66kV",
-    "lat": 29.1185,
-    "lng": 75.5907
+    "lat": 28.3759,
+    "lng": 77.4369
   },
   {
     "code": 11316,
@@ -3376,8 +3376,8 @@
     "circle": "TS Panchkula",
     "division": "TS Yamunanagar",
     "voltage": "220kV",
-    "lat": 30.6285,
-    "lng": 76.8263
+    "lat": 30.1939,
+    "lng": 77.1932
   },
   {
     "code": 11320,
@@ -3386,8 +3386,8 @@
     "circle": "TS Panchkula",
     "division": "TS Yamunanagar",
     "voltage": "220kV",
-    "lat": 30.5808,
-    "lng": 76.9347
+    "lat": 30.1941,
+    "lng": 77.274
   },
   {
     "code": 11324,
@@ -3396,8 +3396,8 @@
     "circle": "TS Panchkula",
     "division": "TS Yamunanagar",
     "voltage": "66kV",
-    "lat": 30.8281,
-    "lng": 76.8573
+    "lat": 30.1944,
+    "lng": 77.3547
   },
   {
     "code": 21302,
@@ -3406,8 +3406,8 @@
     "circle": "TS Hisar",
     "division": "TS Sirsa",
     "voltage": "132kV",
-    "lat": 29.1222,
-    "lng": 75.6995
+    "lat": 29.4438,
+    "lng": 75.1062
   },
   {
     "code": 21306,
@@ -3416,8 +3416,8 @@
     "circle": "TS Hisar",
     "division": "TS Sirsa",
     "voltage": "132kV",
-    "lat": 29.2574,
-    "lng": 75.6833
+    "lat": 29.444,
+    "lng": 74.927
   },
   {
     "code": 21111,
@@ -3426,8 +3426,8 @@
     "circle": "TS Hisar",
     "division": "TS Hisar",
     "voltage": "132kV",
-    "lat": 29.2218,
-    "lng": 75.6327
+    "lat": 29.0517,
+    "lng": 75.839
   },
   {
     "code": 21112,
@@ -3436,8 +3436,8 @@
     "circle": "TS Hisar",
     "division": "TS Hisar",
     "voltage": "132kV",
-    "lat": 29.0493,
-    "lng": 75.7797
+    "lat": 29.0518,
+    "lng": 75.5992
   },
   {
     "code": 21113,
@@ -3446,8 +3446,8 @@
     "circle": "TS Hisar",
     "division": "TS Hisar",
     "voltage": "132kV",
-    "lat": 29.1593,
-    "lng": 75.799
+    "lat": 29.0519,
+    "lng": 75.6194
   },
   {
     "code": 21115,
@@ -3456,8 +3456,8 @@
     "circle": "TS Hisar",
     "division": "TS Hisar",
     "voltage": "132kV",
-    "lat": 29.0603,
-    "lng": 75.7932
+    "lat": 29.052,
+    "lng": 75.6598
   },
   {
     "code": 21119,
@@ -3466,8 +3466,8 @@
     "circle": "TS Hisar",
     "division": "TS Hisar",
     "voltage": "132kV",
-    "lat": 29.2491,
-    "lng": 75.5859
+    "lat": 29.0522,
+    "lng": 75.7406
   },
   {
     "code": 21114,
@@ -3476,8 +3476,8 @@
     "circle": "TS Hisar",
     "division": "TS Hisar",
     "voltage": "132kV",
-    "lat": 29.016,
-    "lng": 75.678
+    "lat": 29.0519,
+    "lng": 75.6396
   },
   {
     "code": 21120,
@@ -3486,8 +3486,8 @@
     "circle": "TS Hisar",
     "division": "TS Hisar",
     "voltage": "132kV",
-    "lat": 29.0033,
-    "lng": 75.6747
+    "lat": 29.0523,
+    "lng": 75.7608
   },
   {
     "code": 21121,
@@ -3496,8 +3496,8 @@
     "circle": "TS Hisar",
     "division": "TS Hisar",
     "voltage": "132kV",
-    "lat": 29.1211,
-    "lng": 75.702
+    "lat": 29.0524,
+    "lng": 75.781
   },
   {
     "code": 22103,
@@ -3506,8 +3506,8 @@
     "circle": "TS Faridabad",
     "division": "TS Faridabad",
     "voltage": "66kV",
-    "lat": 29.2077,
-    "lng": 75.7827
+    "lat": 28.3743,
+    "lng": 77.192
   },
   {
     "code": 21201,
@@ -3516,8 +3516,8 @@
     "circle": "TS Hisar",
     "division": "TS Bhiwani",
     "voltage": "220kV",
-    "lat": 29.0045,
-    "lng": 75.6293
+    "lat": 28.6974,
+    "lng": 76.2565
   },
   {
     "code": 21202,
@@ -3526,8 +3526,8 @@
     "circle": "TS Hisar",
     "division": "TS Bhiwani",
     "voltage": "132kV",
-    "lat": 29.1768,
-    "lng": 75.7848
+    "lat": 28.6975,
+    "lng": 76.0167
   },
   {
     "code": 21203,
@@ -3536,8 +3536,8 @@
     "circle": "TS Hisar",
     "division": "TS Bhiwani",
     "voltage": "132kV",
-    "lat": 29.0332,
-    "lng": 75.5978
+    "lat": 28.6975,
+    "lng": 76.0369
   },
   {
     "code": 21204,
@@ -3546,8 +3546,8 @@
     "circle": "TS Hisar",
     "division": "TS Bhiwani",
     "voltage": "132kV",
-    "lat": 29.2121,
-    "lng": 75.8423
+    "lat": 28.6976,
+    "lng": 76.0571
   },
   {
     "code": 21205,
@@ -3556,8 +3556,8 @@
     "circle": "TS Hisar",
     "division": "TS Bhiwani",
     "voltage": "132kV",
-    "lat": 29.2432,
-    "lng": 75.7494
+    "lat": 28.6977,
+    "lng": 76.0773
   },
   {
     "code": 21206,
@@ -3566,8 +3566,8 @@
     "circle": "TS Hisar",
     "division": "TS Bhiwani",
     "voltage": "132kV",
-    "lat": 29.1066,
-    "lng": 75.7428
+    "lat": 28.6977,
+    "lng": 76.0975
   },
   {
     "code": 21122,
@@ -3576,8 +3576,8 @@
     "circle": "TS Hisar",
     "division": "TS Hisar",
     "voltage": "220kV",
-    "lat": 29.0279,
-    "lng": 75.5977
+    "lat": 29.0524,
+    "lng": 75.8012
   },
   {
     "code": 21127,
@@ -3586,8 +3586,8 @@
     "circle": "TS Hisar",
     "division": "TS Hisar",
     "voltage": "400kV",
-    "lat": 29.0115,
-    "lng": 75.5766
+    "lat": 29.0527,
+    "lng": 75.6421
   },
   {
     "code": 21211,
@@ -3596,8 +3596,8 @@
     "circle": "TS Hisar",
     "division": "TS Bhiwani",
     "voltage": "132kV",
-    "lat": 29.0742,
-    "lng": 75.7166
+    "lat": 28.698,
+    "lng": 76.1985
   },
   {
     "code": 21212,
@@ -3606,8 +3606,8 @@
     "circle": "TS Hisar",
     "division": "TS Bhiwani",
     "voltage": "132kV",
-    "lat": 29.2298,
-    "lng": 75.6579
+    "lat": 28.6981,
+    "lng": 76.2187
   },
   {
     "code": 21214,
@@ -3616,8 +3616,8 @@
     "circle": "TS Hisar",
     "division": "TS Bhiwani",
     "voltage": "132kV",
-    "lat": 29.2842,
-    "lng": 75.7795
+    "lat": 28.6982,
+    "lng": 76.2591
   },
   {
     "code": 21213,
@@ -3626,8 +3626,8 @@
     "circle": "TS Hisar",
     "division": "TS Bhiwani",
     "voltage": "132kV",
-    "lat": 29.1676,
-    "lng": 75.7997
+    "lat": 28.6982,
+    "lng": 76.2389
   },
   {
     "code": 21215,
@@ -3636,8 +3636,8 @@
     "circle": "TS Hisar",
     "division": "TS Bhiwani",
     "voltage": "132kV",
-    "lat": 29.1531,
-    "lng": 75.5796
+    "lat": 28.6983,
+    "lng": 76.0193
   },
   {
     "code": 21128,
@@ -3646,8 +3646,8 @@
     "circle": "TS Hisar",
     "division": "TS Hisar",
     "voltage": "132kV",
-    "lat": 29.0406,
-    "lng": 75.7825
+    "lat": 29.0528,
+    "lng": 75.6623
   },
   {
     "code": 21217,
@@ -3656,8 +3656,8 @@
     "circle": "TS Hisar",
     "division": "TS Bhiwani",
     "voltage": "220kV",
-    "lat": 29.2525,
-    "lng": 75.8355
+    "lat": 28.6984,
+    "lng": 76.0596
   },
   {
     "code": 21218,
@@ -3666,8 +3666,8 @@
     "circle": "TS Hisar",
     "division": "TS Bhiwani",
     "voltage": "132kV",
-    "lat": 29.1364,
-    "lng": 75.7614
+    "lat": 28.6985,
+    "lng": 76.0798
   },
   {
     "code": 21220,
@@ -3676,8 +3676,8 @@
     "circle": "TS Hisar",
     "division": "TS Bhiwani",
     "voltage": "220kV",
-    "lat": 29.1445,
-    "lng": 75.8653
+    "lat": 28.6986,
+    "lng": 76.1202
   },
   {
     "code": 21221,
@@ -3686,8 +3686,8 @@
     "circle": "TS Hisar",
     "division": "TS Bhiwani",
     "voltage": "132kV",
-    "lat": 29.1043,
-    "lng": 75.7474
+    "lat": 28.6987,
+    "lng": 76.1404
   },
   {
     "code": 21222,
@@ -3696,8 +3696,8 @@
     "circle": "TS Hisar",
     "division": "TS Bhiwani",
     "voltage": "132kV",
-    "lat": 29.2877,
-    "lng": 75.8039
+    "lat": 28.6987,
+    "lng": 76.1606
   },
   {
     "code": 21224,
@@ -3706,8 +3706,8 @@
     "circle": "TS Hisar",
     "division": "TS Bhiwani",
     "voltage": "132kV",
-    "lat": 29.0823,
-    "lng": 75.644
+    "lat": 28.6989,
+    "lng": 76.201
   },
   {
     "code": 11201,
@@ -3716,8 +3716,8 @@
     "circle": "TS Panchkula",
     "division": "TS Ambala",
     "voltage": "66kV",
-    "lat": 30.5832,
-    "lng": 76.8496
+    "lat": 30.4366,
+    "lng": 76.7108
   },
   {
     "code": 11202,
@@ -3726,8 +3726,8 @@
     "circle": "TS Panchkula",
     "division": "TS Ambala",
     "voltage": "66kV",
-    "lat": 30.6671,
-    "lng": 76.7892
+    "lat": 30.4367,
+    "lng": 76.731
   },
   {
     "code": 11204,
@@ -3736,8 +3736,8 @@
     "circle": "TS Panchkula",
     "division": "TS Ambala",
     "voltage": "66kV",
-    "lat": 30.5595,
-    "lng": 76.9417
+    "lat": 30.4368,
+    "lng": 76.7714
   },
   {
     "code": 11205,
@@ -3746,8 +3746,8 @@
     "circle": "TS Panchkula",
     "division": "TS Ambala",
     "voltage": "66kV",
-    "lat": 30.6415,
-    "lng": 76.8342
+    "lat": 30.4369,
+    "lng": 76.7916
   },
   {
     "code": 11206,
@@ -3756,8 +3756,8 @@
     "circle": "TS Panchkula",
     "division": "TS Ambala",
     "voltage": "66kV",
-    "lat": 30.5891,
-    "lng": 76.7458
+    "lat": 30.4369,
+    "lng": 76.8118
   },
   {
     "code": 11208,
@@ -3766,8 +3766,8 @@
     "circle": "TS Panchkula",
     "division": "TS Ambala",
     "voltage": "66kV",
-    "lat": 30.699,
-    "lng": 76.9304
+    "lat": 30.437,
+    "lng": 76.8522
   },
   {
     "code": 11209,
@@ -3776,8 +3776,8 @@
     "circle": "TS Panchkula",
     "division": "TS Ambala",
     "voltage": "66kV",
-    "lat": 30.5532,
-    "lng": 76.7915
+    "lat": 30.4371,
+    "lng": 76.8724
   },
   {
     "code": 11210,
@@ -3786,8 +3786,8 @@
     "circle": "TS Panchkula",
     "division": "TS Ambala",
     "voltage": "66kV",
-    "lat": 30.7953,
-    "lng": 76.7778
+    "lat": 30.4372,
+    "lng": 76.8926
   },
   {
     "code": 11212,
@@ -3796,8 +3796,8 @@
     "circle": "TS Panchkula",
     "division": "TS Ambala",
     "voltage": "66kV",
-    "lat": 30.7353,
-    "lng": 76.7556
+    "lat": 30.4373,
+    "lng": 76.6729
   },
   {
     "code": 11213,
@@ -3806,8 +3806,8 @@
     "circle": "TS Panchkula",
     "division": "TS Ambala",
     "voltage": "66kV",
-    "lat": 30.6652,
-    "lng": 76.7801
+    "lat": 30.4374,
+    "lng": 76.6931
   },
   {
     "code": 11216,
@@ -3816,8 +3816,8 @@
     "circle": "TS Panchkula",
     "division": "TS Ambala",
     "voltage": "220kV",
-    "lat": 30.7569,
-    "lng": 76.8473
+    "lat": 30.4375,
+    "lng": 76.7537
   },
   {
     "code": 11217,
@@ -3826,8 +3826,8 @@
     "circle": "TS Panchkula",
     "division": "TS Ambala",
     "voltage": "66kV",
-    "lat": 30.8056,
-    "lng": 76.9594
+    "lat": 30.4376,
+    "lng": 76.7739
   },
   {
     "code": 11218,
@@ -3836,8 +3836,8 @@
     "circle": "TS Panchkula",
     "division": "TS Ambala",
     "voltage": "66kV",
-    "lat": 30.5623,
-    "lng": 76.7337
+    "lat": 30.4377,
+    "lng": 76.7941
   },
   {
     "code": 11219,
@@ -3846,8 +3846,8 @@
     "circle": "TS Panchkula",
     "division": "TS Ambala",
     "voltage": "66kV",
-    "lat": 30.7893,
-    "lng": 76.8181
+    "lat": 30.4377,
+    "lng": 76.8143
   },
   {
     "code": 11220,
@@ -3856,8 +3856,8 @@
     "circle": "TS Panchkula",
     "division": "TS Ambala",
     "voltage": "66kV",
-    "lat": 30.5556,
-    "lng": 76.7466
+    "lat": 30.4378,
+    "lng": 76.8345
   },
   {
     "code": 11221,
@@ -3866,8 +3866,8 @@
     "circle": "TS Panchkula",
     "division": "TS Ambala",
     "voltage": "66kV",
-    "lat": 30.7931,
-    "lng": 76.8765
+    "lat": 30.4379,
+    "lng": 76.8547
   },
   {
     "code": 11223,
@@ -3876,8 +3876,8 @@
     "circle": "TS Panchkula",
     "division": "TS Ambala",
     "voltage": "66kV",
-    "lat": 30.5596,
-    "lng": 76.7203
+    "lat": 30.438,
+    "lng": 76.8951
   },
   {
     "code": 11224,
@@ -3886,8 +3886,8 @@
     "circle": "TS Panchkula",
     "division": "TS Ambala",
     "voltage": "66kV",
-    "lat": 30.5975,
-    "lng": 76.9348
+    "lat": 30.4381,
+    "lng": 76.6553
   },
   {
     "code": 11227,
@@ -3896,8 +3896,8 @@
     "circle": "TS Panchkula",
     "division": "TS Ambala",
     "voltage": "220kV",
-    "lat": 30.69,
-    "lng": 76.7948
+    "lat": 30.4382,
+    "lng": 76.7159
   },
   {
     "code": 11229,
@@ -3906,8 +3906,8 @@
     "circle": "TS Panchkula",
     "division": "TS Ambala",
     "voltage": "66kV",
-    "lat": 30.6163,
-    "lng": 76.9237
+    "lat": 30.4384,
+    "lng": 76.7563
   },
   {
     "code": 11214,
@@ -3916,8 +3916,8 @@
     "circle": "TS Panchkula",
     "division": "TS Ambala",
     "voltage": "66kV",
-    "lat": 30.6891,
-    "lng": 76.8635
+    "lat": 30.4374,
+    "lng": 76.7133
   },
   {
     "code": 11225,
@@ -3926,8 +3926,8 @@
     "circle": "TS Panchkula",
     "division": "TS Ambala",
     "voltage": "220kV",
-    "lat": 30.7346,
-    "lng": 76.7343
+    "lat": 30.4381,
+    "lng": 76.6755
   },
   {
     "code": 11118,
@@ -3936,8 +3936,8 @@
     "circle": "TS Panchkula",
     "division": "TS Madanpur",
     "voltage": "66kV",
-    "lat": 30.5493,
-    "lng": 76.8856
+    "lat": 30.7314,
+    "lng": 76.9747
   },
   {
     "code": 23128,
@@ -3946,8 +3946,8 @@
     "circle": "TS Gurgaon",
     "division": "TS Gurgaon",
     "voltage": "220kV",
-    "lat": 29.2565,
-    "lng": 75.6158
+    "lat": 28.489,
+    "lng": 77.0615
   },
   {
     "code": 23133,
@@ -3956,8 +3956,8 @@
     "circle": "TS Gurgaon",
     "division": "TS Gurgaon",
     "voltage": "220kV",
-    "lat": 29.0844,
-    "lng": 75.5867
+    "lat": 28.4893,
+    "lng": 76.9024
   },
   {
     "code": 23215,
@@ -3966,8 +3966,8 @@
     "circle": "TS Gurgaon",
     "division": "TS Manesar",
     "voltage": "220kV",
-    "lat": 29.0405,
-    "lng": 75.6781
+    "lat": 28.3844,
+    "lng": 76.8984
   },
   {
     "code": 13129,
@@ -3976,8 +3976,8 @@
     "circle": "TS Rohtak",
     "division": "TS Rohtak",
     "voltage": "132kV",
-    "lat": 30.7316,
-    "lng": 76.7141
+    "lat": 28.8182,
+    "lng": 76.7059
   },
   {
     "code": 13131,
@@ -3986,8 +3986,8 @@
     "circle": "TS Rohtak",
     "division": "TS Rohtak",
     "voltage": "220kV",
-    "lat": 30.763,
-    "lng": 76.8603
+    "lat": 28.8183,
+    "lng": 76.4863
   },
   {
     "code": 21406,
@@ -3996,8 +3996,8 @@
     "circle": "TS Hisar",
     "division": "TS Jind",
     "voltage": "132kV",
-    "lat": 29.1372,
-    "lng": 75.6163
+    "lat": 29.2403,
+    "lng": 76.4064
   },
   {
     "code": 21401,
@@ -4006,8 +4006,8 @@
     "circle": "TS Hisar",
     "division": "TS Jind",
     "voltage": "132kV",
-    "lat": 29.0647,
-    "lng": 75.6068
+    "lat": 29.24,
+    "lng": 76.3054
   },
   {
     "code": 21412,
@@ -4016,8 +4016,8 @@
     "circle": "TS Hisar",
     "division": "TS Jind",
     "voltage": "220kV",
-    "lat": 29.1213,
-    "lng": 75.6966
+    "lat": 29.2407,
+    "lng": 76.2676
   },
   {
     "code": 21413,
@@ -4026,8 +4026,8 @@
     "circle": "TS Hisar",
     "division": "TS Jind",
     "voltage": "132kV",
-    "lat": 29.0181,
-    "lng": 75.5806
+    "lat": 29.2408,
+    "lng": 76.2878
   },
   {
     "code": 13327,
@@ -4036,8 +4036,8 @@
     "circle": "TS Rohtak",
     "division": "TS Panipat",
     "voltage": "132kV",
-    "lat": 30.6413,
-    "lng": 76.7456
+    "lat": 29.3207,
+    "lng": 76.9345
   },
   {
     "code": 13317,
@@ -4046,8 +4046,8 @@
     "circle": "TS Rohtak",
     "division": "TS Panipat",
     "voltage": "132kV",
-    "lat": 30.7904,
-    "lng": 76.9172
+    "lat": 29.3201,
+    "lng": 76.9925
   },
   {
     "code": 13328,
@@ -4056,8 +4056,8 @@
     "circle": "TS Rohtak",
     "division": "TS Panipat",
     "voltage": "220kV",
-    "lat": 30.7691,
-    "lng": 76.9076
+    "lat": 29.3208,
+    "lng": 76.9547
   },
   {
     "code": 11126,
@@ -4066,8 +4066,8 @@
     "circle": "TS Panchkula",
     "division": "TS Madanpur",
     "voltage": "66kV",
-    "lat": 30.7142,
-    "lng": 76.8752
+    "lat": 30.7319,
+    "lng": 76.8762
   },
   {
     "code": 31105,
@@ -4076,8 +4076,8 @@
     "circle": "Other",
     "division": "Other",
     "voltage": "66kV",
-    "lat": 28.961,
-    "lng": 76.7513
+    "lat": 29.2622,
+    "lng": 76.4236
   },
   {
     "code": 23108,
@@ -4086,8 +4086,8 @@
     "circle": "TS Gurgaon",
     "division": "TS Gurgaon",
     "voltage": "66kV",
-    "lat": 29.2239,
-    "lng": 75.7687
+    "lat": 28.4877,
+    "lng": 76.9176
   },
   {
     "code": 23113,
@@ -4096,8 +4096,8 @@
     "circle": "TS Gurgaon",
     "division": "TS Gurgaon",
     "voltage": "66kV",
-    "lat": 29.1384,
-    "lng": 75.7088
+    "lat": 28.488,
+    "lng": 77.0185
   },
   {
     "code": 11112,
@@ -4106,8 +4106,8 @@
     "circle": "TS Panchkula",
     "division": "TS Madanpur",
     "voltage": "66kV",
-    "lat": 30.6867,
-    "lng": 76.942
+    "lat": 30.731,
+    "lng": 76.8535
   },
   {
     "code": 11111,
@@ -4116,8 +4116,8 @@
     "circle": "TS Panchkula",
     "division": "TS Madanpur",
     "voltage": "66kV",
-    "lat": 30.8244,
-    "lng": 76.7079
+    "lat": 30.7309,
+    "lng": 76.8333
   },
   {
     "code": 11107,
@@ -4126,8 +4126,8 @@
     "circle": "TS Panchkula",
     "division": "TS Madanpur",
     "voltage": "66kV",
-    "lat": 30.7915,
-    "lng": 76.8385
+    "lat": 30.7307,
+    "lng": 77.0125
   },
   {
     "code": 11106,
@@ -4136,8 +4136,8 @@
     "circle": "TS Panchkula",
     "division": "TS Madanpur",
     "voltage": "66kV",
-    "lat": 30.7433,
-    "lng": 76.7756
+    "lat": 30.7306,
+    "lng": 76.9923
   },
   {
     "code": 11108,
@@ -4146,8 +4146,8 @@
     "circle": "TS Panchkula",
     "division": "TS Madanpur",
     "voltage": "66kV",
-    "lat": 30.5688,
-    "lng": 76.9813
+    "lat": 30.7307,
+    "lng": 76.7727
   },
   {
     "code": 11102,
@@ -4156,8 +4156,8 @@
     "circle": "TS Panchkula",
     "division": "TS Madanpur",
     "voltage": "220kV",
-    "lat": 30.5508,
-    "lng": 76.9604
+    "lat": 30.7304,
+    "lng": 76.9115
   },
   {
     "code": 11103,
@@ -4166,8 +4166,8 @@
     "circle": "TS Panchkula",
     "division": "TS Madanpur",
     "voltage": "66kV",
-    "lat": 30.7117,
-    "lng": 76.89
+    "lat": 30.7304,
+    "lng": 76.9317
   },
   {
     "code": 11104,
@@ -4176,8 +4176,8 @@
     "circle": "TS Panchkula",
     "division": "TS Madanpur",
     "voltage": "66kV",
-    "lat": 30.7125,
-    "lng": 76.9503
+    "lat": 30.7305,
+    "lng": 76.9519
   },
   {
     "code": 12115,
@@ -4186,8 +4186,8 @@
     "circle": "TS Karnal",
     "division": "TS Kurukshetra",
     "voltage": "66kV",
-    "lat": 30.5795,
-    "lng": 76.932
+    "lat": 30.0843,
+    "lng": 76.8086
   },
   {
     "code": 21219,
@@ -4196,8 +4196,8 @@
     "circle": "TS Hisar",
     "division": "TS Bhiwani",
     "voltage": "132kV",
-    "lat": 29.2443,
-    "lng": 75.71
+    "lat": 28.6985,
+    "lng": 76.1
   },
   {
     "code": 21216,
@@ -4206,8 +4206,8 @@
     "circle": "TS Hisar",
     "division": "TS Bhiwani",
     "voltage": "220kV",
-    "lat": 29.2461,
-    "lng": 75.8055
+    "lat": 28.6984,
+    "lng": 76.0394
   },
   {
     "code": 23327,
@@ -4216,8 +4216,8 @@
     "circle": "TS Gurgaon",
     "division": "TS Rewari",
     "voltage": "132kV",
-    "lat": 29.1565,
-    "lng": 75.8257
+    "lat": 28.2415,
+    "lng": 76.5102
   },
   {
     "code": 22134,
@@ -4226,8 +4226,8 @@
     "circle": "TS Faridabad",
     "division": "TS Faridabad",
     "voltage": "66kV",
-    "lat": 29.1122,
-    "lng": 75.7396
+    "lat": 28.3763,
+    "lng": 77.2981
   },
   {
     "code": 22133,
@@ -4236,8 +4236,8 @@
     "circle": "TS Faridabad",
     "division": "TS Faridabad",
     "voltage": "66kV",
-    "lat": 29.0513,
-    "lng": 75.6775
+    "lat": 28.3762,
+    "lng": 77.2779
   },
   {
     "code": 22132,
@@ -4246,8 +4246,8 @@
     "circle": "TS Faridabad",
     "division": "TS Faridabad",
     "voltage": "66kV",
-    "lat": 29.2848,
-    "lng": 75.7277
+    "lat": 28.3761,
+    "lng": 77.2577
   },
   {
     "code": 23201,
@@ -4256,8 +4256,8 @@
     "circle": "TS Gurgaon",
     "division": "TS Manesar",
     "voltage": "220kV",
-    "lat": 29.0033,
-    "lng": 75.8676
+    "lat": 28.3836,
+    "lng": 76.8757
   },
   {
     "code": 23136,
@@ -4266,8 +4266,8 @@
     "circle": "TS Gurgaon",
     "division": "TS Gurgaon",
     "voltage": "66kV",
-    "lat": 29.0599,
-    "lng": 75.8426
+    "lat": 28.4895,
+    "lng": 76.963
   },
   {
     "code": 23135,
@@ -4276,8 +4276,8 @@
     "circle": "TS Gurgaon",
     "division": "TS Gurgaon",
     "voltage": "66kV",
-    "lat": 29.198,
-    "lng": 75.5762
+    "lat": 28.4894,
+    "lng": 76.9428
   },
   {
     "code": 23129,
@@ -4286,8 +4286,8 @@
     "circle": "TS Gurgaon",
     "division": "TS Gurgaon",
     "voltage": "66kV",
-    "lat": 29.1265,
-    "lng": 75.7639
+    "lat": 28.489,
+    "lng": 77.0817
   },
   {
     "code": 23124,
@@ -4296,8 +4296,8 @@
     "circle": "TS Gurgaon",
     "division": "TS Gurgaon",
     "voltage": "400kV",
-    "lat": 29.239,
-    "lng": 75.6091
+    "lat": 28.4887,
+    "lng": 76.9807
   },
   {
     "code": 23117,
@@ -4306,8 +4306,8 @@
     "circle": "TS Gurgaon",
     "division": "TS Gurgaon",
     "voltage": "66kV",
-    "lat": 29.2826,
-    "lng": 75.6424
+    "lat": 28.4883,
+    "lng": 77.0993
   },
   {
     "code": 23125,
@@ -4316,8 +4316,8 @@
     "circle": "TS Gurgaon",
     "division": "TS Gurgaon",
     "voltage": "220kV",
-    "lat": 29.2527,
-    "lng": 75.5865
+    "lat": 28.4888,
+    "lng": 77.0009
   },
   {
     "code": 23127,
@@ -4326,8 +4326,8 @@
     "circle": "TS Gurgaon",
     "division": "TS Gurgaon",
     "voltage": "220kV",
-    "lat": 29.1831,
-    "lng": 75.8457
+    "lat": 28.4889,
+    "lng": 77.0413
   },
   {
     "code": 23130,
@@ -4336,8 +4336,8 @@
     "circle": "TS Gurgaon",
     "division": "TS Gurgaon",
     "voltage": "220kV",
-    "lat": 29.1573,
-    "lng": 75.8202
+    "lat": 28.4891,
+    "lng": 77.1019
   },
   {
     "code": 23131,
@@ -4346,8 +4346,8 @@
     "circle": "TS Gurgaon",
     "division": "TS Gurgaon",
     "voltage": "220kV",
-    "lat": 29.2943,
-    "lng": 75.6174
+    "lat": 28.4892,
+    "lng": 77.1221
   },
   {
     "code": 23132,
@@ -4356,8 +4356,8 @@
     "circle": "TS Gurgaon",
     "division": "TS Gurgaon",
     "voltage": "220kV",
-    "lat": 29.253,
-    "lng": 75.6135
+    "lat": 28.4892,
+    "lng": 77.1422
   },
   {
     "code": 23134,
@@ -4366,8 +4366,8 @@
     "circle": "TS Gurgaon",
     "division": "TS Gurgaon",
     "voltage": "220kV",
-    "lat": 29.1008,
-    "lng": 75.5841
+    "lat": 28.4893,
+    "lng": 76.9226
   },
   {
     "code": 22102,
@@ -4376,8 +4376,8 @@
     "circle": "TS Faridabad",
     "division": "TS Faridabad",
     "voltage": "66kV",
-    "lat": 29.2272,
-    "lng": 75.8459
+    "lat": 28.3742,
+    "lng": 77.4318
   },
   {
     "code": 23214,
@@ -4386,8 +4386,8 @@
     "circle": "TS Gurgaon",
     "division": "TS Manesar",
     "voltage": "220kV",
-    "lat": 29.1919,
-    "lng": 75.6189
+    "lat": 28.3844,
+    "lng": 76.8782
   },
   {
     "code": 11232,
@@ -4396,8 +4396,8 @@
     "circle": "TS Panchkula",
     "division": "TS Ambala",
     "voltage": "220kV",
-    "lat": 30.8343,
-    "lng": 76.8894
+    "lat": 30.4386,
+    "lng": 76.8168
   },
   {
     "code": 22122,
@@ -4406,8 +4406,8 @@
     "circle": "TS Faridabad",
     "division": "TS Faridabad",
     "voltage": "220kV",
-    "lat": 29.1173,
-    "lng": 75.77
+    "lat": 28.3755,
+    "lng": 77.3157
   },
   {
     "code": 22129,
@@ -4416,8 +4416,8 @@
     "circle": "TS Faridabad",
     "division": "TS Faridabad",
     "voltage": "220kV",
-    "lat": 29.2525,
-    "lng": 75.7257
+    "lat": 28.3759,
+    "lng": 77.1971
   },
   {
     "code": 22130,
@@ -4426,8 +4426,8 @@
     "circle": "TS Faridabad",
     "division": "TS Faridabad",
     "voltage": "66kV",
-    "lat": 29.217,
-    "lng": 75.6148
+    "lat": 28.376,
+    "lng": 77.2173
   },
   {
     "code": 22131,
@@ -4436,8 +4436,8 @@
     "circle": "TS Faridabad",
     "division": "TS Faridabad",
     "voltage": "220kV",
-    "lat": 29.0825,
-    "lng": 75.6929
+    "lat": 28.3761,
+    "lng": 77.2375
   },
   {
     "code": 21418,
@@ -4446,7 +4446,7 @@
     "circle": "TS Hisar",
     "division": "TS Jind",
     "voltage": "132kV",
-    "lat": 29.2591,
-    "lng": 75.621
+    "lat": 29.2411,
+    "lng": 76.3887
   }
 ]

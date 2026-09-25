@@ -14,7 +14,7 @@ import {
 import { cn } from "@/lib/utils";
 
 const selectClass =
-  "w-full rounded-lg border border-slate-700 bg-[#0F172A] px-3 py-2 text-sm text-slate-200 outline-none transition focus:border-cyan-500";
+  "w-full rounded-md border border-slate-700/80 bg-slate-950/80 px-2 py-1 text-[11px] text-slate-200 outline-none transition focus:border-cyan-500 truncate h-6.5";
 
 function FilterSelect({
   label,
@@ -30,8 +30,8 @@ function FilterSelect({
   disabled?: boolean;
 }) {
   return (
-    <div className="flex min-w-0 flex-col gap-1">
-      <label className="text-[10px] font-bold uppercase tracking-wider text-slate-400">
+    <div className="flex min-w-0 flex-1 shrink-0 flex-col gap-0.5">
+      <label className="text-[8px] font-bold uppercase tracking-wider text-cyan-400/90 truncate">
         {label}
       </label>
       <select
@@ -41,7 +41,7 @@ function FilterSelect({
         className={cn(selectClass, disabled && "cursor-not-allowed opacity-50")}
       >
         {options.map((opt) => (
-          <option key={opt.value} value={opt.value}>
+          <option key={opt.value} value={opt.value} className="bg-slate-900 text-slate-100">
             {opt.label}
           </option>
         ))}
@@ -99,9 +99,9 @@ export function HierarchyFilterBar() {
   };
 
   return (
-    <div className="shrink-0 border-b border-border-subtle bg-surface-800/80 px-4 py-3">
-      <div className="rounded-xl border border-slate-700/60 bg-[#1E293B] p-3 shadow-lg">
-        <div className="grid grid-cols-2 gap-3 md:grid-cols-3 lg:grid-cols-6">
+    <div className="shrink-0 border-b border-border-subtle bg-slate-950/80 px-3 py-1.5 backdrop-blur-md">
+      <div className="rounded-xl border border-cyan-500/20 bg-slate-900/80 p-1.5 shadow-lg">
+        <div className="flex w-full min-w-0 items-center gap-1.5 overflow-x-auto scrollbar-none">
           <FilterSelect
             label="Zone Name"
             value={hierarchyFilters.zone}
@@ -156,23 +156,23 @@ export function HierarchyFilterBar() {
             ]}
           />
 
-          <div className="flex min-w-0 flex-col gap-1">
-            <label className="text-[10px] font-bold uppercase tracking-wider text-slate-400">
+          <div className="flex min-w-0 flex-1 shrink-0 flex-col gap-0.5">
+            <label className="text-[8px] font-bold uppercase tracking-wider text-cyan-400/90 truncate">
               Date
             </label>
             <div className="relative">
-              <Calendar className="pointer-events-none absolute left-3 top-1/2 h-3.5 w-3.5 -translate-y-1/2 text-slate-500" />
+              <Calendar className="pointer-events-none absolute left-2 top-1/2 h-3 w-3 -translate-y-1/2 text-cyan-400" />
               <select
                 value={hierarchyFilters.dateRange}
                 onChange={(e) =>
                   handleChange("dateRange", e.target.value as DateRangeOption)
                 }
-                className={cn(selectClass, "pl-9")}
+                className={cn(selectClass, "pl-7")}
               >
-                <option value="Today">Today</option>
-                <option value="Last 7 Days">Last 7 Days</option>
-                <option value="Last 30 Days">Last 30 Days</option>
-                <option value="Custom Range">Custom Range</option>
+                <option value="Today" className="bg-slate-900 text-slate-100">Today</option>
+                <option value="Last 7 Days" className="bg-slate-900 text-slate-100">Last 7 Days</option>
+                <option value="Last 30 Days" className="bg-slate-900 text-slate-100">Last 30 Days</option>
+                <option value="Custom Range" className="bg-slate-900 text-slate-100">Custom Range</option>
               </select>
             </div>
           </div>

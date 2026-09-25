@@ -57,8 +57,17 @@ export const HARYANA_VIEW = {
   bearing: -15,
 };
 
+const getApiBase = (): string => {
+  const envUrl = process.env.NEXT_PUBLIC_API_URL;
+  if (typeof window !== "undefined") {
+    const hostname = window.location.hostname;
+    if (envUrl) {
+      return envUrl.replace("localhost", hostname).replace("127.0.0.1", hostname);
+    }
+    return `${window.location.protocol}//${hostname}:4000`;
+  }
+  return envUrl ?? "http://localhost:4000";
+};
+
 export const MAPBOX_TOKEN = process.env.NEXT_PUBLIC_MAPBOX_TOKEN ?? "";
-export const API_BASE =
-  typeof window !== "undefined"
-    ? process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:4000"
-    : process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:4000";
+export const API_BASE = getApiBase();

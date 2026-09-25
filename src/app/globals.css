@@ -17,6 +17,7 @@
   --color-text-muted: #64748b;
   --color-border-subtle: rgba(148, 163, 184, 0.12);
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Rajdhani", ui-sans-serif, system-ui, sans-serif;
 }
 
 @layer base {
@@ -37,6 +38,10 @@
 }
 
 @layer utilities {
+  .font-display {
+    font-family: var(--font-display), ui-sans-serif, system-ui, sans-serif;
+  }
+
   .glass-panel {
     background: rgba(15, 23, 41, 0.85);
     backdrop-filter: blur(12px);
@@ -178,34 +183,105 @@
     animation: flow 1s linear infinite;
   }
 
-  .electric-line--dark {
-    stroke: #00f0ff !important;
-    filter: drop-shadow(0 0 8px #00f0ff) drop-shadow(0 0 16px rgba(255, 0, 85, 0.35));
+  .leaflet-overlay-pane svg path.injection-flow {
+    stroke-dasharray: 8, 14;
+    animation: flow 1.4s linear infinite;
   }
 
-  .electric-line--light {
-    stroke: #0891b2 !important;
-    filter: drop-shadow(0 0 4px rgba(8, 145, 178, 0.5));
+  .injection-flow--thermal {
+    stroke: #f59e0b !important;
+    filter: drop-shadow(0 0 8px #f59e0b);
   }
 
-  .electric-line--satellite {
-    stroke: #00f0ff !important;
-    filter: drop-shadow(0 0 10px #00f0ff) drop-shadow(0 0 20px #ff0055);
+  .injection-flow--interstate {
+    stroke: #22d3ee !important;
+    filter: drop-shadow(0 0 10px #22d3ee);
+  }
+
+  .injection-flow--renewable {
+    stroke: #22c55e !important;
+    filter: drop-shadow(0 0 8px #22c55e);
+  }
+
+  .generation-marker {
+    transition: transform 0.2s ease;
+  }
+
+  .generation-marker--hover {
+    transform: scale(1.15);
+  }
+
+  .electric-line--400kV {
+    stroke: #ff1744 !important;
+    filter: drop-shadow(0 0 8px #ff1744);
+  }
+
+  .electric-line--220kV {
+    stroke: #00e5ff !important;
+    filter: drop-shadow(0 0 8px #00e5ff);
+  }
+
+  .electric-line--132kV {
+    stroke: #ffb703 !important;
+    filter: drop-shadow(0 0 7px #ffb703);
+  }
+
+  .electric-line--66kV {
+    stroke: #00e676 !important;
+    filter: drop-shadow(0 0 6px #00e676);
+  }
+
+  .pg-theme-light .electric-line--400kV {
+    stroke: #dc2626 !important;
+    filter: drop-shadow(0 1px 2px rgba(220, 38, 38, 0.5));
+  }
+
+  .pg-theme-light .electric-line--220kV {
+    stroke: #0284c7 !important;
+    filter: drop-shadow(0 1px 2px rgba(2, 132, 199, 0.5));
+  }
+
+  .pg-theme-light .electric-line--132kV {
+    stroke: #d97706 !important;
+    filter: drop-shadow(0 1px 2px rgba(217, 119, 6, 0.5));
+  }
+
+  .pg-theme-light .electric-line--66kV {
+    stroke: #059669 !important;
+    filter: drop-shadow(0 1px 2px rgba(5, 150, 105, 0.5));
+  }
+
+  .pg-theme-light .injection-flow--thermal {
+    stroke: #d97706 !important;
+    filter: drop-shadow(0 1px 2px rgba(217, 119, 6, 0.45));
+  }
+
+  .pg-theme-light .injection-flow--interstate {
+    stroke: #0284c7 !important;
+    filter: drop-shadow(0 1px 2px rgba(2, 132, 199, 0.45));
+  }
+
+  .pg-theme-light .injection-flow--renewable {
+    stroke: #059669 !important;
+    filter: drop-shadow(0 1px 2px rgba(5, 150, 105, 0.45));
   }
 
   .pg-theme-satellite .dt-glass {
-    background: rgba(8, 12, 24, 0.82);
-    border-color: rgba(0, 240, 255, 0.2);
+    background: rgba(8, 12, 24, 0.88);
+    border-color: rgba(0, 240, 255, 0.25);
   }
 
-  .pg-theme-light .power-grid-tooltip {
+  .pg-theme-light .power-grid-tooltip,
+  .pg-theme-gray .power-grid-tooltip {
     background: rgba(255, 255, 255, 0.95) !important;
-    border: 1px solid rgba(99, 102, 241, 0.25) !important;
+    border: 1px solid rgba(148, 163, 184, 0.35) !important;
     color: #0f172a !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
   }
 
-  .pg-theme-light .power-grid-tooltip::before {
-    border-top-color: rgba(99, 102, 241, 0.25) !important;
+  .pg-theme-light .power-grid-tooltip::before,
+  .pg-theme-gray .power-grid-tooltip::before {
+    border-top-color: rgba(148, 163, 184, 0.35) !important;
   }
 
   .power-grid-marker {
@@ -239,22 +315,156 @@
     border-top-color: rgba(0, 240, 255, 0.3) !important;
   }
 
-  /* Power Grid 3D theme accents */
-  .pg-theme-light .dt-glass {
-    background: rgba(255, 255, 255, 0.88);
-    border-color: rgba(99, 102, 241, 0.15);
-    color: #0f172a;
+  /* Power Grid tile styling for pristine Light Canvas */
+  .pg-theme-light .leaflet-container {
+    background: #e5e7eb !important;
   }
 
-  .pg-theme-light .text-white {
-    color: #0f172a;
+  .pg-theme-light .leaflet-tile-pane {
+    filter: none !important;
   }
 
-  .pg-theme-light .text-text-muted {
-    color: #64748b;
+  /* Power Grid light mode floating cards (Apple glass aesthetic) */
+  .pg-theme-light .dt-glass,
+  .pg-theme-light.dt-glass {
+    background: rgba(255, 255, 255, 0.96) !important;
+    border: 1px solid rgba(203, 213, 225, 0.9) !important;
+    box-shadow: 0 12px 32px rgba(15, 23, 42, 0.12), 0 2px 6px rgba(15, 23, 42, 0.06) !important;
+    color: #0f172a !important;
   }
 
-  .pg-theme-light .text-text-secondary {
-    color: #475569;
+  .pg-theme-light .dt-glass .text-white,
+  .pg-theme-light.dt-glass .text-white {
+    color: #0f172a !important;
+  }
+
+  .pg-theme-light .dt-glass .text-text-primary,
+  .pg-theme-light.dt-glass .text-text-primary {
+    color: #0f172a !important;
+  }
+
+  .pg-theme-light .dt-glass .text-text-muted,
+  .pg-theme-light.dt-glass .text-text-muted {
+    color: #475569 !important;
+  }
+
+  .pg-theme-light .dt-glass .text-text-secondary,
+  .pg-theme-light.dt-glass .text-text-secondary {
+    color: #334155 !important;
+  }
+
+  .pg-theme-light .dt-glass .text-cyan-300,
+  .pg-theme-light.dt-glass .text-cyan-300 {
+    color: #0369a1 !important;
+  }
+
+  .pg-theme-light .dt-glass .text-cyan-400,
+  .pg-theme-light.dt-glass .text-cyan-400 {
+    color: #0284c7 !important;
+  }
+
+  .pg-theme-light .dt-glass .text-amber-300,
+  .pg-theme-light.dt-glass .text-amber-300 {
+    color: #92400e !important;
+  }
+
+  .pg-theme-light .dt-glass .text-amber-400,
+  .pg-theme-light.dt-glass .text-amber-400 {
+    color: #b45309 !important;
+  }
+
+  .pg-theme-light .dt-glass .border-white\/5,
+  .pg-theme-light .dt-glass .border-white\/10,
+  .pg-theme-light.dt-glass .border-white\/5,
+  .pg-theme-light.dt-glass .border-white\/10 {
+    border-color: rgba(203, 213, 225, 0.8) !important;
+  }
+
+  .pg-theme-light .dt-glass hover\:bg-white\/5:hover,
+  .pg-theme-light.dt-glass hover\:bg-white\/5:hover {
+    background-color: rgba(15, 23, 42, 0.05) !important;
+  }
+
+  /* GPU-accelerated Marker Interactions */
+  .substation-marker,
+  .generation-marker {
+    transition: transform 0.16s cubic-bezier(0.16, 1, 0.3, 1), filter 0.16s cubic-bezier(0.16, 1, 0.3, 1);
+    transform-origin: center center;
+    will-change: transform;
+  }
+  .substation-marker--hover,
+  .generation-marker--hover {
+    transform: scale(1.28) !important;
+  }
+
+  /* Hardware-accelerated Substation Radar Telemetry Ping */
+  @keyframes ss-radar-pulse {
+    0% {
+      transform: scale(0.8);
+      opacity: 0.95;
+    }
+    100% {
+      transform: scale(1.9);
+      opacity: 0;
+    }
+  }
+
+  .ss-radar-pulse {
+    animation: ss-radar-pulse 2.2s cubic-bezier(0.1, 0.4, 0.2, 1) infinite;
+    transform-origin: 24px 24px;
+    pointer-events: none;
+    will-change: transform, opacity;
+  }
+
+  /* Hardware-accelerated Generation Source Energy Orbit */
+  @keyframes source-orbit-pulse {
+    0%, 100% {
+      transform: scale(0.96);
+      opacity: 0.4;
+    }
+    50% {
+      transform: scale(1.1);
+      opacity: 0.12;
+    }
+  }
+
+  .source-orbit-pulse {
+    animation: source-orbit-pulse 2.4s ease-in-out infinite;
+    transform-origin: 24px 24px;
+    pointer-events: none;
+    will-change: transform, opacity;
+  }
+
+  /* Pylon Aviation Warning Strobe */
+  @keyframes pylon-beacon {
+    0%, 82%, 100% {
+      opacity: 0.15;
+      transform: scale(0.9);
+    }
+    88%, 94% {
+      opacity: 1;
+      transform: scale(1.3);
+      filter: drop-shadow(0 0 6px #ef4444) drop-shadow(0 0 12px #ef4444);
+    }
+  }
+
+  .pylon-beacon {
+    animation: pylon-beacon 1.5s ease-in-out infinite;
+    transform-origin: 14px 2px;
+  }
+
+  /* Custom Slim Glass Scrollbar */
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 4px;
+  }
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: rgba(148, 163, 184, 0.2);
+    border-radius: 9999px;
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: rgba(34, 211, 238, 0.4);
   }
 }

@@ -172,14 +172,14 @@ export function KpiRibbon() {
     <motion.div
       initial={{ opacity: 0, y: -10 }}
       animate={{ opacity: 1, y: 0 }}
-      className="absolute left-1/2 top-[4.5rem] z-20 flex -translate-x-1/2 gap-2"
+      className="absolute left-[360px] top-[4.5rem] z-20 flex h-12 items-center gap-2 xl:left-1/2 xl:-translate-x-1/2"
     >
       {items.map((k) => (
-        <div key={k.label} className="dt-glass rounded-xl px-3 py-1.5 text-center">
-          <p className="text-[9px] text-text-muted">{k.label}</p>
-          <p className={cn("text-sm font-bold tabular-nums", k.color)}>
+        <div key={k.label} className="dt-glass flex h-12 min-w-[70px] flex-col justify-center rounded-xl px-2.5 text-center">
+          <p className="text-[8px] uppercase tracking-wider text-text-muted">{k.label}</p>
+          <p className={cn("text-xs font-bold tabular-nums leading-tight", k.color)}>
             {k.value}
-            <span className="ml-0.5 text-[9px] font-normal text-text-muted">{k.unit}</span>
+            <span className="ml-0.5 text-[8px] font-normal text-text-muted">{k.unit}</span>
           </p>
         </div>
       ))}

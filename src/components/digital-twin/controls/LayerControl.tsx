@@ -6,6 +6,7 @@ import { ChevronDown, ChevronRight, Layers, X } from "lucide-react";
 import { useDigitalTwinStore } from "@/hooks/useDigitalTwinStore";
 import { BASEMAP_LIST } from "@/lib/digitalTwin/basemaps";
 import type { BasemapId } from "@/lib/digitalTwin/basemaps";
+import { VOLTAGE_HEX } from "@/lib/digitalTwin/constants";
 import { ThemeSelector } from "./ThemeToggle";
 import { cn } from "@/lib/utils";
 
@@ -105,6 +106,74 @@ export function LayerControl() {
         <LayerSection group="maintenanceAlerts" title="Maintenance Alerts" items={[
           { key: "enabled", label: "Due for Inspection" },
         ]} />
+
+        {/* Voltage Legend & Symbols */}
+        <Section title="Legend & Symbols" defaultOpen={false}>
+          <div className="space-y-2 p-1 text-[10px]">
+            <p className="text-[9px] font-semibold uppercase tracking-wider text-text-muted">
+              Voltage Levels
+            </p>
+            <div className="space-y-1">
+              {Object.entries(VOLTAGE_HEX).map(([v, color]) => (
+                <div key={v} className="flex items-center gap-2">
+                  <div
+                    className="h-1.5 w-5 rounded-full"
+                    style={{ backgroundColor: color, boxShadow: `0 0 6px ${color}80` }}
+                  />
+                  <span className="font-medium text-text-secondary">{v}</span>
+                </div>
+              ))}
+            </div>
+
+            <div className="border-t border-white/5 pt-1.5">
+              <p className="mb-1 text-[9px] font-semibold uppercase tracking-wider text-text-muted">
+                Map Symbols
+              </p>
+              <div className="space-y-1 text-text-secondary">
+                <div className="flex items-center gap-2">
+                  <span className="text-red-400">⚡</span> Substation (EHV)
+                </div>
+                <div className="flex items-center gap-2">
+                  <span>🗼</span> Transmission Tower
+                </div>
+                <div className="flex items-center gap-2">
+                  <span className="h-1.5 w-1.5 rounded-full bg-white shadow-[0_0_6px_#60a5fa]" />
+                  Power Flow Particle
+                </div>
+                <div className="flex items-center gap-2">
+                  <span
+                    className="h-1 w-4 rounded bg-white/60"
+                    style={{
+                      backgroundImage:
+                        "repeating-linear-gradient(90deg, white 0 3px, transparent 3px 6px)",
+                    }}
+                  />
+                  Rolling Dash Line
+                </div>
+              </div>
+            </div>
+
+            <div className="border-t border-white/5 pt-1.5">
+              <p className="mb-1 text-[9px] font-semibold uppercase tracking-wider text-text-muted">
+                Asset Health
+              </p>
+              <div className="flex items-center gap-2 text-[9px]">
+                <span className="flex items-center gap-1 text-emerald-400">
+                  <span className="h-1.5 w-1.5 rounded-full bg-emerald-400" />
+                  Healthy
+                </span>
+                <span className="flex items-center gap-1 text-amber-400">
+                  <span className="h-1.5 w-1.5 rounded-full bg-amber-400" />
+                  Warning
+                </span>
+                <span className="flex items-center gap-1 text-red-400">
+                  <span className="h-1.5 w-1.5 rounded-full bg-red-400" />
+                  Critical
+                </span>
+              </div>
+            </div>
+          </div>
+        </Section>
       </div>
     </motion.div>
   );

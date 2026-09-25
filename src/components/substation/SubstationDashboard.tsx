@@ -5,12 +5,19 @@ import { SubstationHierarchyFilterBar } from "@/components/substation/Substation
 import { SubstationKpiBand } from "@/components/substation/SubstationKpiBand";
 import { AssetActionModal } from "@/components/substation/AssetActionModal";
 import { CrewDispatchDrawer } from "@/components/substation/CrewDispatchDrawer";
+import { useSubstationTwinStore } from "@/hooks/useSubstationTwinStore";
 
 export function SubstationDashboard() {
+  const isFullscreen = useSubstationTwinStore((s) => s.isFullscreen);
+
   return (
-    <div className="flex min-h-0 flex-1 flex-col overflow-hidden">
-      <SubstationKpiBand />
-      <SubstationHierarchyFilterBar />
+    <div className="flex min-h-0 min-w-0 flex-1 flex-col overflow-hidden">
+      {!isFullscreen && (
+        <>
+          <SubstationKpiBand />
+          <SubstationHierarchyFilterBar />
+        </>
+      )}
       <Substation3DMap />
       <AssetActionModal />
       <CrewDispatchDrawer />

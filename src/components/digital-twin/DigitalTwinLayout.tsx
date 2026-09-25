@@ -44,7 +44,7 @@ export function DigitalTwinLayout() {
   }
 
   return (
-    <div className="dt-theme-dark relative h-screen w-screen overflow-hidden bg-[#0a0f1a]">
+    <div className="dt-theme-dark relative h-full min-h-0 w-full overflow-hidden bg-[#0a0f1a]">
       <DigitalTwinMap />
       <DigitalTwinHeader />
       <LiveDashboard />

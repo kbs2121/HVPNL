@@ -1,14 +1,23 @@
 /**
- * Mock Haryana power grid data — Zone → Circle → Division → Substation
+ * Haryana Transmission Network GIS data
+ * Substations sourced from SUB_STATION List.xlsx → substations.json (445 sites)
  */
+
+import substationsJson from "@/lib/data/substations.json";
+import { normalizeZone } from "@/lib/data/hierarchyFilters";
+
+export type VoltageLevel = "400kV" | "220kV" | "132kV" | "66kV";
 
 export interface Substation {
   id: string;
+  code: number;
   name: string;
   location: string;
   zone: string;
+  zoneDisplay: string;
   circle: string;
   division: string;
+  voltage: VoltageLevel;
   incomingPower: string;
   voltageTransform: string;
   status: "Active" | "Maintenance" | "Standby" | "Overload Alert";
@@ -28,6 +37,9 @@ export interface TransmissionLine {
   id: string;
   fromId: string;
   toId: string;
+  voltage: VoltageLevel;
+  fromName: string;
+  toName: string;
   path: [number, number][];
   towers: Tower[];
 }
@@ -56,120 +68,98 @@ export interface JurisdictionDivision {
   polygon: [number, number][];
 }
 
-export const SUBSTATIONS: Substation[] = [
-  {
-    id: "ss-gurgaon-56",
-    name: "DHBVN 400kV Substation",
-    location: "Sector 56, Gurgaon",
-    zone: "Zone 1 — South Haryana (DHBVN)",
-    circle: "Gurgaon",
-    division: "South Gurgaon",
-    incomingPower: "400 MVA",
-    voltageTransform: "400kV stepped down to 220kV / 66kV",
-    status: "Active",
-    loadPct: 78,
-    lat: 28.4595,
-    lng: 77.0266,
-  },
-  {
-    id: "ss-faridabad-12",
-    name: "DHBVN 220kV Substation",
-    location: "Sector 12, Faridabad",
-    zone: "Zone 1 — South Haryana (DHBVN)",
-    circle: "Faridabad",
-    division: "NIT Faridabad",
-    incomingPower: "250 MVA",
-    voltageTransform: "220kV stepped down to 132kV / 33kV",
-    status: "Active",
-    loadPct: 82,
-    lat: 28.4089,
-    lng: 77.3178,
-  },
-  {
-    id: "ss-rohtak",
-    name: "DHBVN 132kV Substation",
-    location: "Model Colony, Rohtak",
-    zone: "Zone 1 — South Haryana (DHBVN)",
-    circle: "Rohtak",
-    division: "Rohtak Urban",
-    incomingPower: "160 MVA",
-    voltageTransform: "132kV stepped down to 33kV / 11kV",
-    status: "Active",
-    loadPct: 65,
-    lat: 28.8955,
-    lng: 76.6066,
-  },
-  {
-    id: "ss-hisar",
-    name: "DHBVN 220kV Substation",
-    location: "Urban Estate, Hisar",
-    zone: "Zone 1 — South Haryana (DHBVN)",
-    circle: "Hisar",
-    division: "Hisar Central",
-    incomingPower: "200 MVA",
-    voltageTransform: "220kV stepped down to 132kV / 33kV",
-    status: "Active",
-    loadPct: 71,
-    lat: 29.1492,
-    lng: 75.7217,
-  },
-  {
-    id: "ss-panipat",
-    name: "UHBVN 220kV Substation",
-    location: "Model Town, Panipat",
-    zone: "Zone 2 — North Haryana (UHBVN)",
-    circle: "Panipat",
-    division: "Industrial Panipat",
-    incomingPower: "300 MVA",
-    voltageTransform: "220kV stepped down to 132kV / 33kV",
-    status: "Overload Alert",
-    loadPct: 94,
-    lat: 29.3909,
-    lng: 76.9635,
-  },
-  {
-    id: "ss-ambala",
-    name: "UHBVN 132kV Substation",
-    location: "Cantt, Ambala",
-    zone: "Zone 2 — North Haryana (UHBVN)",
-    circle: "Ambala",
-    division: "Cantt Ambala",
-    incomingPower: "180 MVA",
-    voltageTransform: "132kV stepped down to 33kV / 11kV",
-    status: "Active",
-    loadPct: 74,
-    lat: 30.3782,
-    lng: 76.7767,
-  },
-  {
-    id: "ss-karnal",
-    name: "UHBVN 220kV Substation",
-    location: "Sector 6, Karnal",
-    zone: "Zone 2 — North Haryana (UHBVN)",
-    circle: "Karnal",
-    division: "Karnal Industrial",
-    incomingPower: "220 MVA",
-    voltageTransform: "220kV stepped down to 132kV / 33kV",
-    status: "Active",
-    loadPct: 69,
-    lat: 29.6857,
-    lng: 76.9905,
-  },
-  {
-    id: "ss-sonipat",
-    name: "UHBVN 132kV Substation",
-    location: "Kundli Industrial, Sonipat",
-    zone: "Zone 2 — North Haryana (UHBVN)",
-    circle: "Sonipat",
-    division: "Kundli Division",
-    incomingPower: "140 MVA",
-    voltageTransform: "132kV stepped down to 33kV / 11kV",
-    status: "Maintenance",
-    loadPct: 42,
-    lat: 28.9931,
-    lng: 77.0151,
-  },
-];
+interface RawSubstation {
+  code: number;
+  name: string;
+  zone: string;
+  circle: string;
+  division: string;
+  voltage: string;
+  lat: number;
+  lng: number;
+}
+
+function asVoltage(raw: string): VoltageLevel {
+  const v = raw.replace(/\s+/g, "").toUpperCase();
+  if (v.startsWith("400")) return "400kV";
+  if (v.startsWith("220")) return "220kV";
+  if (v.startsWith("132")) return "132kV";
+  return "66kV";
+}
+
+function incomingForVoltage(v: VoltageLevel): string {
+  if (v === "400kV") return "500 MVA";
+  if (v === "220kV") return "250 MVA";
+  if (v === "132kV") return "160 MVA";
+  return "80 MVA";
+}
+
+function transformForVoltage(v: VoltageLevel): string {
+  if (v === "400kV") return "400kV stepped down to 220kV / 132kV";
+  if (v === "220kV") return "220kV stepped down to 132kV / 66kV";
+  if (v === "132kV") return "132kV stepped down to 66kV / 33kV";
+  return "66kV stepped down to 33kV / 11kV";
+}
+
+function mapRaw(raw: RawSubstation, index: number): Substation {
+  const voltage = asVoltage(raw.voltage);
+  const zoneKey = normalizeZone(raw.zone);
+  const seed = (raw.code * 17 + index * 13) % 100;
+  const statusRoll = seed % 20;
+  const status: Substation["status"] =
+    statusRoll === 0
+      ? "Overload Alert"
+      : statusRoll === 1
+        ? "Maintenance"
+        : statusRoll === 2
+          ? "Standby"
+          : "Active";
+  const loadPct =
+    status === "Overload Alert"
+      ? 88 + (seed % 12)
+      : status === "Maintenance"
+        ? 30 + (seed % 25)
+        : status === "Standby"
+          ? 10 + (seed % 20)
+          : 55 + (seed % 35);
+
+  return {
+    id: `ss-${raw.code}`,
+    code: raw.code,
+    name: raw.name,
+    location: raw.division,
+    zone: raw.zone,
+    zoneDisplay: zoneKey,
+    circle: raw.circle,
+    division: raw.division,
+    voltage,
+    incomingPower: incomingForVoltage(voltage),
+    voltageTransform: transformForVoltage(voltage),
+    status,
+    loadPct,
+    lat: raw.lat,
+    lng: raw.lng,
+  };
+}
+
+export const SUBSTATIONS: Substation[] = (substationsJson as RawSubstation[]).map(mapRaw);
+
+export function findSubstationByCode(code: string | number): Substation | undefined {
+  const n = typeof code === "string" ? Number(code) : code;
+  return SUBSTATIONS.find((s) => s.code === n);
+}
+
+function distanceKm(lat1: number, lon1: number, lat2: number, lon2: number): number {
+  const R = 6371;
+  const dLat = ((lat2 - lat1) * Math.PI) / 180;
+  const dLon = ((lon2 - lon1) * Math.PI) / 180;
+  const a =
+    Math.sin(dLat / 2) ** 2 +
+    Math.cos((lat1 * Math.PI) / 180) *
+      Math.cos((lat2 * Math.PI) / 180) *
+      Math.sin(dLon / 2) ** 2;
+  return 2 * R * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+}
 
 function interpolatePath(
   from: [number, number],
@@ -182,9 +172,9 @@ function interpolatePath(
   const towers: Tower[] = [];
   for (let i = 1; i <= towerCount; i++) {
     const t = i / (towerCount + 1);
-    const jitter = ((seed + i) % 5) * 0.004 - 0.008;
+    const jitter = ((seed + i) % 5) * 0.0015 - 0.003;
     const lng = from[0] + (to[0] - from[0]) * t + jitter;
-    const lat = from[1] + (to[1] - from[1]) * t - jitter * 0.6;
+    const lat = from[1] + (to[1] - from[1]) * t - jitter * 0.5;
     const point: [number, number] = [lng, lat];
     towers.push({
       id: `tower-${lineId}-${i}`,
@@ -198,232 +188,390 @@ function interpolatePath(
   return { path, towers };
 }
 
-function buildLine(
-  fromId: string,
-  toId: string,
-  towerCount: number,
-  seed: number
-): TransmissionLine {
-  const from = SUBSTATIONS.find((s) => s.id === fromId)!;
-  const to = SUBSTATIONS.find((s) => s.id === toId)!;
-  const lineId = `${fromId}__${toId}`;
-  const { path, towers } = interpolatePath(
-    [from.lng, from.lat],
-    [to.lng, to.lat],
-    towerCount,
-    lineId,
-    seed
-  );
-  return { id: lineId, fromId, toId, path, towers };
+function buildCorridors(list: Substation[]): TransmissionLine[] {
+  const ss400 = list.filter((s) => s.voltage === "400kV");
+  const ss220 = list.filter((s) => s.voltage === "220kV");
+  const ss132 = list.filter((s) => s.voltage === "132kV");
+  const ss66 = list.filter((s) => s.voltage === "66kV");
+
+  const linesMap = new Map<
+    string,
+    { from: Substation; to: Substation; voltage: VoltageLevel }
+  >();
+
+  function addEdge(a: Substation, b: Substation, voltage: VoltageLevel) {
+    if (a.code === b.code) return;
+    const key =
+      a.code < b.code ? `${a.code}__${b.code}` : `${b.code}__${a.code}`;
+    if (!linesMap.has(key)) {
+      linesMap.set(key, { from: a, to: b, voltage });
+    }
+  }
+
+  // 1. 400kV Backbone: Interconnect all 400kV substations into a ring/mesh
+  for (const s of ss400) {
+    const others = ss400
+      .filter((o) => o.code !== s.code)
+      .map((o) => ({ s: o, d: distanceKm(s.lat, s.lng, o.lat, o.lng) }))
+      .sort((a, b) => a.d - b.d);
+    for (let i = 0; i < Math.min(3, others.length); i++) {
+      addEdge(s, others[i].s, "400kV");
+    }
+  }
+
+  // 2. 220kV Grid: Connect each 220kV to nearby 400kV hub + nearest 220kV in circle
+  for (const s of ss220) {
+    const near400 = ss400
+      .map((o) => ({ s: o, d: distanceKm(s.lat, s.lng, o.lat, o.lng) }))
+      .sort((a, b) => a.d - b.d)[0];
+    if (near400 && near400.d < 65) {
+      addEdge(s, near400.s, "220kV");
+    }
+
+    const sameCircle = ss220
+      .filter((o) => o.code !== s.code && o.circle === s.circle)
+      .map((o) => ({ s: o, d: distanceKm(s.lat, s.lng, o.lat, o.lng) }))
+      .sort((a, b) => a.d - b.d);
+    if (sameCircle[0]) {
+      addEdge(s, sameCircle[0].s, "220kV");
+    }
+
+    const any220 = ss220
+      .filter((o) => o.code !== s.code)
+      .map((o) => ({ s: o, d: distanceKm(s.lat, s.lng, o.lat, o.lng) }))
+      .sort((a, b) => a.d - b.d);
+    if (any220[0] && any220[0].d < 35) {
+      addEdge(s, any220[0].s, "220kV");
+    }
+  }
+
+  // 3. 132kV Sub-Transmission: Connect to parent 220kV or nearest 132kV
+  for (const s of ss132) {
+    const near220 = ss220
+      .map((o) => ({ s: o, d: distanceKm(s.lat, s.lng, o.lat, o.lng) }))
+      .sort((a, b) => a.d - b.d)[0];
+    if (near220 && near220.d < 50) {
+      addEdge(s, near220.s, "132kV");
+    } else {
+      const near132 = ss132
+        .filter((o) => o.code !== s.code)
+        .map((o) => ({ s: o, d: distanceKm(s.lat, s.lng, o.lat, o.lng) }))
+        .sort((a, b) => a.d - b.d)[0];
+      if (near132) addEdge(s, near132.s, "132kV");
+    }
+
+    const sameDiv = ss132
+      .filter((o) => o.code !== s.code && o.division === s.division)
+      .map((o) => ({ s: o, d: distanceKm(s.lat, s.lng, o.lat, o.lng) }))
+      .sort((a, b) => a.d - b.d);
+    if (sameDiv[0] && sameDiv[0].d < 25) {
+      addEdge(s, sameDiv[0].s, "132kV");
+    }
+  }
+
+  // 4. 66kV Distribution Feeds: Connect to parent 132kV or 220kV
+  for (const s of ss66) {
+    const parents = [...ss132, ...ss220]
+      .map((o) => ({ s: o, d: distanceKm(s.lat, s.lng, o.lat, o.lng) }))
+      .sort((a, b) => a.d - b.d)[0];
+    if (parents) {
+      addEdge(s, parents.s, "66kV");
+    }
+  }
+
+  const lines: TransmissionLine[] = [];
+  let seed = 1;
+
+  for (const edge of linesMap.values()) {
+    const lineId = `${edge.from.id}__${edge.to.id}`;
+    const towerCount =
+      edge.voltage === "400kV"
+        ? 3
+        : edge.voltage === "220kV"
+          ? 2
+          : edge.voltage === "132kV"
+            ? 1
+            : 0;
+
+    const { path, towers } = interpolatePath(
+      [edge.from.lng, edge.from.lat],
+      [edge.to.lng, edge.to.lat],
+      towerCount,
+      lineId,
+      seed++
+    );
+
+    lines.push({
+      id: lineId,
+      fromId: edge.from.id,
+      toId: edge.to.id,
+      voltage: edge.voltage,
+      fromName: edge.from.name,
+      toName: edge.to.name,
+      path,
+      towers,
+    });
+  }
+
+  return lines;
 }
 
-export const TRANSMISSION_LINES: TransmissionLine[] = [
-  buildLine("ss-gurgaon-56", "ss-faridabad-12", 3, 1),
-  buildLine("ss-gurgaon-56", "ss-rohtak", 2, 2),
-  buildLine("ss-faridabad-12", "ss-sonipat", 2, 3),
-  buildLine("ss-rohtak", "ss-hisar", 3, 4),
-  buildLine("ss-rohtak", "ss-panipat", 3, 5),
-  buildLine("ss-panipat", "ss-karnal", 2, 6),
-  buildLine("ss-panipat", "ss-ambala", 3, 7),
-  buildLine("ss-karnal", "ss-ambala", 2, 8),
-];
-
+export const TRANSMISSION_LINES: TransmissionLine[] = buildCorridors(SUBSTATIONS);
 export const ALL_TOWERS: Tower[] = TRANSMISSION_LINES.flatMap((l) => l.towers);
 
-export const JURISDICTION_ZONES: JurisdictionZone[] = [
-  {
-    id: "zone-south",
-    name: "Zone 1 — South Haryana (DHBVN)",
-    color: "#6366f1",
-    polygon: [
-      [74.8, 27.8],
-      [77.8, 27.8],
-      [77.8, 29.05],
-      [74.8, 29.05],
-      [74.8, 27.8],
-    ],
-  },
-  {
-    id: "zone-north",
-    name: "Zone 2 — North Haryana (UHBVN)",
-    color: "#14b8a6",
-    polygon: [
-      [74.8, 29.05],
-      [77.8, 29.05],
-      [77.8, 30.6],
-      [74.8, 30.6],
-      [74.8, 29.05],
-    ],
-  },
-];
+// --- Convex Hull and Jurisdiction Boundaries ---
 
-export const JURISDICTION_CIRCLES: JurisdictionCircle[] = [
-  {
-    id: "circle-gurgaon",
-    zoneId: "zone-south",
-    name: "Gurgaon Circle",
-    color: "#818cf8",
-    polygon: [
-      [76.7, 28.2],
-      [77.3, 28.2],
-      [77.3, 28.6],
-      [76.7, 28.6],
-      [76.7, 28.2],
-    ],
-  },
-  {
-    id: "circle-faridabad",
-    zoneId: "zone-south",
-    name: "Faridabad Circle",
-    color: "#a78bfa",
-    polygon: [
-      [77.1, 28.2],
-      [77.5, 28.2],
-      [77.5, 28.55],
-      [77.1, 28.55],
-      [77.1, 28.2],
-    ],
-  },
-  {
-    id: "circle-panipat",
-    zoneId: "zone-north",
-    name: "Panipat Circle",
+function crossProduct(
+  o: [number, number],
+  a: [number, number],
+  b: [number, number]
+): number {
+  return (a[0] - o[0]) * (b[1] - o[1]) - (a[1] - o[1]) * (b[0] - o[0]);
+}
+
+function computeConvexHull(
+  points: [number, number][],
+  bufferRatio = 0.08,
+  minBuffer = 0.035
+): [number, number][] {
+  if (points.length === 0) return [];
+  if (points.length === 1) {
+    const [x, y] = points[0];
+    const d = 0.05;
+    return [
+      [x - d, y - d],
+      [x + d, y - d],
+      [x + d, y + d],
+      [x - d, y + d],
+      [x - d, y - d],
+    ];
+  }
+  if (points.length === 2) {
+    const [x1, y1] = points[0];
+    const [x2, y2] = points[1];
+    const d = 0.04;
+    return [
+      [x1 - d, y1 - d],
+      [x2 + d, y1 - d],
+      [x2 + d, y2 + d],
+      [x1 - d, y2 + d],
+      [x1 - d, y1 - d],
+    ];
+  }
+
+  const pts = points
+    .slice()
+    .sort((a, b) => (a[0] === b[0] ? a[1] - b[1] : a[0] - b[0]));
+  const lower: [number, number][] = [];
+  for (const p of pts) {
+    while (
+      lower.length >= 2 &&
+      crossProduct(lower[lower.length - 2], lower[lower.length - 1], p) <= 0
+    ) {
+      lower.pop();
+    }
+    lower.push(p);
+  }
+
+  const upper: [number, number][] = [];
+  for (let i = pts.length - 1; i >= 0; i--) {
+    const p = pts[i];
+    while (
+      upper.length >= 2 &&
+      crossProduct(upper[upper.length - 2], upper[upper.length - 1], p) <= 0
+    ) {
+      upper.pop();
+    }
+    upper.push(p);
+  }
+
+  upper.pop();
+  lower.pop();
+  const hull = lower.concat(upper);
+  if (hull.length < 3) return hull;
+
+  let cx = 0;
+  let cy = 0;
+  for (const p of hull) {
+    cx += p[0];
+    cy += p[1];
+  }
+  cx /= hull.length;
+  cy /= hull.length;
+
+  const expanded = hull.map(([x, y]) => {
+    const dx = x - cx;
+    const dy = y - cy;
+    const dist = Math.hypot(dx, dy);
+    const expand = Math.max(dist * bufferRatio, minBuffer);
+    const scale = (dist + expand) / (dist || 1);
+    return [
+      Number((cx + dx * scale).toFixed(4)),
+      Number((cy + dy * scale).toFixed(4)),
+    ] as [number, number];
+  });
+
+  expanded.push([expanded[0][0], expanded[0][1]]);
+  return expanded;
+}
+
+// Generate Jurisdiction Zones
+function buildJurisdictionZones(): JurisdictionZone[] {
+  const hisarPts: [number, number][] = [];
+  const panchkulaPts: [number, number][] = [];
+
+  for (const s of SUBSTATIONS) {
+    const z = normalizeZone(s.zone);
+    if (z === "Hisar") hisarPts.push([s.lng, s.lat]);
+    else if (z === "Panchkula") panchkulaPts.push([s.lng, s.lat]);
+  }
+
+  return [
+    {
+      id: "zone-hisar",
+      name: "Hisar Zone (DHBVN)",
+      color: "#f59e0b",
+      polygon: computeConvexHull(hisarPts, 0.07, 0.05),
+    },
+    {
+      id: "zone-panchkula",
+      name: "Panchkula Zone (UHBVN)",
+      color: "#14b8a6",
+      polygon: computeConvexHull(panchkulaPts, 0.07, 0.05),
+    },
+  ];
+}
+
+const CIRCLE_META: Record<
+  string,
+  { zoneId: string; color: string; label: string }
+> = {
+  "TS Karnal": {
+    zoneId: "zone-panchkula",
     color: "#2dd4bf",
-    polygon: [
-      [76.7, 29.1],
-      [77.2, 29.1],
-      [77.2, 29.55],
-      [76.7, 29.55],
-      [76.7, 29.1],
-    ],
+    label: "TS Karnal Circle",
   },
-  {
-    id: "circle-ambala",
-    zoneId: "zone-north",
-    name: "Ambala Circle",
-    color: "#34d399",
-    polygon: [
-      [76.4, 30.0],
-      [77.0, 30.0],
-      [77.0, 30.5],
-      [76.4, 30.5],
-      [76.4, 30.0],
-    ],
+  "TS Panchkula": {
+    zoneId: "zone-panchkula",
+    color: "#06b6d4",
+    label: "TS Panchkula Circle",
   },
-  {
-    id: "circle-rohtak",
-    zoneId: "zone-south",
-    name: "Rohtak Circle",
-    color: "#60a5fa",
-    polygon: [
-      [76.35, 28.7],
-      [76.85, 28.7],
-      [76.85, 29.1],
-      [76.35, 29.1],
-      [76.35, 28.7],
-    ],
+  "TS Faridabad": {
+    zoneId: "zone-hisar",
+    color: "#a855f7",
+    label: "TS Faridabad Circle",
   },
-  {
-    id: "circle-hisar",
-    zoneId: "zone-south",
-    name: "Hisar Circle",
+  "TS Gurgaon": {
+    zoneId: "zone-hisar",
+    color: "#ec4899",
+    label: "TS Gurgaon Circle",
+  },
+  "TS Hisar": {
+    zoneId: "zone-hisar",
     color: "#fbbf24",
-    polygon: [
-      [75.4, 28.9],
-      [76.0, 28.9],
-      [76.0, 29.4],
-      [75.4, 29.4],
-      [75.4, 28.9],
-    ],
+    label: "TS Hisar Circle",
   },
-];
+  "TS Rohtak": {
+    zoneId: "zone-hisar",
+    color: "#f97316",
+    label: "TS Rohtak Circle",
+  },
+  Other: {
+    zoneId: "zone-other",
+    color: "#64748b",
+    label: "Other Circle",
+  },
+};
 
-export const JURISDICTION_DIVISIONS: JurisdictionDivision[] = [
-  {
-    id: "div-south-gurgaon",
-    circleId: "circle-gurgaon",
-    zoneId: "zone-south",
-    name: "South Gurgaon Division",
-    color: "#a5b4fc",
-    polygon: [
-      [76.85, 28.35],
-      [77.15, 28.35],
-      [77.15, 28.52],
-      [76.85, 28.52],
-      [76.85, 28.35],
-    ],
-  },
-  {
-    id: "div-nit-faridabad",
-    circleId: "circle-faridabad",
-    zoneId: "zone-south",
-    name: "NIT Faridabad Division",
-    color: "#c4b5fd",
-    polygon: [
-      [77.18, 28.32],
-      [77.42, 28.32],
-      [77.42, 28.48],
-      [77.18, 28.48],
-      [77.18, 28.32],
-    ],
-  },
-  {
-    id: "div-industrial-panipat",
-    circleId: "circle-panipat",
-    zoneId: "zone-north",
-    name: "Industrial Panipat Division",
-    color: "#5eead4",
-    polygon: [
-      [76.82, 29.22],
-      [77.08, 29.22],
-      [77.08, 29.48],
-      [76.82, 29.48],
-      [76.82, 29.22],
-    ],
-  },
-  {
-    id: "div-cantt-ambala",
-    circleId: "circle-ambala",
-    zoneId: "zone-north",
-    name: "Cantt Ambala Division",
-    color: "#6ee7b7",
-    polygon: [
-      [76.55, 30.12],
-      [76.85, 30.12],
-      [76.85, 30.38],
-      [76.55, 30.38],
-      [76.55, 30.12],
-    ],
-  },
-  {
-    id: "div-rohtak-urban",
-    circleId: "circle-rohtak",
-    zoneId: "zone-south",
-    name: "Rohtak Urban Division",
-    color: "#93c5fd",
-    polygon: [
-      [76.45, 28.78],
-      [76.75, 28.78],
-      [76.75, 29.02],
-      [76.45, 29.02],
-      [76.45, 28.78],
-    ],
-  },
-  {
-    id: "div-hisar-central",
-    circleId: "circle-hisar",
-    zoneId: "zone-south",
-    name: "Hisar Central Division",
-    color: "#fcd34d",
-    polygon: [
-      [75.55, 29.02],
-      [75.88, 29.02],
-      [75.88, 29.28],
-      [75.55, 29.28],
-      [75.55, 29.02],
-    ],
-  },
-];
+function buildJurisdictionCircles(): JurisdictionCircle[] {
+  const map = new Map<string, [number, number][]>();
+  for (const s of SUBSTATIONS) {
+    const list = map.get(s.circle) ?? [];
+    list.push([s.lng, s.lat]);
+    map.set(s.circle, list);
+  }
 
-export const HARYANA_CENTER: [number, number] = [29.0588, 76.0856];
-export const DEFAULT_ZOOM = 8;
+  const circles: JurisdictionCircle[] = [];
+  for (const [name, pts] of map.entries()) {
+    const meta = CIRCLE_META[name] ?? {
+      zoneId: "zone-other",
+      color: "#64748b",
+      label: `${name} Circle`,
+    };
+    circles.push({
+      id: `circle-${name.toLowerCase().replace(/[^a-z0-9]+/g, "-")}`,
+      zoneId: meta.zoneId,
+      name: meta.label,
+      color: meta.color,
+      polygon: computeConvexHull(pts, 0.06, 0.04),
+    });
+  }
+  return circles;
+}
+
+const DIVISION_COLORS: Record<string, string> = {
+  "TS Karnal": "#2dd4bf",
+  "TS Panipat": "#5eead4",
+  "TS Kurukshetra": "#14b8a6",
+  "TS Yamunanagar": "#0d9488",
+  "TS Ambala": "#38bdf8",
+  "TS Madanpur": "#0284c7",
+  "TS Hisar": "#fcd34d",
+  "TS Sirsa": "#fbbf24",
+  "TS Jind": "#f59e0b",
+  "TS Bhiwani": "#d97706",
+  "TS Rohtak": "#fb923c",
+  "TS Gurgaon": "#f472b6",
+  "TS Manesar": "#db2777",
+  "TS Rewari": "#e11d48",
+  "TS Faridabad": "#c084fc",
+  "TS Palwal": "#9333ea",
+  "TS Kaithal": "#6ee7b7",
+  Other: "#94a3b8",
+};
+
+function buildJurisdictionDivisions(): JurisdictionDivision[] {
+  const divMap = new Map<
+    string,
+    { circle: string; zone: string; pts: [number, number][] }
+  >();
+
+  for (const s of SUBSTATIONS) {
+    let entry = divMap.get(s.division);
+    if (!entry) {
+      entry = { circle: s.circle, zone: s.zone, pts: [] };
+      divMap.set(s.division, entry);
+    }
+    entry.pts.push([s.lng, s.lat]);
+  }
+
+  const divisions: JurisdictionDivision[] = [];
+  for (const [name, entry] of divMap.entries()) {
+    const color = DIVISION_COLORS[name] ?? "#64748b";
+    const circleId = `circle-${entry.circle.toLowerCase().replace(/[^a-z0-9]+/g, "-")}`;
+    const zoneId =
+      normalizeZone(entry.zone) === "Hisar"
+        ? "zone-hisar"
+        : normalizeZone(entry.zone) === "Panchkula"
+          ? "zone-panchkula"
+          : "zone-other";
+
+    divisions.push({
+      id: `div-${name.toLowerCase().replace(/[^a-z0-9]+/g, "-")}`,
+      circleId,
+      zoneId,
+      name: `${name} Division`,
+      color,
+      polygon: computeConvexHull(entry.pts, 0.05, 0.03),
+    });
+  }
+  return divisions;
+}
+
+export const JURISDICTION_ZONES: JurisdictionZone[] = buildJurisdictionZones();
+export const JURISDICTION_CIRCLES: JurisdictionCircle[] = buildJurisdictionCircles();
+export const JURISDICTION_DIVISIONS: JurisdictionDivision[] = buildJurisdictionDivisions();
+
+export const HARYANA_CENTER: [number, number] = [29.6, 76.3];
+export const DEFAULT_ZOOM = 7.8;
+

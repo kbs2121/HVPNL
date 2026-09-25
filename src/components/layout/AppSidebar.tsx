@@ -16,45 +16,62 @@ import {
   Zap,
 } from "lucide-react";
 import { useLayoutStore } from "@/hooks/useLayoutStore";
+import { resolveActiveModule } from "@/components/layout/ModuleSwitcher";
 import { cn } from "@/lib/utils";
 
 const navItems = [
   {
-    icon: Map,
-    label: "Digital Twin",
-    href: "/digital-twin",
+    icon: Zap,
+    label: "Transmission Network GIS",
+    href: "/dashboard/power-grid",
+    moduleId: "transmission-network" as const,
   },
   {
     icon: LayoutDashboard,
-    label: "Substation Monitoring",
-    href: "/dashboard/substation-monitoring",
+    label: "Substation GIS",
+    href: "/dashboard/substation-gis",
+    moduleId: "substation-gis" as const,
   },
+  /*
   {
     icon: Cable,
-    label: "Transmission Lines",
+    label: "Corridor Monitoring",
     href: "/dashboard/transmission-line-monitoring",
+    moduleId: "corridor" as const,
   },
+  */
   {
-    icon: Zap,
-    label: "Power Grid GIS",
-    href: "/dashboard/power-grid",
+    icon: Map,
+    label: "Network Digital Twin",
+    href: "/digital-twin",
+    moduleId: "digital-twin" as const,
   },
+  /*
   { icon: Activity, label: "Health Monitor", href: "#" },
   { icon: Wrench, label: "Work Orders", href: "#" },
   { icon: Users, label: "Crew Management", href: "#" },
-  { icon: BarChart3, label: "Analytics", href: "#" },
+  */
+  {
+    icon: BarChart3,
+    label: "Analytics",
+    href: "/dashboard/analytics",
+    moduleId: "analytics" as const,
+  },
+  /*
   { icon: Settings, label: "Settings", href: "#" },
+  */
 ];
 
 export function AppSidebar() {
   const pathname = usePathname();
+  const activeModule = resolveActiveModule(pathname);
   const isCollapsed = useLayoutStore((s) => s.isSidebarCollapsed);
   const toggleSidebar = useLayoutStore((s) => s.toggleSidebar);
 
   return (
     <aside
       className={cn(
-        "sidebar-container flex h-full shrink-0 flex-col border-r border-border-subtle bg-surface-800",
+        "sidebar-container relative z-30 flex h-screen shrink-0 flex-col border-r border-border-subtle bg-surface-800",
         isCollapsed ? "collapsed w-16" : "w-60"
       )}
     >
@@ -71,7 +88,7 @@ export function AppSidebar() {
           {!isCollapsed && (
             <div className="min-w-0">
               <h1 className="truncate text-sm font-semibold text-text-primary">Grid SMS</h1>
-              <p className="truncate text-[11px] text-text-muted">Corridor Monitoring</p>
+              <p className="truncate text-[11px] text-text-muted">Unified Monitoring</p>
             </div>
           )}
         </div>
@@ -95,7 +112,11 @@ export function AppSidebar() {
         )}
         <ul className="space-y-0.5">
           {navItems.map((item) => {
-            const active = pathname === item.href;
+            const active =
+              "moduleId" in item && item.moduleId
+                ? activeModule === item.moduleId
+                : item.href !== "#" &&
+                  (pathname === item.href || pathname.startsWith(`${item.href}/`));
             return (
               <li key={item.label}>
                 <Link

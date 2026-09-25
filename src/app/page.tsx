@@ -1,5 +1,6 @@
 import { redirect } from "next/navigation";
 
+/** Default landing: Transmission Network GIS */
 export default function Home() {
-  redirect("/digital-twin");
+  redirect("/dashboard/power-grid");
 }

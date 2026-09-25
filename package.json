@@ -3,12 +3,12 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "next dev -p 3000",
+    "dev": "next dev -H 0.0.0.0 -p 3000",
     "dev:api": "cd backend && npm run dev",
     "build": "next build",
     "postbuild": "node scripts/copy-standalone-assets.mjs",
     "build:api": "cd backend && npm run build",
-    "start": "next start -p 3000",
+    "start": "next start -H 0.0.0.0 -p 3000",
     "serve": "npm run build && npm start",
     "launch": "node scripts/launch.mjs",
     "export-data": "npx tsx scripts/export-network-data.ts",
@@ -28,7 +28,7 @@
     "leaflet": "^1.9.4",
     "lucide-react": "^0.487.0",
     "mapbox-gl": "^3.11.0",
-    "maplibre-gl": "^6.0.0",
+    "maplibre-gl": "^5.24.0",
     "next": "^15.2.4",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
@@ -51,5 +51,9 @@
     "eslint-config-next": "^15.2.4",
     "tailwindcss": "^4.1.3",
     "typescript": "^5.8.3"
+  },
+  "optionalDependencies": {
+    "@esbuild/linux-x64": "*",
+    "@next/swc-linux-x64-gnu": "15.5.21"
   }
 }

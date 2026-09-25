@@ -1,11 +1,16 @@
 import { PowerGridDashboard } from "@/components/power-grid/PowerGridDashboard";
+import { DashboardShell } from "@/components/layout/DashboardShell";
 
 export const metadata = {
-  title: "Haryana Power Grid — Transmission Network GIS",
+  title: "Transmission Network GIS — Grid SMS",
   description:
-    "Interactive Leaflet GIS dashboard visualizing Haryana electrical transmission network with animated flow, theme switcher, and jurisdiction layers",
+    "Interactive Leaflet GIS dashboard visualizing Haryana electrical transmission network with animated flow, generation sources, and jurisdiction layers",
 };
 
 export default function PowerGridPage() {
-  return <PowerGridDashboard />;
+  return (
+    <DashboardShell>
+      <PowerGridDashboard />
+    </DashboardShell>
+  );
 }

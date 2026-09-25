@@ -189,12 +189,7 @@ export function Substation3DMap() {
   const filteredAssets = useMemo(() => assets, [assets]);
 
   return (
-    <div
-      className={cn(
-        "relative flex min-h-0 flex-1 flex-col overflow-hidden bg-[#0B0F19]",
-        isFullscreen && "fixed inset-0 z-50"
-      )}
-    >
+    <div className="relative flex min-h-0 flex-1 flex-col overflow-hidden bg-[#0B0F19]">
       <SubstationMapControls />
 
       <div className="relative flex min-h-0 flex-1 items-center justify-center overflow-hidden p-3">
@@ -216,6 +211,7 @@ export function Substation3DMap() {
 
       <div className="absolute bottom-3 left-3 z-20 rounded-lg bg-surface-800/80 px-3 py-1.5 text-[10px] text-text-muted backdrop-blur-sm">
         {selectedSubstation} · {filteredAssets.length} assets · Photorealistic 3D Twin
+        {isFullscreen ? " · Fullscreen" : ""}
       </div>
     </div>
   );

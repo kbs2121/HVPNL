@@ -40,6 +40,6 @@ wss.on("connection", (ws) => {
   ws.on("close", () => clearInterval(interval));
 });
 
-server.listen(PORT, () => {
-  console.log(`HSETCL Digital Twin API listening on http://localhost:${PORT}`);
+server.listen(PORT, "0.0.0.0", () => {
+  console.log(`HSETCL Digital Twin API listening on port ${PORT} (0.0.0.0)`);
 });

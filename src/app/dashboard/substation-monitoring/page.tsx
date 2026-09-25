@@ -1,15 +1,17 @@
-"use client";
+import { redirect } from "next/navigation";
 
-import { AppSidebar } from "@/components/layout/AppSidebar";
-import { SubstationDashboard } from "@/components/substation/SubstationDashboard";
-
-export default function SubstationMonitoringPage() {
-  return (
-    <div className="dashboard-wrapper">
-      <div className="flex min-h-0 flex-1 overflow-hidden">
-        <AppSidebar />
-        <SubstationDashboard />
-      </div>
-    </div>
-  );
+/** Alias — Substation GIS lives at /dashboard/substation-gis */
+export default async function SubstationMonitoringAliasPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ code?: string; id?: string }>;
+}) {
+  const params = await searchParams;
+  const qs = new URLSearchParams();
+  if (params.code) qs.set("code", params.code);
+  else if (params.id) {
+    qs.set(/^\d+$/.test(params.id) ? "code" : "id", params.id);
+  }
+  const suffix = qs.toString() ? `?${qs.toString()}` : "";
+  redirect(`/dashboard/substation-gis${suffix}`);
 }

@@ -10,9 +10,12 @@ import { LineSearchBar } from "@/components/transmission/LineSearchBar";
 import { TransmissionLineDetailCard } from "@/components/transmission/TransmissionLineDetailCard";
 import { MaintenancePatrolTracker } from "@/components/transmission/MaintenancePatrolTracker";
 import { cn } from "@/lib/utils";
-
-const HARYANA_CENTER: L.LatLngExpression = [29.0588, 76.0856];
-const MAP_ZOOM = 8;
+import {
+  REGION_CENTER,
+  REGION_DEFAULT_ZOOM,
+  getRegionBounds,
+  regionMapOptions,
+} from "@/lib/powerGrid/regionBounds";
 
 function getPolylineStyle(line: TransmissionLine, isSelected: boolean, isHovered: boolean) {
   const hasCritical =
@@ -88,19 +91,22 @@ export function TransmissionLineMap() {
     if (!mapContainerRef.current || mapRef.current) return;
 
     const map = L.map(mapContainerRef.current, {
-      center: HARYANA_CENTER,
-      zoom: MAP_ZOOM,
+      center: REGION_CENTER,
+      zoom: REGION_DEFAULT_ZOOM,
       zoomControl: false,
       attributionControl: true,
+      ...regionMapOptions(),
     });
 
     L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png", {
       attribution: "&copy; OpenStreetMap &copy; CARTO",
-      maxZoom: 19,
+      maxZoom: 18,
+      bounds: getRegionBounds(0.15),
       subdomains: "abcd",
     }).addTo(map);
 
     L.control.zoom({ position: "bottomright" }).addTo(map);
+    map.setMaxBounds(getRegionBounds(0.12));
 
     map.on("click", () => {
       closeLineDetail();
