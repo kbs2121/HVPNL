@@ -70,6 +70,9 @@ export function AppSidebar() {
   const resolvedActive = resolveActiveModule(pathname);
   const [optimisticModule, setOptimisticModule] = useState<string | null>(null);
 
+  const isCollapsed = useLayoutStore((s) => s.isSidebarCollapsed);
+  const toggleSidebar = useLayoutStore((s) => s.toggleSidebar);
+
   const activeModule = optimisticModule ?? resolvedActive;
 
   // Sync back when pathname changes
