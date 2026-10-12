@@ -1,7 +1,7 @@
 "use client";
 
 import { usePathname } from "next/navigation";
-import { AnimatePresence, motion } from "framer-motion";
+import { motion } from "framer-motion";
 import { AppSidebar } from "@/components/layout/AppSidebar";
 import { ModuleSwitcher } from "@/components/layout/ModuleSwitcher";
 import { cn } from "@/lib/utils";

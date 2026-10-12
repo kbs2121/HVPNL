@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect } from "react";
+import { useEffect, useState, useTransition } from "react";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import { BarChart3, LayoutDashboard, Map, Zap, Cable } from "lucide-react";
@@ -59,7 +59,16 @@ export function resolveActiveModule(pathname: string): ModuleId {
 export function ModuleSwitcher({ className }: { className?: string }) {
   const pathname = usePathname();
   const router = useRouter();
-  const active = resolveActiveModule(pathname);
+  const [, startTransition] = useTransition();
+  const resolvedActive = resolveActiveModule(pathname);
+  const [optimisticActive, setOptimisticActive] = useState<ModuleId | null>(null);
+
+  const active = optimisticActive ?? resolvedActive;
+
+  // Sync back when pathname changes
+  useEffect(() => {
+    setOptimisticActive(null);
+  }, [pathname]);
 
   // Pre-warm all module routes in memory for instant switching
   useEffect(() => {
@@ -90,13 +99,22 @@ export function ModuleSwitcher({ className }: { className?: string }) {
             prefetch={true}
             role="tab"
             aria-selected={isActive}
-            onClick={(e) => {
+            onPointerDown={() => {
               if (pathname !== mod.href) {
-                router.push(mod.href);
+                setOptimisticActive(mod.id);
+              }
+            }}
+            onClick={(e) => {
+              e.preventDefault();
+              if (pathname !== mod.href) {
+                setOptimisticActive(mod.id);
+                startTransition(() => {
+                  router.push(mod.href);
+                });
               }
             }}
             className={cn(
-              "relative inline-flex shrink-0 items-center gap-1.5 rounded-lg px-2.5 py-1.5 text-[11px] font-semibold transition-colors duration-150 z-10 cursor-pointer select-none touch-manipulation",
+              "relative inline-flex shrink-0 items-center gap-1.5 rounded-lg px-2.5 py-1.5 text-[11px] font-semibold transition-colors duration-150 z-10 cursor-pointer select-none touch-manipulation active:scale-[0.98]",
               isActive
                 ? "text-cyan-300"
                 : "text-slate-400 hover:bg-surface-600/50 hover:text-slate-200"
@@ -105,7 +123,7 @@ export function ModuleSwitcher({ className }: { className?: string }) {
             {isActive && (
               <motion.div
                 layoutId="activeModuleTabPill"
-                transition={{ type: "spring", stiffness: 450, damping: 32 }}
+                transition={{ type: "spring", stiffness: 500, damping: 35 }}
                 className="absolute inset-0 rounded-lg bg-gradient-to-r from-cyan-500/20 to-blue-500/20 border border-cyan-400/40 shadow-sm shadow-cyan-500/20 -z-10 pointer-events-none"
               />
             )}

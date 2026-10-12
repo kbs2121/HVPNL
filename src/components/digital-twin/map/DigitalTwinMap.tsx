@@ -57,18 +57,21 @@ export function DigitalTwinMap() {
     });
   }, []);
 
-  // Animation loop — 60 FPS power flow
+  // Animation loop — power flow animation
   useEffect(() => {
     let start: number | null = null;
+    let lastUpdate = 0;
     const tick = (ts: number) => {
       if (!start) start = ts;
-      setTimeMs(ts - start);
-      setAnimationTime(ts - start);
+      if (ts - lastUpdate > 33) {
+        lastUpdate = ts;
+        setTimeMs(ts - start);
+      }
       animRef.current = requestAnimationFrame(tick);
     };
     animRef.current = requestAnimationFrame(tick);
     return () => cancelAnimationFrame(animRef.current);
-  }, [setAnimationTime]);
+  }, []);
 
   // Startup flyover tour
   useEffect(() => {

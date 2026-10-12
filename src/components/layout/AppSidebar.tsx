@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect } from "react";
+import { useEffect, useState, useTransition } from "react";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import {
@@ -66,9 +66,16 @@ const navItems = [
 export function AppSidebar() {
   const pathname = usePathname();
   const router = useRouter();
-  const activeModule = resolveActiveModule(pathname);
-  const isCollapsed = useLayoutStore((s) => s.isSidebarCollapsed);
-  const toggleSidebar = useLayoutStore((s) => s.toggleSidebar);
+  const [, startTransition] = useTransition();
+  const resolvedActive = resolveActiveModule(pathname);
+  const [optimisticModule, setOptimisticModule] = useState<string | null>(null);
+
+  const activeModule = optimisticModule ?? resolvedActive;
+
+  // Sync back when pathname changes
+  useEffect(() => {
+    setOptimisticModule(null);
+  }, [pathname]);
 
   // Pre-warm all sidebar routes for instant switching
   useEffect(() => {
@@ -138,16 +145,27 @@ export function AppSidebar() {
                   href={item.href}
                   prefetch={true}
                   title={isCollapsed ? item.label : undefined}
+                  onPointerDown={() => {
+                    if (item.href !== "#" && pathname !== item.href && "moduleId" in item && item.moduleId) {
+                      setOptimisticModule(item.moduleId);
+                    }
+                  }}
                   onClick={(e) => {
+                    e.preventDefault();
                     if (item.href !== "#" && pathname !== item.href) {
-                      router.push(item.href);
+                      if ("moduleId" in item && item.moduleId) {
+                        setOptimisticModule(item.moduleId);
+                      }
+                      startTransition(() => {
+                        router.push(item.href);
+                      });
                     }
                   }}
                   className={cn(
-                    "flex w-full items-center rounded-lg py-2 text-sm transition-colors cursor-pointer select-none touch-manipulation",
+                    "flex w-full items-center rounded-lg py-2 text-sm transition-colors cursor-pointer select-none touch-manipulation active:scale-[0.98]",
                     isCollapsed ? "justify-center px-2" : "gap-3 px-3",
                     active
-                      ? "bg-cyan-500/10 text-cyan-400"
+                      ? "bg-cyan-500/10 text-cyan-400 font-medium"
                       : "text-text-secondary hover:bg-surface-600 hover:text-text-primary"
                   )}
                 >
