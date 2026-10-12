@@ -31,3 +31,6 @@ Thumbs.db
 
 # restore artifacts
 .restore-*
+
+# ssh keys
+id_ed25519*

@@ -17,6 +17,9 @@ const nextConfig: NextConfig = {
     "@deck.gl/extensions",
   ],
   outputFileTracingRoot: projectRoot,
+  experimental: {
+    allowedDevOrigins: ["*.trycloudflare.com", "*.loca.lt", "localhost:3000", "0.0.0.0:3000"],
+  },
 };
 
 export default nextConfig;

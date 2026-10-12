@@ -95,7 +95,7 @@ export const useDigitalTwinStore = create<DigitalTwinState>((set, get) => ({
   isConnected: true,
   isOutageMode: false,
   trippedLineId: null,
-  showLoading: true,
+  showLoading: false,
   flyoverComplete: false,
   mouseCoords: null,
   animationTime: 0,

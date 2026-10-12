@@ -1,7 +1,8 @@
 "use client";
 
+import { useEffect } from "react";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import {
   Activity,
   BarChart3,
@@ -64,14 +65,28 @@ const navItems = [
 
 export function AppSidebar() {
   const pathname = usePathname();
+  const router = useRouter();
   const activeModule = resolveActiveModule(pathname);
   const isCollapsed = useLayoutStore((s) => s.isSidebarCollapsed);
   const toggleSidebar = useLayoutStore((s) => s.toggleSidebar);
 
+  // Pre-warm all sidebar routes for instant switching
+  useEffect(() => {
+    navItems.forEach((item) => {
+      if (item.href && item.href !== "#") {
+        try {
+          router.prefetch(item.href);
+        } catch {
+          /* no-op */
+        }
+      }
+    });
+  }, [router]);
+
   return (
     <aside
       className={cn(
-        "sidebar-container relative z-30 flex h-screen shrink-0 flex-col border-r border-border-subtle bg-surface-800",
+        "sidebar-container relative z-40 flex h-screen shrink-0 flex-col border-r border-border-subtle bg-surface-800",
         isCollapsed ? "collapsed w-16" : "w-60"
       )}
     >
@@ -121,17 +136,23 @@ export function AppSidebar() {
               <li key={item.label}>
                 <Link
                   href={item.href}
+                  prefetch={true}
                   title={isCollapsed ? item.label : undefined}
+                  onClick={(e) => {
+                    if (item.href !== "#" && pathname !== item.href) {
+                      router.push(item.href);
+                    }
+                  }}
                   className={cn(
-                    "flex w-full items-center rounded-lg py-2 text-sm transition-colors",
+                    "flex w-full items-center rounded-lg py-2 text-sm transition-colors cursor-pointer select-none touch-manipulation",
                     isCollapsed ? "justify-center px-2" : "gap-3 px-3",
                     active
                       ? "bg-cyan-500/10 text-cyan-400"
                       : "text-text-secondary hover:bg-surface-600 hover:text-text-primary"
                   )}
                 >
-                  <item.icon className="h-4 w-4 shrink-0" />
-                  {!isCollapsed && <span className="truncate">{item.label}</span>}
+                  <item.icon className="h-4 w-4 shrink-0 pointer-events-none" />
+                  {!isCollapsed && <span className="truncate pointer-events-none">{item.label}</span>}
                 </Link>
               </li>
             );
